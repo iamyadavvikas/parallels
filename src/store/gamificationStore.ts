@@ -24,6 +24,7 @@ interface GamificationState {
   lastVisitDate: string | null;
   badges: Badge[];
   dailyWisdom: DailyWisdom | null;
+  visitedSlugs: string[];
   visitBook: (slug: string) => void;
   recordVisit: () => void;
   getDailyWisdom: () => DailyWisdom;
@@ -66,9 +67,9 @@ function updateStreak(lastVisit: string | null, today: string): number {
   const last = new Date(lastVisit);
   const now = new Date(today);
   const diff = Math.floor((now.getTime() - last.getTime()) / (1000 * 60 * 60 * 24));
-  if (diff === 0) return 0;
-  if (diff === 1) return 1;
-  return 1;
+  if (diff === 0) return 0;  // same day, no change
+  if (diff === 1) return 1;  // consecutive day, increment
+  return -1;  // gap > 1 day, reset streak
 }
 
 export const useGamificationStore = create<GamificationState>()(
@@ -78,6 +79,7 @@ export const useGamificationStore = create<GamificationState>()(
       lastVisitDate: null,
       badges: BADGES,
       dailyWisdom: null,
+      visitedSlugs: [],
 
       recordVisit: () => {
         const today = getTodayString();
@@ -85,8 +87,8 @@ export const useGamificationStore = create<GamificationState>()(
 
         if (state.lastVisitDate === today) return;
 
-        const streakIncrease = updateStreak(state.lastVisitDate, today);
-        const newStreak = streakIncrease === 0 ? state.streak : state.streak + streakIncrease;
+        const streakChange = updateStreak(state.lastVisitDate, today);
+        const newStreak = streakChange === -1 ? 1 : state.streak + streakChange;
 
         const newBadges = state.badges.map((b) => {
           if (b.unlockedAt) return b;
@@ -105,21 +107,23 @@ export const useGamificationStore = create<GamificationState>()(
 
       visitBook: (slug: string) => {
         const state = get();
-        const visitedBooks = new Set(
-          state.badges
-            .filter((b) => b.id.startsWith("visit-") && b.unlockedAt)
-            .map((b) => b.id)
-        );
+
+        // Skip if already visited
+        if (state.visitedSlugs.includes(slug)) return;
+
+        const updatedSlugs = [...state.visitedSlugs, slug];
+        const uniqueCount = new Set(updatedSlugs).size;
 
         const newBadges = state.badges.map((b) => {
           if (b.unlockedAt) return b;
-          if (b.id === "visit-3" && visitedBooks.size >= 2) return { ...b, unlockedAt: Date.now() };
-          if (b.id === "visit-all" && visitedBooks.size >= 5) return { ...b, unlockedAt: Date.now() };
-          if (b.id === "visit-10" && visitedBooks.size >= 9) return { ...b, unlockedAt: Date.now() };
+          if (b.id === "first-visit" && uniqueCount >= 1) return { ...b, unlockedAt: Date.now() };
+          if (b.id === "visit-3" && uniqueCount >= 3) return { ...b, unlockedAt: Date.now() };
+          if (b.id === "visit-all" && uniqueCount >= 6) return { ...b, unlockedAt: Date.now() };
+          if (b.id === "visit-10" && uniqueCount >= 9) return { ...b, unlockedAt: Date.now() };
           return b;
         });
 
-        set({ badges: newBadges });
+        set({ visitedSlugs: updatedSlugs, badges: newBadges });
       },
 
       getDailyWisdom: () => {

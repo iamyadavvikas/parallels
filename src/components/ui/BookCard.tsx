@@ -117,7 +117,7 @@ export default function BookCard({ book }: { book: Book }) {
               }} />
 
             {/* Bottom gradient fade */}
-            <div className="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-[#0a0a12] via-[#0a0a12]/80 to-transparent" />
+            <div className="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-[var(--color-bg-primary,#0a0a12)] via-[var(--color-bg-primary,#0a0a12)_at_80%] to-transparent" />
 
             {/* Title + stats at bottom of cover */}
             <div className="absolute bottom-0 left-0 right-0 p-5 pb-4 text-center">

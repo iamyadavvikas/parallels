@@ -1316,9 +1316,11 @@ mark::after {
   box-shadow: 0 4px 16px var(--color-shadow-md), 0 24px 64px var(--color-shadow-xl);
 }
 
-/* Focus ring — hidden for clean aesthetic */
+/* Focus ring — subtle neon glow */
 .light :focus-visible {
-  outline: none;
+  outline: 2px solid var(--color-accent-glow, var(--color-accent));
+  outline-offset: 2px;
+  border-radius: 4px;
 }
 
 /* ═══════════════════════════════════════════════════════════════
@@ -1693,4 +1695,14 @@ mark::after {
   .stagger-in { animation: none; opacity: 1; transform: none; }
   .vault-tile { transform: none !important; }
   .page-enter { animation: none; opacity: 1; transform: none; filter: none; }
+}
+
+
+/* Pulse gold animation for search bar & bookmark feedback */
+@keyframes pulse-gold {
+  0%, 100% { opacity: 0.3; transform: scale(1); }
+  50% { opacity: 0.6; transform: scale(1.05); }
+}
+.animate-pulse-gold {
+  animation: pulse-gold 1.5s ease-in-out infinite;
 }

@@ -68,8 +68,7 @@ const conceptMap: Record<string, string[]> = {
   god: [
     "lord", "allah", "yahweh", "brahman", "waheguru", "divine",
     "creator", "almighty", "omnipotent", "sacred", "holy",
-    "dukkha", "pain", "sorrow", "grief", "affliction",
-    "trial", "craving", "attachment", "desire",
+    "eternal", "infinite", "supreme", "transcendent",
   ],
 };
 
