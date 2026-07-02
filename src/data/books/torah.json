@@ -1,158 +1,133 @@
 {
   "id": "torah",
   "title": "The Torah",
-  "subtitle": "The Five Books of Moses (The Law)",
+  "subtitle": "Five Books of Moses",
   "religion": "Judaism",
   "slug": "torah",
-  "description": "The foundational text of Judaism, comprising the first five books of the Hebrew Bible (Pentateuch), containing the narrative of creation, the patriarchs, the Exodus from Egypt, and the giving of the Law at Mount Sinai.",
-  "summary": "The Torah (Teaching or Law) consists of five books: Genesis, Exodus, Leviticus, Numbers, and Deuteronomy. It begins with the creation of the world, recounts the stories of the patriarchs Abraham, Isaac, and Jacob, the enslavement of the Israelites in Egypt and their exodus under Moses, and the receiving of the covenant and laws at Sinai. It establishes Jewish identity, ethics, and religious practice.",
-  "originDate": "c. 1400–500 BCE (traditional: c. 1400 BCE)",
-  "originalLanguage": "Hebrew (Biblical)",
-  "era": "Ancient Near East (Bronze/Iron Age)",
-  "centralThemes": ["Covenant (Brit)", "Law (Mitzvot)", "Chosen people", "Justice and righteousness", "Holiness and purity", "Land of Israel"],
-  "structure": "5 books, 187 chapters, 5,845 verses",
+  "description": "The foundational text of Judaism, consisting of the five books attributed to Moses: Genesis, Exodus, Leviticus, Numbers, and Deuteronomy.",
+  "summary": "The Torah narrates the creation of the world, the patriarchs and matriarchs of Israel, the slavery in Egypt, the Exodus, the giving of the law at Mount Sinai, and the wandering in the desert. It establishes the covenant between God and the Jewish people.",
+  "originDate": "c. 6th century BCE (traditionally Mosaic authorship)",
+  "originalLanguage": "Hebrew",
+  "era": "Ancient Israel",
+  "centralThemes": ["Covenant with God", "Law (Halakha)", "Chosen people", "Justice and righteousness", "Remembrance", "Community"],
+  "structure": "5 books, 5,852 verses",
   "quickFacts": [
-    { "label": "Language", "value": "Biblical Hebrew" },
-    { "label": "Composed", "value": "c. 1400–500 BCE" },
-    { "label": "Books", "value": "Genesis, Exodus, Leviticus, Numbers, Deuteronomy" },
+    { "label": "Language", "value": "Hebrew" },
+    { "label": "Composed", "value": "c. 6th century BCE" },
+    { "label": "Books", "value": "5 (Genesis–Deuteronomy)" },
     { "label": "Key Figure", "value": "Moses" },
-    { "label": "Central Concept", "value": "Covenant between God and Israel" },
-    { "label": "Verses", "value": "5,845" }
+    { "label": "Central Message", "value": "Covenant and Law" },
+    { "label": "Verses", "value": "5,852" }
   ],
   "chapters": [
     {
       "id": "torah-gen-1",
       "number": 1,
-      "title": "Genesis 1 – The Creation",
+      "title": "Genesis 1 — The Creation",
       "verses": [
-        {
-          "id": "torah-gen-1-1",
-          "number": 1,
-          "text": "In the beginning God created the heaven and the earth. Now the earth was unformed and void, and darkness was upon the face of the deep; and the spirit of God hovered over the face of the waters.",
-          "source": { "translator": "Jewish Publication Society (JPS)", "year": 1917, "license": "Public Domain" }
-        },
-        {
-          "id": "torah-gen-1-27",
-          "number": 27,
-          "text": "And God created man in His own image, in the image of God created He him; male and female created He them.",
-          "source": { "translator": "Jewish Publication Society (JPS)", "year": 1917, "license": "Public Domain" }
-        }
+        { "id": "torah-gen-1-1", "number": 1, "text": "In the beginning God created the heaven and the earth.", "source": { "translator": "King James Version", "year": 1611, "license": "Public Domain" } },
+        { "id": "torah-gen-1-2", "number": 2, "text": "And the earth was without form, and void; and darkness was upon the face of the deep. And the Spirit of God moved upon the face of the waters.", "source": { "translator": "King James Version", "year": 1611, "license": "Public Domain" } },
+        { "id": "torah-gen-1-3", "number": 3, "text": "And God said, Let there be light: and there was light.", "source": { "translator": "King James Version", "year": 1611, "license": "Public Domain" } },
+        { "id": "torah-gen-1-26", "number": 26, "text": "And God said, Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the fowl of the air, and over the cattle, and over all the earth.", "source": { "translator": "King James Version", "year": 1611, "license": "Public Domain" } },
+        { "id": "torah-gen-1-27", "number": 27, "text": "So God created man in his own image, in the image of God created he him; male and female created he them.", "source": { "translator": "King James Version", "year": 1611, "license": "Public Domain" } },
+        { "id": "torah-gen-1-31", "number": 31, "text": "And God saw every thing that he had made, and, behold, it was very good.", "source": { "translator": "King James Version", "year": 1611, "license": "Public Domain" } }
       ]
     },
     {
       "id": "torah-gen-12",
-      "number": 2,
-      "title": "Genesis 12 – The Call of Abraham",
+      "number": 12,
+      "title": "Genesis 12 — The Call of Abraham",
       "verses": [
-        {
-          "id": "torah-gen-12-1",
-          "number": 1,
-          "text": "Now the Lord said unto Abram: 'Get thee out of thy country, and from thy kindred, and from thy father's house, unto the land that I will show thee. And I will make of thee a great nation, and I will bless thee, and make thy name great; and be thou a blessing.'",
-          "source": { "translator": "Jewish Publication Society (JPS)", "year": 1917, "license": "Public Domain" }
-        }
+        { "id": "torah-gen-12-1", "number": 1, "text": "Now the LORD had said unto Abram, Get thee out of thy country, and from thy kindred, and from thy father's house, unto a land that I will shew thee.", "source": { "translator": "King James Version", "year": 1611, "license": "Public Domain" } },
+        { "id": "torah-gen-12-2", "number": 2, "text": "And I will make of thee a great nation, and I will bless thee, and make thy name great; and thou shalt be a blessing.", "source": { "translator": "King James Version", "year": 1611, "license": "Public Domain" } },
+        { "id": "torah-gen-12-3", "number": 3, "text": "And I will bless them that bless thee, and curse him that curseth thee: and in thee shall all families of the earth be blessed.", "source": { "translator": "King James Version", "year": 1611, "license": "Public Domain" } }
       ]
     },
     {
-      "id": "torah-ex-3",
+      "id": "torah-gen-15",
+      "number": 15,
+      "title": "Genesis 15 — The Covenant with Abraham",
+      "verses": [
+        { "id": "torah-gen-15-1", "number": 1, "text": "After these things the word of the LORD came unto Abram in a vision, saying, Fear not, Abram: I am thy shield, and thy exceeding great reward.", "source": { "translator": "King James Version", "year": 1611, "license": "Public Domain" } },
+        { "id": "torah-gen-15-5", "number": 5, "text": "And he brought him forth abroad, and said, Look now toward heaven, and tell the stars, if thou be able to number them: and he said unto him, So shall thy seed be.", "source": { "translator": "King James Version", "year": 1611, "license": "Public Domain" } },
+        { "id": "torah-gen-15-6", "number": 6, "text": "And he believed in the LORD; and he counted it to him for righteousness.", "source": { "translator": "King James Version", "year": 1611, "license": "Public Domain" } }
+      ]
+    },
+    {
+      "id": "torah-gen-22",
+      "number": 22,
+      "title": "Genesis 22 — The Binding of Isaac",
+      "verses": [
+        { "id": "torah-gen-22-1", "number": 1, "text": "And it came to pass after these things, that God did tempt Abraham, and said unto him, Abraham: and he said, Behold, here I am.", "source": { "translator": "King James Version", "year": 1611, "license": "Public Domain" } },
+        { "id": "torah-gen-22-2", "number": 2, "text": "And he said, Take now thy son, thine only son Isaac, whom thou lovest, and get thee into the land of Moriah; and offer him there for a burnt offering.", "source": { "translator": "King James Version", "year": 1611, "license": "Public Domain" } },
+        { "id": "torah-gen-22-12", "number": 12, "text": "And he said, Lay not thine hand upon the lad, neither do thou any thing unto him: for now I know that thou fearest God, seeing thou hast not withheld thy son, thine only son from me.", "source": { "translator": "King James Version", "year": 1611, "license": "Public Domain" } }
+      ]
+    },
+    {
+      "id": "torah-gen-28",
+      "number": 28,
+      "title": "Genesis 28 — Jacob's Ladder",
+      "verses": [
+        { "id": "torah-gen-28-13", "number": 13, "text": "And, behold, the LORD stood above it, and said, I am the LORD God of Abraham thy father, and the God of Isaac: the land whereon thou liest, to thee will I give it, and to thy seed.", "source": { "translator": "King James Version", "year": 1611, "license": "Public Domain" } },
+        { "id": "torah-gen-28-14", "number": 14, "text": "And thy seed shall be as the dust of the earth, and thou shalt spread abroad to the west, and to the east, and to the north, and to the south: and in thee and in thy seed shall all the families of the earth be blessed.", "source": { "translator": "King James Version", "year": 1611, "license": "Public Domain" } },
+        { "id": "torah-gen-28-15", "number": 15, "text": "And, behold, I am with thee, and will keep thee in all places whither thou goest, and will bring thee again into this land: for I will not leave thee, until I have done that which I have spoken to thee of.", "source": { "translator": "King James Version", "year": 1611, "license": "Public Domain" } }
+      ]
+    },
+    {
+      "id": "torah-gen-50",
+      "number": 50,
+      "title": "Genesis 50 — Joseph Forgives His Brothers",
+      "verses": [
+        { "id": "torah-gen-50-19", "number": 19, "text": "And Joseph said unto them, Fear not: for am I in the place of God?", "source": { "translator": "King James Version", "year": 1611, "license": "Public Domain" } },
+        { "id": "torah-gen-50-20", "number": 20, "text": "But as for you, ye thought evil against me; but God meant it unto good, to bring to pass, as it is this day, to save much people alive.", "source": { "translator": "King James Version", "year": 1611, "license": "Public Domain" } }
+      ]
+    },
+    {
+      "id": "torah-exo-3",
       "number": 3,
-      "title": "Exodus 3 – The Burning Bush",
+      "title": "Exodus 3 — The Burning Bush",
       "verses": [
-        {
-          "id": "torah-ex-3-14",
-          "number": 14,
-          "text": "And God said unto Moses: 'I AM THAT I AM'; and He said: 'Thus shalt thou say unto the children of Israel: I AM hath sent me unto you.'",
-          "source": { "translator": "Jewish Publication Society (JPS)", "year": 1917, "license": "Public Domain" }
-        }
+        { "id": "torah-exo-3-4", "number": 4, "text": "And when the LORD saw that he turned aside to see, God called unto him out of the midst of the bush, and said, Moses, Moses. And he said, Here am I.", "source": { "translator": "King James Version", "year": 1611, "license": "Public Domain" } },
+        { "id": "torah-exo-3-5", "number": 5, "text": "And he said, Draw not nigh hither: put off thy shoes from off thy feet, for the place whereon thou standest is holy ground.", "source": { "translator": "King James Version", "year": 1611, "license": "Public Domain" } },
+        { "id": "torah-exo-3-14", "number": 14, "text": "And God said unto Moses, I AM THAT I AM: and he said, Thus shalt thou say unto the children of Israel, I AM hath sent me unto you.", "source": { "translator": "King James Version", "year": 1611, "license": "Public Domain" } }
       ]
     },
     {
-      "id": "torah-ex-20",
-      "number": 4,
-      "title": "Exodus 20 – The Ten Commandments",
+      "id": "torah-exo-20",
+      "number": 20,
+      "title": "Exodus 20 — The Ten Commandments",
       "verses": [
-        {
-          "id": "torah-ex-20-1",
-          "number": 1,
-          "text": "And God spoke all these words, saying: 'I am the Lord thy God, who brought thee out of the land of Egypt, out of the house of bondage. Thou shalt have no other gods before Me.'",
-          "source": { "translator": "Jewish Publication Society (JPS)", "year": 1917, "license": "Public Domain" }
-        },
-        {
-          "id": "torah-ex-20-12",
-          "number": 12,
-          "text": "Honor thy father and thy mother, that thy days may be long upon the land which the Lord thy God giveth thee.",
-          "source": { "translator": "Jewish Publication Society (JPS)", "year": 1917, "license": "Public Domain" }
-        },
-        {
-          "id": "torah-ex-20-13",
-          "number": 13,
-          "text": "Thou shalt not murder. Thou shalt not commit adultery. Thou shalt not steal. Thou shalt not bear false witness against thy neighbor. Thou shalt not covet.",
-          "source": { "translator": "Jewish Publication Society (JPS)", "year": 1917, "license": "Public Domain" }
-        }
+        { "id": "torah-exo-20-1", "number": 1, "text": "And God spake all these words, saying,", "source": { "translator": "King James Version", "year": 1611, "license": "Public Domain" } },
+        { "id": "torah-exo-20-2", "number": 2, "text": "I am the LORD thy God, which have brought thee out of the land of Egypt, out of the house of bondage.", "source": { "translator": "King James Version", "year": 1611, "license": "Public Domain" } },
+        { "id": "torah-exo-20-3", "number": 3, "text": "Thou shalt have no other gods before me.", "source": { "translator": "King James Version", "year": 1611, "license": "Public Domain" } },
+        { "id": "torah-exo-20-7", "number": 7, "text": "Thou shalt not take the name of the LORD thy God in vain; for the LORD will not hold him guiltless that taketh his name in vain.", "source": { "translator": "King James Version", "year": 1611, "license": "Public Domain" } },
+        { "id": "torah-exo-20-8", "number": 8, "text": "Remember the sabbath day, to keep it holy.", "source": { "translator": "King James Version", "year": 1611, "license": "Public Domain" } },
+        { "id": "torah-exo-20-12", "number": 12, "text": "Honour thy father and thy mother: that thy days may be long upon the land which the LORD thy God giveth thee.", "source": { "translator": "King James Version", "year": 1611, "license": "Public Domain" } },
+        { "id": "torah-exo-20-13", "number": 13, "text": "Thou shalt not kill.", "source": { "translator": "King James Version", "year": 1611, "license": "Public Domain" } },
+        { "id": "torah-exo-20-14", "number": 14, "text": "Thou shalt not commit adultery.", "source": { "translator": "King James Version", "year": 1611, "license": "Public Domain" } },
+        { "id": "torah-exo-20-15", "number": 15, "text": "Thou shalt not steal.", "source": { "translator": "King James Version", "year": 1611, "license": "Public Domain" } },
+        { "id": "torah-exo-20-16", "number": 16, "text": "Thou shalt not bear false witness against thy neighbour.", "source": { "translator": "King James Version", "year": 1611, "license": "Public Domain" } },
+        { "id": "torah-exo-20-17", "number": 17, "text": "Thou shalt not covet thy neighbour's house, thou shalt not covet thy neighbour's wife, nor his manservant, nor his maidservant, nor his ox, nor his ass, nor any thing that is thy neighbour's.", "source": { "translator": "King James Version", "year": 1611, "license": "Public Domain" } }
       ]
     },
     {
-      "id": "torah-lv-19",
-      "number": 5,
-      "title": "Leviticus 19 – The Holiness Code",
-      "verses": [
-        {
-          "id": "torah-lv-19-18",
-          "number": 18,
-          "text": "Thou shalt not take vengeance, nor bear any grudge against the children of thy people, but thou shalt love thy neighbor as thyself: I am the Lord.",
-          "source": { "translator": "Jewish Publication Society (JPS)", "year": 1917, "license": "Public Domain" }
-        }
-      ]
-    },
-    {
-      "id": "torah-nm-6",
+      "id": "torah-deut-6",
       "number": 6,
-      "title": "Numbers 6 – The Priestly Blessing",
+      "title": "Deuteronomy 6 — The Shema",
       "verses": [
-        {
-          "id": "torah-nm-6-24",
-          "number": 24,
-          "text": "The Lord bless thee, and keep thee; the Lord make His face to shine upon thee, and be gracious unto thee; the Lord lift up His countenance upon thee, and give thee peace.",
-          "source": { "translator": "Jewish Publication Society (JPS)", "year": 1917, "license": "Public Domain" }
-        }
+        { "id": "torah-deut-6-4", "number": 4, "text": "Hear, O Israel: The LORD our God is one LORD.", "source": { "translator": "King James Version", "year": 1611, "license": "Public Domain" } },
+        { "id": "torah-deut-6-5", "number": 5, "text": "And thou shalt love the LORD thy God with all thine heart, and with all thy soul, and with all thy might.", "source": { "translator": "King James Version", "year": 1611, "license": "Public Domain" } },
+        { "id": "torah-deut-6-6", "number": 6, "text": "And these words, which I command thee this day, shall be in thine heart.", "source": { "translator": "King James Version", "year": 1611, "license": "Public Domain" } },
+        { "id": "torah-deut-6-7", "number": 7, "text": "And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up.", "source": { "translator": "King James Version", "year": 1611, "license": "Public Domain" } }
       ]
     },
     {
-      "id": "torah-dt-6",
-      "number": 7,
-      "title": "Deuteronomy 6 – The Shema",
+      "id": "torah-deut-30",
+      "number": 30,
+      "title": "Deuteronomy 30 — Life and Death",
       "verses": [
-        {
-          "id": "torah-dt-6-4",
-          "number": 4,
-          "text": "Hear, O Israel: The Lord our God, the Lord is One. And thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy might.",
-          "source": { "translator": "Jewish Publication Society (JPS)", "year": 1917, "license": "Public Domain" }
-        }
-      ]
-    },
-    {
-      "id": "torah-dt-10",
-      "number": 8,
-      "title": "Deuteronomy 10 – What God Requires",
-      "verses": [
-        {
-          "id": "torah-dt-10-12",
-          "number": 12,
-          "text": "And now, Israel, what doth the Lord thy God require of thee, but to fear the Lord thy God, to walk in all His ways, and to love Him, and to serve the Lord thy God with all thy heart and with all thy soul; to keep the commandments of the Lord, and His statutes, which I command thee this day for thy good?",
-          "source": { "translator": "Jewish Publication Society (JPS)", "year": 1917, "license": "Public Domain" }
-        }
-      ]
-    },
-    {
-      "id": "torah-dt-30",
-      "number": 9,
-      "title": "Deuteronomy 30 – Choose Life",
-      "verses": [
-        {
-          "id": "torah-dt-30-19",
-          "number": 19,
-          "text": "I call heaven and earth to witness against you this day, that I have set before thee life and death, the blessing and the curse; therefore choose life, that thou mayest live, thou and thy seed.",
-          "source": { "translator": "Jewish Publication Society (JPS)", "year": 1917, "license": "Public Domain" }
-        }
+        { "id": "torah-deut-30-19", "number": 19, "text": "I call heaven and earth to record this day against you, that I have set before you life and death, blessing and cursing: therefore choose life, that both thou and thy seed may live.", "source": { "translator": "King James Version", "year": 1611, "license": "Public Domain" } },
+        { "id": "torah-deut-30-20", "number": 20, "text": "That thou mayest love the LORD thy God, and that thou mayest obey his voice, and that thou mayest cleave unto him: for he is thy life, and the length of thy days.", "source": { "translator": "King James Version", "year": 1611, "license": "Public Domain" } }
       ]
     }
   ]

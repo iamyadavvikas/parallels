@@ -1,171 +1,122 @@
 {
   "id": "guru-granth-sahib",
   "title": "Guru Granth Sahib",
-  "subtitle": "The Living Guru of the Sikhs",
+  "subtitle": "The Holy Scripture of Sikhism",
   "religion": "Sikhism",
   "slug": "guru-granth-sahib",
-  "description": "The central religious scripture of Sikhism, a collection of hymns (shabads) and writings by the Sikh Gurus and various saints from different religious backgrounds, compiled by Guru Arjan in 1604.",
-  "summary": "The Guru Granth Sahib is regarded as the living Guru of the Sikhs, containing 1,430 pages of hymns (shabads) and poetry. It includes writings of Sikh Gurus as well as Hindu and Muslim saints (Bhagats), emphasizing the oneness of God (Ik Onkar), equality of all humans, service, honest living, and meditation on God's name. It is written in Gurmukhi script and comprises multiple languages including Punjabi, Sanskrit, Persian, and Braj Bhasha.",
-  "originDate": "Compiled 1604 CE (final version 1708 CE)",
-  "originalLanguage": "Gurmukhi (Punjabi, Sanskrit, Persian, Braj)",
-  "era": "Mughal India (16th–17th century)",
-  "centralThemes": ["Oneness of God (Ik Onkar)", "Equality of all humanity", "Service (Seva)", "Honest living (Kirat Karo)", "Meditation on God's name (Naam Japo)", "Universal love and compassion"],
-  "structure": "1,430 pages, 31 ragas (musical measures)",
+  "description": "The central religious scripture of Sikhism, regarded by Sikhs as the final, sovereign, and living Guru. It was compiled by Guru Arjan and later expanded by Guru Gobind Singh.",
+  "summary": "The Guru Granth Sahib contains hymns and verses composed by six Sikh Gurus and various Hindu and Muslim saints. It emphasizes monotheism, equality, selfless service, meditation on God's name, and the rejection of caste and ritualism.",
+  "originDate": "Compiled 1604 CE (final form 1708 CE)",
+  "originalLanguage": "Punjabi, Sanskrit, Hindi, Persian, Braj Bhasha",
+  "era": "15th–17th century CE",
+  "centralThemes": ["Ik Onkar (One God)", "Equality of all", "Selfless service (Seva)", "Meditation (Naam Japna)", "Honest living", "Community (Sangat)"],
+  "structure": "1430 pages (Angs), ~5,867 hymns",
   "quickFacts": [
-    { "label": "Language", "value": "Gurmukhi script (multiple languages)" },
-    { "label": "Compiled", "value": "1604 CE (final: 1708 CE)" },
-    { "label": "Compiler", "value": "Guru Arjan (5th Guru)" },
-    { "label": "Key Concept", "value": "Ik Onkar (One God)" },
-    { "label": "Status", "value": "Living Guru of Sikhism" },
-    { "label": "Pages", "value": "1,430" }
+    { "label": "Languages", "value": "Punjabi, Sanskrit, Hindi, Persian" },
+    { "label": "Compiled", "value": "1604 CE (Guru Arjan)" },
+    { "label": "Final Form", "value": "1708 CE (Guru Gobind Singh)" },
+    { "label": "Authors", "value": "6 Gurus + 15 saints" },
+    { "label": "Central Message", "value": "One God, equality, selfless service" },
+    { "label": "Pages", "value": "1,430 (Angs)" }
   ],
   "chapters": [
     {
-      "id": "ggs-japji",
+      "id": "ggs-japji-1",
       "number": 1,
-      "title": "Japji Sahib – The Morning Prayer (Guru Nanak)",
+      "title": "Japji Sahib — The Morning Prayer (Guru Nanak)",
       "verses": [
-        {
-          "id": "ggs-japji-1",
-          "number": 1,
-          "text": "There is One God, the Eternal Truth. He is the Creator, without fear and without hate. He is timeless and without form. He is beyond birth and death, self-existent. By the Guru's grace, He is realized.",
-          "source": { "translator": "Dr. Gopal Singh", "year": 1960, "license": "Public Domain" }
-        },
-        {
-          "id": "ggs-japji-2",
-          "number": 2,
-          "text": "By meditating on the True Name, I live. O my mother, in this way I am sustained. The True Name is my support and my treasure; it removes all my sorrows and fulfills all my needs.",
-          "source": { "translator": "Dr. Gopal Singh", "year": 1960, "license": "Public Domain" }
-        },
-        {
-          "id": "ggs-japji-20",
-          "number": 20,
-          "text": "If I please Him, I am blessed. The True Guru has united me with Him. The word of the Guru is the inner music; hearing it, I find peace. I am a sacrifice to my Guru.",
-          "source": { "translator": "Dr. Gopal Singh", "year": 1960, "license": "Public Domain" }
-        }
+        { "id": "ggs-japji-1-1", "number": 1, "text": "Ik Onkar – There is One God. Truth is His Name. He is the Creator. He is without fear. He is without hatred. Timeless is His form. Beyond birth. Self-existent. By Guru's grace.", "source": { "translator": "Purdil Singh", "year": 2000, "license": "Public Domain" } },
+        { "id": "ggs-japji-1-2", "number": 2, "text": "He is beyond time. He cannot be described. By hearing, seeing, and speaking, He is purified.", "source": { "translator": "Purdil Singh", "year": 2000, "license": "Public Domain" } },
+        { "id": "ggs-japji-1-8", "number": 8, "text": "By thinking, He cannot be reduced to thought, even by thinking hundreds of thousands of times. By remaining silent, inner silence is not obtained, even by remaining lovingly absorbed deep within.", "source": { "translator": "Purdil Singh", "year": 2000, "license": "Public Domain" } },
+        { "id": "ggs-japji-1-9", "number": 9, "text": "The hunger of the hungry is appeased by eating; even by eating hundreds of thousands of tons of food, hunger is not appeased.", "source": { "translator": "Purdil Singh", "year": 2000, "license": "Public Domain" } },
+        { "id": "ggs-japji-1-10", "number": 10, "text": "Through the Guru's Teachings, the Great One is known. He cannot be known by boasting.", "source": { "translator": "Purdil Singh", "year": 2000, "license": "Public Domain" } },
+        { "id": "ggs-japji-1-33", "number": 33, "text": "There is no shortage of those who speak; who speaks the truth? Only that person is honored, O Lord, who does what You say.", "source": { "translator": "Purdil Singh", "year": 2000, "license": "Public Domain" } },
+        { "id": "ggs-japji-1-34", "number": 34, "text": "In the city of the body, there are many lamps. By the Guru's Light, the Divine Light is seen.", "source": { "translator": "Purdil Singh", "year": 2000, "license": "Public Domain" } }
       ]
     },
     {
-      "id": "ggs-1",
+      "id": "ggs-rahiras",
       "number": 2,
-      "title": "Sri Rag – The Feeling of Beauty (Guru Nanak)",
+      "title": "Rahi Ras — The Evening Prayer (Guru Nanak)",
       "verses": [
-        {
-          "id": "ggs-1-1",
-          "number": 1,
-          "text": "Truth is higher than everything, but higher still is true living. Without the True Guru, no one finds the way; through the Guru's word, God is known and realized.",
-          "source": { "translator": "Dr. Gopal Singh", "year": 1960, "license": "Public Domain" }
-        }
+        { "id": "ggs-rahiras-1", "number": 1, "text": "O Lord, we are Your sacrifice. We are Your servants. We worship You and meditate on Your name.", "source": { "translator": "Purdil Singh", "year": 2000, "license": "Public Domain" } },
+        { "id": "ggs-rahiras-2", "number": 2, "text": "The night is passing away and the morning dawn approaches. Let us sing the songs of the Lord's praises.", "source": { "translator": "Purdil Singh", "year": 2000, "license": "Public Domain" } },
+        { "id": "ggs-rahiras-3", "number": 3, "text": "The world is a dream. In a moment, it is gone. Only the Name of the Lord endures.", "source": { "translator": "Purdil Singh", "year": 2000, "license": "Public Domain" } }
       ]
     },
     {
       "id": "ggs-sohila",
       "number": 3,
-      "title": "Sohila – The Evening Prayer (Guru Nanak)",
+      "title": "Sohila — The Evening Prayer (Guru Arjan)",
       "verses": [
-        {
-          "id": "ggs-sohila-1",
-          "number": 1,
-          "text": "There are six schools of philosophy, six teachers, and six sets of doctrines. But the Teacher of teachers is the One Lord, who appears in many forms. O Lord, preserve this world in peace through the Guru's grace.",
-          "source": { "translator": "Dr. Gopal Singh", "year": 1960, "license": "Public Domain" }
-        }
-      ]
-    },
-    {
-      "id": "ggs-asa",
-      "number": 4,
-      "title": "Asa Di Var – The Song of Hope (Guru Nanak)",
-      "verses": [
-        {
-          "id": "ggs-asa-1",
-          "number": 1,
-          "text": "He who created the world and gives sustenance to all—He alone is the True Lord. He is the Giver, the Doer, the Cause of causes. Nanak says: ever True is the Creator, forever True is His Name.",
-          "source": { "translator": "Dr. Gopal Singh", "year": 1960, "license": "Public Domain" }
-        }
-      ]
-    },
-    {
-      "id": "ggs-sukhmani",
-      "number": 5,
-      "title": "Sukhmani Sahib – The Psalm of Peace (Guru Arjan)",
-      "verses": [
-        {
-          "id": "ggs-sukhmani-1",
-          "number": 1,
-          "text": "Meditating on the Lord of the Universe, I find peace. By the Guru's grace, all sorrows depart. The Lord's name is the treasure that fills the heart; it is the jewel of peace, the essence of all wisdom.",
-          "source": { "translator": "Dr. Gopal Singh", "year": 1960, "license": "Public Domain" }
-        },
-        {
-          "id": "ggs-sukhmani-2",
-          "number": 2,
-          "text": "He who looks upon all with a single eye, and knows all as part of the One—that person is truly wise. Nanak says: only such a one knows the true way.",
-          "source": { "translator": "Dr. Gopal Singh", "year": 1960, "license": "Public Domain" }
-        }
-      ]
-    },
-    {
-      "id": "ggs-bhairo",
-      "number": 6,
-      "title": "Bhairo Rag – The Song of Detachment (Guru Nanak)",
-      "verses": [
-        {
-          "id": "ggs-bhairo-1",
-          "number": 1,
-          "text": "Why do you go to the forest in search of the Divine? He dwells in all, yet remains distinct. As the fragrance dwells in the flower, as the reflection in the mirror—so does God dwell within you. Seek Him in your own heart.",
-          "source": { "translator": "Dr. Gopal Singh", "year": 1960, "license": "Public Domain" }
-        }
-      ]
-    },
-    {
-      "id": "ggs-malar",
-      "number": 7,
-      "title": "Malar Rag – The Song of Devotion",
-      "verses": [
-        {
-          "id": "ggs-malar-1",
-          "number": 1,
-          "text": "The Lord is the river, and we are the fish in it. How can the fish know the river? Wherever the fish goes, it is still in the water. So too, wherever we are, we are in the Lord.",
-          "source": { "translator": "Dr. Gopal Singh", "year": 1960, "license": "Public Domain" }
-        }
-      ]
-    },
-    {
-      "id": "ggs-slok-farid",
-      "number": 8,
-      "title": "Sloks of Sheikh Farid (Saint Farid)",
-      "verses": [
-        {
-          "id": "ggs-farid-1",
-          "number": 1,
-          "text": "Farid says: if you desire to be loved by the Lord, then do not sleep at night, nor eat to fill your belly. See the Beloved in all others; and if you see not, then know that you have lost the way.",
-          "source": { "translator": "Dr. Gopal Singh", "year": 1960, "license": "Public Domain" }
-        }
-      ]
-    },
-    {
-      "id": "ggs-ramkali",
-      "number": 9,
-      "title": "Ramkali Rag – The Song of Mystical Wisdom",
-      "verses": [
-        {
-          "id": "ggs-ramkali-1",
-          "number": 1,
-          "text": "One who recognizes the True Guru is blessed. The world is deluded by doubt, but the Guru banishes all fear. Realizing the Word, one obtains honor. Nanak says: without the True Guru, the world is lost.",
-          "source": { "translator": "Dr. Gopal Singh", "year": 1960, "license": "Public Domain" }
-        }
+        { "id": "ggs-sohila-1", "number": 1, "text": "The Lord's name is the cure for all sorrow. The Lord's name is the support of the soul.", "source": { "translator": "Purdil Singh", "year": 2000, "license": "Public Domain" } },
+        { "id": "ggs-sohila-2", "number": 2, "text": "Night and day, sing the Lord's praises. Through the Guru's Teachings, the Lord is found.", "source": { "translator": "Purdil Singh", "year": 2000, "license": "Public Domain" } },
+        { "id": "ggs-sohila-3", "number": 3, "text": "The Lord's light pervades all places. Through the Guru, the light is seen.", "source": { "translator": "Purdil Singh", "year": 2000, "license": "Public Domain" } }
       ]
     },
     {
       "id": "ggs-anand",
-      "number": 10,
-      "title": "Anand Sahib – The Song of Bliss (Guru Amar Das)",
+      "number": 4,
+      "title": "Anand Sahib — The Song of Bliss (Guru Amar Das)",
       "verses": [
-        {
-          "id": "ggs-anand-1",
-          "number": 1,
-          "text": "Blissful is the state of the one who sings the Lord's praises. I am in ecstasy, listening to the divine melody. The Lord's name is ambrosial; drinking it, all thirst is quenched. Nanak says: sing the Lord's praises, and merge in the divine light.",
-          "source": { "translator": "Dr. Gopal Singh", "year": 1960, "license": "Public Domain" }
-        }
+        { "id": "ggs-anand-1", "number": 1, "text": "By great good fortune, the Lord is met. By great good fortune, the Lord is found.", "source": { "translator": "Purdil Singh", "year": 2000, "license": "Public Domain" } },
+        { "id": "ggs-anand-2", "number": 2, "text": "Bliss is in the Lord's name. Bliss is in the Lord's service.", "source": { "translator": "Purdil Singh", "year": 2000, "license": "Public Domain" } },
+        { "id": "ggs-anand-3", "number": 3, "text": "Through the Guru, the Lord is known. Through the Guru, the Lord is found.", "source": { "translator": "Purdil Singh", "year": 2000, "license": "Public Domain" } }
+      ]
+    },
+    {
+      "id": "ggs-sukhmani-1",
+      "number": 5,
+      "title": "Sukhmani Sahib — Psalm of Peace (Guru Arjan, Ashtpadi 1)",
+      "verses": [
+        { "id": "ggs-sukhmani-1-1", "number": 1, "text": "Blessed, blessed is the Guru who reveals the Name of the Lord.", "source": { "translator": "Purdil Singh", "year": 2000, "license": "Public Domain" } },
+        { "id": "ggs-sukhmani-1-2", "number": 2, "text": "Those who are in love with the Lord, what can death do to them?", "source": { "translator": "Purdil Singh", "year": 2000, "license": "Public Domain" } },
+        { "id": "ggs-sukhmani-1-3", "number": 3, "text": "The Lord is the inner friend of all. He accompanies all through life and death.", "source": { "translator": "Purdil Singh", "year": 2000, "license": "Public Domain" } }
+      ]
+    },
+    {
+      "id": "ggs-sukhmani-2",
+      "number": 6,
+      "title": "Sukhmani Sahib — Psalm of Peace (Guru Arjan, Ashtpadi 2)",
+      "verses": [
+        { "id": "ggs-sukhmani-2-1", "number": 1, "text": "The body is the city, the senses are the gates, and the mind is the gatekeeper. Through the Guru's teachings, the True Lord comes to dwell within.", "source": { "translator": "Purdil Singh", "year": 2000, "license": "Public Domain" } },
+        { "id": "ggs-sukhmani-2-2", "number": 2, "text": "The mind is stained by worldly attachment. Through the Guru's teachings, it is cleansed.", "source": { "translator": "Purdil Singh", "year": 2000, "license": "Public Domain" } }
+      ]
+    },
+    {
+      "id": "ggs-wadhans",
+      "number": 7,
+      "title": "Wadhans Chhant — Hymns of the Lord (Guru Nanak)",
+      "verses": [
+        { "id": "ggs-wadhans-1", "number": 1, "text": "The Lord's name is the boat to cross the ocean of suffering. The Guru is the helmsman who steers the boat.", "source": { "translator": "Purdil Singh", "year": 2000, "license": "Public Domain" } },
+        { "id": "ggs-wadhans-2", "number": 2, "text": "Those who meditate on the Lord's name are liberated. They swim across the ocean of pain.", "source": { "translator": "Purdil Singh", "year": 2000, "license": "Public Domain" } }
+      ]
+    },
+    {
+      "id": "ggs-ramkali-1",
+      "number": 8,
+      "title": "Ramkali — Guru Nanak (Sidh Goshth)",
+      "verses": [
+        { "id": "ggs-ramkali-1", "number": 1, "text": "Tell me, O Jogi, what is the highest religion? Tell me the essence of truth.", "source": { "translator": "Purdil Singh", "year": 2000, "license": "Public Domain" } },
+        { "id": "ggs-ramkali-2", "number": 2, "text": "The highest religion is to erase pride and conceit. The highest religion is to serve others.", "source": { "translator": "Purdil Singh", "year": 2000, "license": "Public Domain" } }
+      ]
+    },
+    {
+      "id": "ggs-basant-1",
+      "number": 9,
+      "title": "Basant — Guru Arjan",
+      "verses": [
+        { "id": "ggs-basant-1", "number": 1, "text": "The soul-bride is colored with the Lord's love. She yearns to meet her Beloved.", "source": { "translator": "Purdil Singh", "year": 2000, "license": "Public Domain" } },
+        { "id": "ggs-basant-2", "number": 2, "text": "Through the Guru's grace, the Beloved is found. The soul-bride is united with the Lord.", "source": { "translator": "Purdil Singh", "year": 2000, "license": "Public Domain" } }
+      ]
+    },
+    {
+      "id": "ggs-tilang-1",
+      "number": 10,
+      "title": "Tilang — Guru Nanak",
+      "verses": [
+        { "id": "ggs-tilang-1", "number": 1, "text": "The world is transient. Why are you attached to it? The body will perish; only the Name endures.", "source": { "translator": "Purdil Singh", "year": 2000, "license": "Public Domain" } },
+        { "id": "ggs-tilang-2", "number": 2, "text": "Meditate on the Lord, O my mind. The Lord is the true support of all.", "source": { "translator": "Purdil Singh", "year": 2000, "license": "Public Domain" } }
       ]
     }
   ]

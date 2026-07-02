@@ -5,7 +5,7 @@
   "religion": "Hinduism",
   "slug": "bhagavad-gita",
   "description": "A 700-verse Hindu scripture that is part of the epic Mahabharata, set in a dialogue between Prince Arjuna and the god Krishna about duty, righteousness, and the nature of reality.",
-  "summary": "The Bhagavad Gita presents a synthesis of Hindu concepts about dharma (duty), bhakti (devotion), and jnana (knowledge). Arjuna, facing a war against his own kin, is counseled by Krishna on the nature of life, death, and the soul's immortality. The text explores paths to liberation: karma yoga (the path of action), bhakti yoga (the path of devotion), and jnana yoga (the path of knowledge).",
+  "summary": "The Bhagavad Gita presents a synthesis of Hindu concepts about dharma (duty), bhakti (devotion), and jnana (knowledge). Arjuna, facing a war against his own kin, is counseled by Krishna on the nature of life, death, and the soul's immortality.",
   "originDate": "c. 2nd century BCE",
   "originalLanguage": "Sanskrit",
   "era": "Ancient India (Mauryan period)",
@@ -25,18 +25,14 @@
       "number": 1,
       "title": "Arjuna Vishada Yoga (The Despondency of Arjuna)",
       "verses": [
-        {
-          "id": "bg-1-1",
-          "number": 1,
-          "text": "Dhritarashtra said: O Sanjaya, assembled on the holy field of Kurukshetra, desiring to fight, what did my people and the Pandavas do?",
-          "source": { "translator": "Edwin Arnold", "year": 1885, "license": "Public Domain" }
-        },
-        {
-          "id": "bg-1-47",
-          "number": 47,
-          "text": "Arjuna said: I shall not fight—thus spoke Arjuna to Govinda, and with these words, he sat down on the chariot, casting aside his bow and arrows, his mind overwhelmed with grief.",
-          "source": { "translator": "Edwin Arnold", "year": 1885, "license": "Public Domain" }
-        }
+        { "id": "bg-1-1", "number": 1, "text": "Dhritarashtra said: O Sanjaya, assembled on the holy field of Kurukshetra, desiring to fight, what did my people and the Pandavas do?", "source": { "translator": "Edwin Arnold", "year": 1885, "license": "Public Domain" } },
+        { "id": "bg-1-2", "number": 2, "text": "Sanjaya said: Having seen the army of the Pandavas arrayed, Prince Duryodhana approached his teacher Drona and spoke these words.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-1-3", "number": 3, "text": "Behold, O teacher, this mighty army of the Pandavas, arrayed by the son of Drupada, thy wise disciple.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-1-20", "number": 20, "text": "Then, at the sight of the Pandava army standing arrayed, Arjuna, whose hair stood on end, took up his bow and bowstring, his mind overwhelmed with sorrow.", "source": { "translator": "Edwin Arnold", "year": 1885, "license": "Public Domain" } },
+        { "id": "bg-1-28", "number": 28, "text": "Arjuna said: O Krishna, when I see my own people standing here eager for battle, my limbs grow heavy and my mouth is parched, my body trembles and my hair stands on end.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-1-29", "number": 29, "text": "My bow Gandiva slips from my hand, my skin burns, I am unable to stand, my mind is reeling.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-1-30", "number": 30, "text": "I see evil omens, O Krishna, and I can foresee no good from killing my own kinsmen in this battle.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-1-47", "number": 47, "text": "I shall not fight—thus spoke Arjuna to Govinda, and with these words, he sat down on the chariot, casting aside his bow and arrows, his mind overwhelmed with grief.", "source": { "translator": "Edwin Arnold", "year": 1885, "license": "Public Domain" } }
       ]
     },
     {
@@ -44,24 +40,23 @@
       "number": 2,
       "title": "Sankhya Yoga (The Yoga of Knowledge)",
       "verses": [
-        {
-          "id": "bg-2-20",
-          "number": 20,
-          "text": "For the soul there is neither birth nor death at any time. It has not come into being, does not come into being, and will not come into being. It is unborn, eternal, ever-existing, and primeval. It is not slain when the body is slain.",
-          "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" }
-        },
-        {
-          "id": "bg-2-47",
-          "number": 47,
-          "text": "You have a right to perform your prescribed duties, but you are not entitled to the fruits of your actions. Never consider yourself to be the cause of the results of your activities, nor be attached to inaction.",
-          "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" }
-        },
-        {
-          "id": "bg-2-56",
-          "number": 56,
-          "text": "He whose mind is untroubled in the midst of sorrows and is free from eager desire amid pleasures, he from whom passion, fear, and rage have passed away—he is called a sage of steady wisdom.",
-          "source": { "translator": "Edwin Arnold", "year": 1885, "license": "Public Domain" }
-        }
+        { "id": "bg-2-2", "number": 2, "text": "The Supreme Lord said: Whence has come this dejection to thee in this critical hour? It does not befit an honorable person; it leads not to heaven and causes disgrace, O Arjuna.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-2-11", "number": 11, "text": "The Supreme Lord said: Thou grievest for those who should not be grieved for, yet speakest words of wisdom. The wise neither grieves for the living nor for the dead.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-2-13", "number": 13, "text": "As the soul passes through childhood, youth, and old age in this body, so does it attain a new body. The wise are not deluded by this.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-2-14", "number": 14, "text": "The contacts of the senses with their objects, O son of Kunti, give rise to cold and heat, pleasure and pain. They come and go; they are impermanent. Bear them patiently, O Bharata.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-2-19", "number": 19, "text": "He who thinks the Self to be the slayer and he who thinks it to be slain—both are ignorant. The Self neither slays nor is slain.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-2-20", "number": 20, "text": "For the soul there is neither birth nor death at any time. It has not come into being, does not come into being, and will not come into being. It is unborn, eternal, ever-existing, and primeval. It is not slain when the body is slain.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-2-22", "number": 22, "text": "As a person puts on new garments, giving up old ones, the soul similarly accepts new material bodies, giving up the old and useless ones.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-2-25", "number": 25, "text": "It is unmanifest, unthinkable, and unchanging. Therefore, knowing it to be such, thou shouldst not grieve.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-2-47", "number": 47, "text": "You have a right to perform your prescribed duties, but you are not entitled to the fruits of your actions. Never consider yourself to be the cause of the results of your activities, nor be attached to inaction.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-2-48", "number": 48, "text": "Perform action established in yoga, having abandoned attachment, and remain even-minded in success and failure. This evenness of mind is called yoga.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-2-56", "number": 56, "text": "He whose mind is untroubled in the midst of sorrows and is free from eager desire amid pleasures, he from whom passion, fear, and rage have passed away—he is called a sage of steady wisdom.", "source": { "translator": "Edwin Arnold", "year": 1885, "license": "Public Domain" } },
+        { "id": "bg-2-57", "number": 57, "text": "He who is without attachment everywhere, who does not rejoice upon obtaining good nor grieve upon obtaining evil—he is of steady wisdom.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-2-59", "number": 59, "text": "The objects of the senses fall away from the person who does not enjoy them, but the taste for them lingers. Even the taste falls away when one sees the Supreme.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-2-62", "number": 62, "text": "While contemplating the objects of the senses, a person develops attachment for them, and from attachment springs desire, and from desire springs anger.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-2-63", "number": 63, "text": "From anger comes delusion; from delusion, the loss of memory; from the loss of memory, the destruction of discrimination; and from the destruction of discrimination, one perishes.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-2-70", "number": 70, "text": "A person is able to stand firm in the midst of streams of desires that come from all sides, like the ocean remains unmoved by the rivers that flow into it—such a person attains peace.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-2-71", "number": 71, "text": "A person who has given up all desires and acts free from longing, without any sense of 'mine' or ego—such a person attains peace.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } }
       ]
     },
     {
@@ -69,43 +64,42 @@
       "number": 3,
       "title": "Karma Yoga (The Yoga of Action)",
       "verses": [
-        {
-          "id": "bg-3-8",
-          "number": 8,
-          "text": "Perform your prescribed duties, for action is superior to inaction. Even the maintenance of your body would not be possible through inaction.",
-          "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" }
-        },
-        {
-          "id": "bg-3-19",
-          "number": 19,
-          "text": "Therefore, without attachment, perform always the work that has to be done; for by performing work without attachment, man verily reaches the Supreme.",
-          "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" }
-        },
-        {
-          "id": "bg-3-21",
-          "number": 21,
-          "text": "Whatever a great man does, others imitate. Whatever standard he sets, the world follows.",
-          "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" }
-        }
+        { "id": "bg-3-1", "number": 1, "text": "Arjuna said: O Krishna, if devotion to knowledge is better than action, why then dost thou urge me to fight in this terrible war?", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-3-3", "number": 3, "text": "The Supreme Lord said: O sinless one, there are two kinds of faith in this world: the path of knowledge (Jnana Yoga) and the path of action (Karma Yoga).", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-3-8", "number": 8, "text": "Perform your prescribed duties, for action is superior to inaction. Even the maintenance of your body would not be possible through inaction.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-3-9", "number": 9, "text": "Action is the means for the person who is not established in yoga. For the one who is established in yoga, action is the means of becoming still.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-3-19", "number": 19, "text": "Therefore, without attachment, perform always the work that has to be done; for by performing work without attachment, man verily reaches the Supreme.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-3-21", "number": 21, "text": "Whatever a great man does, others imitate. Whatever standard he sets, the world follows.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-3-26", "number": 26, "text": "But the ignorant act with attachment for the results of their actions. The wise should not disturb the mind of the foolish who are attached to action.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-3-27", "number": 27, "text": "All actions are performed in all cases by the gunas (qualities) of prakriti (nature). A person whose mind is deluded by egoism thinks 'I am the doer'.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-3-30", "number": 30, "text": "Therefore, O Arjuna, surrendering all actions to Me, with your mind established in the Self, and free from desire and egoism, fight!", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-3-35", "number": 35, "text": "It is far better to perform one's own dharma imperfectly than to perform another's dharma perfectly.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } }
       ]
     },
     {
       "id": "bg-4",
       "number": 4,
-      "title": "Jnana Karma Sannyasa Yoga (The Yoga of Wisdom and Action)",
+      "title": "Jnana Karma Sannyasa Yoga (The Yoga of Wisdom and Renunciation)",
       "verses": [
-        {
-          "id": "bg-4-7",
-          "number": 7,
-          "text": "Whenever there is a decline of righteousness and a rise of unrighteousness, O Arjuna, I manifest Myself.",
-          "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" }
-        },
-        {
-          "id": "bg-4-8",
-          "number": 8,
-          "text": "For the protection of the good, for the destruction of the wicked, and for the establishment of righteousness, I come into being age after age.",
-          "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" }
-        }
+        { "id": "bg-4-1", "number": 1, "text": "The Supreme Lord said: I taught this imperishable yoga to Vivasvan; Vivasvan taught it to Manu; Manu taught it to Ikshvaku.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-4-7", "number": 7, "text": "Whenever there is a decline of righteousness and a rise of unrighteousness, O Arjuna, I manifest Myself.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-4-8", "number": 8, "text": "For the protection of the good, for the destruction of the wicked, and for the establishment of righteousness, I come into being age after age.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-4-10", "number": 10, "text": "Having freed themselves from attachment, fear, and anger, absorbed in Me, taking refuge in Me, and purified by the fire of knowledge, many have attained My state.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-4-11", "number": 11, "text": "In whatever way people approach Me, I reciprocate with them accordingly. Everyone follows My path in all respects, O son of Pritha.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-4-18", "number": 18, "text": "He who sees action in inaction and inaction in action is wise among men. He is a yogi and has performed all action.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-4-34", "number": 34, "text": "Learn this by humble submission, by inquiry, and by service. The wise ones who have seen the truth will instruct thee in knowledge.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } }
+      ]
+    },
+    {
+      "id": "bg-5",
+      "number": 5,
+      "title": "Karma Sannyasa Yoga (The Yoga of Renunciation of Action)",
+      "verses": [
+        { "id": "bg-5-1", "number": 1, "text": "Arjuna said: O Krishna, thou praisest renunciation of action, and again the yoga of action. Tell me conclusively which of the two is better.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-5-2", "number": 2, "text": "The Supreme Lord said: Renunciation of action and the yoga of action both lead to liberation. But of the two, the yoga of action is superior to renunciation.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-5-13", "number": 13, "text": "Having given up all actions mentally, the embodied soul rests happily in the nine-gated city, neither acting nor causing others to act.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-5-18", "number": 18, "text": "The wise see with equal vision a learned and gentle sage, a cow, an elephant, a dog, and a dog-eater.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-5-25", "number": 25, "text": "The sages whose sins have been destroyed, whose doubts have been dispelled, who are disciplined, and who rejoice in the welfare of all beings—such persons attain Brahman.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } }
       ]
     },
     {
@@ -113,50 +107,85 @@
       "number": 6,
       "title": "Dhyana Yoga (The Yoga of Meditation)",
       "verses": [
-        {
-          "id": "bg-6-5",
-          "number": 5,
-          "text": "Let a man lift himself by his own Self; let him not degrade himself; for the Self alone is the friend of the self, and the Self alone is the enemy of the self.",
-          "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" }
-        },
-        {
-          "id": "bg-6-30",
-          "number": 30,
-          "text": "He who sees Me everywhere and sees everything in Me, never becomes separated from Me, nor do I become separated from him.",
-          "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" }
-        }
+        { "id": "bg-6-1", "number": 1, "text": "The Supreme Lord said: He who performs his prescribed duty without seeking its fruit is a renouncer and a yogi—not he who is without fire and without action.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-6-3", "number": 3, "text": "For the person who wishes to practice the yoga of meditation, action is said to be the means; for the person who is already established in yoga, stillness of mind is the means.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-6-5", "number": 5, "text": "Let a man lift himself by his own Self; let him not degrade himself; for the Self alone is the friend of the self, and the Self alone is the enemy of the self.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-6-6", "number": 6, "text": "The Self is a friend for the person who has conquered themselves by the Self, but for the person whose mind has not been subdued, the Self remains an enemy.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-6-10", "number": 10, "text": "Let the yogi always try to concentrate the mind, being alone in a solitary place, controlling the mind and body, free from desires and possessions.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-6-15", "number": 15, "text": "Thus, always keeping the mind established in the Self, the yogi, freed from sins, easily enjoys the infinite bliss of contact with Brahman.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-6-26", "number": 26, "text": "From whatever and wherever the mind wanders due to its flickering and unsteady nature, one must certainly withdraw it and bring it back under the control of the Self.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-6-30", "number": 30, "text": "He who sees Me everywhere and sees everything in Me, never becomes separated from Me, nor do I become separated from him.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-6-35", "number": 35, "text": "The Supreme Lord said: Without doubt, O Arjuna, the mind is restless and difficult to control. But through practice (abhyasa) and detachment (vairagya), it can be restrained.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-6-47", "number": 47, "text": "Among all yogis, he who worships Me with faith, his mind absorbed in Me—is considered by Me to be the best.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } }
+      ]
+    },
+    {
+      "id": "bg-7",
+      "number": 7,
+      "title": "Jnana Vijnana Yoga (The Yoga of Knowledge and Realization)",
+      "verses": [
+        { "id": "bg-7-1", "number": 1, "text": "The Supreme Lord said: O Arjuna, hear how you shall know Me fully, with the mind intent on Me, practicing yoga and taking refuge in Me.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-7-2", "number": 2, "text": "I shall declare to thee in full this knowledge, combined with realization. Having known this, nothing else remains to be known.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-7-7", "number": 7, "text": "O Arjuna, there is nothing higher than Me. Everything rests upon Me, as pearls are strung on a thread.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-7-12", "number": 12, "text": "Even the three gunas—sattva, rajas, and tamas—are from Me alone. I am not in them, but they are in Me.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-7-14", "number": 14, "text": "My divine prakriti, consisting of the three gunas, is difficult to overcome. Those who have taken refuge in Me alone can cross beyond it.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-7-21", "number": 21, "text": "In whatever form a devotee seeks to worship with faith, I make that faith steady.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-7-24", "number": 24, "text": "The ignorant, being unaware of My supreme nature, which is undeclinable and inexhaustible, think that the unborn and impermanent has taken a visible form.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } }
+      ]
+    },
+    {
+      "id": "bg-8",
+      "number": 8,
+      "title": "Akshara Brahma Yoga (The Yoga of the Imperishable Brahman)",
+      "verses": [
+        { "id": "bg-8-1", "number": 1, "text": "Arjuna said: O Krishna, what is Brahman? What is the Self? What is karma? What is the material nature? Who are the divine powers?", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-8-3", "number": 3, "text": "The Supreme Lord said: The Imperishable is Brahman. The Self is the essential nature of the Self. Karma is the force that creates the embodiment born of material nature.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-8-5", "number": 5, "text": "And whoever, at the time of death, leaves the body remembering Me alone—at once attains My nature. There is no doubt about this.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-8-6", "number": 6, "text": "Whatever state of consciousness one remembers at the time of death, that state one attains after leaving the body, O Arjuna.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-8-8", "number": 8, "text": "He who, with mind steadied in yoga, practices the breathing exercise (pranayama) and controls the mental faculties, attains to that divine state.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-8-14", "number": 14, "text": "For those who worship Me alone, thinking of Me, with their mind disciplined and ever established in union with Me—I am easy to reach.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-8-15", "number": 15, "text": "Having attained Me, the great Lord of all worlds, the sages do not take birth again in this world of sorrow and impermanence.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } }
       ]
     },
     {
       "id": "bg-9",
       "number": 9,
-      "title": "Raja Vidya Raja Guhya Yoga (The Yoga of Sovereign Knowledge and Sovereign Secret)",
+      "title": "Raja Vidya Raja Guhya Yoga (The Yoga of Sovereign Knowledge and Secret)",
       "verses": [
-        {
-          "id": "bg-9-22",
-          "number": 22,
-          "text": "To those who worship Me with devotion, meditating on Me, I give what they lack and preserve what they have.",
-          "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" }
-        },
-        {
-          "id": "bg-9-27",
-          "number": 27,
-          "text": "Whatever you do, whatever you eat, whatever you offer, whatever you give away, whatever austerities you perform—do that as an offering unto Me.",
-          "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" }
-        }
+        { "id": "bg-9-1", "number": 1, "text": "The Supreme Lord said: O Arjuna, I shall now reveal to thee the most sovereign knowledge, the most sovereign mystery. By knowing this, thou shalt be freed from all evil.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-9-2", "number": 2, "text": "This is the sovereign knowledge, the sovereign mystery. It is the purest knowledge. By directly perceiving it, one attains righteousness.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-9-4", "number": 4, "text": "By Me, in My unmanifested form, all this universe is pervaded. All beings are in Me, but I am not in them.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-9-13", "number": 13, "text": "O Arjuna, the great-souled ones, who are free from delusion and are devoted to Me, know that the Immutable is the basis of all.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-9-17", "number": 17, "text": "I am the Father of this universe, the Mother, the Support, and the Grandfather. I am the Purifier, the goal, the refuge, the friend.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-9-22", "number": 22, "text": "To those who worship Me with devotion, meditating on Me, I give what they lack and preserve what they have.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-9-27", "number": 27, "text": "Whatever you do, whatever you eat, whatever you offer, whatever you give away, whatever austerities you perform—do that as an offering unto Me.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-9-28", "number": 28, "text": "Thus shalt thou be freed from the bonds of action, whether good or evil. With mind established in the yoga of renunciation, thou shalt be liberated and come to Me.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } }
+      ]
+    },
+    {
+      "id": "bg-10",
+      "number": 10,
+      "title": "Vibhuti Yoga (The Yoga of Divine Glories)",
+      "verses": [
+        { "id": "bg-10-1", "number": 1, "text": "The Supreme Lord said: O mighty-armed Arjuna, listen again to My supreme word, which I shall speak to thee out of compassion for thee.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-10-8", "number": 8, "text": "I am the source of all spiritual and material worlds. Everything emanates from Me. The wise who know this perfectly engage in My devotional service.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-10-12", "number": 12, "text": "Arjuna said: Thou art the Supreme Brahman, the Supreme Abode, the Holiest of the Holy, the Eternal Purusha, the First-born God, the Unborn.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-10-20", "number": 20, "text": "I am the Self, O Gudakesha, dwelling in the hearts of all beings. I am the beginning, the middle, and the end of all beings.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-10-36", "number": 36, "text": "I am the gambling of the fraudulent. I am the brilliance of the brilliant. I am the victory of the victorious. I am the determination of the determined.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-10-42", "number": 42, "text": "With a single fragment of Myself, I pervade and support this entire universe.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } }
       ]
     },
     {
       "id": "bg-11",
       "number": 11,
-      "title": "Vishvarupa Darshana Yoga (The Yoga of the Vision of the Universal Form)",
+      "title": "Vishvarupa Darshana Yoga (The Yoga of the Universal Form)",
       "verses": [
-        {
-          "id": "bg-11-32",
-          "number": 32,
-          "text": "The Lord said: I am Time, the great destroyer of the worlds, and I have come here to destroy all people. Even without you, all the warriors arrayed in the opposing armies shall cease to exist.",
-          "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" }
-        }
+        { "id": "bg-11-1", "number": 1, "text": "Arjuna said: Out of the compassion thou hast shown me, speaking about the supreme secret of the Self, my delusion has been dispelled.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-11-4", "number": 4, "text": "If, O Master of Yoga, thou thinkest it possible for me to behold thy universal form, O Lord, then reveal to me thy imperishable Self.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-11-5", "number": 5, "text": "The Supreme Lord said: Behold, O Arjuna, My divine forms, hundreds of thousands, diverse, splendid, celestial, and infinite.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-11-12", "number": 12, "text": "If the splendor of a thousand suns were to blaze forth at once in the sky, it might resemble the splendor of that great being.", "source": { "translator": "Edwin Arnold", "year": 1885, "license": "Public Domain" } },
+        { "id": "bg-11-32", "number": 32, "text": "The Lord said: I am Time, the great destroyer of the worlds, and I have come here to destroy all people. Even without you, all the warriors arrayed in the opposing armies shall cease to exist.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-11-45", "number": 45, "text": "Having seen Thy universal form, O Infinite Lord, I am delighted, yet my mind trembles with fear. Please reveal to me again Thy original form.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } }
       ]
     },
     {
@@ -164,18 +193,41 @@
       "number": 12,
       "title": "Bhakti Yoga (The Yoga of Devotion)",
       "verses": [
-        {
-          "id": "bg-12-13",
-          "number": 13,
-          "text": "He who hates no creature, who is friendly and compassionate, who is free from egoism and the sense of 'mine,' who is equal in pain and pleasure, who is forgiving—such a devotee is dear to Me.",
-          "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" }
-        },
-        {
-          "id": "bg-12-15",
-          "number": 15,
-          "text": "He by whom the world is not troubled and who is not troubled by the world, who is free from joy and envy, fear and anxiety—he is dear to Me.",
-          "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" }
-        }
+        { "id": "bg-12-1", "number": 1, "text": "Arjuna said: Those devoted to Thee and those who worship the Imperishable—which of them are better versed in yoga?", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-12-2", "number": 2, "text": "The Supreme Lord said: Those who, fixing their minds on Me, worship Me with unfailing devotion and are endowed with supreme faith—they are considered the best yogis.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-12-8", "number": 8, "text": "Fix thy mind on Me alone, place thy intellect in Me, and thou shalt dwell hereafter in Me alone, there is no doubt.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-12-13", "number": 13, "text": "He who hates no creature, who is friendly and compassionate, who is free from egoism and the sense of 'mine,' who is equal in pain and pleasure, who is forgiving—such a devotee is dear to Me.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-12-14", "number": 14, "text": "He who is free from enmity, modest, the same in pleasure and pain, and forgiving—such a devotee is dear to Me.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-12-15", "number": 15, "text": "He by whom the world is not troubled and who is not troubled by the world, who is free from joy and envy, fear and anxiety—he is dear to Me.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-12-17", "number": 17, "text": "He who is free from attachment, who does not exult or grieve, who is beyond the pairs of opposites, and is free from delusion—such a devotee is dear to Me.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-12-20", "number": 20, "text": "Those who follow this immortal path—the yoga of devotion—and who are endowed with faith, regarding Me as the supreme goal—such devotees are exceedingly dear to Me.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } }
+      ]
+    },
+    {
+      "id": "bg-13",
+      "number": 13,
+      "title": "Kshetra Kshetrajna Vibhaga Yoga (The Yoga of the Field and the Knower)",
+      "verses": [
+        { "id": "bg-13-1", "number": 1, "text": "Arjuna said: O Krishna, I desire to understand the nature of prakriti (nature), the purusha (the Self), and the field and the knower of the field.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-13-2", "number": 2, "text": "The Supreme Lord said: This body, O Arjuna, is called the field. He who knows it is called the knower of the field.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-13-3", "number": 3, "text": "Know Me as the knower of the field in all fields, O Bharata. Knowledge of the field and the knower of the field—that is My view.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-13-13", "number": 13, "text": "Know that the Purusha (Self) is beginningless and imperishable, and that He is not slain when the body is slain.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-13-18", "number": 18, "text": "He who knows the Self and the Purusha together with prakriti, though in whatever state he may be, is not deluded.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-13-28", "number": 28, "text": "He who sees the Supreme Lord existing equally in all beings, the imperishable within the perishable—he sees indeed.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } }
+      ]
+    },
+    {
+      "id": "bg-14",
+      "number": 14,
+      "title": "Gunatraya Vibhaga Yoga (The Yoga of the Three Modes)",
+      "verses": [
+        { "id": "bg-14-1", "number": 1, "text": "The Supreme Lord said: I shall declare again the supreme knowledge, the most secret of all knowledge. By knowing this, the sages have attained liberation.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-14-2", "number": 2, "text": "By taking refuge in this knowledge, they become one with Me, and are not born again at the time of creation, nor troubled at the time of dissolution.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-14-5", "number": 5, "text": "Sattva (goodness), rajas (passion), and tamas (ignorance)—these three modes of prakriti born of My nature bind the imperishable Self to the body, O Arjuna.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-14-10", "number": 10, "text": "Sometimes sattva prevails over rajas and tamas; sometimes rajas over sattva and tamas; and sometimes tamas over sattva and rajas.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-14-11", "number": 11, "text": "When the light of knowledge shines through all the gates of the body, then one may know that sattva has increased.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-14-14", "number": 14, "text": "Those who die in sattva go to the pure realms; those who die in rajas go to the human realms; and those who die in tamas go to the animal realms.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-14-20", "number": 20, "text": "When a person transcends the three modes of material nature and becomes established in the Supreme, he attains immortality.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } }
       ]
     },
     {
@@ -183,12 +235,39 @@
       "number": 15,
       "title": "Purushottama Yoga (The Yoga of the Supreme Person)",
       "verses": [
-        {
-          "id": "bg-15-7",
-          "number": 7,
-          "text": "An eternal portion of Myself becomes the living soul in the world of living beings, drawing to itself the five senses and the mind, which rest in Nature.",
-          "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" }
-        }
+        { "id": "bg-15-1", "number": 1, "text": "The Supreme Lord said: Men speak of the sacred fig tree as an eternal banyan tree, with its roots above and branches below.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-15-2", "number": 2, "text": "Its leaves are the Vedic hymns, and one who knows this knows the Vedas. The three gunas are its branches, and the sense objects are its buds.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-15-7", "number": 7, "text": "An eternal portion of Myself becomes the living soul in the world of living beings, drawing to itself the five senses and the mind, which rest in Nature.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-15-8", "number": 8, "text": "When the Self gains a body and when it leaves it, it takes these senses and the mind from the material body, just as the wind carries scents from their source.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-15-15", "number": 15, "text": "I am seated in the hearts of all beings. From Me come memory, knowledge, and their absence. I am indeed He who is to be known by all the Vedas. I am the author of the Vedanta and the knower of the Vedas.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-15-18", "number": 18, "text": "Because I am beyond the perishable and higher than the imperishable, I am known in the world and in the Vedas as the Supreme Person (Purushottama).", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } }
+      ]
+    },
+    {
+      "id": "bg-16",
+      "number": 16,
+      "title": "Daivasura Sampad Vibhaga Yoga (The Yoga of Divine and Demonic Qualities)",
+      "verses": [
+        { "id": "bg-16-1", "number": 1, "text": "The Supreme Lord said: Fearlessness, purity of heart, steadfastness in knowledge and yoga, charity, self-restraint, sacrifice, study of scriptures, austerity, straightforwardness.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-16-2", "number": 2, "text": "Non-violence, truth, absence of anger, renunciation, peace, absence of crookedness, compassion toward beings, non-covetousness, gentleness, modesty, absence of fickleness.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-16-3", "number": 3, "text": "Valor, forgiveness, fortitude, purity, absence of hatred, absence of pride—these belong to one born for a divine destiny, O Bharata.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-16-4", "number": 4, "text": "O Arjuna, the demoniac qualities are: uncleanliness, harshness, stubbornness, and also cruelty and ignorance—these belong to the demoniac destiny.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-16-5", "number": 5, "text": "The divine qualities lead to liberation, while the demonic qualities lead to bondage. Do not grieve, O Arjuna; you are born for divine qualities.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-16-23", "number": 23, "text": "He who discards the injunctions of the scriptures and acts under the impulse of desire attains neither perfection nor happiness nor the supreme goal.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-16-24", "number": 24, "text": "Therefore, let the scriptures be the authority in determining what should be done and what should not be done. You should perform your duties as prescribed by the scriptures.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } }
+      ]
+    },
+    {
+      "id": "bg-17",
+      "number": 17,
+      "title": "Shraddhatraya Vibhaga Yoga (The Yoga of the Three Types of Faith)",
+      "verses": [
+        { "id": "bg-17-1", "number": 1, "text": "Arjuna said: O Krishna, what is the condition of those who neglect the scriptural injunctions and worship with faith? Is it sattva, rajas, or tamas?", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-17-2", "number": 2, "text": "The Supreme Lord said: The faith of the embodied is of three kinds—sattvika, rajasa, and tamasa. Hear about it from Me.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-17-3", "number": 3, "text": "The faith of each is in accordance with one's nature, O Bharata. The person is made of faith. As one's faith is, so is the person.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-17-10", "number": 10, "text": "Food that is stale, tasteless, putrid, and rotten, which is unfit for sacrifice, is dear to tamasic persons.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-17-14", "number": 14, "text": "Sacrifices performed according to the injunctions of the scriptures, for the sake of duty, without desire for results, are of a sattvika nature.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-17-28", "number": 28, "text": "Whatever is done without faith—whether it is sacrifice, charity, austerity, or any other act—is called asat (unreal). It is of no value here or hereafter.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } }
       ]
     },
     {
@@ -196,18 +275,24 @@
       "number": 18,
       "title": "Moksha Sannyasa Yoga (The Yoga of Liberation and Renunciation)",
       "verses": [
-        {
-          "id": "bg-18-66",
-          "number": 66,
-          "text": "Abandon all varieties of dharmas and surrender unto Me alone. I shall liberate you from all sins; do not grieve.",
-          "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" }
-        },
-        {
-          "id": "bg-18-78",
-          "number": 78,
-          "text": "Where there is Krishna, the Lord of Yoga, and where there is Arjuna, the wielder of the bow, there will be prosperity, victory, power, and righteousness—such is my conviction.",
-          "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" }
-        }
+        { "id": "bg-18-1", "number": 1, "text": "Arjuna said: O Hrishikesha, I desire to know the essence of renunciation (sannyasa) and the yoga of action (tyaga).", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-18-2", "number": 2, "text": "The Supreme Lord said: The renunciation of actions based on desire is called sannyasa. The abandonment of the fruits of all actions is called tyaga.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-18-5", "number": 5, "text": "Acts of sacrifice, charity, and austerity should not be abandoned, but should be performed. Sacrifice, charity, and austerity are the purifiers of the wise.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-18-10", "number": 10, "text": "He who is neither attached to action nor to the fruits of action—such a person is said to be a renouncer in the true sense. He has given up the fruits of action.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-18-17", "number": 17, "text": "He who is free from the sense of ego, whose intellect is not tainted, though he slays these beings, he slays not, nor is he bound.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-18-20", "number": 20, "text": "The knowledge by which one sees the one imperishable Self in all beings, undivided among the divided—that knowledge is sattvika.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-18-45", "number": 45, "text": "By dedicating one's own innate duty to the Supreme, man attains perfection.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-18-46", "number": 46, "text": "He who dedicates all his actions to the Supreme, from whom all beings come, by whom all this is pervaded—attains perfection through yoga.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-18-49", "number": 49, "text": "He who is without attachment, who has conquered the self, and has given up all actions—his liberation is said to be perfected through renunciation.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-18-50", "number": 50, "text": "Learn from Me how he who has attained perfection reaches Brahman—the supreme state of knowledge.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-18-54", "number": 54, "text": "He who is established in yoga, whose mind is pure, who has conquered the self, whose passions are at rest, and who has become one with Brahman—such a person attains supreme devotion to Me.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-18-55", "number": 55, "text": "Through devotion, he comes to know Me—what My form is, and who I am in very truth. Then, having known Me in truth, he immediately enters into Me.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-18-62", "number": 62, "text": "O Arjuna, take refuge in Him with all your being. By His grace, you shalt attain supreme peace and the eternal abode.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-18-64", "number": 64, "text": "This is the most secret of all knowledge. Hear it from Me, for I am speaking for your welfare.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-18-65", "number": 65, "text": "Always think of Me, become My devotee, bow down to Me, and you shall certainly come to Me. I promise this to you, for you are dear to Me.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-18-66", "number": 66, "text": "Abandon all varieties of dharmas and surrender unto Me alone. I shall liberate you from all sins; do not grieve.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-18-73", "number": 73, "text": "Arjuna said: O Janardana, by Your grace my delusion has been destroyed, I have gained knowledge, and my doubts are dispelled. I shall act according to Your word.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
+        { "id": "bg-18-78", "number": 78, "text": "Where there is Krishna, the Lord of Yoga, and where there is Arjuna, the wielder of the bow, there will be prosperity, victory, power, and righteousness—such is my conviction.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } }
       ]
     }
   ]

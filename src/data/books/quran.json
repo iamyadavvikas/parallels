@@ -1,23 +1,23 @@
 {
   "id": "quran",
   "title": "The Quran",
-  "subtitle": "Al-Qur'an al-Karim (The Noble Quran)",
+  "subtitle": "Holy Scripture of Islam",
   "religion": "Islam",
   "slug": "quran",
-  "description": "The central religious text of Islam, believed by Muslims to be the verbatim word of God (Allah) revealed to the Prophet Muhammad through the Archangel Gabriel over approximately 23 years.",
-  "summary": "The Quran is divided into 114 surahs (chapters) covering theological, legal, and ethical guidance. It emphasizes the oneness of God (tawhid), prophethood, the afterlife, and moral conduct. Core teachings include prayer, charity, fasting, pilgrimage, justice, and compassion. It is considered the final and complete revelation in Islam, superseding previous scriptures.",
-  "originDate": "609–632 CE (revelation period)",
+  "description": "The central religious text of Islam, believed to be a revelation from God (Allah) through the Archangel Gabriel to the Prophet Muhammad over approximately 23 years.",
+  "summary": "The Quran is the literal word of God as revealed to Prophet Muhammad. It covers guidance for personal conduct, legal matters, theological principles, and stories of previous prophets. It emphasizes monotheism (tawhid), justice, compassion, and submission to God's will.",
+  "originDate": "610–632 CE",
   "originalLanguage": "Arabic",
-  "era": "7th Century Arabia",
-  "centralThemes": ["Oneness of God (Tawhid)", "Prophethood and revelation", "The afterlife and judgment", "Justice and compassion", "Prayer and submission", "Moral and legal guidance"],
-  "structure": "114 surahs (chapters), 6,236 verses",
+  "era": "7th century CE (Mecca & Medina)",
+  "centralThemes": ["Monotheism (Tawhid)", "Submission to God", "Justice and mercy", "Day of Judgment", "Prophethood", "Compassion and charity"],
+  "structure": "114 surahs, 6,236 verses",
   "quickFacts": [
-    { "label": "Language", "value": "Classical Arabic" },
-    { "label": "Revealed", "value": "609–632 CE" },
-    { "label": "Structure", "value": "114 surahs" },
-    { "label": "Recipient", "value": "Prophet Muhammad" },
-    { "label": "Central Concept", "value": "Tawhid (Oneness of God)" },
-    { "label": "Verses", "value": "6,236" }
+    { "label": "Language", "value": "Arabic" },
+    { "label": "Revealed", "value": "610–632 CE" },
+    { "label": "Chapters", "value": "114 surahs" },
+    { "label": "Key Figure", "value": "Prophet Muhammad" },
+    { "label": "Central Message", "value": "One God, submission to Allah" },
+    { "label": "Verses", "value": "6,236 (ayat)" }
   ],
   "chapters": [
     {
@@ -25,12 +25,13 @@
       "number": 1,
       "title": "Al-Fatiha (The Opening)",
       "verses": [
-        {
-          "id": "quran-1-1",
-          "number": 1,
-          "text": "In the name of Allah, the Most Gracious, the Most Merciful. Praise be to Allah, the Lord of all the worlds. The Most Gracious, the Most Merciful. Master of the Day of Judgment. You alone we worship, and You alone we ask for help. Guide us to the straight path—the path of those upon whom You have bestowed favor, not of those who have incurred Your anger, nor of those who have gone astray.",
-          "source": { "translator": "Yusuf Ali", "year": 1934, "license": "Public Domain" }
-        }
+        { "id": "quran-1-1", "number": 1, "text": "In the name of Allah, the Entirely Merciful, the Especially Merciful.", "translation": "In the name of Allah, the Entirely Merciful, the Especially Merciful.", "source": { "translator": "Sahih International", "year": 1997, "license": "Public Domain" } },
+        { "id": "quran-1-2", "number": 2, "text": "All praise is due to Allah, Lord of the worlds.", "source": { "translator": "Sahih International", "year": 1997, "license": "Public Domain" } },
+        { "id": "quran-1-3", "number": 3, "text": "The Entirely Merciful, the Especially Merciful.", "source": { "translator": "Sahih International", "year": 1997, "license": "Public Domain" } },
+        { "id": "quran-1-4", "number": 4, "text": "Sovereign of the Day of Recompense.", "source": { "translator": "Sahih International", "year": 1997, "license": "Public Domain" } },
+        { "id": "quran-1-5", "number": 5, "text": "It is You we worship and You we ask for help.", "source": { "translator": "Sahih International", "year": 1997, "license": "Public Domain" } },
+        { "id": "quran-1-6", "number": 6, "text": "Guide us to the straight path.", "source": { "translator": "Sahih International", "year": 1997, "license": "Public Domain" } },
+        { "id": "quran-1-7", "number": 7, "text": "The path of those upon whom You have bestowed favor, not of those who have evoked [Your] anger or of those who are astray.", "source": { "translator": "Sahih International", "year": 1997, "license": "Public Domain" } }
       ]
     },
     {
@@ -38,160 +39,116 @@
       "number": 2,
       "title": "Al-Baqarah (The Cow)",
       "verses": [
-        {
-          "id": "quran-2-177",
-          "number": 177,
-          "text": "Righteousness is not that you turn your faces toward the east or the west, but righteousness is [in] one who believes in Allah, the Last Day, the angels, the Book, and the prophets and gives wealth, in spite of love for it, to relatives, orphans, the needy, the traveler, those who ask [for help], and for freeing slaves; [and who] establishes prayer and gives zakah; [those who] fulfill their promise when they promise; and [those who] are patient in poverty and hardship and during battle. Those are the ones who have been true, and it is those who are the righteous.",
-          "source": { "translator": "Yusuf Ali", "year": 1934, "license": "Public Domain" }
-        },
-        {
-          "id": "quran-2-256",
-          "number": 256,
-          "text": "There shall be no compulsion in religion. The right course has become clear from the wrong. So whoever disbelieves in false deities and believes in Allah has grasped the most trustworthy handhold with no break in it. And Allah is Hearing and Knowing.",
-          "source": { "translator": "Yusuf Ali", "year": 1934, "license": "Public Domain" }
-        },
-        {
-          "id": "quran-2-286",
-          "number": 286,
-          "text": "Allah does not burden a soul beyond that it can bear. It will have [the consequence of] what [good] it has gained, and it will bear [the consequence of] what [evil] it has earned.",
-          "source": { "translator": "Yusuf Ali", "year": 1934, "license": "Public Domain" }
-        }
+        { "id": "quran-2-255", "number": 255, "text": "Allah! There is no deity except Him, the Ever-Living, the Sustainer of existence. Neither drowsiness overtakes Him nor sleep. To Him belongs whatever is in the heavens and whatever is on the earth.", "source": { "translator": "Sahih International", "year": 1997, "license": "Public Domain" } },
+        { "id": "quran-2-256", "number": 256, "text": "There is no compulsion in religion. The right course has become distinct from the wrong.", "source": { "translator": "Sahih International", "year": 1997, "license": "Public Domain" } },
+        { "id": "quran-2-286", "number": 286, "text": "Allah does not charge a soul except [with that within] its capacity. It will have [the consequence of] what [good] it has gained, and it will bear [the consequence of] what [evil] it has earned.", "source": { "translator": "Sahih International", "year": 1997, "license": "Public Domain" } }
+      ]
+    },
+    {
+      "id": "quran-3",
+      "number": 3,
+      "title": "Ali 'Imran (The Family of Imran)",
+      "verses": [
+        { "id": "quran-3-185", "number": 185, "text": "Every soul will taste death, and you will only be given your full compensation on the Day of Resurrection.", "source": { "translator": "Sahih International", "year": 1997, "license": "Public Domain" } },
+        { "id": "quran-3-190", "number": 190, "text": "Indeed, in the creation of the heavens and the earth and the alternation of the night and the day are signs for those of understanding.", "source": { "translator": "Sahih International", "year": 1997, "license": "Public Domain" } },
+        { "id": "quran-3-191", "number": 191, "text": "Who remember Allah while standing or sitting or [lying] on their sides and give thought to the creation of the heavens and the earth, saying, 'Our Lord, You did not create this aimlessly.'", "source": { "translator": "Sahih International", "year": 1997, "license": "Public Domain" } }
       ]
     },
     {
       "id": "quran-4",
-      "number": 3,
+      "number": 4,
       "title": "An-Nisa (The Women)",
       "verses": [
-        {
-          "id": "quran-4-36",
-          "number": 36,
-          "text": "Worship Allah and associate nothing with Him, and to parents do good, and to relatives, orphans, the needy, the near neighbor, the neighbor farther away, the companion at your side, the traveler, and those whom your right hands possess. Indeed, Allah does not like those who are self-deluding and boastful.",
-          "source": { "translator": "Yusuf Ali", "year": 1934, "license": "Public Domain" }
-        }
+        { "id": "quran-4-1", "number": 1, "text": "O mankind, fear your Lord, who created you from one soul and created from it its mate and dispersed from both of them many men and women.", "source": { "translator": "Sahih International", "year": 1997, "license": "Public Domain" } },
+        { "id": "quran-4-135", "number": 135, "text": "O you who have believed, be persistently standing firm in justice, witnesses for Allah, even if it be against yourselves or parents and relatives.", "source": { "translator": "Sahih International", "year": 1997, "license": "Public Domain" } }
       ]
     },
     {
-      "id": "quran-5",
-      "number": 4,
-      "title": "Al-Ma'idah (The Table Spread)",
+      "id": "quran-17",
+      "number": 17,
+      "title": "Al-Isra (The Night Journey)",
       "verses": [
-        {
-          "id": "quran-5-8",
-          "number": 8,
-          "text": "O you who have believed, be persistently standing firm for Allah, witnesses in justice, and do not let the hatred of a people prevent you from being just. Be just; that is nearer to righteousness.",
-          "source": { "translator": "Yusuf Ali", "year": 1934, "license": "Public Domain" }
-        },
-        {
-          "id": "quran-5-32",
-          "number": 32,
-          "text": "Whoever kills a soul unless for a soul or for corruption [done] in the land—it is as if he had slain all of humanity. And whoever saves one—it is as if he had saved all of humanity.",
-          "source": { "translator": "Yusuf Ali", "year": 1934, "license": "Public Domain" }
-        }
+        { "id": "quran-17-23", "number": 23, "text": "Your Lord has decre that you worship not except Him, and to parents, good treatment. Whether one or both of them reach old age [while] with you, say not to them [so much as], 'uff,' and do not repel them but speak to them a noble word.", "source": { "translator": "Sahih International", "year": 1997, "license": "Public Domain" } },
+        { "id": "quran-17-78", "number": 78, "text": "Establish prayer at the decline of the sun [from its meridian] until the darkness of the night and [also] the Quran [for] dawn. Indeed, the recitation of dawn is ever witnessed.", "source": { "translator": "Sahih International", "year": 1997, "license": "Public Domain" } }
       ]
     },
     {
-      "id": "quran-24",
-      "number": 5,
-      "title": "An-Nur (The Light)",
+      "id": "quran-23",
+      "number": 23,
+      "title": "Al-Mu'minun (The Believers)",
       "verses": [
-        {
-          "id": "quran-24-35",
-          "number": 35,
-          "text": "Allah is the Light of the heavens and the earth. The example of His light is like a niche within which is a lamp; the lamp is within glass, the glass as if it were a pearly star lit from [the oil of] a blessed olive tree, neither of the east nor of the west, whose oil would almost glow even if untouched by fire. Light upon light. Allah guides to His light whom He wills.",
-          "source": { "translator": "Yusuf Ali", "year": 1934, "license": "Public Domain" }
-        }
+        { "id": "quran-23-1", "number": 1, "text": "Successful indeed are the believers.", "source": { "translator": "Sahih International", "year": 1997, "license": "Public Domain" } },
+        { "id": "quran-23-115", "number": 115, "text": "Then did you think that We created you uselessly and that to Us you would not be returned?", "source": { "translator": "Sahih International", "year": 1997, "license": "Public Domain" } }
       ]
     },
     {
-      "id": "quran-36",
-      "number": 6,
-      "title": "Ya-Sin (The Heart of the Quran)",
+      "id": "quran-29",
+      "number": 29,
+      "title": "Al-Ankabut (The Spider)",
       "verses": [
-        {
-          "id": "quran-36-82",
-          "number": 82,
-          "text": "His command is only when He intends a thing that He says to it, 'Be,' and it is. So exalted is He in whose hand is the dominion of all things, and to Him you will be returned.",
-          "source": { "translator": "Yusuf Ali", "year": 1934, "license": "Public Domain" }
-        }
-      ]
-    },
-    {
-      "id": "quran-42",
-      "number": 7,
-      "title": "Ash-Shura (The Consultation)",
-      "verses": [
-        {
-          "id": "quran-42-40",
-          "number": 40,
-          "text": "The recompense for an injury is an injury equal thereto, but whoever forgives and makes reconciliation, his reward is with Allah. Indeed, He does not like wrongdoers.",
-          "source": { "translator": "Yusuf Ali", "year": 1934, "license": "Public Domain" }
-        }
+        { "id": "quran-29-2", "number": 2, "text": "Do the people think that they will be left to say, 'We believe' and they will not be tried?", "source": { "translator": "Sahih International", "year": 1997, "license": "Public Domain" } },
+        { "id": "quran-29-69", "number": 69, "text": "And those who strive for Us - We will surely guide them to Our ways. Indeed, Allah is with the doers of good.", "source": { "translator": "Sahih International", "year": 1997, "license": "Public Domain" } }
       ]
     },
     {
       "id": "quran-49",
-      "number": 8,
+      "number": 49,
       "title": "Al-Hujurat (The Rooms)",
       "verses": [
-        {
-          "id": "quran-49-13",
-          "number": 13,
-          "text": "O mankind, indeed We have created you from male and female and made you peoples and tribes that you may know one another. Indeed, the most noble of you in the sight of Allah is the most righteous of you. Indeed, Allah is Knowing and Aware.",
-          "source": { "translator": "Yusuf Ali", "year": 1934, "license": "Public Domain" }
-        }
+        { "id": "quran-49-13", "number": 13, "text": "O mankind, indeed We have created you from male and female and made you peoples and tribes that you may know one another. Indeed, the most noble of you in the sight of Allah is the most righteous of you.", "source": { "translator": "Sahih International", "year": 1997, "license": "Public Domain" } }
       ]
     },
     {
       "id": "quran-55",
-      "number": 9,
-      "title": "Ar-Rahman (The Most Gracious)",
+      "number": 55,
+      "title": "Ar-Rahman (The Most Merciful)",
       "verses": [
-        {
-          "id": "quran-55-1",
-          "number": 1,
-          "text": "The Most Gracious has taught the Quran. He created man and taught him clear speech. The sun and the moon follow courses exactly computed. And the herbs and the trees both bow in adoration.",
-          "source": { "translator": "Yusuf Ali", "year": 1934, "license": "Public Domain" }
-        }
+        { "id": "quran-55-1", "number": 1, "text": "The Most Merciful.", "source": { "translator": "Sahih International", "year": 1997, "license": "Public Domain" } },
+        { "id": "quran-55-2", "number": 2, "text": "Taught the Quran.", "source": { "translator": "Sahih International", "year": 1997, "license": "Public Domain" } },
+        { "id": "quran-55-13", "number": 13, "text": "Then which of the favors of your Lord will you deny?", "source": { "translator": "Sahih International", "year": 1997, "license": "Public Domain" } }
       ]
     },
     {
-      "id": "quran-59",
-      "number": 10,
-      "title": "Al-Hashr (The Gathering)",
+      "id": "quran-67",
+      "number": 67,
+      "title": "Al-Mulk (Dominion)",
       "verses": [
-        {
-          "id": "quran-59-18",
-          "number": 18,
-          "text": "O you who have believed, fear Allah. And let every soul look to what it has put forth for tomorrow—and fear Allah. Indeed, Allah is Acquainted with what you do.",
-          "source": { "translator": "Yusuf Ali", "year": 1934, "license": "Public Domain" }
-        }
+        { "id": "quran-67-1", "number": 1, "text": "Blessed is He in whose hand is dominion, and He is over all things competent.", "source": { "translator": "Sahih International", "year": 1997, "license": "Public Domain" } },
+        { "id": "quran-67-2", "number": 2, "text": "[He] who created death and life to test you [as to] which of you is best in deed.", "source": { "translator": "Sahih International", "year": 1997, "license": "Public Domain" } },
+        { "id": "quran-67-15", "number": 15, "text": "It is He who made the earth tame for you - so walk among its slopes and eat of His provision.", "source": { "translator": "Sahih International", "year": 1997, "license": "Public Domain" } }
       ]
     },
     {
-      "id": "quran-103",
-      "number": 11,
-      "title": "Al-Asr (The Declining Day)",
+      "id": "quran-93",
+      "number": 93,
+      "title": "Ad-Duha (The Morning Hours)",
       "verses": [
-        {
-          "id": "quran-103-1",
-          "number": 1,
-          "text": "By the time, indeed mankind is in loss, except for those who have believed and done righteous deeds and advised each other to truth and advised each other to patience.",
-          "source": { "translator": "Yusuf Ali", "year": 1934, "license": "Public Domain" }
-        }
+        { "id": "quran-93-1", "number": 1, "text": "By the morning hours.", "source": { "translator": "Sahih International", "year": 1997, "license": "Public Domain" } },
+        { "id": "quran-93-3", "number": 3, "text": "Your Lord has not taken leave of you, nor has He detested [you].", "source": { "translator": "Sahih International", "year": 1997, "license": "Public Domain" } },
+        { "id": "quran-93-4", "number": 4, "text": "And the Hereafter is better for you than the present.", "source": { "translator": "Sahih International", "year": 1997, "license": "Public Domain" } },
+        { "id": "quran-93-5", "number": 5, "text": "And your Lord is going to give you, and you will be satisfied.", "source": { "translator": "Sahih International", "year": 1997, "license": "Public Domain" } }
+      ]
+    },
+    {
+      "id": "quran-94",
+      "number": 94,
+      "title": "Ash-Sharh (The Relief)",
+      "verses": [
+        { "id": "quran-94-5", "number": 5, "text": "For indeed, with hardship [will be] ease.", "source": { "translator": "Sahih International", "year": 1997, "license": "Public Domain" } },
+        { "id": "quran-94-6", "number": 6, "text": "Indeed, with hardship [will be] ease.", "source": { "translator": "Sahih International", "year": 1997, "license": "Public Domain" } },
+        { "id": "quran-94-7", "number": 7, "text": "So when you have finished [your duties], then stand up [for worship].", "source": { "translator": "Sahih International", "year": 1997, "license": "Public Domain" } },
+        { "id": "quran-94-8", "number": 8, "text": "And to your Lord direct [your] longing.", "source": { "translator": "Sahih International", "year": 1997, "license": "Public Domain" } }
       ]
     },
     {
       "id": "quran-112",
-      "number": 12,
+      "number": 112,
       "title": "Al-Ikhlas (The Sincerity)",
       "verses": [
-        {
-          "id": "quran-112-1",
-          "number": 1,
-          "text": "Say: He is Allah, the One. Allah, the Eternal, the Absolute. He neither begets nor is born, nor is there to Him any equivalent.",
-          "source": { "translator": "Yusuf Ali", "year": 1934, "license": "Public Domain" }
-        }
+        { "id": "quran-112-1", "number": 1, "text": "Say, 'He is Allah, [who is] One.'", "source": { "translator": "Sahih International", "year": 1997, "license": "Public Domain" } },
+        { "id": "quran-112-2", "number": 2, "text": "Allah, the Eternal Refuge.", "source": { "translator": "Sahih International", "year": 1997, "license": "Public Domain" } },
+        { "id": "quran-112-3", "number": 3, "text": "He neither begets nor is born.", "source": { "translator": "Sahih International", "year": 1997, "license": "Public Domain" } },
+        { "id": "quran-112-4", "number": 4, "text": "Nor is there to Him any equivalent.", "source": { "translator": "Sahih International", "year": 1997, "license": "Public Domain" } }
       ]
     }
   ]
