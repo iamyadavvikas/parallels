@@ -1,65 +1,79 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 
 export default function AmbientOrb() {
-  const [pos, setPos] = useState({ x: -600, y: -600 });
-  const [tradition, setTradition] = useState("default");
-  const raf = useRef(0);
-  const target = useRef({ x: -600, y: -600 });
+  const orbRef = useRef<HTMLDivElement>(null);
+  const targetRef = useRef({ x: -600, y: -600 });
+  const currentRef = useRef({ x: -600, y: -600 });
+  const traditionRef = useRef("default");
+  const rafRef = useRef(0);
 
   useEffect(() => {
+    const orb = orbRef.current;
+    if (!orb) return;
+
+    let active = true;
+
     function handleMove(e: MouseEvent) {
-      target.current = { x: e.clientX, y: e.clientY };
+      targetRef.current = { x: e.clientX, y: e.clientY };
     }
 
     function handleOver(e: MouseEvent) {
       const el = (e.target as HTMLElement).closest("[data-tradition]");
-      if (el) {
-        setTradition(el.getAttribute("data-tradition") || "default");
-      } else {
-        setTradition("default");
+      const trad = el ? el.getAttribute("data-tradition") || "default" : "default";
+      if (trad !== traditionRef.current) {
+        traditionRef.current = trad;
+        orb!.className = `ambient-orb ${trad}`;
       }
     }
 
-    let active = true;
     function animate() {
       if (!active) return;
-      setPos((prev) => ({
-        x: prev.x + (target.current.x - prev.x) * 0.08,
-        y: prev.y + (target.current.y - prev.y) * 0.08,
-      }));
-      raf.current = requestAnimationFrame(animate);
+      const cur = currentRef.current;
+      const tgt = targetRef.current;
+      const dx = tgt.x - cur.x;
+      const dy = tgt.y - cur.y;
+
+      // Only update DOM if there's meaningful movement
+      if (Math.abs(dx) > 0.1 || Math.abs(dy) > 0.1) {
+        cur.x += dx * 0.08;
+        cur.y += dy * 0.08;
+        orb!.style.left = `${cur.x}px`;
+        orb!.style.top = `${cur.y}px`;
+      }
+
+      rafRef.current = requestAnimationFrame(animate);
     }
 
     function handleVisibility() {
       if (document.hidden) {
         active = false;
-        cancelAnimationFrame(raf.current);
+        cancelAnimationFrame(rafRef.current);
       } else {
         active = true;
-        raf.current = requestAnimationFrame(animate);
+        rafRef.current = requestAnimationFrame(animate);
       }
     }
 
     window.addEventListener("mousemove", handleMove, { passive: true });
     window.addEventListener("mouseover", handleOver, { passive: true });
     document.addEventListener("visibilitychange", handleVisibility);
-    raf.current = requestAnimationFrame(animate);
+    rafRef.current = requestAnimationFrame(animate);
 
     return () => {
       active = false;
       window.removeEventListener("mousemove", handleMove);
       window.removeEventListener("mouseover", handleOver);
       document.removeEventListener("visibilitychange", handleVisibility);
-      cancelAnimationFrame(raf.current);
+      cancelAnimationFrame(rafRef.current);
     };
   }, []);
 
   return (
     <div
-      className={`ambient-orb ${tradition}`}
-      style={{ left: pos.x, top: pos.y }}
+      ref={orbRef}
+      className="ambient-orb default"
       aria-hidden="true"
     />
   );

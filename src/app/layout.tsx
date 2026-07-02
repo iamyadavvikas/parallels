@@ -9,10 +9,50 @@ import PageTransition from "@/components/ui/PageTransition";
 import UIReviewAgent from "@/components/ui/UIReviewAgent";
 import ErrorBoundary from "@/components/ui/ErrorBoundary";
 
+const SITE_URL = "https://parallels-ten.vercel.app";
+
 export const metadata: Metadata = {
-  title: "Parallels — Explore Sacred Scriptures",
+  title: {
+    default: "Parallels — Explore Sacred Scriptures",
+    template: "%s | Parallels",
+  },
   description:
-    "Browse, search, and compare passages from the world's major religious texts side by side.",
+    "Browse, search, and compare passages from the world's major religious texts — Bible, Quran, Bhagavad Gita, Torah, Guru Granth Sahib, and Dhammapada — side by side.",
+  keywords: [
+    "holy books",
+    "sacred texts",
+    "Bible",
+    "Quran",
+    "Bhagavad Gita",
+    "Torah",
+    "Guru Granth Sahib",
+    "Dhammapada",
+    "interfaith",
+    "comparative religion",
+    "scripture comparison",
+    "religious texts online",
+  ],
+  authors: [{ name: "Parallels" }],
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: SITE_URL,
+    siteName: "Parallels",
+    title: "Parallels — Explore Sacred Scriptures",
+    description:
+      "Browse, search, and compare passages from the world's major religious texts side by side.",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Parallels — Explore Sacred Scriptures",
+    description:
+      "Browse, search, and compare passages from the world's major religious texts side by side.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true },
+  },
 };
 
 export default function RootLayout({

@@ -3,6 +3,9 @@
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import type { Religion } from "@/lib/types";
+import _traditionInsights from "@/data/perspectives-insights.json";
+
+const traditionInsights = _traditionInsights as Record<string, Record<Religion, string>>;
 
 interface VerseResult {
   religion: Religion;
@@ -15,81 +18,6 @@ interface VerseResult {
   verseNumber: number;
   text: string;
 }
-
-const traditionInsights: Record<string, Record<Religion, string>> = {
-  remarriage: {
-    Hinduism: "Marriage is a sacred samskara. The Bhagavad Gita frames separation and union in spiritual terms — the soul's bond with the Divine is the model for marital covenant.",
-    Christianity: "The Decalogue's adultery prohibition and Jesus's teaching in Matthew 19 establish marriage as an unbreakable covenant before God. Paul offers pastoral guidance for widowhood.",
-    Islam: "The Quran permits remarriage after divorce (talaq) with waiting periods (iddah). Righteousness includes family obligation — remarriage must preserve duties to children and kin.",
-    Judaism: "The Torah's adultery prohibition requires a formal get (writ of divorce) before remarriage. The covenant model of the Shema governs all sacred bonds.",
-    Sikhism: "Guru Granth Sahib teaches that God dwells within all. Spiritual peace through Naam supersedes external marital status — remarriage is accepted with compassion.",
-    Buddhism: "The Dhammapada teaches that hatred is appeased by love alone. Attachment, not marriage, causes suffering. Remarriage is a personal choice guided by wisdom.",
-  },
-  divorce: {
-    Hinduism: "The Mahabharata presents Draupadi's story as a complex case of marital obligation. The BG teaches equanimity in all circumstances.",
-    Christianity: "Jesus teaches that what God has joined, let no one separate. The Beatitudes comfort those who mourn — including mourning broken covenants.",
-    Islam: "Talaq is permitted but disliked. The Quran emphasizes reconciliation and specifies waiting periods to ensure careful deliberation.",
-    Judaism: "Divorce is permitted through the get. The Torah's laws govern the process as a legal and moral obligation.",
-    Sikhism: "Guru Granth Sahib acknowledges separations occur. The focus is on dignity, fairness, and spiritual well-being of both parties.",
-    Buddhism: "Non-attachment is the path. Compassion and honest communication guide the dissolution of relationships.",
-  },
-  marriage: {
-    Hinduism: "Marriage is a sacred samskara — an eternal bond. The BG teaches devotion and duty as the foundation of all relationships.",
-    Christianity: "Marriage is a covenant reflecting Christ's relationship with the Church. 'Honor your father and mother' establishes the family unit as sacred.",
-    Islam: "Nikah is a sacred contract. The Quran calls spouses 'garments for one another.' Righteousness includes care for family.",
-    Judaism: "Marriage (kiddushin) is a holy covenant. The Shema establishes monotheistic covenant as the model for all bonds.",
-    Sikhism: "The Anand Karaj ceremony sanctifies marriage. The Guru unites husband and wife in devotion to God.",
-    Buddhism: "Marriage is a social institution. The emphasis is on mutual respect, fidelity, and shared spiritual practice.",
-  },
-  death: {
-    Hinduism: "The soul transmigrates. The BG teaches: 'As a person puts on new garments, giving up old ones, the soul similarly accepts new material bodies.'",
-    Christianity: "Death is conquered through resurrection. 'We rejoice in our sufferings, knowing that suffering produces endurance.'",
-    Islam: "Death is a transition to akhirah. 'Every soul shall taste death, then to Us you will be returned.'",
-    Judaism: "Focus is on this life's moral obligations. The covenant continues beyond death.",
-    Sikhism: "The soul passes through cycles of birth and death until it merges with God through Naam meditation.",
-    Buddhism: "Death is part of samsara. 'You yourselves must make the effort; the Buddhas only show the way.'",
-  },
-  forgiveness: {
-    Hinduism: "Forgiveness is a divine virtue. The BG describes the devotee who is 'forgiving' as dear to God.",
-    Christianity: "'Father, forgive them, for they know not what they do.' Forgiveness is both received and extended.",
-    Islam: "Al-Ghafur (The Forgiving) is one of Allah's names. 'If you pardon and forgive, Allah is Forgiving, Merciful.'",
-    Judaism: "Teshuvah (repentance) leads to forgiveness. Yom Kippur is the Day of Atonement.",
-    Sikhism: "Forgiveness comes through Naam and Guru's grace. 'Forgive the mistakes of all beings.'",
-    Buddhism: "'Hatred is never appeased by hatred. By love alone is hatred appeased.'",
-  },
-  suffering: {
-    Hinduism: "Suffering arises from ignorance and attachment. The BG teaches equanimity in pleasure and pain.",
-    Christianity: "Suffering has redemptive power. 'Blessed are those who mourn, for they shall be comforted.'",
-    Islam: "Suffering is a test. 'Do people think they will be left alone because they say, We believe?'",
-    Judaism: "Covenant faithfulness persists even in trials. The Shema is declared in all circumstances.",
-    Sikhism: "Suffering comes from ego and separation from God. 'Through pain, the Word is understood.'",
-    Buddhism: "Dukkha is the First Noble Truth. It arises from craving. The Eightfold Path is the way out.",
-  },
-  love: {
-    Hinduism: "Prema (divine love) is the highest emotion. The BG teaches devotion to God as the path to liberation.",
-    Christianity: "'God is love. Whoever lives in love lives in God.' Agape — unconditional love — is the greatest virtue.",
-    Islam: "'He loves them and they love Him.' Love of Allah and His creation is central to faith.",
-    Judaism: "'You shall love your neighbor as yourself.' Ahavah is the foundation of covenant.",
-    Sikhism: "'Through love, the disease of egotism is removed. Through love, all sorrows are dispelled.'",
-    Buddhism: "'Hatred is never appeased by hatred. By love alone is hatred appeased.'",
-  },
-  peace: {
-    Hinduism: "Shanti is inner peace from realizing the Divine. The BG teaches equanimity as the path to stillness.",
-    Christianity: "'Peace I leave with you; my peace I give to you.' Divine peace transcends understanding.",
-    Islam: "Salam is one of Allah's names. Peace comes through submission to the Divine will.",
-    Judaism: "Shalom is wholeness. The vision is universal peace: 'Nation shall not lift up sword against nation.'",
-    Sikhism: "'Meditating on the Lord of the Universe, I find peace. By the Guru's grace, all sorrows depart.'",
-    Buddhism: "'Mind precedes all mental states. If with a pure mind a person acts, happiness follows.'",
-  },
-  prayer: {
-    Hinduism: "Puja and japa connect the soul to the Divine. Meditation and devotion are forms of prayer.",
-    Christianity: "'Pray without ceasing.' Prayer is communion with God — the model is the Lord's Prayer.",
-    Islam: "Salat (five daily prayers) connects the servant directly to Allah without intermediary.",
-    Judaism: "Tefillah connects the individual to God. The Shema declares oneness; the Amidah is the central prayer.",
-    Sikhism: "Naam Simran is the core practice. 'Remember the Lord, and all thy fears shall depart.'",
-    Buddhism: "Meditation and chanting cultivate mindfulness. Buddhist prayer is reflection and recitation.",
-  },
-};
 
 const traditions: Religion[] = [
   "Hinduism", "Christianity", "Islam", "Judaism", "Sikhism", "Buddhism",

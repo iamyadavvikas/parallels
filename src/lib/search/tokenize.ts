@@ -15,13 +15,15 @@ const STOP_WORDS = new Set([
 export function tokenize(text: string): string[] {
   return text
     .toLowerCase()
-    .replace(/[^a-z0-9\s]/g, " ")
+    .replace(/[^\w\s\u0600-\u06FF\u0590-\u05FF\u0900-\u097F\u0E00-\u0E7F\u1100-\u11FF\uAC00-\uD7AF]/g, " ")
     .split(/\s+/)
     .filter((t) => t.length > 1 && !STOP_WORDS.has(t));
 }
 
 export function tokenizeWithPositions(text: string): Map<string, number[]> {
-  const words = text.toLowerCase().replace(/[^a-z0-9\s]/g, " ").split(/\s+/);
+  const words = text.toLowerCase()
+    .replace(/[^\w\s\u0600-\u06FF\u0590-\u05FF\u0900-\u097F\u0E00-\u0E7F\u1100-\u11FF\uAC00-\uD7AF]/g, " ")
+    .split(/\s+/);
   const positions = new Map<string, number[]>();
   words.forEach((word, i) => {
     if (word.length > 1) {
