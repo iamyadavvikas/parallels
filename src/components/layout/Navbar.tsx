@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState, useRef, useCallback } from "react";
 import { BookOpen, Search, Layers, GitCompare, Bookmark } from "lucide-react";
 import ThemeToggle from "../ui/ThemeToggle";
+import Logo from "../ui/Logo";
 
 const navLinks = [
   { href: "/", label: "Library", icon: BookOpen },
@@ -64,10 +65,7 @@ export default function Navbar() {
       }`}>
         <div className="mx-auto flex h-14 max-w-6xl items-center justify-between px-4">
           <Link href="/" className="flex items-center gap-2.5 text-base font-bold text-text-primary font-display group">
-            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-accent to-accent-hover text-void text-sm font-extrabold transition-transform duration-300 group-hover:scale-105"
-              style={{ boxShadow: '0 0 12px rgba(255,209,102,0.25)' }}>
-              P
-            </span>
+            <Logo size={28} className="transition-transform duration-300 group-hover:scale-110" />
             <span className="tracking-tight">Parallels</span>
           </Link>
 

@@ -3,6 +3,7 @@ import BookCard from "@/components/ui/BookCard";
 import SearchBar from "@/components/ui/SearchBar";
 import ReligionBadge from "@/components/ui/ReligionBadge";
 import ReadingHistorySection from "@/components/layout/ReadingHistorySection";
+import Logo from "@/components/ui/Logo";
 import DailyWisdom from "@/components/ui/DailyWisdom";
 import GamificationBar from "@/components/ui/GamificationBar";
 import Link from "next/link";
@@ -59,7 +60,7 @@ export default function Home() {
           {/* Sigil — neon glow */}
           <div className="hero-headline mx-auto mb-12 flex h-16 w-16 items-center justify-center rounded-2xl bg-accent/8 border border-accent/20 hero-sigil"
             style={{ boxShadow: '0 0 24px rgba(255, 209, 102, 0.15), 0 0 48px rgba(255, 209, 102, 0.05)' }}>
-            <span className="text-3xl text-accent font-display font-extrabold">P</span>
+            <Logo size={40} />
           </div>
 
           {/* Headline — larger, tighter */}
