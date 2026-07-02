@@ -1,0 +1,159 @@
+{
+  "id": "torah",
+  "title": "The Torah",
+  "subtitle": "The Five Books of Moses (The Law)",
+  "religion": "Judaism",
+  "slug": "torah",
+  "description": "The foundational text of Judaism, comprising the first five books of the Hebrew Bible (Pentateuch), containing the narrative of creation, the patriarchs, the Exodus from Egypt, and the giving of the Law at Mount Sinai.",
+  "summary": "The Torah (Teaching or Law) consists of five books: Genesis, Exodus, Leviticus, Numbers, and Deuteronomy. It begins with the creation of the world, recounts the stories of the patriarchs Abraham, Isaac, and Jacob, the enslavement of the Israelites in Egypt and their exodus under Moses, and the receiving of the covenant and laws at Sinai. It establishes Jewish identity, ethics, and religious practice.",
+  "originDate": "c. 1400–500 BCE (traditional: c. 1400 BCE)",
+  "originalLanguage": "Hebrew (Biblical)",
+  "era": "Ancient Near East (Bronze/Iron Age)",
+  "centralThemes": ["Covenant (Brit)", "Law (Mitzvot)", "Chosen people", "Justice and righteousness", "Holiness and purity", "Land of Israel"],
+  "structure": "5 books, 187 chapters, 5,845 verses",
+  "quickFacts": [
+    { "label": "Language", "value": "Biblical Hebrew" },
+    { "label": "Composed", "value": "c. 1400–500 BCE" },
+    { "label": "Books", "value": "Genesis, Exodus, Leviticus, Numbers, Deuteronomy" },
+    { "label": "Key Figure", "value": "Moses" },
+    { "label": "Central Concept", "value": "Covenant between God and Israel" },
+    { "label": "Verses", "value": "5,845" }
+  ],
+  "chapters": [
+    {
+      "id": "torah-gen-1",
+      "number": 1,
+      "title": "Genesis 1 – The Creation",
+      "verses": [
+        {
+          "id": "torah-gen-1-1",
+          "number": 1,
+          "text": "In the beginning God created the heaven and the earth. Now the earth was unformed and void, and darkness was upon the face of the deep; and the spirit of God hovered over the face of the waters.",
+          "source": { "translator": "Jewish Publication Society (JPS)", "year": 1917, "license": "Public Domain" }
+        },
+        {
+          "id": "torah-gen-1-27",
+          "number": 27,
+          "text": "And God created man in His own image, in the image of God created He him; male and female created He them.",
+          "source": { "translator": "Jewish Publication Society (JPS)", "year": 1917, "license": "Public Domain" }
+        }
+      ]
+    },
+    {
+      "id": "torah-gen-12",
+      "number": 2,
+      "title": "Genesis 12 – The Call of Abraham",
+      "verses": [
+        {
+          "id": "torah-gen-12-1",
+          "number": 1,
+          "text": "Now the Lord said unto Abram: 'Get thee out of thy country, and from thy kindred, and from thy father's house, unto the land that I will show thee. And I will make of thee a great nation, and I will bless thee, and make thy name great; and be thou a blessing.'",
+          "source": { "translator": "Jewish Publication Society (JPS)", "year": 1917, "license": "Public Domain" }
+        }
+      ]
+    },
+    {
+      "id": "torah-ex-3",
+      "number": 3,
+      "title": "Exodus 3 – The Burning Bush",
+      "verses": [
+        {
+          "id": "torah-ex-3-14",
+          "number": 14,
+          "text": "And God said unto Moses: 'I AM THAT I AM'; and He said: 'Thus shalt thou say unto the children of Israel: I AM hath sent me unto you.'",
+          "source": { "translator": "Jewish Publication Society (JPS)", "year": 1917, "license": "Public Domain" }
+        }
+      ]
+    },
+    {
+      "id": "torah-ex-20",
+      "number": 4,
+      "title": "Exodus 20 – The Ten Commandments",
+      "verses": [
+        {
+          "id": "torah-ex-20-1",
+          "number": 1,
+          "text": "And God spoke all these words, saying: 'I am the Lord thy God, who brought thee out of the land of Egypt, out of the house of bondage. Thou shalt have no other gods before Me.'",
+          "source": { "translator": "Jewish Publication Society (JPS)", "year": 1917, "license": "Public Domain" }
+        },
+        {
+          "id": "torah-ex-20-12",
+          "number": 12,
+          "text": "Honor thy father and thy mother, that thy days may be long upon the land which the Lord thy God giveth thee.",
+          "source": { "translator": "Jewish Publication Society (JPS)", "year": 1917, "license": "Public Domain" }
+        },
+        {
+          "id": "torah-ex-20-13",
+          "number": 13,
+          "text": "Thou shalt not murder. Thou shalt not commit adultery. Thou shalt not steal. Thou shalt not bear false witness against thy neighbor. Thou shalt not covet.",
+          "source": { "translator": "Jewish Publication Society (JPS)", "year": 1917, "license": "Public Domain" }
+        }
+      ]
+    },
+    {
+      "id": "torah-lv-19",
+      "number": 5,
+      "title": "Leviticus 19 – The Holiness Code",
+      "verses": [
+        {
+          "id": "torah-lv-19-18",
+          "number": 18,
+          "text": "Thou shalt not take vengeance, nor bear any grudge against the children of thy people, but thou shalt love thy neighbor as thyself: I am the Lord.",
+          "source": { "translator": "Jewish Publication Society (JPS)", "year": 1917, "license": "Public Domain" }
+        }
+      ]
+    },
+    {
+      "id": "torah-nm-6",
+      "number": 6,
+      "title": "Numbers 6 – The Priestly Blessing",
+      "verses": [
+        {
+          "id": "torah-nm-6-24",
+          "number": 24,
+          "text": "The Lord bless thee, and keep thee; the Lord make His face to shine upon thee, and be gracious unto thee; the Lord lift up His countenance upon thee, and give thee peace.",
+          "source": { "translator": "Jewish Publication Society (JPS)", "year": 1917, "license": "Public Domain" }
+        }
+      ]
+    },
+    {
+      "id": "torah-dt-6",
+      "number": 7,
+      "title": "Deuteronomy 6 – The Shema",
+      "verses": [
+        {
+          "id": "torah-dt-6-4",
+          "number": 4,
+          "text": "Hear, O Israel: The Lord our God, the Lord is One. And thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy might.",
+          "source": { "translator": "Jewish Publication Society (JPS)", "year": 1917, "license": "Public Domain" }
+        }
+      ]
+    },
+    {
+      "id": "torah-dt-10",
+      "number": 8,
+      "title": "Deuteronomy 10 – What God Requires",
+      "verses": [
+        {
+          "id": "torah-dt-10-12",
+          "number": 12,
+          "text": "And now, Israel, what doth the Lord thy God require of thee, but to fear the Lord thy God, to walk in all His ways, and to love Him, and to serve the Lord thy God with all thy heart and with all thy soul; to keep the commandments of the Lord, and His statutes, which I command thee this day for thy good?",
+          "source": { "translator": "Jewish Publication Society (JPS)", "year": 1917, "license": "Public Domain" }
+        }
+      ]
+    },
+    {
+      "id": "torah-dt-30",
+      "number": 9,
+      "title": "Deuteronomy 30 – Choose Life",
+      "verses": [
+        {
+          "id": "torah-dt-30-19",
+          "number": 19,
+          "text": "I call heaven and earth to witness against you this day, that I have set before thee life and death, the blessing and the curse; therefore choose life, that thou mayest live, thou and thy seed.",
+          "source": { "translator": "Jewish Publication Society (JPS)", "year": 1917, "license": "Public Domain" }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "id": "dhammapada",
+  "title": "Dhammapada",
+  "subtitle": "The Path of the Dhamma (The Buddha's Teachings)",
+  "religion": "Buddhism",
+  "slug": "dhammapada",
+  "description": "A collection of sayings of the Buddha in verse form, considered one of the most widely read and revered Buddhist scriptures, forming part of the Pali Canon (Tipitaka).",
+  "summary": "The Dhammapada (Path of Truth) contains 423 verses organized into 26 chapters, each addressing a specific aspect of the Buddhist path. It covers the fundamentals of Buddhist ethics, the nature of the mind, the importance of mindfulness, the consequences of actions (karma), and the ultimate goal of enlightenment (Nirvana). It emphasizes personal responsibility, compassion, non-violence, and mental discipline as the path to liberation from suffering.",
+  "originDate": "c. 5th–3rd century BCE",
+  "originalLanguage": "Pali",
+  "era": "Ancient India",
+  "centralThemes": ["The nature of mind", "Karma and rebirth", "Mindfulness and discipline", "Compassion (Karuna)", "Non-violence (Ahimsa)", "The path to Nirvana"],
+  "structure": "26 chapters, 423 verses",
+  "quickFacts": [
+    { "label": "Language", "value": "Pali" },
+    { "label": "Compiled", "value": "c. 5th–3rd century BCE" },
+    { "label": "Part of", "value": "Pali Canon (Khuddaka Nikaya)" },
+    { "label": "Key Figure", "value": "Gautama Buddha" },
+    { "label": "Central Concept", "value": "The Four Noble Truths and Eightfold Path" },
+    { "label": "Verses", "value": "423" }
+  ],
+  "chapters": [
+    {
+      "id": "dhp-1",
+      "number": 1,
+      "title": "Yamaka Vagga (The Twin Verses)",
+      "verses": [
+        {
+          "id": "dhp-1-1",
+          "number": 1,
+          "text": "Mind precedes all mental states. Mind is their chief; they are all mind-wrought. If with an impure mind a person speaks or acts, suffering follows him like the wheel that follows the foot of the ox.",
+          "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" }
+        },
+        {
+          "id": "dhp-1-2",
+          "number": 2,
+          "text": "Mind precedes all mental states. Mind is their chief; they are all mind-wrought. If with a pure mind a person speaks or acts, happiness follows him like his never-departing shadow.",
+          "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" }
+        },
+        {
+          "id": "dhp-1-5",
+          "number": 5,
+          "text": "Hatred is never appeased by hatred in this world. By love alone is hatred appeased. This is an ancient truth.",
+          "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" }
+        }
+      ]
+    },
+    {
+      "id": "dhp-2",
+      "number": 2,
+      "title": "Appamada Vagga (On Earnestness)",
+      "verses": [
+        {
+          "id": "dhp-2-21",
+          "number": 21,
+          "text": "Earnestness is the path of immortality, thoughtlessness the path of death. Those who are earnest do not die; those who are thoughtless are as if dead already.",
+          "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" }
+        },
+        {
+          "id": "dhp-2-24",
+          "number": 24,
+          "text": "By earnestness, by self-control, by restraint, let the wise person make for themselves an island which no flood can overwhelm.",
+          "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" }
+        }
+      ]
+    },
+    {
+      "id": "dhp-3",
+      "number": 3,
+      "title": "Citta Vagga (The Mind)",
+      "verses": [
+        {
+          "id": "dhp-3-33",
+          "number": 33,
+          "text": "The mind is wavering and restless, difficult to guard and restrain. The wise person straightens the mind as a fletcher straightens an arrow.",
+          "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" }
+        },
+        {
+          "id": "dhp-3-35",
+          "number": 35,
+          "text": "Good is the taming of the mind, for a well-tamed mind brings happiness.",
+          "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" }
+        }
+      ]
+    },
+    {
+      "id": "dhp-4",
+      "number": 4,
+      "title": "Puppha Vagga (Flowers)",
+      "verses": [
+        {
+          "id": "dhp-4-50",
+          "number": 50,
+          "text": "Let none find fault with others; let none see the omissions and commissions of others. But let one see one's own acts, done and undone.",
+          "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" }
+        }
+      ]
+    },
+    {
+      "id": "dhp-5",
+      "number": 5,
+      "title": "Bala Vagga (The Fool)",
+      "verses": [
+        {
+          "id": "dhp-5-60",
+          "number": 60,
+          "text": "Long is the night to the wakeful; long is the mile to the weary; long is the cycle of lives to the fool who knows not the true Dhamma.",
+          "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" }
+        }
+      ]
+    },
+    {
+      "id": "dhp-6",
+      "number": 6,
+      "title": "Pandita Vagga (The Wise)",
+      "verses": [
+        {
+          "id": "dhp-6-76",
+          "number": 76,
+          "text": "If you see an intelligent person who detects faults and blames what is blameworthy, follow that wise person as you would a guide to hidden treasure. Following such a one, you will prosper, not suffer.",
+          "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" }
+        }
+      ]
+    },
+    {
+      "id": "dhp-8",
+      "number": 7,
+      "title": "Sahassa Vagga (The Thousands)",
+      "verses": [
+        {
+          "id": "dhp-8-103",
+          "number": 103,
+          "text": "Better than one who conquers a thousand men in battle is the one who conquers oneself.",
+          "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" }
+        },
+        {
+          "id": "dhp-8-110",
+          "number": 110,
+          "text": "Better than living a hundred years without seeing the Supreme Truth is one single day of life for one who sees the Supreme Truth.",
+          "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" }
+        }
+      ]
+    },
+    {
+      "id": "dhp-10",
+      "number": 8,
+      "title": "Danda Vagga (Punishment)",
+      "verses": [
+        {
+          "id": "dhp-10-129",
+          "number": 129,
+          "text": "All tremble before violence. All fear death. Putting oneself in the place of another, one should not kill nor cause another to kill.",
+          "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" }
+        },
+        {
+          "id": "dhp-10-130",
+          "number": 130,
+          "text": "All tremble before violence. All love life. Putting oneself in the place of another, one should not kill nor cause another to kill.",
+          "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" }
+        }
+      ]
+    },
+    {
+      "id": "dhp-11",
+      "number": 9,
+      "title": "Jara Vagga (Old Age)",
+      "verses": [
+        {
+          "id": "dhp-11-152",
+          "number": 152,
+          "text": "The learned man who is not given to talkativeness, who is peaceful, energetic, and firm—the sage is honored by the wise.",
+          "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" }
+        }
+      ]
+    },
+    {
+      "id": "dhp-12",
+      "number": 10,
+      "title": "Atta Vagga (The Self)",
+      "verses": [
+        {
+          "id": "dhp-12-160",
+          "number": 160,
+          "text": "One is one's own refuge; what other refuge could there be? With self well-tamed, one obtains a refuge hard to find.",
+          "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" }
+        },
+        {
+          "id": "dhp-12-165",
+          "number": 165,
+          "text": "By oneself is evil done; by oneself is one defiled. By oneself is evil left undone; by oneself is one purified. Purity and impurity depend on oneself; no one can purify another.",
+          "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" }
+        }
+      ]
+    },
+    {
+      "id": "dhp-15",
+      "number": 11,
+      "title": "Sukha Vagga (Happiness)",
+      "verses": [
+        {
+          "id": "dhp-15-197",
+          "number": 197,
+          "text": "Let us live happily then, free from hatred among those who hate. Among people who hate, let us dwell free from hatred.",
+          "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" }
+        },
+        {
+          "id": "dhp-15-200",
+          "number": 200,
+          "text": "Let us live happily then, free from care, like beings of radiant light. For the enlightened, there is no sorrow.",
+          "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" }
+        }
+      ]
+    },
+    {
+      "id": "dhp-17",
+      "number": 12,
+      "title": "Kodha Vagga (Anger)",
+      "verses": [
+        {
+          "id": "dhp-17-221",
+          "number": 221,
+          "text": "Let go of anger; abandon pride. Transcend every worldly attachment. No suffering befalls one who is not attached to name and form.",
+          "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" }
+        },
+        {
+          "id": "dhp-17-223",
+          "number": 223,
+          "text": "Conquer anger by love; conquer evil by good; conquer the stingy by giving; conquer the liar by truth.",
+          "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" }
+        }
+      ]
+    },
+    {
+      "id": "dhp-18",
+      "number": 13,
+      "title": "Mala Vagga (Impurity)",
+      "verses": [
+        {
+          "id": "dhp-18-251",
+          "number": 251,
+          "text": "There is no fire like lust; no grip like hatred; no net like delusion; no river like craving.",
+          "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" }
+        }
+      ]
+    },
+    {
+      "id": "dhp-20",
+      "number": 14,
+      "title": "Magga Vagga (The Path)",
+      "verses": [
+        {
+          "id": "dhp-20-273",
+          "number": 273,
+          "text": "Among paths, the Eightfold Path is best; among truths, the Four Noble Truths; among states, freedom from passion is best; among beings, the Seeing One is best.",
+          "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" }
+        },
+        {
+          "id": "dhp-20-276",
+          "number": 276,
+          "text": "You yourselves must make the effort; the Buddhas only show the way. Those who practice the path and meditate will be released from the bonds of death.",
+          "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" }
+        }
+      ]
+    },
+    {
+      "id": "dhp-21",
+      "number": 15,
+      "title": "Pakinna Vagga (Miscellaneous)",
+      "verses": [
+        {
+          "id": "dhp-21-290",
+          "number": 290,
+          "text": "If by giving up a small happiness, one may obtain a greater happiness, let the wise give up the small happiness and look to the greater.",
+          "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" }
+        }
+      ]
+    },
+    {
+      "id": "dhp-24",
+      "number": 16,
+      "title": "Tanha Vagga (Craving)",
+      "verses": [
+        {
+          "id": "dhp-24-342",
+          "number": 342,
+          "text": "People driven by craving run about like a trapped hare. Held by fetters and bonds, they undergo suffering again and again for a long time.",
+          "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" }
+        }
+      ]
+    },
+    {
+      "id": "dhp-25",
+      "number": 17,
+      "title": "Bhikkhu Vagga (The Monk)",
+      "verses": [
+        {
+          "id": "dhp-25-362",
+          "number": 362,
+          "text": "One who controls the hands and feet and speech, and has full control of oneself, who delights in inward meditation and is content in solitude—that one is called a true practitioner.",
+          "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" }
+        }
+      ]
+    },
+    {
+      "id": "dhp-26",
+      "number": 18,
+      "title": "Brahmana Vagga (The Holy One)",
+      "verses": [
+        {
+          "id": "dhp-26-392",
+          "number": 392,
+          "text": "One who teaches the Dhamma, one should honor and revere as the Brahmin reveres the sacrificial fire.",
+          "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" }
+        }
+      ]
+    }
+  ]
+}

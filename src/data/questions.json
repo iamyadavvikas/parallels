@@ -1,0 +1,62 @@
+[
+  {
+    "id": "q-peace",
+    "question": "What does this text say about peace?",
+    "keywords": ["peace", "peacemakers", "shalom", "salaam", "harmony"],
+    "description": "Explore how different scriptures describe the nature of peace and how to achieve it."
+  },
+  {
+    "id": "q-golden-rule",
+    "question": "How should we treat others?",
+    "keywords": ["treat others", "golden rule", "neighbor", "love"],
+    "description": "Compare the versions of the Golden Rule and teachings on interpersonal conduct."
+  },
+  {
+    "id": "q-afterlife",
+    "question": "What happens after death?",
+    "keywords": ["death", "afterlife", "heaven", "hell", "rebirth", "immortality"],
+    "description": "Compare beliefs about what happens after death across traditions."
+  },
+  {
+    "id": "q-purpose",
+    "question": "What is the purpose of human life?",
+    "keywords": ["purpose", "meaning", "goal", "human existence"],
+    "description": "Explore how different scriptures define the meaning and purpose of human existence."
+  },
+  {
+    "id": "q-suffering",
+    "question": "Why is there suffering and how should we respond?",
+    "keywords": ["suffering", "pain", "hardship", "sorrow", "endure"],
+    "description": "Compare explanations for suffering and prescriptions for responding to it."
+  },
+  {
+    "id": "q-god",
+    "question": "What is the nature of God or the Ultimate Reality?",
+    "keywords": ["god", "divine", "ultimate", "creator", "nature of god"],
+    "description": "Explore different conceptions of the divine across religious traditions."
+  },
+  {
+    "id": "q-charity",
+    "question": "What is the importance of charity and giving?",
+    "keywords": ["charity", "giving", "alms", "generosity", "poor"],
+    "description": "Compare teachings on charity, generosity, and caring for the needy."
+  },
+  {
+    "id": "q-forgiveness",
+    "question": "How is forgiveness understood and practiced?",
+    "keywords": ["forgiveness", "forgive", "mercy", "repentance"],
+    "description": "Compare teachings on forgiveness—both divine forgiveness and forgiving others."
+  },
+  {
+    "id": "q-justice",
+    "question": "What is justice and how should it be pursued?",
+    "keywords": ["justice", "righteousness", "fair", "judgment"],
+    "description": "Explore the concept of justice and righteous living across traditions."
+  },
+  {
+    "id": "q-compassion",
+    "question": "What is the role of compassion in spiritual life?",
+    "keywords": ["compassion", "mercy", "kindness", "empathy"],
+    "description": "Compare teachings on compassion and mercy toward all beings."
+  }
+]

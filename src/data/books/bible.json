@@ -1,0 +1,234 @@
+{
+  "id": "bible",
+  "title": "The Bible",
+  "subtitle": "The Holy Scriptures (Old and New Testaments)",
+  "religion": "Christianity",
+  "slug": "bible",
+  "description": "A collection of sacred texts central to Christianity, comprising the Old Testament (shared with Judaism) and the New Testament, which details the life and teachings of Jesus Christ.",
+  "summary": "The Bible is divided into two main sections: the Old Testament, which traces God's covenant with Israel through law, prophecy, and poetry; and the New Testament, which documents the life, death, and resurrection of Jesus Christ, the founding of the Church, and early Christian teachings. Its central theme is God's redemptive plan for humanity through covenant, faith, and grace.",
+  "originDate": "c. 1400 BCE – 100 CE",
+  "originalLanguage": "Hebrew, Aramaic, Greek",
+  "era": "Ancient Near East and Roman Empire",
+  "centralThemes": ["Covenant with God", "Redemption and salvation", "Faith and grace", "Love and forgiveness", "Justice and mercy", "Resurrection and eternal life"],
+  "structure": "66 books (39 OT, 27 NT), 1,189 chapters",
+  "quickFacts": [
+    { "label": "Languages", "value": "Hebrew, Aramaic, Koine Greek" },
+    { "label": "Composed", "value": "c. 1400 BCE – 100 CE" },
+    { "label": "Divisions", "value": "Old Testament + New Testament" },
+    { "label": "Key Figure", "value": "Jesus Christ (New Testament)" },
+    { "label": "Central Theme", "value": "God's redemptive plan for humanity" },
+    { "label": "Verses", "value": "31,102 (varies by tradition)" }
+  ],
+  "chapters": [
+    {
+      "id": "bible-gen-1",
+      "number": 1,
+      "title": "Genesis 1 – The Creation",
+      "verses": [
+        {
+          "id": "bible-gen-1-1",
+          "number": 1,
+          "text": "In the beginning, God created the heavens and the earth. The earth was without form and void, and darkness was over the face of the deep. And the Spirit of God was hovering over the face of the waters.",
+          "source": { "translator": "World English Bible", "year": 2000, "license": "Public Domain" }
+        },
+        {
+          "id": "bible-gen-1-27",
+          "number": 27,
+          "text": "So God created man in his own image. In the image of God he created him; male and female he created them.",
+          "source": { "translator": "World English Bible", "year": 2000, "license": "Public Domain" }
+        }
+      ]
+    },
+    {
+      "id": "bible-ex-20",
+      "number": 2,
+      "title": "Exodus 20 – The Ten Commandments",
+      "verses": [
+        {
+          "id": "bible-ex-20-2",
+          "number": 2,
+          "text": "I am Yahweh your God, who brought you out of the land of Egypt, out of the house of bondage. You shall have no other gods before me.",
+          "source": { "translator": "World English Bible", "year": 2000, "license": "Public Domain" }
+        },
+        {
+          "id": "bible-ex-20-12",
+          "number": 12,
+          "text": "Honor your father and your mother, that your days may be long in the land which Yahweh your God gives you.",
+          "source": { "translator": "World English Bible", "year": 2000, "license": "Public Domain" }
+        }
+      ]
+    },
+    {
+      "id": "bible-ps-23",
+      "number": 3,
+      "title": "Psalm 23 – The Lord is My Shepherd",
+      "verses": [
+        {
+          "id": "bible-ps-23-1",
+          "number": 1,
+          "text": "Yahweh is my shepherd; I shall lack nothing. He makes me lie down in green pastures. He leads me beside still waters. He restores my soul.",
+          "source": { "translator": "World English Bible", "year": 2000, "license": "Public Domain" }
+        },
+        {
+          "id": "bible-ps-23-4",
+          "number": 4,
+          "text": "Even though I walk through the valley of the shadow of death, I will fear no evil, for you are with me. Your rod and your staff, they comfort me.",
+          "source": { "translator": "World English Bible", "year": 2000, "license": "Public Domain" }
+        }
+      ]
+    },
+    {
+      "id": "bible-pr-3",
+      "number": 4,
+      "title": "Proverbs 3 – Trust in the Lord",
+      "verses": [
+        {
+          "id": "bible-pr-3-5",
+          "number": 5,
+          "text": "Trust in Yahweh with all your heart, and don't lean on your own understanding. In all your ways acknowledge him, and he will make your paths straight.",
+          "source": { "translator": "World English Bible", "year": 2000, "license": "Public Domain" }
+        }
+      ]
+    },
+    {
+      "id": "bible-isa-40",
+      "number": 5,
+      "title": "Isaiah 40 – Comfort for God's People",
+      "verses": [
+        {
+          "id": "bible-isa-40-31",
+          "number": 31,
+          "text": "But those who wait for Yahweh will renew their strength. They will mount up with wings like eagles. They will run, and not be weary. They will walk, and not faint.",
+          "source": { "translator": "World English Bible", "year": 2000, "license": "Public Domain" }
+        }
+      ]
+    },
+    {
+      "id": "bible-mt-5",
+      "number": 6,
+      "title": "Matthew 5 – The Sermon on the Mount (Beatitudes)",
+      "verses": [
+        {
+          "id": "bible-mt-5-3",
+          "number": 3,
+          "text": "Blessed are the poor in spirit, for theirs is the Kingdom of Heaven. Blessed are those who mourn, for they shall be comforted. Blessed are the meek, for they shall inherit the earth.",
+          "source": { "translator": "World English Bible", "year": 2000, "license": "Public Domain" }
+        },
+        {
+          "id": "bible-mt-5-9",
+          "number": 9,
+          "text": "Blessed are the peacemakers, for they shall be called children of God.",
+          "source": { "translator": "World English Bible", "year": 2000, "license": "Public Domain" }
+        },
+        {
+          "id": "bible-mt-5-14",
+          "number": 14,
+          "text": "You are the light of the world. A city located on a hill cannot be hidden.",
+          "source": { "translator": "World English Bible", "year": 2000, "license": "Public Domain" }
+        },
+        {
+          "id": "bible-mt-5-44",
+          "number": 44,
+          "text": "But I tell you: love your enemies, bless those who curse you, do good to those who hate you, and pray for those who mistreat you and persecute you.",
+          "source": { "translator": "World English Bible", "year": 2000, "license": "Public Domain" }
+        }
+      ]
+    },
+    {
+      "id": "bible-mt-22",
+      "number": 7,
+      "title": "Matthew 22 – The Great Commandment",
+      "verses": [
+        {
+          "id": "bible-mt-22-37",
+          "number": 37,
+          "text": "Jesus said to him: 'You shall love the Lord your God with all your heart, with all your soul, and with all your mind.' This is the first and great commandment. A second likewise is this: 'You shall love your neighbor as yourself.'",
+          "source": { "translator": "World English Bible", "year": 2000, "license": "Public Domain" }
+        }
+      ]
+    },
+    {
+      "id": "bible-jn-3",
+      "number": 8,
+      "title": "John 3 – The New Birth",
+      "verses": [
+        {
+          "id": "bible-jn-3-16",
+          "number": 16,
+          "text": "For God so loved the world, that he gave his only born Son, that whoever believes in him should not perish, but have eternal life.",
+          "source": { "translator": "World English Bible", "year": 2000, "license": "Public Domain" }
+        }
+      ]
+    },
+    {
+      "id": "bible-jn-14",
+      "number": 9,
+      "title": "John 14 – The Way, the Truth, and the Life",
+      "verses": [
+        {
+          "id": "bible-jn-14-6",
+          "number": 6,
+          "text": "Jesus said to him: 'I am the way, the truth, and the life. No one comes to the Father except through me.'",
+          "source": { "translator": "World English Bible", "year": 2000, "license": "Public Domain" }
+        },
+        {
+          "id": "bible-jn-14-27",
+          "number": 27,
+          "text": "Peace I leave with you. My peace I give to you; not as the world gives, I give to you. Don't let your heart be troubled, neither let it be fearful.",
+          "source": { "translator": "World English Bible", "year": 2000, "license": "Public Domain" }
+        }
+      ]
+    },
+    {
+      "id": "bible-1cor-13",
+      "number": 10,
+      "title": "1 Corinthians 13 – The Greatest is Love",
+      "verses": [
+        {
+          "id": "bible-1cor-13-4",
+          "number": 4,
+          "text": "Love is patient and is kind. Love doesn't envy. Love doesn't brag, is not proud. It doesn't behave itself inappropriately, is not self-seeking, is not provoked, takes no account of evil.",
+          "source": { "translator": "World English Bible", "year": 2000, "license": "Public Domain" }
+        },
+        {
+          "id": "bible-1cor-13-13",
+          "number": 13,
+          "text": "But now faith, hope, and love remain—these three. The greatest of these is love.",
+          "source": { "translator": "World English Bible", "year": 2000, "license": "Public Domain" }
+        }
+      ]
+    },
+    {
+      "id": "bible-rm-12",
+      "number": 11,
+      "title": "Romans 12 – Living Sacrifice",
+      "verses": [
+        {
+          "id": "bible-rm-12-9",
+          "number": 9,
+          "text": "Let love be without hypocrisy. Abhor what is evil. Cling to what is good. In brotherly love, be affectionate to one another in family love; outdo one another in showing honor.",
+          "source": { "translator": "World English Bible", "year": 2000, "license": "Public Domain" }
+        },
+        {
+          "id": "bible-rm-12-21",
+          "number": 21,
+          "text": "Don't be overcome by evil, but overcome evil with good.",
+          "source": { "translator": "World English Bible", "year": 2000, "license": "Public Domain" }
+        }
+      ]
+    },
+    {
+      "id": "bible-rev-21",
+      "number": 12,
+      "title": "Revelation 21 – A New Heaven and a New Earth",
+      "verses": [
+        {
+          "id": "bible-rev-21-4",
+          "number": 4,
+          "text": "He will wipe away every tear from their eyes. Death will be no more; neither will there be mourning, nor crying, nor pain any more. The first things have passed away.",
+          "source": { "translator": "World English Bible", "year": 2000, "license": "Public Domain" }
+        }
+      ]
+    }
+  ]
+}

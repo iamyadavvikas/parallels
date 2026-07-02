@@ -1,0 +1,214 @@
+{
+  "id": "bhagavad-gita",
+  "title": "Bhagavad Gita",
+  "subtitle": "The Song of the Lord",
+  "religion": "Hinduism",
+  "slug": "bhagavad-gita",
+  "description": "A 700-verse Hindu scripture that is part of the epic Mahabharata, set in a dialogue between Prince Arjuna and the god Krishna about duty, righteousness, and the nature of reality.",
+  "summary": "The Bhagavad Gita presents a synthesis of Hindu concepts about dharma (duty), bhakti (devotion), and jnana (knowledge). Arjuna, facing a war against his own kin, is counseled by Krishna on the nature of life, death, and the soul's immortality. The text explores paths to liberation: karma yoga (the path of action), bhakti yoga (the path of devotion), and jnana yoga (the path of knowledge).",
+  "originDate": "c. 2nd century BCE",
+  "originalLanguage": "Sanskrit",
+  "era": "Ancient India (Mauryan period)",
+  "centralThemes": ["Dharma (duty)", "Reincarnation", "Selfless action", "Devotion to God", "Paths to liberation", "The nature of the soul"],
+  "structure": "18 chapters, 700 verses",
+  "quickFacts": [
+    { "label": "Language", "value": "Sanskrit" },
+    { "label": "Composed", "value": "c. 200 BCE – 200 CE" },
+    { "label": "Part of", "value": "Mahabharata (Bhishma Parva)" },
+    { "label": "Key Figure", "value": "Krishna (divine teacher)" },
+    { "label": "Central Philosophy", "value": "Vedanta / Yoga" },
+    { "label": "Verses", "value": "700" }
+  ],
+  "chapters": [
+    {
+      "id": "bg-1",
+      "number": 1,
+      "title": "Arjuna Vishada Yoga (The Despondency of Arjuna)",
+      "verses": [
+        {
+          "id": "bg-1-1",
+          "number": 1,
+          "text": "Dhritarashtra said: O Sanjaya, assembled on the holy field of Kurukshetra, desiring to fight, what did my people and the Pandavas do?",
+          "source": { "translator": "Edwin Arnold", "year": 1885, "license": "Public Domain" }
+        },
+        {
+          "id": "bg-1-47",
+          "number": 47,
+          "text": "Arjuna said: I shall not fight—thus spoke Arjuna to Govinda, and with these words, he sat down on the chariot, casting aside his bow and arrows, his mind overwhelmed with grief.",
+          "source": { "translator": "Edwin Arnold", "year": 1885, "license": "Public Domain" }
+        }
+      ]
+    },
+    {
+      "id": "bg-2",
+      "number": 2,
+      "title": "Sankhya Yoga (The Yoga of Knowledge)",
+      "verses": [
+        {
+          "id": "bg-2-20",
+          "number": 20,
+          "text": "For the soul there is neither birth nor death at any time. It has not come into being, does not come into being, and will not come into being. It is unborn, eternal, ever-existing, and primeval. It is not slain when the body is slain.",
+          "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" }
+        },
+        {
+          "id": "bg-2-47",
+          "number": 47,
+          "text": "You have a right to perform your prescribed duties, but you are not entitled to the fruits of your actions. Never consider yourself to be the cause of the results of your activities, nor be attached to inaction.",
+          "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" }
+        },
+        {
+          "id": "bg-2-56",
+          "number": 56,
+          "text": "He whose mind is untroubled in the midst of sorrows and is free from eager desire amid pleasures, he from whom passion, fear, and rage have passed away—he is called a sage of steady wisdom.",
+          "source": { "translator": "Edwin Arnold", "year": 1885, "license": "Public Domain" }
+        }
+      ]
+    },
+    {
+      "id": "bg-3",
+      "number": 3,
+      "title": "Karma Yoga (The Yoga of Action)",
+      "verses": [
+        {
+          "id": "bg-3-8",
+          "number": 8,
+          "text": "Perform your prescribed duties, for action is superior to inaction. Even the maintenance of your body would not be possible through inaction.",
+          "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" }
+        },
+        {
+          "id": "bg-3-19",
+          "number": 19,
+          "text": "Therefore, without attachment, perform always the work that has to be done; for by performing work without attachment, man verily reaches the Supreme.",
+          "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" }
+        },
+        {
+          "id": "bg-3-21",
+          "number": 21,
+          "text": "Whatever a great man does, others imitate. Whatever standard he sets, the world follows.",
+          "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" }
+        }
+      ]
+    },
+    {
+      "id": "bg-4",
+      "number": 4,
+      "title": "Jnana Karma Sannyasa Yoga (The Yoga of Wisdom and Action)",
+      "verses": [
+        {
+          "id": "bg-4-7",
+          "number": 7,
+          "text": "Whenever there is a decline of righteousness and a rise of unrighteousness, O Arjuna, I manifest Myself.",
+          "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" }
+        },
+        {
+          "id": "bg-4-8",
+          "number": 8,
+          "text": "For the protection of the good, for the destruction of the wicked, and for the establishment of righteousness, I come into being age after age.",
+          "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" }
+        }
+      ]
+    },
+    {
+      "id": "bg-6",
+      "number": 6,
+      "title": "Dhyana Yoga (The Yoga of Meditation)",
+      "verses": [
+        {
+          "id": "bg-6-5",
+          "number": 5,
+          "text": "Let a man lift himself by his own Self; let him not degrade himself; for the Self alone is the friend of the self, and the Self alone is the enemy of the self.",
+          "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" }
+        },
+        {
+          "id": "bg-6-30",
+          "number": 30,
+          "text": "He who sees Me everywhere and sees everything in Me, never becomes separated from Me, nor do I become separated from him.",
+          "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" }
+        }
+      ]
+    },
+    {
+      "id": "bg-9",
+      "number": 9,
+      "title": "Raja Vidya Raja Guhya Yoga (The Yoga of Sovereign Knowledge and Sovereign Secret)",
+      "verses": [
+        {
+          "id": "bg-9-22",
+          "number": 22,
+          "text": "To those who worship Me with devotion, meditating on Me, I give what they lack and preserve what they have.",
+          "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" }
+        },
+        {
+          "id": "bg-9-27",
+          "number": 27,
+          "text": "Whatever you do, whatever you eat, whatever you offer, whatever you give away, whatever austerities you perform—do that as an offering unto Me.",
+          "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" }
+        }
+      ]
+    },
+    {
+      "id": "bg-11",
+      "number": 11,
+      "title": "Vishvarupa Darshana Yoga (The Yoga of the Vision of the Universal Form)",
+      "verses": [
+        {
+          "id": "bg-11-32",
+          "number": 32,
+          "text": "The Lord said: I am Time, the great destroyer of the worlds, and I have come here to destroy all people. Even without you, all the warriors arrayed in the opposing armies shall cease to exist.",
+          "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" }
+        }
+      ]
+    },
+    {
+      "id": "bg-12",
+      "number": 12,
+      "title": "Bhakti Yoga (The Yoga of Devotion)",
+      "verses": [
+        {
+          "id": "bg-12-13",
+          "number": 13,
+          "text": "He who hates no creature, who is friendly and compassionate, who is free from egoism and the sense of 'mine,' who is equal in pain and pleasure, who is forgiving—such a devotee is dear to Me.",
+          "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" }
+        },
+        {
+          "id": "bg-12-15",
+          "number": 15,
+          "text": "He by whom the world is not troubled and who is not troubled by the world, who is free from joy and envy, fear and anxiety—he is dear to Me.",
+          "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" }
+        }
+      ]
+    },
+    {
+      "id": "bg-15",
+      "number": 15,
+      "title": "Purushottama Yoga (The Yoga of the Supreme Person)",
+      "verses": [
+        {
+          "id": "bg-15-7",
+          "number": 7,
+          "text": "An eternal portion of Myself becomes the living soul in the world of living beings, drawing to itself the five senses and the mind, which rest in Nature.",
+          "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" }
+        }
+      ]
+    },
+    {
+      "id": "bg-18",
+      "number": 18,
+      "title": "Moksha Sannyasa Yoga (The Yoga of Liberation and Renunciation)",
+      "verses": [
+        {
+          "id": "bg-18-66",
+          "number": 66,
+          "text": "Abandon all varieties of dharmas and surrender unto Me alone. I shall liberate you from all sins; do not grieve.",
+          "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" }
+        },
+        {
+          "id": "bg-18-78",
+          "number": 78,
+          "text": "Where there is Krishna, the Lord of Yoga, and where there is Arjuna, the wielder of the bow, there will be prosperity, victory, power, and righteousness—such is my conviction.",
+          "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" }
+        }
+      ]
+    }
+  ]
+}
