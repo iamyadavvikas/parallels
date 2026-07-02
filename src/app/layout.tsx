@@ -7,6 +7,7 @@ import CommandPalette from "@/components/ui/CommandPalette";
 import AmbientPlayer from "@/components/ui/AmbientPlayer";
 import PageTransition from "@/components/ui/PageTransition";
 import UIReviewAgent from "@/components/ui/UIReviewAgent";
+import ErrorBoundary from "@/components/ui/ErrorBoundary";
 
 export const metadata: Metadata = {
   title: "Parallels — Explore Sacred Scriptures",
@@ -41,7 +42,9 @@ export default function RootLayout({
           <UIReviewAgent />
           <Navbar />
           <main id="main-content" className="relative z-10 mx-auto w-full max-w-6xl flex-1 px-4 pb-24 pt-8 md:pb-8">
-            <PageTransition>{children}</PageTransition>
+            <ErrorBoundary>
+              <PageTransition>{children}</PageTransition>
+            </ErrorBoundary>
           </main>
           <footer className="relative z-10 hidden md:block py-10 text-center">
             <div className="footer-accent-line mx-auto mb-6 max-w-md" />
