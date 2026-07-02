@@ -9,15 +9,40 @@
   "originDate": "c. 3rd century BCE",
   "originalLanguage": "Pali",
   "era": "Ancient India (Mauryan period)",
-  "centralThemes": ["Mindfulness", "Ethical conduct", "Mental discipline", "Impermanence", "Karma", "The path to enlightenment"],
+  "centralThemes": [
+    "Mindfulness",
+    "Ethical conduct",
+    "Mental discipline",
+    "Impermanence",
+    "Karma",
+    "The path to enlightenment"
+  ],
   "structure": "26 chapters, 423 verses",
   "quickFacts": [
-    { "label": "Language", "value": "Pali" },
-    { "label": "Composed", "value": "c. 3rd century BCE" },
-    { "label": "Part of", "value": "Khuddaka Nikaya" },
-    { "label": "Key Figure", "value": "Siddhartha Gautama (Buddha)" },
-    { "label": "Central Philosophy", "value": "Theravada Buddhism" },
-    { "label": "Verses", "value": "423" }
+    {
+      "label": "Language",
+      "value": "Pali"
+    },
+    {
+      "label": "Composed",
+      "value": "c. 3rd century BCE"
+    },
+    {
+      "label": "Part of",
+      "value": "Khuddaka Nikaya"
+    },
+    {
+      "label": "Key Figure",
+      "value": "Siddhartha Gautama (Buddha)"
+    },
+    {
+      "label": "Central Philosophy",
+      "value": "Theravada Buddhism"
+    },
+    {
+      "label": "Verses",
+      "value": "423"
+    }
   ],
   "chapters": [
     {
@@ -25,16 +50,106 @@
       "number": 1,
       "title": "Yamaka Vagga (The Twin Verses)",
       "verses": [
-        { "id": "dp-1-1", "number": 1, "text": "Mind precedes all mental states. Mind is their chief; they are all mind-wrought. If with an impure mind a person speaks or acts, suffering follows him like the wheel that follows the foot of the ox.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-        { "id": "dp-1-2", "number": 2, "text": "Mind precedes all mental states. Mind is their chief; they are all mind-wrought. If with a pure mind a person speaks or acts, happiness follows him like his never-departing shadow.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-        { "id": "dp-1-3", "number": 3, "text": "He abused me, he struck me, he overpowered me, he robbed me. Those who harbor such thoughts do not still their hatred.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-        { "id": "dp-1-4", "number": 4, "text": "He abused me, he struck me, he overpowered me, he robbed me. Those who do not harbor such thoughts still their hatred.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-        { "id": "dp-1-5", "number": 5, "text": "Hatred is never appeased by hatred in this world. By non-hatred alone is hatred appeased. This is an eternal law.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-        { "id": "dp-1-6", "number": 6, "text": "Those who think they can defeat others, and those who think they can be defeated—both are wrong. Both the victor and the vanquished experience suffering.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-        { "id": "dp-1-127", "number": 127, "text": "By oneself is evil done; by oneself is one defiled. By oneself is evil left undone; by oneself is one purified. Purity and impurity depend on oneself; no one can purify another.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-        { "id": "dp-1-128", "number": 128, "text": "Do not neglect your own welfare for the welfare of others, however great. Know well what is your welfare and be intent on it.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-        { "id": "dp-1-133", "number": 133, "text": "Control yourself, not others. The well-controlled person enters the untroubled land.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-        { "id": "dp-1-165", "number": 165, "text": "One should first establish oneself in what is proper; then only should one instruct others. Thus the wise person will not be reproached.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } }
+        {
+          "id": "dp-1-1",
+          "number": 1,
+          "text": "Mind precedes all mental states. Mind is their chief; they are all mind-wrought. If with an impure mind a person speaks or acts, suffering follows him like the wheel that follows the foot of the ox.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-1-2",
+          "number": 2,
+          "text": "Mind precedes all mental states. Mind is their chief; they are all mind-wrought. If with a pure mind a person speaks or acts, happiness follows him like his never-departing shadow.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-1-3",
+          "number": 3,
+          "text": "He abused me, he struck me, he overpowered me, he robbed me. Those who harbor such thoughts do not still their hatred.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-1-4",
+          "number": 4,
+          "text": "He abused me, he struck me, he overpowered me, he robbed me. Those who do not harbor such thoughts still their hatred.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-1-5",
+          "number": 5,
+          "text": "Hatred is never appeased by hatred in this world. By non-hatred alone is hatred appeased. This is an eternal law.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-1-6",
+          "number": 6,
+          "text": "Those who think they can defeat others, and those who think they can be defeated—both are wrong. Both the victor and the vanquished experience suffering.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-1-127",
+          "number": 127,
+          "text": "By oneself is evil done; by oneself is one defiled. By oneself is evil left undone; by oneself is one purified. Purity and impurity depend on oneself; no one can purify another.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-1-128",
+          "number": 128,
+          "text": "Do not neglect your own welfare for the welfare of others, however great. Know well what is your welfare and be intent on it.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-1-133",
+          "number": 133,
+          "text": "Control yourself, not others. The well-controlled person enters the untroubled land.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-1-165",
+          "number": 165,
+          "text": "One should first establish oneself in what is proper; then only should one instruct others. Thus the wise person will not be reproached.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        }
       ]
     },
     {
@@ -42,9 +157,36 @@
       "number": 2,
       "title": "Appamada Vagga (On Earnestness)",
       "verses": [
-        { "id": "dp-2-1", "number": 1, "text": "Earnestness is the path of immortality, negligence the path of death. Those who are earnest do not die; those who are negligent are already dead.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-        { "id": "dp-2-2", "number": 2, "text": "Understanding this, the wise person who is earnest rejoices in earnestness and delights in it.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-        { "id": "dp-2-3", "number": 3, "text": "The wise and earnest person, through zeal, meditation, and self-discipline, achieves the island that no flood can overwhelm.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } }
+        {
+          "id": "dp-2-1",
+          "number": 1,
+          "text": "Earnestness is the path of immortality, negligence the path of death. Those who are earnest do not die; those who are negligent are already dead.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-2-2",
+          "number": 2,
+          "text": "Understanding this, the wise person who is earnest rejoices in earnestness and delights in it.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-2-3",
+          "number": 3,
+          "text": "The wise and earnest person, through zeal, meditation, and self-discipline, achieves the island that no flood can overwhelm.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        }
       ]
     },
     {
@@ -52,11 +194,56 @@
       "number": 3,
       "title": "Citta Vagga (The Mind)",
       "verses": [
-        { "id": "dp-3-1", "number": 1, "text": "The mind is hard to restrain, swift it flies wherever it will. To control the mind is good; a well-controlled mind brings happiness.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-        { "id": "dp-3-2", "number": 2, "text": "The mind is hard to see, subtle it flies wherever it will. The wise person guards the mind, which brings happiness.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-        { "id": "dp-3-6", "number": 6, "text": "Whatever an enemy may do to an enemy, or a hater to a hater, a wrongly directed mind will do us greater mischief.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-        { "id": "dp-3-8", "number": 8, "text": "Neither mother, nor father, nor any other relative can do as much good as a well-directed mind.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-        { "id": "dp-3-10", "number": 10, "text": "What the mind wishes, what the mind resolves, what the mind intends, and with the mind the deed is done. If one speaks or acts with a corrupt mind, suffering follows, as the wheel follows the hoof of the draught-ox.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } }
+        {
+          "id": "dp-3-1",
+          "number": 1,
+          "text": "The mind is hard to restrain, swift it flies wherever it will. To control the mind is good; a well-controlled mind brings happiness.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-3-2",
+          "number": 2,
+          "text": "The mind is hard to see, subtle it flies wherever it will. The wise person guards the mind, which brings happiness.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-3-6",
+          "number": 6,
+          "text": "Whatever an enemy may do to an enemy, or a hater to a hater, a wrongly directed mind will do us greater mischief.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-3-8",
+          "number": 8,
+          "text": "Neither mother, nor father, nor any other relative can do as much good as a well-directed mind.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-3-10",
+          "number": 10,
+          "text": "What the mind wishes, what the mind resolves, what the mind intends, and with the mind the deed is done. If one speaks or acts with a corrupt mind, suffering follows, as the wheel follows the hoof of the draught-ox.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        }
       ]
     },
     {
@@ -64,8 +251,26 @@
       "number": 4,
       "title": "Puppha Vagga (Flowers)",
       "verses": [
-        { "id": "dp-4-1", "number": 1, "text": "Who shall conquer this world and the world of death, and the world of the gods? Who shall discover the shining Path of truth, as the expert shall discover the fragrant flower?", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-        { "id": "dp-4-4", "number": 4, "text": "As on a heap of rubbish cast upon the highway, a lily may grow, sweet-smelling and delightful, so among blind followers of the Dhamma shines the disciple of the awakened Sage.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } }
+        {
+          "id": "dp-4-1",
+          "number": 1,
+          "text": "Who shall conquer this world and the world of death, and the world of the gods? Who shall discover the shining Path of truth, as the expert shall discover the fragrant flower?",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-4-4",
+          "number": 4,
+          "text": "As on a heap of rubbish cast upon the highway, a lily may grow, sweet-smelling and delightful, so among blind followers of the Dhamma shines the disciple of the awakened Sage.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        }
       ]
     },
     {
@@ -73,8 +278,26 @@
       "number": 5,
       "title": "Bala Vagga (The Fool)",
       "verses": [
-        { "id": "dp-5-1", "number": 1, "text": "Long is the night to the sleepless; long is the mile to the weary; long is the way of the transmigration to the foolish who are ignorant of the true path.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-        { "id": "dp-5-6", "number": 6, "text": "If one holds oneself dear, one should protect oneself well. During each of the three watches of the night, the wise person should remain alert.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } }
+        {
+          "id": "dp-5-1",
+          "number": 1,
+          "text": "Long is the night to the sleepless; long is the mile to the weary; long is the way of the transmigration to the foolish who are ignorant of the true path.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-5-6",
+          "number": 6,
+          "text": "If one holds oneself dear, one should protect oneself well. During each of the three watches of the night, the wise person should remain alert.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        }
       ]
     },
     {
@@ -82,9 +305,36 @@
       "number": 6,
       "title": "Pandita Vagga (The Wise)",
       "verses": [
-        { "id": "dp-6-1", "number": 1, "text": "If one sees a wise person who points out faults and blames, one should follow such a wise person as one would a guide to hidden treasure.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-        { "id": "dp-6-2", "number": 2, "text": "Let one admonish, instruct, and dissuade one from wrong; the well-loved are those who displease the displeased.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-        { "id": "dp-6-3", "number": 3, "text": "Let one associate with the good; from the association with the good, the good comes. From the association with the good, no evil comes.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } }
+        {
+          "id": "dp-6-1",
+          "number": 1,
+          "text": "If one sees a wise person who points out faults and blames, one should follow such a wise person as one would a guide to hidden treasure.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-6-2",
+          "number": 2,
+          "text": "Let one admonish, instruct, and dissuade one from wrong; the well-loved are those who displease the displeased.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-6-3",
+          "number": 3,
+          "text": "Let one associate with the good; from the association with the good, the good comes. From the association with the good, no evil comes.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        }
       ]
     },
     {
@@ -92,9 +342,36 @@
       "number": 8,
       "title": "Sahassa Vagga (Thousands)",
       "verses": [
-        { "id": "dp-8-1", "number": 1, "text": "Better than a thousand empty words is one word of sense that brings peace.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-        { "id": "dp-8-10", "number": 10, "text": "Better is one word of sense that brings peace than a thousand empty words.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-        { "id": "dp-8-11", "number": 11, "text": "If one recites a single verse of Dhamma with understanding, it is better than reciting a hundred verses that are meaningless.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } }
+        {
+          "id": "dp-8-1",
+          "number": 1,
+          "text": "Better than a thousand empty words is one word of sense that brings peace.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-8-10",
+          "number": 10,
+          "text": "Better is one word of sense that brings peace than a thousand empty words.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-8-11",
+          "number": 11,
+          "text": "If one recites a single verse of Dhamma with understanding, it is better than reciting a hundred verses that are meaningless.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        }
       ]
     },
     {
@@ -102,9 +379,36 @@
       "number": 10,
       "title": "Kodha Vagga (Anger)",
       "verses": [
-        { "id": "dp-10-1", "number": 1, "text": "He who holds anger back as a charioteer holds back a chariot, him I call a real charioteer; other charioteers only hold the reins.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-        { "id": "dp-10-3", "number": 3, "text": "Conquer anger by non-anger; conquer the wicked by goodness; conquer the miser by generosity; conquer the liar by truth.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-        { "id": "dp-10-4", "number": 4, "text": "One should speak the truth, not yield to anger, and give to one who asks, even if it be little. By these three steps one goes near the gods.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } }
+        {
+          "id": "dp-10-1",
+          "number": 1,
+          "text": "He who holds anger back as a charioteer holds back a chariot, him I call a real charioteer; other charioteers only hold the reins.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-10-3",
+          "number": 3,
+          "text": "Conquer anger by non-anger; conquer the wicked by goodness; conquer the miser by generosity; conquer the liar by truth.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-10-4",
+          "number": 4,
+          "text": "One should speak the truth, not yield to anger, and give to one who asks, even if it be little. By these three steps one goes near the gods.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        }
       ]
     },
     {
@@ -112,8 +416,26 @@
       "number": 12,
       "title": "Avyajjana Vagga (The Faultless)",
       "verses": [
-        { "id": "dp-12-1", "number": 1, "text": "One who is patient, gentle, and without arrogance, who is free from physical injury, self-controlled, and excellent—that person is worthy of robes.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-        { "id": "dp-12-2", "number": 2, "text": "Through earnestness, meditation, self-discipline, and self-mastery, the wise person makes for himself an island that no flood can overwhelm.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } }
+        {
+          "id": "dp-12-1",
+          "number": 1,
+          "text": "One who is patient, gentle, and without arrogance, who is free from physical injury, self-controlled, and excellent—that person is worthy of robes.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-12-2",
+          "number": 2,
+          "text": "Through earnestness, meditation, self-discipline, and self-mastery, the wise person makes for himself an island that no flood can overwhelm.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        }
       ]
     },
     {
@@ -121,10 +443,46 @@
       "number": 14,
       "title": "Buddha Vagga (The Buddha)",
       "verses": [
-        { "id": "dp-14-1", "number": 1, "text": "If you see the one who points out faults and blames, follow such a wise person as one would a revealer of treasures. It is better, not worse, to follow such a one.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-        { "id": "dp-14-2", "number": 2, "text": "The wise one admonishes, instructs, and dissuades from wrong; the pleasing are displeased to the displeasing.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-        { "id": "dp-14-3", "number": 3, "text": "He who instructs others, teaches and forbids, is loved by the good, disliked by the wicked.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-        { "id": "dp-14-15", "number": 15, "text": "The Tathagata, the fully enlightened One, is free from all fetters. He has attained the highest wisdom. He has reached the top, like the swan on the wing.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } }
+        {
+          "id": "dp-14-1",
+          "number": 1,
+          "text": "If you see the one who points out faults and blames, follow such a wise person as one would a revealer of treasures. It is better, not worse, to follow such a one.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-14-2",
+          "number": 2,
+          "text": "The wise one admonishes, instructs, and dissuades from wrong; the pleasing are displeased to the displeasing.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-14-3",
+          "number": 3,
+          "text": "He who instructs others, teaches and forbids, is loved by the good, disliked by the wicked.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-14-15",
+          "number": 15,
+          "text": "The Tathagata, the fully enlightened One, is free from all fetters. He has attained the highest wisdom. He has reached the top, like the swan on the wing.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        }
       ]
     },
     {
@@ -132,8 +490,26 @@
       "number": 15,
       "title": "Sukha Vagga (Happiness)",
       "verses": [
-        { "id": "dp-15-1", "number": 1, "text": "Happiness comes from serving others; happiness comes from giving to others; happiness comes from doing good deeds.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-        { "id": "dp-15-2", "number": 2, "text": "The father and mother are happy when the son is well-behaved. So is the sage when he sees his disciples grow.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } }
+        {
+          "id": "dp-15-1",
+          "number": 1,
+          "text": "Happiness comes from serving others; happiness comes from giving to others; happiness comes from doing good deeds.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-15-2",
+          "number": 2,
+          "text": "The father and mother are happy when the son is well-behaved. So is the sage when he sees his disciples grow.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        }
       ]
     },
     {
@@ -141,9 +517,36 @@
       "number": 16,
       "title": "Piyavagga (Affection)",
       "verses": [
-        { "id": "dp-16-1", "number": 1, "text": "If one holds oneself dear, one should protect oneself well. During each of the three watches of the night, the wise person should remain alert.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-        { "id": "dp-16-2", "number": 2, "text": "First, establish oneself in what is proper, then instruct others. Thus the wise will not be reproached.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-        { "id": "dp-16-3", "number": 3, "text": "If one should love oneself well, one should protect oneself well. During each of the three watches, the wise person should remain alert.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } }
+        {
+          "id": "dp-16-1",
+          "number": 1,
+          "text": "If one holds oneself dear, one should protect oneself well. During each of the three watches of the night, the wise person should remain alert.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-16-2",
+          "number": 2,
+          "text": "First, establish oneself in what is proper, then instruct others. Thus the wise will not be reproached.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-16-3",
+          "number": 3,
+          "text": "If one should love oneself well, one should protect oneself well. During each of the three watches, the wise person should remain alert.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        }
       ]
     },
     {
@@ -151,8 +554,26 @@
       "number": 18,
       "title": "Kodhavagga Vagga (The Angry)",
       "verses": [
-        { "id": "dp-18-1", "number": 1, "text": "He who holds anger back as a charioteer holds back a chariot, him I call a real charioteer; other charioteers only hold the reins.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-        { "id": "dp-18-2", "number": 2, "text": "Conquer anger by non-anger; conquer the wicked by goodness; conquer the miser by generosity; conquer the liar by truth.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } }
+        {
+          "id": "dp-18-1",
+          "number": 1,
+          "text": "He who holds anger back as a charioteer holds back a chariot, him I call a real charioteer; other charioteers only hold the reins.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-18-2",
+          "number": 2,
+          "text": "Conquer anger by non-anger; conquer the wicked by goodness; conquer the miser by generosity; conquer the liar by truth.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        }
       ]
     },
     {
@@ -160,10 +581,46 @@
       "number": 20,
       "title": "Magga Vagga (The Path)",
       "verses": [
-        { "id": "dp-20-1", "number": 1, "text": "The best of paths is the Eightfold Path; the best of truths is the Four Noble Truths; the best of mental states is detachment; the best of men is the one with eyes to see.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-        { "id": "dp-20-2", "number": 2, "text": "This is the only path, there is no other that leads to the purification of the mind. Follow this path and conquer Mara.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-        { "id": "dp-20-3", "number": 3, "text": "Following this path, you will make an end of suffering. I have taught you the path for the dissolution of sorrow.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-        { "id": "dp-20-4", "number": 4, "text": "You must yourselves strive. The Buddhas show only the way. Those who practice meditation and are saved from the fetters of death are freed.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } }
+        {
+          "id": "dp-20-1",
+          "number": 1,
+          "text": "The best of paths is the Eightfold Path; the best of truths is the Four Noble Truths; the best of mental states is detachment; the best of men is the one with eyes to see.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-20-2",
+          "number": 2,
+          "text": "This is the only path, there is no other that leads to the purification of the mind. Follow this path and conquer Mara.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-20-3",
+          "number": 3,
+          "text": "Following this path, you will make an end of suffering. I have taught you the path for the dissolution of sorrow.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-20-4",
+          "number": 4,
+          "text": "You must yourselves strive. The Buddhas show only the way. Those who practice meditation and are saved from the fetters of death are freed.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        }
       ]
     },
     {
@@ -171,8 +628,26 @@
       "number": 21,
       "title": "Nirvana Vagga (Miscellaneous)",
       "verses": [
-        { "id": "dp-21-1", "number": 1, "text": "By what attachment is one hindered? By what is one freed from attachment? Give up desire and anger, and be freed from the fetters of attachment.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-        { "id": "dp-21-2", "number": 2, "text": "When one has abandoned desire and anger, the fetters of attachment are destroyed. Those who overcome pride and conceit, freed from all fetters, never sorrow.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } }
+        {
+          "id": "dp-21-1",
+          "number": 1,
+          "text": "By what attachment is one hindered? By what is one freed from attachment? Give up desire and anger, and be freed from the fetters of attachment.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-21-2",
+          "number": 2,
+          "text": "When one has abandoned desire and anger, the fetters of attachment are destroyed. Those who overcome pride and conceit, freed from all fetters, never sorrow.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        }
       ]
     },
     {
@@ -180,8 +655,26 @@
       "number": 22,
       "title": "Dhammattha Vagga (Miscellaneous)",
       "verses": [
-        { "id": "dp-22-1", "number": 1, "text": "Not in the sky, not in the midst of the ocean, nor in a mountain cave, is one free from the consequences of evil deeds.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-        { "id": "dp-22-2", "number": 2, "text": "Not in the sky, not in the midst of the ocean, nor in a mountain cave, is one free from suffering, except in the shelter of the Noble Ones.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } }
+        {
+          "id": "dp-22-1",
+          "number": 1,
+          "text": "Not in the sky, not in the midst of the ocean, nor in a mountain cave, is one free from the consequences of evil deeds.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-22-2",
+          "number": 2,
+          "text": "Not in the sky, not in the midst of the ocean, nor in a mountain cave, is one free from suffering, except in the shelter of the Noble Ones.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        }
       ]
     },
     {
@@ -189,10 +682,46 @@
       "number": 23,
       "title": "Brahma Vagga (The Holy Life)",
       "verses": [
-        { "id": "dp-23-1", "number": 1, "text": "Not by tonsure is one a Brahmin. If one is free from anger and fault, tranquil, self-controlled, and pure—one is a Brahmin.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-        { "id": "dp-23-2", "number": 2, "text": "By what should one be called a Brahmin? By what should one be called a monk? By what should one be called a renouncer?", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-        { "id": "dp-23-3", "number": 3, "text": "He who has cut off all ill will and enmity, who is freed from anger, who is modest, who is free from attachment—that one I call a Brahmin.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-        { "id": "dp-23-4", "number": 4, "text": "He who has subdued himself, who is self-controlled, who has mastered himself, who has attained the highest self-mastery—that one I call a Brahmin.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } }
+        {
+          "id": "dp-23-1",
+          "number": 1,
+          "text": "Not by tonsure is one a Brahmin. If one is free from anger and fault, tranquil, self-controlled, and pure—one is a Brahmin.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-23-2",
+          "number": 2,
+          "text": "By what should one be called a Brahmin? By what should one be called a monk? By what should one be called a renouncer?",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-23-3",
+          "number": 3,
+          "text": "He who has cut off all ill will and enmity, who is freed from anger, who is modest, who is free from attachment—that one I call a Brahmin.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-23-4",
+          "number": 4,
+          "text": "He who has subdued himself, who is self-controlled, who has mastered himself, who has attained the highest self-mastery—that one I call a Brahmin.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        }
       ]
     },
     {
@@ -200,8 +729,26 @@
       "number": 24,
       "title": "Satta Vagga (The Sage)",
       "verses": [
-        { "id": "dp-24-1", "number": 1, "text": "He whose senses are tamed, like horses well-trained by a charioteer; he who has discarded pride, is free from impurities—that one I call a sage.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-        { "id": "dp-24-2", "number": 2, "text": "Such a sage, like a lake, is deep, difficult to fathom, and pure. Upon hearing the Dhamma, one becomes serene.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } }
+        {
+          "id": "dp-24-1",
+          "number": 1,
+          "text": "He whose senses are tamed, like horses well-trained by a charioteer; he who has discarded pride, is free from impurities—that one I call a sage.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-24-2",
+          "number": 2,
+          "text": "Such a sage, like a lake, is deep, difficult to fathom, and pure. Upon hearing the Dhamma, one becomes serene.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        }
       ]
     },
     {
@@ -209,8 +756,26 @@
       "number": 25,
       "title": "Pakhinna Vagga (The Pairs)",
       "verses": [
-        { "id": "dp-25-1", "number": 1, "text": "He who destroys anger by non-anger, the wicked by good, the miser by generosity, the liar by truth—that one I call a sage.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-        { "id": "dp-25-2", "number": 2, "text": "One who speaks truth, who does not yield to anger, who gives even when asked for little—that one I call a sage.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } }
+        {
+          "id": "dp-25-1",
+          "number": 1,
+          "text": "He who destroys anger by non-anger, the wicked by good, the miser by generosity, the liar by truth—that one I call a sage.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-25-2",
+          "number": 2,
+          "text": "One who speaks truth, who does not yield to anger, who gives even when asked for little—that one I call a sage.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        }
       ]
     },
     {
@@ -218,12 +783,690 @@
       "number": 26,
       "title": "Bhikkhu Vagga (The Monk)",
       "verses": [
-        { "id": "dp-26-1", "number": 1, "text": "He who has cut off affection for son and cattle, who has renounced all sensual pleasures—who is free from the conceit 'I am'—him I call a true Brahmin.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-        { "id": "dp-26-2", "number": 2, "text": "He who has cut off all fetters, who is free from anger, who has transcended entanglements, who has uprooted attachment—that one I call a true Brahmin.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-        { "id": "dp-26-3", "number": 3, "text": "He who has discarded anger and conceit, who has overcome all fetters, who has uprooted attachment, who is free from the conceit 'I am'—that one I call a true Brahmin.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-        { "id": "dp-26-4", "number": 4, "text": "He who has no anger, who is devout, who is pure, who is free from passion, who has conquered himself, who is worthy of offerings—that one I call a true Brahmin.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-        { "id": "dp-26-5", "number": 5, "text": "He who has subdued himself, who is self-controlled, who has mastered himself, who has attained the highest self-mastery—that one I call a true Brahmin.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-        { "id": "dp-26-6", "number": 6, "text": "He who is not angry, who is devout, who is pure, who is free from passion, who is free from pride—that one I call a true Brahmin.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } }
+        {
+          "id": "dp-26-1",
+          "number": 1,
+          "text": "He who has cut off affection for son and cattle, who has renounced all sensual pleasures—who is free from the conceit 'I am'—him I call a true Brahmin.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-26-2",
+          "number": 2,
+          "text": "He who has cut off all fetters, who is free from anger, who has transcended entanglements, who has uprooted attachment—that one I call a true Brahmin.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-26-3",
+          "number": 3,
+          "text": "He who has discarded anger and conceit, who has overcome all fetters, who has uprooted attachment, who is free from the conceit 'I am'—that one I call a true Brahmin.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-26-4",
+          "number": 4,
+          "text": "He who has no anger, who is devout, who is pure, who is free from passion, who has conquered himself, who is worthy of offerings—that one I call a true Brahmin.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-26-5",
+          "number": 5,
+          "text": "He who has subdued himself, who is self-controlled, who has mastered himself, who has attained the highest self-mastery—that one I call a true Brahmin.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-26-6",
+          "number": 6,
+          "text": "He who is not angry, who is devout, who is pure, who is free from passion, who is free from pride—that one I call a true Brahmin.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dp-3",
+      "number": 3,
+      "title": "Citta Vagga (The Mind)",
+      "verses": [
+        {
+          "id": "dp-3-1",
+          "number": 1,
+          "text": "The mind is hard to restrain, swift it flies wherever it likes: to control the mind is good; a controlled mind brings happiness.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-3-2",
+          "number": 2,
+          "text": "The mind is very hard to see, subtle it flies wherever it likes: the sage guards the mind; a guarded mind brings happiness.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-3-3",
+          "number": 3,
+          "text": "The mind is volatile; it flies and dallies wherever it likes: a tamed mind brings happiness.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-3-6",
+          "number": 6,
+          "text": "Whatever an enemy may do to an enemy, or a hater to a hater, a wrongly directed mind will do greater harm.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-3-8",
+          "number": 8,
+          "text": "There is no fires like passion, no snare like hatred, no entanglement like delusion, no river like craving.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-3-35",
+          "number": 35,
+          "text": "The mind is the forerunner of all actions. All deeds are led by mind, created by mind. If one speaks or acts with a corrupt mind, suffering follows, as the wheel follows the hoof of the ox.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-3-36",
+          "number": 36,
+          "text": "Mind is the forerunner of all actions. All deeds are led by mind, created by mind. If one speaks or acts with a serene mind, happiness follows, as a shadow that never departs.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dp-4",
+      "number": 4,
+      "title": "Punya Vagga (Flowers / Merit)",
+      "verses": [
+        {
+          "id": "dp-4-5",
+          "number": 5,
+          "text": "The fragrance of virtue travels against the wind and pervades all directions. The fragrance of virtue pervades heaven and earth.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-4-6",
+          "number": 6,
+          "text": "The scent of flowers does not travel against the wind; but the fragrance of virtue travels against the wind; the good person pervades every direction.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-4-11",
+          "number": 11,
+          "text": "As on a heap of refuse thrown upon the highway, a lily may grow, sweet-smelling and delightful, so among blind, erring mortals, the disciple of the truly awakened one shines with wisdom.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-4-16",
+          "number": 16,
+          "text": "If many years a person live in evil, but overcomes evil, that person illuminates the world, as the moon freed from clouds.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-4-23",
+          "number": 23,
+          "text": "If one man conquer in battle a thousand times a thousand men, and if another conquer himself, he is the greatest of conquerors.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dp-5",
+      "number": 5,
+      "title": "Suhada Vagga (The Afflicted / Suffering)",
+      "verses": [
+        {
+          "id": "dp-5-1",
+          "number": 1,
+          "text": "He who lives only for pleasures, without self-control and mindfulness, wasting his opportunities, that idle person envies the strenuous.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-5-2",
+          "number": 2,
+          "text": "Do not follow the low path, do not live in negligence, do not follow false doctrine, do not be attached to the world.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-5-11",
+          "number": 11,
+          "text": "There is no disease like craving, no pain like mental formation, no happiness like the Dhamma, no suffering greater than the aggregates.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dp-6",
+      "number": 6,
+      "title": "Piya Vagga (The Beloved / Desire)",
+      "verses": [
+        {
+          "id": "dp-6-1",
+          "number": 1,
+          "text": "He who holds nothing dear and nothing hateful, he who has ceased former hatred and is not attached to new ones—he attains freedom.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-6-2",
+          "number": 2,
+          "text": "He who loves nothing, hates nothing; there is no fetter for him whose passion is extinct. He who is free from desire and craving finds peace.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-6-3",
+          "number": 3,
+          "text": "He who loves nothing, hates nothing; there is no fetter for him whose passion is extinct. He who is free from greed finds peace.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-6-6",
+          "number": 6,
+          "text": "If you love a son, you will be troubled by the world. If you love nothing, you will have no trouble.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-6-21",
+          "number": 21,
+          "text": "When lust is conquered, the fetters are broken, all sufferings cease, all chains fall away.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dp-7",
+      "number": 7,
+      "title": "Kodha Vagga (Anger / Hatred)",
+      "verses": [
+        {
+          "id": "dp-7-1",
+          "number": 1,
+          "text": "He who holds anger back, as one would restrain a chariot, is called a real driver; others merely hold the reins.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-7-3",
+          "number": 3,
+          "text": "A true Brahmin who conquers anger is free from arrogance, sloth, and deceit. He is near the state of Nirvana.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-7-4",
+          "number": 4,
+          "text": "Overcome anger by non-anger, evil by good, stinginess by generosity, falsehood by truth.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-7-5",
+          "number": 5,
+          "text": "Be truthful; do not yield to anger; give to those who ask; by these three virtues you go near the gods.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dp-8",
+      "number": 8,
+      "title": "Kakavagga (Dross / Filth / Defilement)",
+      "verses": [
+        {
+          "id": "dp-8-1",
+          "number": 1,
+          "text": "Soon this body will lie on the ground, cast away, devoid of consciousness, like a useless piece of wood.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-8-5",
+          "number": 5,
+          "text": "A man who is given to wrong thinking, who has removed the splinter, who has mastered the truth, has no more fear of his surroundings.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-8-6",
+          "number": 6,
+          "text": "He who gives himself to vanity and does not give himself to meditation, forgetting the real purpose and seeking that which is not the true path, he rejoices in the world of the senses.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dp-9",
+      "number": 9,
+      "title": "Danda Vagga (The Staff / Restraint)",
+      "verses": [
+        {
+          "id": "dp-9-1",
+          "number": 1,
+          "text": "All fear the staff; all fear death. Putting oneself in the place of others, one should neither kill nor cause to kill.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-9-3",
+          "number": 3,
+          "text": "He who seeks happiness by inflicting suffering on others will not find happiness, for happiness is only found in non-violence.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-9-4",
+          "number": 4,
+          "text": "None should ever harm another, nor should one desire harm from another. A person who desires happiness should not harm any being.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-9-5",
+          "number": 5,
+          "text": "The righteous should avoid the company of the wicked. The righteous should avoid the company of the wicked.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-9-12",
+          "number": 12,
+          "text": "If a person is easily stirred to anger, he looks wretched. His body suffers; his mind is disturbed.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-9-13",
+          "number": 13,
+          "text": "Whatever a hater does to a hater, or an enemy to an enemy, a wrongly directed mind will do greater harm.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dp-10",
+      "number": 10,
+      "title": "Jara Vagga (Old Age / Aging)",
+      "verses": [
+        {
+          "id": "dp-10-1",
+          "number": 1,
+          "text": "Youth is not lasting; it is but the time of a meeting of the senses. Seeing that this is so, a wise person should refrain from sense pleasures.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-10-2",
+          "number": 2,
+          "text": "Youth passes, beauty passes, they are but the time of a meeting of the senses. Seeing that this is so, a wise person should refrain from sense pleasures.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-10-3",
+          "number": 3,
+          "text": "He who is like a withered leaf, which has come from the tree of birth—his time has come, his life is spent. Seeing this, a wise person should refrain from sense pleasures.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-10-4",
+          "number": 4,
+          "text": "He who is like a withered leaf, which has come from the tree of birth—his time has come, his life is spent. Seeing this, a wise person should restrain himself.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dp-11",
+      "number": 11,
+      "title": "Atta Vagga (The Self)",
+      "verses": [
+        {
+          "id": "dp-11-1",
+          "number": 1,
+          "text": "One is one's own refuge, who else could be the refuge? One who has mastered oneself is an island of refuge.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-11-2",
+          "number": 2,
+          "text": "Well have you done what should be done. You are the master of your own mind. Exert yourself, for self-control is the way to heaven.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-11-5",
+          "number": 5,
+          "text": "A person is not an aristocrat by birth but by deed. One who speaks truth, who acts rightly, who harms no one—that one is a true Brahmin.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-11-12",
+          "number": 12,
+          "text": "The wise person exerts himself more than the idle. The wise person is the true refuge of himself.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-11-13",
+          "number": 13,
+          "text": "If one conquers oneself, one is greater than those who conquer a thousand men in battle.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-11-14",
+          "number": 14,
+          "text": "He who conquers oneself is the best of conquerors. One who masters oneself is always serene.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dp-12",
+      "number": 12,
+      "title": "Loka Vagga (The World)",
+      "verses": [
+        {
+          "id": "dp-12-1",
+          "number": 1,
+          "text": "Walk as if you are kissing the earth with your feet. Be steadfast, devoted, firm in virtue, gentle in spirit, humble.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-12-4",
+          "number": 4,
+          "text": "Let the wise person guard oneself as a trader guards a valuable cargo. Let the wise person abandon evil, as one discards straw for gold.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-12-5",
+          "number": 5,
+          "text": "The evil done by oneself falls upon the fool as dust falls on a fresh wind.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dp-13",
+      "number": 13,
+      "title": "Buddha Vagga (The Awakened One / The Buddha)",
+      "verses": [
+        {
+          "id": "dp-13-1",
+          "number": 1,
+          "text": "He whose senses are under control, like well-trained horses, free from pride, free from defilement—he is held in high regard even by the gods.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-13-2",
+          "number": 2,
+          "text": "Like an elephant in battle, enduring the arrow shot from a bow, I will endure abuse, for most people are undisciplined.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-13-12",
+          "number": 12,
+          "text": "The awakened one has no interest in sense pleasures, and his joy is in the destruction of craving. He uproots attachment and cuts off the fetter of existence.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dp-14",
+      "number": 14,
+      "title": "Sukha Vagga (Happiness / Joy)",
+      "verses": [
+        {
+          "id": "dp-14-1",
+          "number": 1,
+          "text": "Let a person live with the righteous, let him associate with the good. By association with the good, the good become good.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-14-2",
+          "number": 2,
+          "text": "He who lives with the good, and who delights in the teaching of the saints, gains wisdom, and his suffering ends.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-14-5",
+          "number": 5,
+          "text": "If you associate with a foolish person, you will suffer all your life. association with a fool is painful, as with an enemy.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-14-6",
+          "number": 6,
+          "text": "Follow the good, follow the wise. The wise and the good are happy even in death.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        },
+        {
+          "id": "dp-14-7",
+          "number": 7,
+          "text": "The wise person should practice virtue, concentration, and wisdom, as the wise person practices restraint in the world.",
+          "source": {
+            "translator": "F. Max Müller",
+            "year": 1881,
+            "license": "Public Domain"
+          }
+        }
       ]
     }
   ]

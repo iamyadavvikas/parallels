@@ -1,6 +1,7 @@
 import type { Verse, Religion } from "@/lib/types";
 import BookmarkButton from "./BookmarkButton";
 import NoteButton from "./NoteButton";
+import AIExplainButton from "./AIExplainButton";
 
 interface VerseCardProps {
   verse: Verse;
@@ -77,6 +78,11 @@ export default function VerseCard({
                   religion={religion}
                   chapterNum={chapterNum || 0}
                   verseNum={verse.number}
+                />
+                <AIExplainButton
+                  verse={verse.translation || verse.text}
+                  religion={religion}
+                  bookTitle={bookTitle}
                 />
               </div>
             )}

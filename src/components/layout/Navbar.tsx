@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState, useRef, useCallback } from "react";
-import { BookOpen, Search, Layers, GitCompare, Bookmark } from "lucide-react";
+import { BookOpen, Search, Layers, GitCompare, Bookmark, Heart, CreditCard } from "lucide-react";
 import ThemeToggle from "../ui/ThemeToggle";
 import Logo from "../ui/Logo";
 
@@ -13,6 +13,8 @@ const navLinks = [
   { href: "/topics", label: "Topics", icon: Layers },
   { href: "/compare", label: "Compare", icon: GitCompare },
   { href: "/bookmarks", label: "Saved", icon: Bookmark },
+  { href: "/pricing", label: "Pricing", icon: CreditCard },
+  { href: "/support", label: "Support", icon: Heart },
 ];
 
 export default function Navbar() {
