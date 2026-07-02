@@ -24,8 +24,13 @@ export default function VerseCard({
   chapterNum,
 }: VerseCardProps) {
   return (
-    <div className="group rounded-xl border border-border bg-bg-secondary transition-all hover:border-border/80 hover:shadow-[0_4px_24px_var(--color-shadow-md)]">
-      <div className={`flex gap-4 p-5 ${religionStyles || ""}`}>
+    <div
+      className="group rounded-xl border border-glass-border bg-glass backdrop-blur-sm p-5 transition-all duration-500 hover:border-border/30 hover:shadow-[0_0_20px_var(--neon-default)]"
+      style={{
+        boxShadow: `inset 0 1px 0 0 rgba(255,255,255,0.03)`,
+      }}
+    >
+      <div className={`flex gap-4 ${religionStyles || ""}`}>
         <span className="verse-number mt-0.5">{verse.number}</span>
         <div className="min-w-0 flex-1">
           {(chapterTitle || reference) && (
@@ -43,7 +48,7 @@ export default function VerseCard({
             </p>
           )}
           {verse.text && verse.translation && (
-            <p className="mt-3 text-sm italic text-text-muted border-l-2 border-border pl-4 leading-relaxed font-serif">
+            <p className="mt-3 text-sm italic text-text-muted border-l-2 border-border/30 pl-4 leading-relaxed font-serif">
               {verse.text}
             </p>
           )}
