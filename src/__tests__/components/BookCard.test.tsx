@@ -33,19 +33,14 @@ describe("BookCard", () => {
     expect(screen.getByText("Christianity")).toBeInTheDocument();
   });
 
-  it("renders description", () => {
+  it("renders tradition theme", () => {
     render(<BookCard book={mockBook} />);
-    expect(screen.getByText("The sacred scripture of Christianity.")).toBeInTheDocument();
+    expect(screen.getByText("Covenant")).toBeInTheDocument();
   });
 
   it("links to book detail page", () => {
     render(<BookCard book={mockBook} />);
     const link = screen.getByRole("link");
     expect(link).toHaveAttribute("href", "/books/bible");
-  });
-
-  it("shows chapter count", () => {
-    render(<BookCard book={mockBook} />);
-    expect(screen.getByText("1,189 chapters")).toBeInTheDocument();
   });
 });

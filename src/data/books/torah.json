@@ -59,7 +59,7 @@
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This verse from the Creation account declares that God created the heavens and the earth. It establishes the foundation of monotheistic belief that the universe is the deliberate work of one Divine Creator."
+          "explanation": "This foundational creation account establishes God as the sovereign creator of all things, declaring creation inherently good and humanity made in the divine image."
         },
         {
           "id": "torah-gen-1-2",
@@ -70,7 +70,7 @@
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This verse from the Creation account declares that God created the heavens and the earth. It establishes the foundation of monotheistic belief that the universe is the deliberate work of one Divine Creator."
+          "explanation": "This foundational creation account establishes God as the sovereign creator of all things, declaring creation inherently good and humanity made in the divine image."
         },
         {
           "id": "torah-gen-1-3",
@@ -81,18 +81,260 @@
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This verse from the Creation account declares that God created the heavens and the earth. It establishes the foundation of monotheistic belief that the universe is the deliberate work of one Divine Creator."
+          "explanation": "This foundational creation account establishes God as the sovereign creator of all things, declaring creation inherently good and humanity made in the divine image."
         },
         {
-          "id": "torah-gen-1-26",
-          "number": 26,
-          "text": "And God said, Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the fowl of the air, and over the cattle, and over all the earth.",
+          "id": "torah-gen-1-4",
+          "number": 4,
+          "text": "And God saw the light, that it was good: and God divided the light from the darkness.",
           "source": {
             "translator": "King James Version",
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This verse from the Creation account declares that God created the heavens and the earth. It establishes the foundation of monotheistic belief that the universe is the deliberate work of one Divine Creator."
+          "explanation": "This foundational creation account establishes God as the sovereign creator of all things, declaring creation inherently good and humanity made in the divine image."
+        },
+        {
+          "id": "torah-gen-1-5",
+          "number": 5,
+          "text": "And God called the light Day, and the darkness he called Night. And the evening and the morning were the first day.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This foundational creation account establishes God as the sovereign creator of all things, declaring creation inherently good and humanity made in the divine image."
+        },
+        {
+          "id": "torah-gen-1-6",
+          "number": 6,
+          "text": "And God said, Let there be a firmament in the midst of the waters, and let it divide the waters from the waters.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This foundational creation account establishes God as the sovereign creator of all things, declaring creation inherently good and humanity made in the divine image."
+        },
+        {
+          "id": "torah-gen-1-7",
+          "number": 7,
+          "text": "And God made the firmament, and divided the waters which were under the firmament from the waters which were above the firmament: and it was so.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This foundational creation account establishes God as the sovereign creator of all things, declaring creation inherently good and humanity made in the divine image."
+        },
+        {
+          "id": "torah-gen-1-8",
+          "number": 8,
+          "text": "And God called the firmament Heaven. And the evening and the morning were the second day.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This foundational creation account establishes God as the sovereign creator of all things, declaring creation inherently good and humanity made in the divine image."
+        },
+        {
+          "id": "torah-gen-1-9",
+          "number": 9,
+          "text": "And God said, Let the waters under the heaven be gathered together unto one place, and let the dry land appear: and it was so.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This foundational creation account establishes God as the sovereign creator of all things, declaring creation inherently good and humanity made in the divine image."
+        },
+        {
+          "id": "torah-gen-1-10",
+          "number": 10,
+          "text": "And God called the dry land Earth; and the gathering together of the waters called he Seas: and God saw that it was good.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This foundational creation account establishes God as the sovereign creator of all things, declaring creation inherently good and humanity made in the divine image."
+        },
+        {
+          "id": "torah-gen-1-11",
+          "number": 11,
+          "text": "And God said, Let the earth bring forth grass, the herb yielding seed, and the fruit tree yielding fruit after his kind, whose seed is in itself, upon the earth: and it was so.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This foundational creation account establishes God as the sovereign creator of all things, declaring creation inherently good and humanity made in the divine image."
+        },
+        {
+          "id": "torah-gen-1-12",
+          "number": 12,
+          "text": "And the earth brought forth grass, and herb yielding seed after his kind, and the tree yielding fruit, whose seed was in itself, after his kind: and God saw that it was good.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This foundational creation account establishes God as the sovereign creator of all things, declaring creation inherently good and humanity made in the divine image."
+        },
+        {
+          "id": "torah-gen-1-13",
+          "number": 13,
+          "text": "And the evening and the morning were the third day.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This foundational creation account establishes God as the sovereign creator of all things, declaring creation inherently good and humanity made in the divine image."
+        },
+        {
+          "id": "torah-gen-1-14",
+          "number": 14,
+          "text": "And God said, Let there be lights in the firmament of the heaven to divide the day from the night; and let them be for signs, and for seasons, and for days, and years:",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This foundational creation account establishes God as the sovereign creator of all things, declaring creation inherently good and humanity made in the divine image."
+        },
+        {
+          "id": "torah-gen-1-15",
+          "number": 15,
+          "text": "And let them be for lights in the firmament of the heaven to give light upon the earth: and it was so.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This foundational creation account establishes God as the sovereign creator of all things, declaring creation inherently good and humanity made in the divine image."
+        },
+        {
+          "id": "torah-gen-1-16",
+          "number": 16,
+          "text": "And God made two great lights; the greater light to rule the day, and the lesser light to rule the night: he made the stars also.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This foundational creation account establishes God as the sovereign creator of all things, declaring creation inherently good and humanity made in the divine image."
+        },
+        {
+          "id": "torah-gen-1-17",
+          "number": 17,
+          "text": "And God set them in the firmament of the heaven to give light upon the earth,",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This foundational creation account establishes God as the sovereign creator of all things, declaring creation inherently good and humanity made in the divine image."
+        },
+        {
+          "id": "torah-gen-1-18",
+          "number": 18,
+          "text": "And to rule over the day and over the night, and to divide the light from the darkness: and God saw that it was good.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This foundational creation account establishes God as the sovereign creator of all things, declaring creation inherently good and humanity made in the divine image."
+        },
+        {
+          "id": "torah-gen-1-19",
+          "number": 19,
+          "text": "And the evening and the morning were the fourth day.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This foundational creation account establishes God as the sovereign creator of all things, declaring creation inherently good and humanity made in the divine image."
+        },
+        {
+          "id": "torah-gen-1-20",
+          "number": 20,
+          "text": "And God said, Let the waters bring forth abundantly the moving creature that hath life, and fowl that may fly above the earth in the open firmament of heaven.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This foundational creation account establishes God as the sovereign creator of all things, declaring creation inherently good and humanity made in the divine image."
+        },
+        {
+          "id": "torah-gen-1-21",
+          "number": 21,
+          "text": "And God created great whales, and every living creature that moveth, which the waters brought forth abundantly, after their kind, and every winged fowl after his kind: and God saw that it was good.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This foundational creation account establishes God as the sovereign creator of all things, declaring creation inherently good and humanity made in the divine image."
+        },
+        {
+          "id": "torah-gen-1-22",
+          "number": 22,
+          "text": "And God blessed them, saying, Be fruitful, and multiply, and fill the waters in the seas, and let fowl multiply in the earth.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This foundational creation account establishes God as the sovereign creator of all things, declaring creation inherently good and humanity made in the divine image."
+        },
+        {
+          "id": "torah-gen-1-23",
+          "number": 23,
+          "text": "And the evening and the morning were the fifth day.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This foundational creation account establishes God as the sovereign creator of all things, declaring creation inherently good and humanity made in the divine image."
+        },
+        {
+          "id": "torah-gen-1-24",
+          "number": 24,
+          "text": "And God said, Let the earth bring forth the living creature after his kind, cattle, and creeping thing, and beast of the earth after his kind: and it was so.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This foundational creation account establishes God as the sovereign creator of all things, declaring creation inherently good and humanity made in the divine image."
+        },
+        {
+          "id": "torah-gen-1-25",
+          "number": 25,
+          "text": "And God made the beast of the earth after his kind, and cattle after their kind, and every thing that creepeth upon the earth after his kind: and God saw that it was good.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This foundational creation account establishes God as the sovereign creator of all things, declaring creation inherently good and humanity made in the divine image."
+        },
+        {
+          "id": "torah-gen-1-26",
+          "number": 26,
+          "text": "And God said, Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the fowl of the air, and over the cattle, and over all the earth, and over every creeping thing that creepeth upon the earth.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This foundational creation account establishes God as the sovereign creator of all things, declaring creation inherently good and humanity made in the divine image."
         },
         {
           "id": "torah-gen-1-27",
@@ -103,24 +345,57 @@
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This verse from the Creation account declares that God created the heavens and the earth. It establishes the foundation of monotheistic belief that the universe is the deliberate work of one Divine Creator."
+          "explanation": "This foundational creation account establishes God as the sovereign creator of all things, declaring creation inherently good and humanity made in the divine image."
         },
         {
-          "id": "torah-gen-1-31",
-          "number": 31,
-          "text": "And God saw every thing that he had made, and, behold, it was very good.",
+          "id": "torah-gen-1-28",
+          "number": 28,
+          "text": "And God blessed them, and God said unto them, Be fruitful, and multiply, and replenish the earth, and subdue it: and have dominion over the fish of the sea, and over the fowl of the air, and over every living thing that moveth upon the earth.",
           "source": {
             "translator": "King James Version",
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This verse from the Creation account declares that God created the heavens and the earth. It establishes the foundation of monotheistic belief that the universe is the deliberate work of one Divine Creator."
+          "explanation": "This foundational creation account establishes God as the sovereign creator of all things, declaring creation inherently good and humanity made in the divine image."
+        },
+        {
+          "id": "torah-gen-1-29",
+          "number": 29,
+          "text": "And God said, Behold, I have given you every herb bearing seed, which is upon the face of all the earth, and every tree, in the which is the fruit of a tree yielding seed; to you it shall be for meat.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This foundational creation account establishes God as the sovereign creator of all things, declaring creation inherently good and humanity made in the divine image."
+        },
+        {
+          "id": "torah-gen-1-30",
+          "number": 30,
+          "text": "And to every beast of the earth, and to every fowl of the air, and to every thing that creepeth upon the earth, wherein there is life, I have given every green herb for meat: and it was so.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This foundational creation account establishes God as the sovereign creator of all things, declaring creation inherently good and humanity made in the divine image."
+        },
+        {
+          "id": "torah-gen-1-31",
+          "number": 31,
+          "text": "And God saw every thing that he had made, and, behold, it was very good. And the evening and the morning were the sixth day.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This foundational creation account establishes God as the sovereign creator of all things, declaring creation inherently good and humanity made in the divine image."
         }
       ]
     },
     {
       "id": "torah-gen-12",
-      "number": 12,
+      "number": 2,
       "title": "Genesis 12 — The Call of Abraham",
       "verses": [
         {
@@ -160,7 +435,7 @@
     },
     {
       "id": "torah-gen-15",
-      "number": 15,
+      "number": 3,
       "title": "Genesis 15 — The Covenant with Abraham",
       "verses": [
         {
@@ -200,7 +475,7 @@
     },
     {
       "id": "torah-gen-22",
-      "number": 22,
+      "number": 4,
       "title": "Genesis 22 — The Binding of Isaac",
       "verses": [
         {
@@ -240,7 +515,7 @@
     },
     {
       "id": "torah-gen-28",
-      "number": 28,
+      "number": 5,
       "title": "Genesis 28 — Jacob's Ladder",
       "verses": [
         {
@@ -280,7 +555,7 @@
     },
     {
       "id": "torah-gen-50",
-      "number": 50,
+      "number": 6,
       "title": "Genesis 50 — Joseph Forgives His Brothers",
       "verses": [
         {
@@ -309,7 +584,7 @@
     },
     {
       "id": "torah-exo-3",
-      "number": 3,
+      "number": 7,
       "title": "Exodus 3 — The Burning Bush",
       "verses": [
         {
@@ -349,7 +624,7 @@
     },
     {
       "id": "torah-exo-20",
-      "number": 20,
+      "number": 8,
       "title": "Exodus 20 — The Ten Commandments",
       "verses": [
         {
@@ -361,7 +636,7 @@
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This verse contains the Ten Commandments given at Mount Sinai. It forms the core of biblical law and ethical monotheism, establishing the covenant between God and Israel."
+          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
         },
         {
           "id": "torah-exo-20-2",
@@ -372,7 +647,7 @@
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This verse contains the Ten Commandments given at Mount Sinai. It forms the core of biblical law and ethical monotheism, establishing the covenant between God and Israel."
+          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
         },
         {
           "id": "torah-exo-20-3",
@@ -383,7 +658,40 @@
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This verse contains the Ten Commandments given at Mount Sinai. It forms the core of biblical law and ethical monotheism, establishing the covenant between God and Israel."
+          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
+        },
+        {
+          "id": "torah-exo-20-4",
+          "number": 4,
+          "text": "Thou shalt not make unto thee any graven image, or any likeness of any thing that is in heaven above, or that is in the earth beneath, or that is in the water under the earth:",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
+        },
+        {
+          "id": "torah-exo-20-5",
+          "number": 5,
+          "text": "Thou shalt not bow down thyself to them, nor serve them: for I the LORD thy God am a jealous God, visiting the iniquity of the fathers upon the children unto the third and fourth generation of them that hate me;",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
+        },
+        {
+          "id": "torah-exo-20-6",
+          "number": 6,
+          "text": "And shewing mercy unto thousands of them that love me, and keep my commandments.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
         },
         {
           "id": "torah-exo-20-7",
@@ -394,7 +702,7 @@
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This verse contains the Ten Commandments given at Mount Sinai. It forms the core of biblical law and ethical monotheism, establishing the covenant between God and Israel."
+          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
         },
         {
           "id": "torah-exo-20-8",
@@ -405,7 +713,40 @@
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This verse contains the Ten Commandments given at Mount Sinai. It forms the core of biblical law and ethical monotheism, establishing the covenant between God and Israel."
+          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
+        },
+        {
+          "id": "torah-exo-20-9",
+          "number": 9,
+          "text": "Six days shalt thou labour, and do all thy work:",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
+        },
+        {
+          "id": "torah-exo-20-10",
+          "number": 10,
+          "text": "But the seventh day is the sabbath of the LORD thy God: in it thou shalt not do any work, thou, nor thy son, nor thy daughter, thy manservant, nor thy maidservant, nor thy cattle, nor thy stranger that is within thy gates:",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
+        },
+        {
+          "id": "torah-exo-20-11",
+          "number": 11,
+          "text": "For in six days the LORD made heaven and earth, the sea, and all that in them is, and rested the seventh day: wherefore the LORD blessed the sabbath day, and hallowed it.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
         },
         {
           "id": "torah-exo-20-12",
@@ -416,7 +757,7 @@
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This verse contains the Ten Commandments given at Mount Sinai. It forms the core of biblical law and ethical monotheism, establishing the covenant between God and Israel."
+          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
         },
         {
           "id": "torah-exo-20-13",
@@ -427,7 +768,7 @@
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This verse contains the Ten Commandments given at Mount Sinai. It forms the core of biblical law and ethical monotheism, establishing the covenant between God and Israel."
+          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
         },
         {
           "id": "torah-exo-20-14",
@@ -438,7 +779,7 @@
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This verse contains the Ten Commandments given at Mount Sinai. It forms the core of biblical law and ethical monotheism, establishing the covenant between God and Israel."
+          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
         },
         {
           "id": "torah-exo-20-15",
@@ -449,7 +790,7 @@
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This verse contains the Ten Commandments given at Mount Sinai. It forms the core of biblical law and ethical monotheism, establishing the covenant between God and Israel."
+          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
         },
         {
           "id": "torah-exo-20-16",
@@ -460,7 +801,7 @@
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This verse contains the Ten Commandments given at Mount Sinai. It forms the core of biblical law and ethical monotheism, establishing the covenant between God and Israel."
+          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
         },
         {
           "id": "torah-exo-20-17",
@@ -471,13 +812,13 @@
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This verse contains the Ten Commandments given at Mount Sinai. It forms the core of biblical law and ethical monotheism, establishing the covenant between God and Israel."
+          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
         }
       ]
     },
     {
       "id": "torah-deut-6",
-      "number": 6,
+      "number": 9,
       "title": "Deuteronomy 6 — The Shema",
       "verses": [
         {
@@ -528,7 +869,7 @@
     },
     {
       "id": "torah-deut-30",
-      "number": 30,
+      "number": 10,
       "title": "Deuteronomy 30 — Life and Death",
       "verses": [
         {
@@ -557,9 +898,31 @@
     },
     {
       "id": "torah-gen-3",
-      "number": 2,
+      "number": 11,
       "title": "Genesis 3 — The Fall of Man",
       "verses": [
+        {
+          "id": "torah-gen-3-1",
+          "number": 1,
+          "text": "Now the serpent was more subtil than any beast of the field which the LORD God had made. And he said unto the woman, Yea, hath God said, Ye shall not eat of every tree of the garden?",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This pivotal chapter recounts humanity's first disobedience, introducing themes of temptation, sin, judgment, and the promise of redemption."
+        },
+        {
+          "id": "torah-gen-3-2",
+          "number": 2,
+          "text": "And the woman said unto the serpent, We may eat of the fruit of the trees of the garden:",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This pivotal chapter recounts humanity's first disobedience, introducing themes of temptation, sin, judgment, and the promise of redemption."
+        },
         {
           "id": "torah-gen-3-3",
           "number": 3,
@@ -569,7 +932,29 @@
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This verse from the Fall of Man describes the origin of sin and the rupture of the relationship between humanity and God through disobedience in the Garden of Eden."
+          "explanation": "This pivotal chapter recounts humanity's first disobedience, introducing themes of temptation, sin, judgment, and the promise of redemption."
+        },
+        {
+          "id": "torah-gen-3-4",
+          "number": 4,
+          "text": "And the serpent said unto the woman, Ye shall not surely die:",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This pivotal chapter recounts humanity's first disobedience, introducing themes of temptation, sin, judgment, and the promise of redemption."
+        },
+        {
+          "id": "torah-gen-3-5",
+          "number": 5,
+          "text": "For God doth know that in the day ye eat thereof, then your eyes shall be opened, and ye shall be as gods, knowing good and evil.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This pivotal chapter recounts humanity's first disobedience, introducing themes of temptation, sin, judgment, and the promise of redemption."
         },
         {
           "id": "torah-gen-3-6",
@@ -580,64 +965,211 @@
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This verse from the Fall of Man describes the origin of sin and the rupture of the relationship between humanity and God through disobedience in the Garden of Eden."
+          "explanation": "This pivotal chapter recounts humanity's first disobedience, introducing themes of temptation, sin, judgment, and the promise of redemption."
+        },
+        {
+          "id": "torah-gen-3-7",
+          "number": 7,
+          "text": "And the eyes of them both were opened, and they knew that they were naked; and they sewed fig leaves together, and made themselves aprons.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This pivotal chapter recounts humanity's first disobedience, introducing themes of temptation, sin, judgment, and the promise of redemption."
+        },
+        {
+          "id": "torah-gen-3-8",
+          "number": 8,
+          "text": "And they heard the voice of the LORD God walking in the garden in the cool of the day: and Adam and his wife hid themselves from the presence of the LORD God amongst the trees of the garden.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This pivotal chapter recounts humanity's first disobedience, introducing themes of temptation, sin, judgment, and the promise of redemption."
+        },
+        {
+          "id": "torah-gen-3-9",
+          "number": 9,
+          "text": "And the LORD God called unto Adam, and said unto him, Where art thou?",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This pivotal chapter recounts humanity's first disobedience, introducing themes of temptation, sin, judgment, and the promise of redemption."
+        },
+        {
+          "id": "torah-gen-3-10",
+          "number": 10,
+          "text": "And he said, I heard thy voice in the garden, and I was afraid, because I was naked; and I hid myself.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This pivotal chapter recounts humanity's first disobedience, introducing themes of temptation, sin, judgment, and the promise of redemption."
+        },
+        {
+          "id": "torah-gen-3-11",
+          "number": 11,
+          "text": "And he said, Who told thee that thou wast naked? Hast thou eaten of the tree, whereof I commanded thee that thou shouldest not eat?",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This pivotal chapter recounts humanity's first disobedience, introducing themes of temptation, sin, judgment, and the promise of redemption."
+        },
+        {
+          "id": "torah-gen-3-12",
+          "number": 12,
+          "text": "And the man said, The woman whom thou gavest to be with me, she gave me of the tree, and I did eat.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This pivotal chapter recounts humanity's first disobedience, introducing themes of temptation, sin, judgment, and the promise of redemption."
+        },
+        {
+          "id": "torah-gen-3-13",
+          "number": 13,
+          "text": "And the LORD God said unto the woman, What is this that thou hast done? And the woman said, The serpent beguiled me, and I did eat.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This pivotal chapter recounts humanity's first disobedience, introducing themes of temptation, sin, judgment, and the promise of redemption."
+        },
+        {
+          "id": "torah-gen-3-14",
+          "number": 14,
+          "text": "And the LORD God said unto the serpent, Because thou hast done this, thou art cursed above all cattle, and above every beast of the field; upon thy belly shalt thou go, and dust shalt thou eat all the days of thy life:",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This pivotal chapter recounts humanity's first disobedience, introducing themes of temptation, sin, judgment, and the promise of redemption."
+        },
+        {
+          "id": "torah-gen-3-15",
+          "number": 15,
+          "text": "And I will put enmity between thee and the woman, and between thy seed and her seed; it shall bruise thy head, and thou shalt bruise his heel.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This pivotal chapter recounts humanity's first disobedience, introducing themes of temptation, sin, judgment, and the promise of redemption."
+        },
+        {
+          "id": "torah-gen-3-16",
+          "number": 16,
+          "text": "Unto the woman he said, I will greatly multiply thy sorrow and thy conception; in sorrow thou shalt bring forth children; and thy desire shall be to thy husband, and he shall rule over thee.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This pivotal chapter recounts humanity's first disobedience, introducing themes of temptation, sin, judgment, and the promise of redemption."
+        },
+        {
+          "id": "torah-gen-3-17",
+          "number": 17,
+          "text": "And unto Adam he said, Because thou hast hearkened unto the voice of thy wife, and hast eaten of the tree, of which I commanded thee, saying, Thou shalt not eat of it: cursed is the ground for thy sake; in sorrow shalt thou eat of it all the days of thy life;",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This pivotal chapter recounts humanity's first disobedience, introducing themes of temptation, sin, judgment, and the promise of redemption."
+        },
+        {
+          "id": "torah-gen-3-18",
+          "number": 18,
+          "text": "Thorns also and thistles shall it bring forth to thee; and thou shalt eat the herb of the field;",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This pivotal chapter recounts humanity's first disobedience, introducing themes of temptation, sin, judgment, and the promise of redemption."
+        },
+        {
+          "id": "torah-gen-3-19",
+          "number": 19,
+          "text": "In the sweat of thy face shalt thou eat bread, till thou return unto the ground; for out of it wast thou taken: for dust thou art, and unto dust shalt thou return.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This pivotal chapter recounts humanity's first disobedience, introducing themes of temptation, sin, judgment, and the promise of redemption."
+        },
+        {
+          "id": "torah-gen-3-20",
+          "number": 20,
+          "text": "And Adam called his wife's name Eve; because she was the mother of all living.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This pivotal chapter recounts humanity's first disobedience, introducing themes of temptation, sin, judgment, and the promise of redemption."
+        },
+        {
+          "id": "torah-gen-3-21",
+          "number": 21,
+          "text": "Unto Adam also and to his wife did the LORD God make coats of skins, and clothed them.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This pivotal chapter recounts humanity's first disobedience, introducing themes of temptation, sin, judgment, and the promise of redemption."
         },
         {
           "id": "torah-gen-3-22",
           "number": 22,
-          "text": "And the LORD God said, Behold, the man is become as one of us, to know good and evil.",
+          "text": "And the LORD God said, Behold, the man is become as one of us, to know good and evil: and now, lest he put forth his hand, and take also of the tree of life, and eat, and live for ever:",
           "source": {
             "translator": "King James Version",
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This verse from the Fall of Man describes the origin of sin and the rupture of the relationship between humanity and God through disobedience in the Garden of Eden."
-        }
-      ]
-    },
-    {
-      "id": "torah-gen-22",
-      "number": 3,
-      "title": "Genesis 22 — The Binding of Isaac",
-      "verses": [
-        {
-          "id": "torah-gen-22-1",
-          "number": 1,
-          "text": "And it came to pass after these things, that God did tempt Abraham, and said unto him, Abraham: and he said, Behold, here I am.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "This verse from the Binding of Isaac (the Akedah) tells of Abraham's ultimate test of faith when God commands him to sacrifice his son Isaac, foreshadowing complete trust in divine providence."
+          "explanation": "This pivotal chapter recounts humanity's first disobedience, introducing themes of temptation, sin, judgment, and the promise of redemption."
         },
         {
-          "id": "torah-gen-22-2",
-          "number": 2,
-          "text": "And he said, Take now thy son, thine only son Isaac, whom thou lovest, and get thee into the land of Moriah; and offer him there for a burnt offering upon one of the mountains which I will tell thee of.",
+          "id": "torah-gen-3-23",
+          "number": 23,
+          "text": "Therefore the LORD God sent him forth from the garden of Eden, to till the ground from whence he was taken.",
           "source": {
             "translator": "King James Version",
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This verse from the Binding of Isaac (the Akedah) tells of Abraham's ultimate test of faith when God commands him to sacrifice his son Isaac, foreshadowing complete trust in divine providence."
+          "explanation": "This pivotal chapter recounts humanity's first disobedience, introducing themes of temptation, sin, judgment, and the promise of redemption."
         },
         {
-          "id": "torah-gen-22-14",
-          "number": 14,
-          "text": "And Abraham called the name of that place Jehovah-jireh: as it is said to this day, In the mount of the LORD it shall be seen.",
+          "id": "torah-gen-3-24",
+          "number": 24,
+          "text": "So he drove out the man; and he placed at the east of the garden of Eden Cherubims, and a flaming sword which turned every way, to keep the way of the tree of life.",
           "source": {
             "translator": "King James Version",
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This verse from the Binding of Isaac (the Akedah) tells of Abraham's ultimate test of faith when God commands him to sacrifice his son Isaac, foreshadowing complete trust in divine providence."
+          "explanation": "This pivotal chapter recounts humanity's first disobedience, introducing themes of temptation, sin, judgment, and the promise of redemption."
         }
       ]
     },
     {
       "id": "torah-ex-14",
-      "number": 4,
+      "number": 12,
       "title": "Exodus 14 — The Parting of the Red Sea",
       "verses": [
         {
@@ -666,7 +1198,7 @@
     },
     {
       "id": "torah-ex-20",
-      "number": 5,
+      "number": 13,
       "title": "Exodus 20 — The Ten Commandments",
       "verses": [
         {
@@ -717,7 +1249,7 @@
     },
     {
       "id": "torah-lev-19",
-      "number": 6,
+      "number": 14,
       "title": "Leviticus 19 — Holiness Laws",
       "verses": [
         {
@@ -745,88 +1277,8 @@
       ]
     },
     {
-      "id": "torah-deut-6",
-      "number": 7,
-      "title": "Deuteronomy 6 — The Shema",
-      "verses": [
-        {
-          "id": "torah-deut-6-4",
-          "number": 4,
-          "text": "Hear, O Israel: The LORD our God is one LORD.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "This verse contains the Shema: 'Hear, O Israel: The Lord our God, the Lord is One.' It is the central declaration of faith in Judaism, calling for wholehearted love of God."
-        },
-        {
-          "id": "torah-deut-6-5",
-          "number": 5,
-          "text": "And thou shalt love the LORD thy God with all thine heart, and with all thy soul, and with all thy might.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "This verse contains the Shema: 'Hear, O Israel: The Lord our God, the Lord is One.' It is the central declaration of faith in Judaism, calling for wholehearted love of God."
-        },
-        {
-          "id": "torah-deut-6-6",
-          "number": 6,
-          "text": "And these words, which I command thee this day, shall be in thine heart.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "This verse contains the Shema: 'Hear, O Israel: The Lord our God, the Lord is One.' It is the central declaration of faith in Judaism, calling for wholehearted love of God."
-        },
-        {
-          "id": "torah-deut-6-7",
-          "number": 7,
-          "text": "And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "This verse contains the Shema: 'Hear, O Israel: The Lord our God, the Lord is One.' It is the central declaration of faith in Judaism, calling for wholehearted love of God."
-        }
-      ]
-    },
-    {
-      "id": "torah-deut-30",
-      "number": 8,
-      "title": "Deuteronomy 30 — Choose Life",
-      "verses": [
-        {
-          "id": "torah-deut-30-19",
-          "number": 19,
-          "text": "I call heaven and earth to record this day against you, that I have set before you life and death, blessing and cursing: therefore choose life, that both thou and thy seed may live.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "This verse presents the choice between life and death, blessing and curse. It calls upon Israel to choose life by loving God and walking in His ways."
-        },
-        {
-          "id": "torah-deut-30-20",
-          "number": 20,
-          "text": "That thou mayest love the LORD thy God, and that thou mayest obey his voice, and that thou mayest cleave unto him: for he is thy life, and the length of thy days.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "This verse presents the choice between life and death, blessing and curse. It calls upon Israel to choose life by loving God and walking in His ways."
-        }
-      ]
-    },
-    {
       "id": "torah-gen-18",
-      "number": 9,
+      "number": 15,
       "title": "Genesis 18 — Abraham's Hospitality",
       "verses": [
         {
@@ -854,31 +1306,1027 @@
       ]
     },
     {
-      "id": "torah-gen-28",
-      "number": 10,
-      "title": "Genesis 28 — Jacob's Ladder",
+      "id": "torah-gen-2",
+      "number": 16,
+      "title": "Genesis 2 — The Garden of Eden",
       "verses": [
         {
-          "id": "torah-gen-28-15",
-          "number": 15,
-          "text": "And, behold, I am with thee, and will keep thee in all places whither thou goest, and will bring thee again into this land.",
+          "id": "torah-gen-2-1",
+          "number": 1,
+          "text": "Thus the heavens and the earth were finished, and all the host of them.",
           "source": {
             "translator": "King James Version",
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This verse describes Jacob's dream of a ladder reaching to heaven, with angels ascending and descending. It affirms that God is present everywhere and renews the covenant with Jacob."
+          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
         },
         {
-          "id": "torah-gen-28-17",
-          "number": 17,
-          "text": "And he was afraid, and said, How dreadful is this place! this is none other but the house of God, and this is the gate of heaven.",
+          "id": "torah-gen-2-2",
+          "number": 2,
+          "text": "And on the seventh day God ended his work which he had made; and he rested on the seventh day from all his work which he had made.",
           "source": {
             "translator": "King James Version",
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This verse describes Jacob's dream of a ladder reaching to heaven, with angels ascending and descending. It affirms that God is present everywhere and renews the covenant with Jacob."
+          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
+        },
+        {
+          "id": "torah-gen-2-3",
+          "number": 3,
+          "text": "And God blessed the seventh day, and sanctified it: because that in it he had rested from all his work which God created and made.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
+        },
+        {
+          "id": "torah-gen-2-4",
+          "number": 4,
+          "text": "These are the generations of the heavens and of the earth when they were created, in the day that the LORD God made the earth and the heavens,",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
+        },
+        {
+          "id": "torah-gen-2-5",
+          "number": 5,
+          "text": "And every plant of the field before it was in the earth, and every herb of the field before it grew: for the LORD God had not caused it to rain upon the earth, and there was not a man to till the ground.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
+        },
+        {
+          "id": "torah-gen-2-6",
+          "number": 6,
+          "text": "But there went up a mist from the earth, and watered the whole face of the ground.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
+        },
+        {
+          "id": "torah-gen-2-7",
+          "number": 7,
+          "text": "And the LORD God formed man of the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
+        },
+        {
+          "id": "torah-gen-2-8",
+          "number": 8,
+          "text": "And the LORD God planted a garden eastward in Eden; and there he put the man whom he had formed.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
+        },
+        {
+          "id": "torah-gen-2-9",
+          "number": 9,
+          "text": "And out of the ground made the LORD God to grow every tree that is pleasant to the sight, and good for food; the tree of life also in the midst of the garden, and the tree of knowledge of good and evil.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
+        },
+        {
+          "id": "torah-gen-2-10",
+          "number": 10,
+          "text": "And a river went out of Eden to water the garden; and from thence it was parted, and became into four heads.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
+        },
+        {
+          "id": "torah-gen-2-11",
+          "number": 11,
+          "text": "And the LORD God took the man, and put him into the garden of Eden to dress it and to keep it.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
+        },
+        {
+          "id": "torah-gen-2-12",
+          "number": 12,
+          "text": "And the LORD God commanded the man, saying, Of every tree of the garden thou mayest freely eat:",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
+        },
+        {
+          "id": "torah-gen-2-13",
+          "number": 13,
+          "text": "But of the tree of the knowledge of good and evil, thou shalt not eat of it: for in the day that thou eatest thereof thou shalt surely die.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
+        },
+        {
+          "id": "torah-gen-2-14",
+          "number": 14,
+          "text": "And the LORD God said, It is not good that the man should be alone; I will make him an help meet for him.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
+        },
+        {
+          "id": "torah-gen-2-15",
+          "number": 15,
+          "text": "And out of the ground the LORD God formed every beast of the field, and every fowl of the air; and brought them unto Adam to see what he would call them: and whatsoever Adam called every living creature, that was the name thereof.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
+        },
+        {
+          "id": "torah-gen-2-16",
+          "number": 16,
+          "text": "And Adam gave names to all cattle, and to the fowl of the air, and to every beast of the field; but for Adam there was not found an help meet for him.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
+        },
+        {
+          "id": "torah-gen-2-17",
+          "number": 17,
+          "text": "And the LORD God caused a deep sleep to fall upon Adam, and he slept: and he took one of his ribs, and closed up the flesh instead thereof;",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
+        },
+        {
+          "id": "torah-gen-2-18",
+          "number": 18,
+          "text": "And the rib, which the LORD God had taken from man, made he a woman, and brought her unto the man.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
+        },
+        {
+          "id": "torah-gen-2-19",
+          "number": 19,
+          "text": "And Adam said, This is now bone of my bones, and flesh of my flesh: she shall be called Woman, because she was taken out of Man.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
+        },
+        {
+          "id": "torah-gen-2-20",
+          "number": 20,
+          "text": "Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
+        },
+        {
+          "id": "torah-gen-2-21",
+          "number": 21,
+          "text": "And they were both naked, the man and his wife, and were not ashamed.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
+        }
+      ]
+    },
+    {
+      "id": "torah-exo-14",
+      "number": 17,
+      "title": "Exodus 14 — The Parting of the Red Sea",
+      "verses": [
+        {
+          "id": "torah-exo-14-1",
+          "number": 1,
+          "text": "And the LORD spake unto Moses, saying,",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This dramatic account of Israel's deliverance from Egypt demonstrates God's power to save and establishes the foundation of Israel's faith in divine redemption."
+        },
+        {
+          "id": "torah-exo-14-2",
+          "number": 2,
+          "text": "Speak unto the children of Israel, that they turn and encamp before Pihahiroth, between Migdol and the sea, over against Baalzephon: before it shall ye encamp by the sea.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This dramatic account of Israel's deliverance from Egypt demonstrates God's power to save and establishes the foundation of Israel's faith in divine redemption."
+        },
+        {
+          "id": "torah-exo-14-3",
+          "number": 3,
+          "text": "For Pharaoh will say of the children of Israel, They are entangled in the land, the wilderness hath shut them in.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This dramatic account of Israel's deliverance from Egypt demonstrates God's power to save and establishes the foundation of Israel's faith in divine redemption."
+        },
+        {
+          "id": "torah-exo-14-4",
+          "number": 4,
+          "text": "And I will harden Pharaoh's heart, that he shall follow after them; and I will be honoured upon Pharaoh, and upon all his host; that the Egyptians may know that I am the LORD. And they did so.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This dramatic account of Israel's deliverance from Egypt demonstrates God's power to save and establishes the foundation of Israel's faith in divine redemption."
+        },
+        {
+          "id": "torah-exo-14-5",
+          "number": 5,
+          "text": "And it was told the king of Egypt that the people fled: and the heart of Pharaoh and of his servants was turned against the people, and they said, Why have we done this, that we have let Israel go from serving us?",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This dramatic account of Israel's deliverance from Egypt demonstrates God's power to save and establishes the foundation of Israel's faith in divine redemption."
+        },
+        {
+          "id": "torah-exo-14-6",
+          "number": 6,
+          "text": "And he made ready his chariot, and took his people with him:",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This dramatic account of Israel's deliverance from Egypt demonstrates God's power to save and establishes the foundation of Israel's faith in divine redemption."
+        },
+        {
+          "id": "torah-exo-14-7",
+          "number": 7,
+          "text": "And he took six hundred chosen chariots, and all the chariots of Egypt, and captains over every one of them.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This dramatic account of Israel's deliverance from Egypt demonstrates God's power to save and establishes the foundation of Israel's faith in divine redemption."
+        },
+        {
+          "id": "torah-exo-14-8",
+          "number": 8,
+          "text": "And the LORD hardened the heart of Pharaoh king of Egypt, and he pursued after the children of Israel: and the children of Israel went out with an high hand.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This dramatic account of Israel's deliverance from Egypt demonstrates God's power to save and establishes the foundation of Israel's faith in divine redemption."
+        },
+        {
+          "id": "torah-exo-14-9",
+          "number": 9,
+          "text": "But the Egyptians pursued after them, all the horses and chariots of Pharaoh, and his horsemen, and his army, and overtook them encamping by the sea, beside Pihahiroth, before Baalzephon.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This dramatic account of Israel's deliverance from Egypt demonstrates God's power to save and establishes the foundation of Israel's faith in divine redemption."
+        },
+        {
+          "id": "torah-exo-14-10",
+          "number": 10,
+          "text": "And when Pharaoh drew nigh, the children of Israel lifted up their eyes, and, behold, the Egyptians marched after them; and they were sore afraid: and the children of Israel cried out unto the LORD.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This dramatic account of Israel's deliverance from Egypt demonstrates God's power to save and establishes the foundation of Israel's faith in divine redemption."
+        },
+        {
+          "id": "torah-exo-14-11",
+          "number": 11,
+          "text": "And they said unto Moses, Because there were no graves in Egypt, hast thou taken us away to die in the wilderness? wherefore hast thou dealt thus with us, to carry us forth out of Egypt?",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This dramatic account of Israel's deliverance from Egypt demonstrates God's power to save and establishes the foundation of Israel's faith in divine redemption."
+        },
+        {
+          "id": "torah-exo-14-12",
+          "number": 12,
+          "text": "And Moses said unto the people, Fear ye not, stand still, and see the salvation of the LORD, which he will shew to you to day: for the Egyptians whom ye have seen to day, ye shall see them again no more for ever.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This dramatic account of Israel's deliverance from Egypt demonstrates God's power to save and establishes the foundation of Israel's faith in divine redemption."
+        },
+        {
+          "id": "torah-exo-14-13",
+          "number": 13,
+          "text": "The LORD shall fight for you, and ye shall hold your peace.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This dramatic account of Israel's deliverance from Egypt demonstrates God's power to save and establishes the foundation of Israel's faith in divine redemption."
+        },
+        {
+          "id": "torah-exo-14-14",
+          "number": 14,
+          "text": "And the LORD said unto Moses, Wherefore criest thou unto me? speak unto the children of Israel, that they go forward:",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This dramatic account of Israel's deliverance from Egypt demonstrates God's power to save and establishes the foundation of Israel's faith in divine redemption."
+        },
+        {
+          "id": "torah-exo-14-15",
+          "number": 15,
+          "text": "But lift thou up thy rod, and stretch out thine hand over the sea, and divide it: and the children of Israel shall go on dry ground through the midst of the sea.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This dramatic account of Israel's deliverance from Egypt demonstrates God's power to save and establishes the foundation of Israel's faith in divine redemption."
+        },
+        {
+          "id": "torah-exo-14-16",
+          "number": 16,
+          "text": "And I, behold, I will harden the hearts of the Egyptians, and they shall follow them: and I will get me honour upon Pharaoh, and upon all his host, upon his chariots, and upon his horsemen.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This dramatic account of Israel's deliverance from Egypt demonstrates God's power to save and establishes the foundation of Israel's faith in divine redemption."
+        },
+        {
+          "id": "torah-exo-14-17",
+          "number": 17,
+          "text": "And the angel of God, which went before the camp of Israel, removed and went behind them; and the pillar of the cloud went from before their face, and stood behind them:",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This dramatic account of Israel's deliverance from Egypt demonstrates God's power to save and establishes the foundation of Israel's faith in divine redemption."
+        },
+        {
+          "id": "torah-exo-14-18",
+          "number": 18,
+          "text": "And it came between the camp of the Egyptians and the camp of Israel; and it was a cloud and darkness to them, but it gave light by night to these: so that the one came not near the other all the night.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This dramatic account of Israel's deliverance from Egypt demonstrates God's power to save and establishes the foundation of Israel's faith in divine redemption."
+        },
+        {
+          "id": "torah-exo-14-19",
+          "number": 19,
+          "text": "And Moses stretched out his hand over the sea; and the LORD caused the sea to go back by a strong east wind all that night, and made the sea dry land, and the waters were divided.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This dramatic account of Israel's deliverance from Egypt demonstrates God's power to save and establishes the foundation of Israel's faith in divine redemption."
+        },
+        {
+          "id": "torah-exo-14-20",
+          "number": 20,
+          "text": "And the children of Israel went into the midst of the sea upon the dry ground: and the waters were a wall unto them on their right hand, and on their left.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This dramatic account of Israel's deliverance from Egypt demonstrates God's power to save and establishes the foundation of Israel's faith in divine redemption."
+        },
+        {
+          "id": "torah-exo-14-21",
+          "number": 21,
+          "text": "And the Egyptians pursued, and went in after them to the midst of the sea, even all Pharaoh's horses, his chariots, and his horsemen.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This dramatic account of Israel's deliverance from Egypt demonstrates God's power to save and establishes the foundation of Israel's faith in divine redemption."
+        },
+        {
+          "id": "torah-exo-14-22",
+          "number": 22,
+          "text": "And the LORD said unto Moses, Stretch out thine hand over the sea, that the waters may come again upon the Egyptians, upon their chariots, and upon their horsemen.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This dramatic account of Israel's deliverance from Egypt demonstrates God's power to save and establishes the foundation of Israel's faith in divine redemption."
+        },
+        {
+          "id": "torah-exo-14-23",
+          "number": 23,
+          "text": "And Moses stretched forth his hand over the sea, and the sea returned to his strength when the morning appeared; and the Egyptians fled against it; and the LORD overthrew the Egyptians in the midst of the sea.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This dramatic account of Israel's deliverance from Egypt demonstrates God's power to save and establishes the foundation of Israel's faith in divine redemption."
+        },
+        {
+          "id": "torah-exo-14-24",
+          "number": 24,
+          "text": "And the waters returned, and covered the chariots, and the horsemen, and all the host of Pharaoh that came into the sea after them; there remained not so much as one of them.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This dramatic account of Israel's deliverance from Egypt demonstrates God's power to save and establishes the foundation of Israel's faith in divine redemption."
+        },
+        {
+          "id": "torah-exo-14-25",
+          "number": 25,
+          "text": "But the children of Israel walked upon dry land in the midst of the sea; and the waters were a wall unto them on their right hand, and on their left.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This dramatic account of Israel's deliverance from Egypt demonstrates God's power to save and establishes the foundation of Israel's faith in divine redemption."
+        },
+        {
+          "id": "torah-exo-14-26",
+          "number": 26,
+          "text": "Thus the LORD saved Israel that day out of the hand of the Egyptians; and Israel saw the Egyptians dead upon the sea shore.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This dramatic account of Israel's deliverance from Egypt demonstrates God's power to save and establishes the foundation of Israel's faith in divine redemption."
+        },
+        {
+          "id": "torah-exo-14-27",
+          "number": 27,
+          "text": "And Israel saw that great work which the LORD did upon the Egyptians: and the people feared the LORD, and believed the LORD, and his servant Moses.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This dramatic account of Israel's deliverance from Egypt demonstrates God's power to save and establishes the foundation of Israel's faith in divine redemption."
+        }
+      ]
+    },
+    {
+      "id": "torah-num-6",
+      "number": 18,
+      "title": "Numbers 6 — The Priestly Blessing",
+      "verses": [
+        {
+          "id": "torah-num-6-1",
+          "number": 1,
+          "text": "And the LORD spake unto Moses, saying,",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage contains the Aaronic blessing, one of the most cherished benedictions in Jewish and Christian tradition, invoking divine favor and peace."
+        },
+        {
+          "id": "torah-num-6-2",
+          "number": 2,
+          "text": "Speak unto Aaron and unto his sons, saying, On this wise ye shall bless the children of Israel, saying unto them,",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage contains the Aaronic blessing, one of the most cherished benedictions in Jewish and Christian tradition, invoking divine favor and peace."
+        },
+        {
+          "id": "torah-num-6-3",
+          "number": 3,
+          "text": "The LORD bless thee, and keep thee:",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage contains the Aaronic blessing, one of the most cherished benedictions in Jewish and Christian tradition, invoking divine favor and peace."
+        },
+        {
+          "id": "torah-num-6-4",
+          "number": 4,
+          "text": "The LORD make his face shine upon thee, and be gracious unto thee:",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage contains the Aaronic blessing, one of the most cherished benedictions in Jewish and Christian tradition, invoking divine favor and peace."
+        },
+        {
+          "id": "torah-num-6-5",
+          "number": 5,
+          "text": "The LORD lift up his countenance upon thee, and give thee peace.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage contains the Aaronic blessing, one of the most cherished benedictions in Jewish and Christian tradition, invoking divine favor and peace."
+        },
+        {
+          "id": "torah-num-6-6",
+          "number": 6,
+          "text": "And they shall put my name upon the children of Israel; and I will bless them.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage contains the Aaronic blessing, one of the most cherished benedictions in Jewish and Christian tradition, invoking divine favor and peace."
+        }
+      ]
+    },
+    {
+      "id": "torah-num-14",
+      "number": 19,
+      "title": "Numbers 14 — The People Rebel",
+      "verses": [
+        {
+          "id": "torah-num-14-1",
+          "number": 1,
+          "text": "And all the congregation lifted up their voice, and cried; and the people wept that night.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This chapter recounts Israel's rebellion at Kadesh-barnea, exploring themes of faith, doubt, divine judgment, and intercessory prayer."
+        },
+        {
+          "id": "torah-num-14-2",
+          "number": 2,
+          "text": "And all the children of Israel murmured against Moses and against Aaron: and the whole congregation said unto them, Would God that we had died in the land of Egypt! or would God we had died in this wilderness!",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This chapter recounts Israel's rebellion at Kadesh-barnea, exploring themes of faith, doubt, divine judgment, and intercessory prayer."
+        },
+        {
+          "id": "torah-num-14-3",
+          "number": 3,
+          "text": "And wherefore hath the LORD brought us unto this land, to fall by the sword, that our wives and our children should be a prey? were it not better for us to return into Egypt?",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This chapter recounts Israel's rebellion at Kadesh-barnea, exploring themes of faith, doubt, divine judgment, and intercessory prayer."
+        },
+        {
+          "id": "torah-num-14-4",
+          "number": 4,
+          "text": "And they said one to another, Let us make a captain, and let us return into Egypt.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This chapter recounts Israel's rebellion at Kadesh-barnea, exploring themes of faith, doubt, divine judgment, and intercessory prayer."
+        },
+        {
+          "id": "torah-num-14-5",
+          "number": 5,
+          "text": "Then Moses and Aaron fell on their faces before all the assembly of the congregation of the children of Israel.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This chapter recounts Israel's rebellion at Kadesh-barnea, exploring themes of faith, doubt, divine judgment, and intercessory prayer."
+        },
+        {
+          "id": "torah-num-14-6",
+          "number": 6,
+          "text": "And Joshua the son of Nun, and Caleb the son of Jephunneh, which were of them that searched the land, rent their clothes:",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This chapter recounts Israel's rebellion at Kadesh-barnea, exploring themes of faith, doubt, divine judgment, and intercessory prayer."
+        },
+        {
+          "id": "torah-num-14-7",
+          "number": 7,
+          "text": "And they spake unto all the company of the children of Israel, saying, The land, which we passed through to search it, is an exceeding good land.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This chapter recounts Israel's rebellion at Kadesh-barnea, exploring themes of faith, doubt, divine judgment, and intercessory prayer."
+        },
+        {
+          "id": "torah-num-14-8",
+          "number": 8,
+          "text": "If the LORD delight in us, then he will bring us into this land, and give it us; a land which floweth with milk and honey.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This chapter recounts Israel's rebellion at Kadesh-barnea, exploring themes of faith, doubt, divine judgment, and intercessory prayer."
+        },
+        {
+          "id": "torah-num-14-9",
+          "number": 9,
+          "text": "Only rebel not ye against the LORD, neither fear ye the people of the land; for they are bread for us: their defence is departed from them, and the LORD is with us: fear them not.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This chapter recounts Israel's rebellion at Kadesh-barnea, exploring themes of faith, doubt, divine judgment, and intercessory prayer."
+        },
+        {
+          "id": "torah-num-14-10",
+          "number": 10,
+          "text": "But all the congregation bade stone them with stones. And the glory of the LORD appeared in the tabernacle of the congregation before all the children of Israel.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This chapter recounts Israel's rebellion at Kadesh-barnea, exploring themes of faith, doubt, divine judgment, and intercessory prayer."
+        },
+        {
+          "id": "torah-num-14-11",
+          "number": 11,
+          "text": "And the LORD said unto Moses, How long will this people provoke me? and how long will it be ere they believe me, for all the signs which I have shewed among them?",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This chapter recounts Israel's rebellion at Kadesh-barnea, exploring themes of faith, doubt, divine judgment, and intercessory prayer."
+        },
+        {
+          "id": "torah-num-14-12",
+          "number": 12,
+          "text": "I will smite them with the pestilence, and disinherit them, and will make of thee a greater nation and mightier than they.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This chapter recounts Israel's rebellion at Kadesh-barnea, exploring themes of faith, doubt, divine judgment, and intercessory prayer."
+        },
+        {
+          "id": "torah-num-14-13",
+          "number": 13,
+          "text": "And Moses said unto the LORD, Then the Egyptians shall hear it, (for thou broughtest up this people in thy might from among them;)",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This chapter recounts Israel's rebellion at Kadesh-barnea, exploring themes of faith, doubt, divine judgment, and intercessory prayer."
+        },
+        {
+          "id": "torah-num-14-14",
+          "number": 14,
+          "text": "And they will tell it to the inhabitants of this land: for they have heard that thou LORD art among this people, that thou LORD art seen face to face, and that thy cloud standeth over them, and that thou goest before them, by day time in a pillar of a cloud, and in a pillar of fire by night.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This chapter recounts Israel's rebellion at Kadesh-barnea, exploring themes of faith, doubt, divine judgment, and intercessory prayer."
+        },
+        {
+          "id": "torah-num-14-15",
+          "number": 15,
+          "text": "Pardon, I beseech thee, the iniquity of this people according unto the greatness of thy mercy, and as thou hast forgiven this people, from Egypt even until now.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This chapter recounts Israel's rebellion at Kadesh-barnea, exploring themes of faith, doubt, divine judgment, and intercessory prayer."
+        }
+      ]
+    },
+    {
+      "id": "torah-deut-10",
+      "number": 20,
+      "title": "Deuteronomy 10 — What God Requires",
+      "verses": [
+        {
+          "id": "torah-deut-10-1",
+          "number": 1,
+          "text": "At that time the LORD said unto me, Hew thee two tables of stone like unto the first, and come up unto me into the mount, and make thee an ark of wood.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage summarizes the essence of covenant faithfulness: fearing God, walking in His ways, loving Him, and serving with heart and soul."
+        },
+        {
+          "id": "torah-deut-10-2",
+          "number": 2,
+          "text": "And I will write on the tables the words that were in the first tables which thou brakest, and thou shalt put them in the ark.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage summarizes the essence of covenant faithfulness: fearing God, walking in His ways, loving Him, and serving with heart and soul."
+        },
+        {
+          "id": "torah-deut-10-3",
+          "number": 3,
+          "text": "And I made an ark of shittim wood, and hewed two tables of stone like unto the first, and went up into the mount, having the two tables in mine hand.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage summarizes the essence of covenant faithfulness: fearing God, walking in His ways, loving Him, and serving with heart and soul."
+        },
+        {
+          "id": "torah-deut-10-4",
+          "number": 4,
+          "text": "And he wrote on the tables, according to the first writing, the ten commandments, which the LORD spake unto you in the mount out of the midst of the fire in the day of the assembly: and the LORD gave them unto me.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage summarizes the essence of covenant faithfulness: fearing God, walking in His ways, loving Him, and serving with heart and soul."
+        },
+        {
+          "id": "torah-deut-10-5",
+          "number": 5,
+          "text": "And I turned myself and came down from the mount, and put the tables in the ark which I had made; and there they be, as the LORD commanded me.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage summarizes the essence of covenant faithfulness: fearing God, walking in His ways, loving Him, and serving with heart and soul."
+        },
+        {
+          "id": "torah-deut-10-6",
+          "number": 6,
+          "text": "And the children of Israel took their journey from Beeroth of the children of Jaakan to Mosera: there Aaron died, and there he was buried; and Eleazar his son ministered in the priest's office in his stead.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage summarizes the essence of covenant faithfulness: fearing God, walking in His ways, loving Him, and serving with heart and soul."
+        },
+        {
+          "id": "torah-deut-10-7",
+          "number": 7,
+          "text": "From thence they journeyed unto Gudgodah; and from Gudgodah to Jotbath, a land of rivers of waters.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage summarizes the essence of covenant faithfulness: fearing God, walking in His ways, loving Him, and serving with heart and soul."
+        },
+        {
+          "id": "torah-deut-10-8",
+          "number": 8,
+          "text": "At that time the LORD separated the tribe of Levi, to bear the ark of the covenant of the LORD, to stand before the LORD to minister unto him, and to bless in his name, unto this day.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage summarizes the essence of covenant faithfulness: fearing God, walking in His ways, loving Him, and serving with heart and soul."
+        },
+        {
+          "id": "torah-deut-10-9",
+          "number": 9,
+          "text": "Wherefore Levi hath no part nor inheritance with his brethren; the LORD is his inheritance, according as the LORD thy God promised him.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage summarizes the essence of covenant faithfulness: fearing God, walking in His ways, loving Him, and serving with heart and soul."
+        },
+        {
+          "id": "torah-deut-10-10",
+          "number": 10,
+          "text": "And I stayed in the mount, according to the first time, forty days and forty nights; and the LORD hearkened unto me at that time also, and the LORD would not destroy thee.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage summarizes the essence of covenant faithfulness: fearing God, walking in His ways, loving Him, and serving with heart and soul."
+        },
+        {
+          "id": "torah-deut-10-11",
+          "number": 11,
+          "text": "And the LORD said unto me, Arise, take thy journey before the people, that they may go in and possess the land, which I sware unto their fathers to give unto them.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage summarizes the essence of covenant faithfulness: fearing God, walking in His ways, loving Him, and serving with heart and soul."
+        },
+        {
+          "id": "torah-deut-10-12",
+          "number": 12,
+          "text": "And now, Israel, what doth the LORD thy God require of thee, but to fear the LORD thy God, to walk in all his ways, and to love him, and to serve the LORD thy God with all thy heart and with all thy soul,",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage summarizes the essence of covenant faithfulness: fearing God, walking in His ways, loving Him, and serving with heart and soul."
+        },
+        {
+          "id": "torah-deut-10-13",
+          "number": 13,
+          "text": "To keep the commandments of the LORD, and his statutes, which I command thee this day for thy good?",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage summarizes the essence of covenant faithfulness: fearing God, walking in His ways, loving Him, and serving with heart and soul."
+        },
+        {
+          "id": "torah-deut-10-14",
+          "number": 14,
+          "text": "Behold, the heaven and the heaven of heavens is the LORD's thy God, the earth also, with all that therein is.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage summarizes the essence of covenant faithfulness: fearing God, walking in His ways, loving Him, and serving with heart and soul."
+        },
+        {
+          "id": "torah-deut-10-15",
+          "number": 15,
+          "text": "Only the LORD had a delight in thy fathers to love them, and he chose their seed after them, even you above all people, as it is this day.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage summarizes the essence of covenant faithfulness: fearing God, walking in His ways, loving Him, and serving with heart and soul."
+        },
+        {
+          "id": "torah-deut-10-16",
+          "number": 16,
+          "text": "Circumcise therefore the foreskin of your heart, and be no more stiffnecked.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage summarizes the essence of covenant faithfulness: fearing God, walking in His ways, loving Him, and serving with heart and soul."
+        },
+        {
+          "id": "torah-deut-10-17",
+          "number": 17,
+          "text": "For the LORD your God is God of gods, and Lord of lords, a great God, a mighty, and a terrible, which regardeth not persons, nor taketh reward:",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage summarizes the essence of covenant faithfulness: fearing God, walking in His ways, loving Him, and serving with heart and soul."
+        },
+        {
+          "id": "torah-deut-10-18",
+          "number": 18,
+          "text": "He doth execute the judgment of the fatherless and widow, and loveth the stranger, in giving him food and raiment.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage summarizes the essence of covenant faithfulness: fearing God, walking in His ways, loving Him, and serving with heart and soul."
+        },
+        {
+          "id": "torah-deut-10-19",
+          "number": 19,
+          "text": "Love ye therefore the stranger: for ye were strangers in the land of Egypt.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage summarizes the essence of covenant faithfulness: fearing God, walking in His ways, loving Him, and serving with heart and soul."
+        },
+        {
+          "id": "torah-deut-10-20",
+          "number": 20,
+          "text": "Thou shalt fear the LORD thy God; him shalt thou serve, and to him shalt thou cleave, and swear by his name.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage summarizes the essence of covenant faithfulness: fearing God, walking in His ways, loving Him, and serving with heart and soul."
+        },
+        {
+          "id": "torah-deut-10-21",
+          "number": 21,
+          "text": "He is thy praise, and he is thy God, that hath done for thee these great and terrible things, which thine eyes have seen.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage summarizes the essence of covenant faithfulness: fearing God, walking in His ways, loving Him, and serving with heart and soul."
         }
       ]
     }

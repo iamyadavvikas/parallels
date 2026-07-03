@@ -20,6 +20,7 @@ export interface Verse {
   source: Source;
   altText?: string;
   altSource?: Source;
+  explanation?: string;
 }
 
 export interface Chapter {

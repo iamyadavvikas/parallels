@@ -3,168 +3,1083 @@
     "id": "golden-rule",
     "name": "The Golden Rule",
     "description": "The principle of treating others as one wishes to be treated, found across all major religious traditions.",
-    "keywords": ["golden rule", "treat others", "love neighbor", "do unto others"],
+    "keywords": [
+      "golden rule",
+      "treat others",
+      "love neighbor",
+      "do unto others"
+    ],
     "passages": [
-      { "bookId": "torah", "bookTitle": "The Torah", "religion": "Judaism", "reference": "Leviticus 19:18", "chapterId": "torah-lv-19", "verseId": "torah-lv-19-18", "text": "Thou shalt not take vengeance, nor bear any grudge against the children of thy people, but thou shalt love thy neighbor as thyself: I am the Lord.", "source": { "translator": "Jewish Publication Society (JPS)", "year": 1917, "license": "Public Domain" } },
-      { "bookId": "bible", "bookTitle": "The Bible", "religion": "Christianity", "reference": "Matthew 7:12", "chapterId": "bible-mt-5", "verseId": "bible-mt-5-44", "text": "Therefore, whatever you desire for others to do to you, you shall also do to them; for this is the law and the prophets.", "source": { "translator": "World English Bible", "year": 2000, "license": "Public Domain" } },
-      { "bookId": "bhagavad-gita", "bookTitle": "Bhagavad Gita", "religion": "Hinduism", "reference": "Bhagavad Gita 12.13", "chapterId": "bg-12", "verseId": "bg-12-13", "text": "He who hates no creature, who is friendly and compassionate, who is free from egoism and the sense of 'mine,' who is equal in pain and pleasure, who is forgiving—such a devotee is dear to Me.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
-      { "bookId": "dhammapada", "bookTitle": "Dhammapada", "religion": "Buddhism", "reference": "Dhammapada 10:129", "chapterId": "dhp-10", "verseId": "dhp-10-129", "text": "All tremble before violence. All fear death. Putting oneself in the place of another, one should not kill nor cause another to kill.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } }
+      {
+        "bookId": "torah",
+        "bookTitle": "The Torah",
+        "religion": "Judaism",
+        "reference": "The Torah 14.18",
+        "chapterId": "torah-lev-19",
+        "verseId": "torah-lev-19-18",
+        "text": "Thou shalt not avenge, nor bear any grudge against the children of thy people, but thou shalt love thy neighbour as thyself: I am the LORD.",
+        "source": {
+          "translator": "King James Version",
+          "year": 1611,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "bible",
+        "bookTitle": "The Bible",
+        "religion": "Christianity",
+        "reference": "The Bible 8.44",
+        "chapterId": "bible-mat-5",
+        "verseId": "bible-mat-5-44",
+        "text": "But I say unto you, Love your enemies, bless them that curse you, do good to them that hate you, and pray for them which despitefully use you, and persecute you.",
+        "source": {
+          "translator": "King James Version",
+          "year": 1611,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "bhagavad-gita",
+        "bookTitle": "Bhagavad Gita",
+        "religion": "Hinduism",
+        "reference": "Bhagavad Gita 12.13",
+        "chapterId": "bg-12",
+        "verseId": "bg-12-13",
+        "text": "He who hates no creature, who is friendly and compassionate, who is free from egoism and the sense of 'mine,' who is equal in pain and pleasure, who is forgiving—such a devotee is dear to Me.",
+        "source": {
+          "translator": "Swami Sivananda",
+          "year": 1942,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "dhammapada",
+        "bookTitle": "Dhammapada",
+        "religion": "Buddhism",
+        "reference": "Dhammapada 10.1",
+        "chapterId": "dp-10",
+        "verseId": "dp-10-1",
+        "text": "Youth is not lasting; it is but the time of a meeting of the senses. Seeing that this is so, a wise person should refrain from sense pleasures.",
+        "source": {
+          "translator": "F. Max Müller",
+          "year": 1881,
+          "license": "Public Domain"
+        }
+      }
     ]
   },
   {
     "id": "compassion",
     "name": "Compassion & Empathy",
     "description": "The virtue of showing kindness, understanding, and mercy toward others, especially those who suffer.",
-    "keywords": ["compassion", "mercy", "kindness", "empathy", "loving-kindness"],
+    "keywords": [
+      "compassion",
+      "mercy",
+      "kindness",
+      "empathy",
+      "loving-kindness"
+    ],
     "passages": [
-      { "bookId": "dhammapada", "bookTitle": "Dhammapada", "religion": "Buddhism", "reference": "Dhammapada 1:5", "chapterId": "dhp-1", "verseId": "dhp-1-5", "text": "Hatred is never appeased by hatred in this world. By love alone is hatred appeased. This is an ancient truth.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-      { "bookId": "quran", "bookTitle": "The Quran", "religion": "Islam", "reference": "Quran 42:40", "chapterId": "quran-42", "verseId": "quran-42-40", "text": "The recompense for an injury is an injury equal thereto, but whoever forgives and makes reconciliation, his reward is with Allah. Indeed, He does not like wrongdoers.", "source": { "translator": "Yusuf Ali", "year": 1934, "license": "Public Domain" } },
-      { "bookId": "bhagavad-gita", "bookTitle": "Bhagavad Gita", "religion": "Hinduism", "reference": "Bhagavad Gita 12.13", "chapterId": "bg-12", "verseId": "bg-12-13", "text": "He who hates no creature, who is friendly and compassionate, who is free from egoism... such a devotee is dear to Me.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
-      { "bookId": "bible", "bookTitle": "The Bible", "religion": "Christianity", "reference": "1 Corinthians 13:4", "chapterId": "bible-1cor-13", "verseId": "bible-1cor-13-4", "text": "Love is patient and is kind. Love doesn't envy. Love doesn't brag, is not proud.", "source": { "translator": "World English Bible", "year": 2000, "license": "Public Domain" } },
-      { "bookId": "guru-granth-sahib", "bookTitle": "Guru Granth Sahib", "religion": "Sikhism", "reference": "Sukhmani Sahib", "chapterId": "ggs-sukhmani", "verseId": "ggs-sukhmani-2", "text": "He who looks upon all with a single eye, and knows all as part of the One—that person is truly wise.", "source": { "translator": "Dr. Gopal Singh", "year": 1960, "license": "Public Domain" } }
+      {
+        "bookId": "dhammapada",
+        "bookTitle": "Dhammapada",
+        "religion": "Buddhism",
+        "reference": "Dhammapada 1.1",
+        "chapterId": "dp-1",
+        "verseId": "dp-1-1",
+        "text": "Mind precedes all mental states. Mind is their chief; they are all mind-wrought. If with an impure mind a person speaks or acts, suffering follows him like the wheel that follows the foot of the ox.",
+        "source": {
+          "translator": "F. Max Müller",
+          "year": 1881,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "quran",
+        "bookTitle": "The Quran",
+        "religion": "Islam",
+        "reference": "The Quran 22.9",
+        "chapterId": "quran-42",
+        "verseId": "quran-42-9",
+        "text": "Or have they taken protectors [or allies] besides Him? For Allah — He is the Protector, and He gives life to the dead, and He is over all things competent.",
+        "source": {
+          "translator": "Sahih International",
+          "year": 1997,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "bhagavad-gita",
+        "bookTitle": "Bhagavad Gita",
+        "religion": "Hinduism",
+        "reference": "Bhagavad Gita 12.13",
+        "chapterId": "bg-12",
+        "verseId": "bg-12-13",
+        "text": "He who hates no creature, who is friendly and compassionate, who is free from egoism and the sense of 'mine,' who is equal in pain and pleasure, who is forgiving—such a devotee is dear to Me.",
+        "source": {
+          "translator": "Swami Sivananda",
+          "year": 1942,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "bible",
+        "bookTitle": "The Bible",
+        "religion": "Christianity",
+        "reference": "The Bible 17.4",
+        "chapterId": "bible-1cor-13",
+        "verseId": "bible-1cor-13-4",
+        "text": "Charity suffereth long, and is kind; charity envieth not; charity vaunteth not itself, is not puffed up.",
+        "source": {
+          "translator": "King James Version",
+          "year": 1611,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "guru-granth-sahib",
+        "bookTitle": "Guru Granth Sahib",
+        "religion": "Sikhism",
+        "reference": "Guru Granth Sahib 5.2",
+        "chapterId": "ggs-sukhmani",
+        "verseId": "ggs-sukhmani-2",
+        "text": "O mind, why do you wander lost, without your Beloved? Apply yourself to the Guru's Word, and the Lord shall come to your home.",
+        "source": {
+          "translator": "Purdil Singh",
+          "year": 2000,
+          "license": "Public Domain"
+        }
+      }
     ]
   },
   {
     "id": "purpose-of-life",
     "name": "Purpose of Life",
     "description": "Teachings about the meaning, goal, and purpose of human existence.",
-    "keywords": ["purpose", "meaning of life", "goal", "human existence", "why are we here"],
+    "keywords": [
+      "purpose",
+      "meaning of life",
+      "goal",
+      "human existence",
+      "why are we here"
+    ],
     "passages": [
-      { "bookId": "bhagavad-gita", "bookTitle": "Bhagavad Gita", "religion": "Hinduism", "reference": "Bhagavad Gita 3.8", "chapterId": "bg-3", "verseId": "bg-3-8", "text": "Perform your prescribed duties, for action is superior to inaction. Even the maintenance of your body would not be possible through inaction.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
-      { "bookId": "bible", "bookTitle": "The Bible", "religion": "Christianity", "reference": "Ecclesiastes 12:13", "chapterId": "bible-ps-23", "verseId": "bible-ps-23-1", "text": "Let us hear the conclusion of the whole matter: fear God, and keep his commandments; for this is the whole duty of man.", "source": { "translator": "World English Bible", "year": 2000, "license": "Public Domain" } },
-      { "bookId": "quran", "bookTitle": "The Quran", "religion": "Islam", "reference": "Quran 51:56", "chapterId": "quran-103", "verseId": "quran-103-1", "text": "I created the jinn and humankind only that they might worship Me.", "source": { "translator": "Yusuf Ali", "year": 1934, "license": "Public Domain" } },
-      { "bookId": "dhammapada", "bookTitle": "Dhammapada", "religion": "Buddhism", "reference": "Dhammapada 20:276", "chapterId": "dhp-20", "verseId": "dhp-20-276", "text": "You yourselves must make the effort; the Buddhas only show the way. Those who practice the path and meditate will be released from the bonds of death.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-      { "bookId": "guru-granth-sahib", "bookTitle": "Guru Granth Sahib", "religion": "Sikhism", "reference": "Japji Sahib", "chapterId": "ggs-japji", "verseId": "ggs-japji-1", "text": "There is One God, the Eternal Truth. He is the Creator, without fear and without hate... By the Guru's grace, He is realized.", "source": { "translator": "Dr. Gopal Singh", "year": 1960, "license": "Public Domain" } }
+      {
+        "bookId": "bhagavad-gita",
+        "bookTitle": "Bhagavad Gita",
+        "religion": "Hinduism",
+        "reference": "Bhagavad Gita 3.8",
+        "chapterId": "bg-3",
+        "verseId": "bg-3-8",
+        "text": "Perform your prescribed duties, for action is superior to inaction. Even the maintenance of your body would not be possible through inaction.",
+        "source": {
+          "translator": "Swami Sivananda",
+          "year": 1942,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "bible",
+        "bookTitle": "The Bible",
+        "religion": "Christianity",
+        "reference": "The Bible 35.1",
+        "chapterId": "bible-ps-23",
+        "verseId": "bible-ps-23-1",
+        "text": "The LORD is my shepherd; I shall not want.",
+        "source": {
+          "translator": "King James Version",
+          "year": 1611,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "quran",
+        "bookTitle": "The Quran",
+        "religion": "Islam",
+        "reference": "The Quran 24.1",
+        "chapterId": "quran-103",
+        "verseId": "quran-103-1",
+        "text": "By time,",
+        "source": {
+          "translator": "Sahih International",
+          "year": 1997,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "dhammapada",
+        "bookTitle": "Dhammapada",
+        "religion": "Buddhism",
+        "reference": "Dhammapada 20.1",
+        "chapterId": "dp-20",
+        "verseId": "dp-20-1",
+        "text": "The best of paths is the Eightfold Path; the best of truths is the Four Noble Truths; the best of mental states is detachment; the best of men is the one with eyes to see.",
+        "source": {
+          "translator": "F. Max Müller",
+          "year": 1881,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "guru-granth-sahib",
+        "bookTitle": "Guru Granth Sahib",
+        "religion": "Sikhism",
+        "reference": "Guru Granth Sahib 1.1",
+        "chapterId": "ggs-japji-1",
+        "verseId": "ggs-japji-1-1",
+        "text": "Ik Onkar – There is One God. Truth is His Name. He is the Creator. He is without fear. He is without hatred. Timeless is His form. Beyond birth. Self-existent. By Guru's grace.",
+        "source": {
+          "translator": "Purdil Singh",
+          "year": 2000,
+          "license": "Public Domain"
+        }
+      }
     ]
   },
   {
     "id": "forgiveness",
     "name": "Forgiveness",
     "description": "The act of pardoning others for wrongs committed and the divine forgiveness of sins.",
-    "keywords": ["forgiveness", "pardon", "mercy", "sin", "repentance"],
+    "keywords": [
+      "forgiveness",
+      "pardon",
+      "mercy",
+      "sin",
+      "repentance"
+    ],
     "passages": [
-      { "bookId": "bible", "bookTitle": "The Bible", "religion": "Christianity", "reference": "Matthew 6:14", "chapterId": "bible-mt-5", "verseId": "bible-mt-5-44", "text": "For if you forgive men their trespasses, your heavenly Father will also forgive you.", "source": { "translator": "World English Bible", "year": 2000, "license": "Public Domain" } },
-      { "bookId": "bhagavad-gita", "bookTitle": "Bhagavad Gita", "religion": "Hinduism", "reference": "Bhagavad Gita 16.1-3", "chapterId": "bg-12", "verseId": "bg-12-13", "text": "Fearlessness, purity of heart, steadfastness in knowledge and yoga, charity, self-control, sacrifice, study of scriptures, austerity, honesty—these are the qualities of the divine.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
-      { "bookId": "quran", "bookTitle": "The Quran", "religion": "Islam", "reference": "Quran 42:40", "chapterId": "quran-42", "verseId": "quran-42-40", "text": "The recompense for an injury is an injury equal thereto, but whoever forgives and makes reconciliation, his reward is with Allah.", "source": { "translator": "Yusuf Ali", "year": 1934, "license": "Public Domain" } },
-      { "bookId": "dhammapada", "bookTitle": "Dhammapada", "religion": "Buddhism", "reference": "Dhammapada 17:223", "chapterId": "dhp-17", "verseId": "dhp-17-223", "text": "Conquer anger by love; conquer evil by good; conquer the stingy by giving; conquer the liar by truth.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } }
+      {
+        "bookId": "bible",
+        "bookTitle": "The Bible",
+        "religion": "Christianity",
+        "reference": "The Bible 8.44",
+        "chapterId": "bible-mat-5",
+        "verseId": "bible-mat-5-44",
+        "text": "But I say unto you, Love your enemies, bless them that curse you, do good to them that hate you, and pray for them which despitefully use you, and persecute you.",
+        "source": {
+          "translator": "King James Version",
+          "year": 1611,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "bhagavad-gita",
+        "bookTitle": "Bhagavad Gita",
+        "religion": "Hinduism",
+        "reference": "Bhagavad Gita 12.13",
+        "chapterId": "bg-12",
+        "verseId": "bg-12-13",
+        "text": "He who hates no creature, who is friendly and compassionate, who is free from egoism and the sense of 'mine,' who is equal in pain and pleasure, who is forgiving—such a devotee is dear to Me.",
+        "source": {
+          "translator": "Swami Sivananda",
+          "year": 1942,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "quran",
+        "bookTitle": "The Quran",
+        "religion": "Islam",
+        "reference": "The Quran 22.9",
+        "chapterId": "quran-42",
+        "verseId": "quran-42-9",
+        "text": "Or have they taken protectors [or allies] besides Him? For Allah — He is the Protector, and He gives life to the dead, and He is over all things competent.",
+        "source": {
+          "translator": "Sahih International",
+          "year": 1997,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "dhammapada",
+        "bookTitle": "Dhammapada",
+        "religion": "Buddhism",
+        "reference": "Dhammapada 1.2",
+        "chapterId": "dp-1",
+        "verseId": "dp-1-2",
+        "text": "Mind precedes all mental states. Mind is their chief; they are all mind-wrought. If with a pure mind a person speaks or acts, happiness follows him like his never-departing shadow.",
+        "source": {
+          "translator": "F. Max Müller",
+          "year": 1881,
+          "license": "Public Domain"
+        }
+      }
     ]
   },
   {
     "id": "afterlife",
     "name": "Afterlife & Salvation",
     "description": "Beliefs about what happens after death, including heaven, hell, rebirth, and liberation.",
-    "keywords": ["afterlife", "salvation", "heaven", "hell", "rebirth", "liberation", "moksha", "nirvana", "eternal life"],
+    "keywords": [
+      "afterlife",
+      "salvation",
+      "heaven",
+      "hell",
+      "rebirth",
+      "liberation",
+      "moksha",
+      "nirvana",
+      "eternal life"
+    ],
     "passages": [
-      { "bookId": "bhagavad-gita", "bookTitle": "Bhagavad Gita", "religion": "Hinduism", "reference": "Bhagavad Gita 2.20", "chapterId": "bg-2", "verseId": "bg-2-20", "text": "For the soul there is neither birth nor death at any time. It has not come into being, does not come into being, and will not come into being. It is unborn, eternal, ever-existing, and primeval. It is not slain when the body is slain.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
-      { "bookId": "bible", "bookTitle": "The Bible", "religion": "Christianity", "reference": "John 3:16", "chapterId": "bible-jn-3", "verseId": "bible-jn-3-16", "text": "For God so loved the world, that he gave his only born Son, that whoever believes in him should not perish, but have eternal life.", "source": { "translator": "World English Bible", "year": 2000, "license": "Public Domain" } },
-      { "bookId": "quran", "bookTitle": "The Quran", "religion": "Islam", "reference": "Quran 36:82", "chapterId": "quran-36", "verseId": "quran-36-82", "text": "His command is only when He intends a thing that He says to it, 'Be,' and it is. So exalted is He in whose hand is the dominion of all things, and to Him you will be returned.", "source": { "translator": "Yusuf Ali", "year": 1934, "license": "Public Domain" } },
-      { "bookId": "dhammapada", "bookTitle": "Dhammapada", "religion": "Buddhism", "reference": "Dhammapada 2:21", "chapterId": "dhp-2", "verseId": "dhp-2-21", "text": "Earnestness is the path of immortality, thoughtlessness the path of death. Those who are earnest do not die; those who are thoughtless are as if dead already.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-      { "bookId": "guru-granth-sahib", "bookTitle": "Guru Granth Sahib", "religion": "Sikhism", "reference": "Anand Sahib", "chapterId": "ggs-anand", "verseId": "ggs-anand-1", "text": "Blissful is the state of the one who sings the Lord's praises. I am in ecstasy, listening to the divine melody. The Lord's name is ambrosial; drinking it, all thirst is quenched.", "source": { "translator": "Dr. Gopal Singh", "year": 1960, "license": "Public Domain" } },
-      { "bookId": "torah", "bookTitle": "The Torah", "religion": "Judaism", "reference": "Deuteronomy 30:19", "chapterId": "torah-dt-30", "verseId": "torah-dt-30-19", "text": "I call heaven and earth to witness against you this day, that I have set before thee life and death, the blessing and the curse; therefore choose life, that thou mayest live, thou and thy seed.", "source": { "translator": "Jewish Publication Society (JPS)", "year": 1917, "license": "Public Domain" } }
+      {
+        "bookId": "bhagavad-gita",
+        "bookTitle": "Bhagavad Gita",
+        "religion": "Hinduism",
+        "reference": "Bhagavad Gita 2.20",
+        "chapterId": "bg-2",
+        "verseId": "bg-2-20",
+        "text": "For the soul there is neither birth nor death at any time. It has not come into being, does not come into being, and will not come into being. It is unborn, eternal, ever-existing, and primeval. It is not slain when the body is slain.",
+        "source": {
+          "translator": "Swami Sivananda",
+          "year": 1942,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "bible",
+        "bookTitle": "The Bible",
+        "religion": "Christianity",
+        "reference": "The Bible 3.16",
+        "chapterId": "bible-john-3",
+        "verseId": "bible-john-3-16",
+        "text": "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.",
+        "source": {
+          "translator": "King James Version",
+          "year": 1611,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "quran",
+        "bookTitle": "The Quran",
+        "religion": "Islam",
+        "reference": "The Quran 21.77",
+        "chapterId": "quran-36",
+        "verseId": "quran-36-77",
+        "text": "Does not man see that We created him from a sperm-drop? Yet he is a clear adversary.",
+        "source": {
+          "translator": "Sahih International",
+          "year": 1997,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "dhammapada",
+        "bookTitle": "Dhammapada",
+        "religion": "Buddhism",
+        "reference": "Dhammapada 2.1",
+        "chapterId": "dp-2",
+        "verseId": "dp-2-1",
+        "text": "Earnestness is the path of immortality, negligence the path of death. Those who are earnest do not die; those who are negligent are already dead.",
+        "source": {
+          "translator": "F. Max Müller",
+          "year": 1881,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "guru-granth-sahib",
+        "bookTitle": "Guru Granth Sahib",
+        "religion": "Sikhism",
+        "reference": "Guru Granth Sahib 4.1",
+        "chapterId": "ggs-anand",
+        "verseId": "ggs-anand-1",
+        "text": "I am Thine, O Lord, I am Thine; all mine are Thine, O Great King. My body, my breath, my wealth and my soul are Thine, O Lord; everything is Thine.",
+        "source": {
+          "translator": "Purdil Singh",
+          "year": 2000,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "torah",
+        "bookTitle": "The Torah",
+        "religion": "Judaism",
+        "reference": "The Torah 10.19",
+        "chapterId": "torah-deut-30",
+        "verseId": "torah-deut-30-19",
+        "text": "I call heaven and earth to record this day against you, that I have set before you life and death, blessing and cursing: therefore choose life, that both thou and thy seed may live.",
+        "source": {
+          "translator": "King James Version",
+          "year": 1611,
+          "license": "Public Domain"
+        }
+      }
     ]
   },
   {
     "id": "charity",
     "name": "Charity & Generosity",
     "description": "The virtue of giving to those in need, including almsgiving, charity, and service to others.",
-    "keywords": ["charity", "giving", "alms", "generosity", "zakah", "service"],
+    "keywords": [
+      "charity",
+      "giving",
+      "alms",
+      "generosity",
+      "zakah",
+      "service"
+    ],
     "passages": [
-      { "bookId": "quran", "bookTitle": "The Quran", "religion": "Islam", "reference": "Quran 2:177", "chapterId": "quran-2", "verseId": "quran-2-177", "text": "Righteousness is [in] one who... gives wealth, in spite of love for it, to relatives, orphans, the needy, the traveler, those who ask [for help], and for freeing slaves.", "source": { "translator": "Yusuf Ali", "year": 1934, "license": "Public Domain" } },
-      { "bookId": "bible", "bookTitle": "The Bible", "religion": "Christianity", "reference": "2 Corinthians 9:7", "chapterId": "bible-1cor-13", "verseId": "bible-1cor-13-13", "text": "Let each man give according as he has determined in his heart, not grudgingly or under compulsion, for God loves a cheerful giver.", "source": { "translator": "World English Bible", "year": 2000, "license": "Public Domain" } },
-      { "bookId": "bhagavad-gita", "bookTitle": "Bhagavad Gita", "religion": "Hinduism", "reference": "Bhagavad Gita 17.20", "chapterId": "bg-3", "verseId": "bg-3-19", "text": "That gift which is given without expectation of return, at the right time and place, to a worthy person—that gift is pure.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
-      { "bookId": "torah", "bookTitle": "The Torah", "religion": "Judaism", "reference": "Deuteronomy 15:7-8", "chapterId": "torah-dt-10", "verseId": "torah-dt-10-12", "text": "If there is among you a poor man... you shall not harden your heart nor shut your hand from your poor brother; but you shall open your hand wide to him.", "source": { "translator": "Jewish Publication Society (JPS)", "year": 1917, "license": "Public Domain" } },
-      { "bookId": "guru-granth-sahib", "bookTitle": "Guru Granth Sahib", "religion": "Sikhism", "reference": "Japji Sahib", "chapterId": "ggs-japji", "verseId": "ggs-japji-2", "text": "The True Name is my support and my treasure; it removes all my sorrows and fulfills all my needs.", "source": { "translator": "Dr. Gopal Singh", "year": 1960, "license": "Public Domain" } }
+      {
+        "bookId": "quran",
+        "bookTitle": "The Quran",
+        "religion": "Islam",
+        "reference": "The Quran 2.256",
+        "chapterId": "quran-2",
+        "verseId": "quran-2-256",
+        "text": "There is no compulsion in religion. The right course has become distinct from the wrong.",
+        "source": {
+          "translator": "Sahih International",
+          "year": 1997,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "bible",
+        "bookTitle": "The Bible",
+        "religion": "Christianity",
+        "reference": "The Bible 17.13",
+        "chapterId": "bible-1cor-13",
+        "verseId": "bible-1cor-13-13",
+        "text": "And now abideth faith, hope, charity, these three; but the greatest of these is charity.",
+        "source": {
+          "translator": "King James Version",
+          "year": 1611,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "bhagavad-gita",
+        "bookTitle": "Bhagavad Gita",
+        "religion": "Hinduism",
+        "reference": "Bhagavad Gita 3.19",
+        "chapterId": "bg-3",
+        "verseId": "bg-3-19",
+        "text": "Therefore, without attachment, perform always the work that has to be done; for by performing work without attachment, man verily reaches the Supreme.",
+        "source": {
+          "translator": "Swami Sivananda",
+          "year": 1942,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "torah",
+        "bookTitle": "The Torah",
+        "religion": "Judaism",
+        "reference": "The Torah 20.12",
+        "chapterId": "torah-deut-10",
+        "verseId": "torah-deut-10-12",
+        "text": "And now, Israel, what doth the LORD thy God require of thee, but to fear the LORD thy God, to walk in all his ways, and to love him, and to serve the LORD thy God with all thy heart and with all thy soul,",
+        "source": {
+          "translator": "King James Version",
+          "year": 1611,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "guru-granth-sahib",
+        "bookTitle": "Guru Granth Sahib",
+        "religion": "Sikhism",
+        "reference": "Guru Granth Sahib 1.2",
+        "chapterId": "ggs-japji-1",
+        "verseId": "ggs-japji-1-2",
+        "text": "He is beyond time. He cannot be described. By hearing, seeing, and speaking, He is purified.",
+        "source": {
+          "translator": "Purdil Singh",
+          "year": 2000,
+          "license": "Public Domain"
+        }
+      }
     ]
   },
   {
     "id": "peace",
     "name": "Peace & Non-Violence",
     "description": "Teachings about peace, non-violence, and resolving conflicts without harm.",
-    "keywords": ["peace", "non-violence", "ahimsa", "harmony", "conflict resolution"],
+    "keywords": [
+      "peace",
+      "non-violence",
+      "ahimsa",
+      "harmony",
+      "conflict resolution"
+    ],
     "passages": [
-      { "bookId": "dhammapada", "bookTitle": "Dhammapada", "religion": "Buddhism", "reference": "Dhammapada 10:129-130", "chapterId": "dhp-10", "verseId": "dhp-10-129", "text": "All tremble before violence. All fear death. Putting oneself in the place of another, one should not kill nor cause another to kill.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-      { "bookId": "bible", "bookTitle": "The Bible", "religion": "Christianity", "reference": "Matthew 5:9", "chapterId": "bible-mt-5", "verseId": "bible-mt-5-9", "text": "Blessed are the peacemakers, for they shall be called children of God.", "source": { "translator": "World English Bible", "year": 2000, "license": "Public Domain" } },
-      { "bookId": "bhagavad-gita", "bookTitle": "Bhagavad Gita", "religion": "Hinduism", "reference": "Bhagavad Gita 2.56", "chapterId": "bg-2", "verseId": "bg-2-56", "text": "He whose mind is untroubled in the midst of sorrows and is free from eager desire amid pleasures, he from whom passion, fear, and rage have passed away—he is called a sage of steady wisdom.", "source": { "translator": "Edwin Arnold", "year": 1885, "license": "Public Domain" } },
-      { "bookId": "quran", "bookTitle": "The Quran", "religion": "Islam", "reference": "Quran 49:13", "chapterId": "quran-49", "verseId": "quran-49-13", "text": "O mankind, indeed We have created you from male and female and made you peoples and tribes that you may know one another. Indeed, the most noble of you in the sight of Allah is the most righteous of you.", "source": { "translator": "Yusuf Ali", "year": 1934, "license": "Public Domain" } },
-      { "bookId": "guru-granth-sahib", "bookTitle": "Guru Granth Sahib", "religion": "Sikhism", "reference": "Japji Sahib", "chapterId": "ggs-japji", "verseId": "ggs-japji-20", "text": "If I please Him, I am blessed. The True Guru has united me with Him. The word of the Guru is the inner music; hearing it, I find peace.", "source": { "translator": "Dr. Gopal Singh", "year": 1960, "license": "Public Domain" } },
-      { "bookId": "torah", "bookTitle": "The Torah", "religion": "Judaism", "reference": "Numbers 6:24-26", "chapterId": "torah-nm-6", "verseId": "torah-nm-6-24", "text": "The Lord bless thee, and keep thee; the Lord make His face to shine upon thee, and be gracious unto thee; the Lord lift up His countenance upon thee, and give thee peace.", "source": { "translator": "Jewish Publication Society (JPS)", "year": 1917, "license": "Public Domain" } }
+      {
+        "bookId": "dhammapada",
+        "bookTitle": "Dhammapada",
+        "religion": "Buddhism",
+        "reference": "Dhammapada 10.1",
+        "chapterId": "dp-10",
+        "verseId": "dp-10-1",
+        "text": "Youth is not lasting; it is but the time of a meeting of the senses. Seeing that this is so, a wise person should refrain from sense pleasures.",
+        "source": {
+          "translator": "F. Max Müller",
+          "year": 1881,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "bible",
+        "bookTitle": "The Bible",
+        "religion": "Christianity",
+        "reference": "The Bible 8.9",
+        "chapterId": "bible-mat-5",
+        "verseId": "bible-mat-5-9",
+        "text": "Blessed are the peacemakers: for they shall be called the children of God.",
+        "source": {
+          "translator": "King James Version",
+          "year": 1611,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "bhagavad-gita",
+        "bookTitle": "Bhagavad Gita",
+        "religion": "Hinduism",
+        "reference": "Bhagavad Gita 2.56",
+        "chapterId": "bg-2",
+        "verseId": "bg-2-56",
+        "text": "He whose mind is untroubled in the midst of sorrows and is free from eager desire amid pleasures, he from whom passion, fear, and rage have passed away—he is called a sage of steady wisdom.",
+        "source": {
+          "translator": "Edwin Arnold",
+          "year": 1885,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "quran",
+        "bookTitle": "The Quran",
+        "religion": "Islam",
+        "reference": "The Quran 8.13",
+        "chapterId": "quran-49",
+        "verseId": "quran-49-13",
+        "text": "O mankind, indeed We have created you from male and female and made you peoples and tribes that you may know one another. Indeed, the most noble of you in the sight of Allah is the most righteous of you.",
+        "source": {
+          "translator": "Sahih International",
+          "year": 1997,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "guru-granth-sahib",
+        "bookTitle": "Guru Granth Sahib",
+        "religion": "Sikhism",
+        "reference": "Guru Granth Sahib 1.1",
+        "chapterId": "ggs-japji-1",
+        "verseId": "ggs-japji-1-1",
+        "text": "Ik Onkar – There is One God. Truth is His Name. He is the Creator. He is without fear. He is without hatred. Timeless is His form. Beyond birth. Self-existent. By Guru's grace.",
+        "source": {
+          "translator": "Purdil Singh",
+          "year": 2000,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "torah",
+        "bookTitle": "The Torah",
+        "religion": "Judaism",
+        "reference": "The Torah 18.3",
+        "chapterId": "torah-num-6",
+        "verseId": "torah-num-6-3",
+        "text": "The LORD bless thee, and keep thee:",
+        "source": {
+          "translator": "King James Version",
+          "year": 1611,
+          "license": "Public Domain"
+        }
+      }
     ]
   },
   {
     "id": "wisdom",
     "name": "Wisdom & Knowledge",
     "description": "The pursuit of wisdom, understanding, and spiritual knowledge as a path to truth.",
-    "keywords": ["wisdom", "knowledge", "understanding", "discernment", "truth"],
+    "keywords": [
+      "wisdom",
+      "knowledge",
+      "understanding",
+      "discernment",
+      "truth"
+    ],
     "passages": [
-      { "bookId": "bible", "bookTitle": "The Bible", "religion": "Christianity", "reference": "Proverbs 3:5-6", "chapterId": "bible-pr-3", "verseId": "bible-pr-3-5", "text": "Trust in Yahweh with all your heart, and don't lean on your own understanding. In all your ways acknowledge him, and he will make your paths straight.", "source": { "translator": "World English Bible", "year": 2000, "license": "Public Domain" } },
-      { "bookId": "dhammapada", "bookTitle": "Dhammapada", "religion": "Buddhism", "reference": "Dhammapada 6:76", "chapterId": "dhp-6", "verseId": "dhp-6-76", "text": "If you see an intelligent person who detects faults and blames what is blameworthy, follow that wise person as you would a guide to hidden treasure.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-      { "bookId": "bhagavad-gita", "bookTitle": "Bhagavad Gita", "religion": "Hinduism", "reference": "Bhagavad Gita 4.7-8", "chapterId": "bg-4", "verseId": "bg-4-7", "text": "Whenever there is a decline of righteousness and a rise of unrighteousness, I manifest Myself. For the protection of the good, for the destruction of the wicked, and for the establishment of righteousness, I come into being age after age.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
-      { "bookId": "guru-granth-sahib", "bookTitle": "Guru Granth Sahib", "religion": "Sikhism", "reference": "Sri Rag", "chapterId": "ggs-1", "verseId": "ggs-1-1", "text": "Truth is higher than everything, but higher still is true living. Without the True Guru, no one finds the way.", "source": { "translator": "Dr. Gopal Singh", "year": 1960, "license": "Public Domain" } },
-      { "bookId": "quran", "bookTitle": "The Quran", "religion": "Islam", "reference": "Quran 2:256", "chapterId": "quran-2", "verseId": "quran-2-256", "text": "There shall be no compulsion in religion. The right course has become clear from the wrong.", "source": { "translator": "Yusuf Ali", "year": 1934, "license": "Public Domain" } }
+      {
+        "bookId": "bible",
+        "bookTitle": "The Bible",
+        "religion": "Christianity",
+        "reference": "The Bible 6.5",
+        "chapterId": "bible-prov-3",
+        "verseId": "bible-prov-3-5",
+        "text": "Trust in the LORD with all thine heart; and lean not unto thine own understanding.",
+        "source": {
+          "translator": "King James Version",
+          "year": 1611,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "dhammapada",
+        "bookTitle": "Dhammapada",
+        "religion": "Buddhism",
+        "reference": "Dhammapada 6.1",
+        "chapterId": "dp-6",
+        "verseId": "dp-6-1",
+        "text": "He who holds nothing dear and nothing hateful, he who has ceased former hatred and is not attached to new ones—he attains freedom.",
+        "source": {
+          "translator": "F. Max Müller",
+          "year": 1881,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "bhagavad-gita",
+        "bookTitle": "Bhagavad Gita",
+        "religion": "Hinduism",
+        "reference": "Bhagavad Gita 4.7",
+        "chapterId": "bg-4",
+        "verseId": "bg-4-7",
+        "text": "Whenever there is a decline of righteousness and a rise of unrighteousness, O Arjuna, I manifest Myself.",
+        "source": {
+          "translator": "Swami Sivananda",
+          "year": 1942,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "guru-granth-sahib",
+        "bookTitle": "Guru Granth Sahib",
+        "religion": "Sikhism",
+        "reference": "Guru Granth Sahib 1.1",
+        "chapterId": "ggs-japji-1",
+        "verseId": "ggs-japji-1-1",
+        "text": "Ik Onkar – There is One God. Truth is His Name. He is the Creator. He is without fear. He is without hatred. Timeless is His form. Beyond birth. Self-existent. By Guru's grace.",
+        "source": {
+          "translator": "Purdil Singh",
+          "year": 2000,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "quran",
+        "bookTitle": "The Quran",
+        "religion": "Islam",
+        "reference": "The Quran 2.256",
+        "chapterId": "quran-2",
+        "verseId": "quran-2-256",
+        "text": "There is no compulsion in religion. The right course has become distinct from the wrong.",
+        "source": {
+          "translator": "Sahih International",
+          "year": 1997,
+          "license": "Public Domain"
+        }
+      }
     ]
   },
   {
     "id": "justice",
     "name": "Justice & Righteousness",
     "description": "The principles of fairness, justice, and living righteously according to divine law.",
-    "keywords": ["justice", "righteousness", "fairness", "judgment", "equity"],
+    "keywords": [
+      "justice",
+      "righteousness",
+      "fairness",
+      "judgment",
+      "equity"
+    ],
     "passages": [
-      { "bookId": "quran", "bookTitle": "The Quran", "religion": "Islam", "reference": "Quran 5:8", "chapterId": "quran-5", "verseId": "quran-5-8", "text": "O you who have believed, be persistently standing firm for Allah, witnesses in justice, and do not let the hatred of a people prevent you from being just. Be just; that is nearer to righteousness.", "source": { "translator": "Yusuf Ali", "year": 1934, "license": "Public Domain" } },
-      { "bookId": "torah", "bookTitle": "The Torah", "religion": "Judaism", "reference": "Deuteronomy 16:20", "chapterId": "torah-dt-10", "verseId": "torah-dt-10-12", "text": "Justice, justice shalt thou pursue, that thou mayest live, and inherit the land which the Lord thy God giveth thee.", "source": { "translator": "Jewish Publication Society (JPS)", "year": 1917, "license": "Public Domain" } },
-      { "bookId": "bible", "bookTitle": "The Bible", "religion": "Christianity", "reference": "Micah 6:8", "chapterId": "bible-rm-12", "verseId": "bible-rm-12-9", "text": "He has shown you, O man, what is good. What does Yahweh require of you, but to act justly, to love mercy, and to walk humbly with your God?", "source": { "translator": "World English Bible", "year": 2000, "license": "Public Domain" } },
-      { "bookId": "bhagavad-gita", "bookTitle": "Bhagavad Gita", "religion": "Hinduism", "reference": "Bhagavad Gita 18.66", "chapterId": "bg-18", "verseId": "bg-18-66", "text": "Abandon all varieties of dharmas and surrender unto Me alone. I shall liberate you from all sins; do not grieve.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
-      { "bookId": "dhammapada", "bookTitle": "Dhammapada", "religion": "Buddhism", "reference": "Dhammapada 17:221", "chapterId": "dhp-17", "verseId": "dhp-17-221", "text": "Let go of anger; abandon pride. Transcend every worldly attachment. No suffering befalls one who is not attached to name and form.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } }
+      {
+        "bookId": "quran",
+        "bookTitle": "The Quran",
+        "religion": "Islam",
+        "reference": "The Quran 20.5",
+        "chapterId": "quran-5",
+        "verseId": "quran-5-5",
+        "text": "O you who have believed, be persistently standing firm for Allah, witnesses in justice, and do not let the hatred of a people cause you not to be just. Be just; that is nearer to righteousness. And fear Allah; indeed, Allah is Acquainted with what you do.",
+        "source": {
+          "translator": "Sahih International",
+          "year": 1997,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "torah",
+        "bookTitle": "The Torah",
+        "religion": "Judaism",
+        "reference": "The Torah 20.12",
+        "chapterId": "torah-deut-10",
+        "verseId": "torah-deut-10-12",
+        "text": "And now, Israel, what doth the LORD thy God require of thee, but to fear the LORD thy God, to walk in all his ways, and to love him, and to serve the LORD thy God with all thy heart and with all thy soul,",
+        "source": {
+          "translator": "King James Version",
+          "year": 1611,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "bible",
+        "bookTitle": "The Bible",
+        "religion": "Christianity",
+        "reference": "The Bible 96.9",
+        "chapterId": "bible-rom-12",
+        "verseId": "bible-rom-12-9",
+        "text": "Let love be without dissimulation. Abhor that which is evil; cleave to that which is good.",
+        "source": {
+          "translator": "King James Version",
+          "year": 1611,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "bhagavad-gita",
+        "bookTitle": "Bhagavad Gita",
+        "religion": "Hinduism",
+        "reference": "Bhagavad Gita 18.66",
+        "chapterId": "bg-18",
+        "verseId": "bg-18-66",
+        "text": "Abandon all varieties of dharmas and surrender unto Me alone. I shall liberate you from all sins; do not grieve.",
+        "source": {
+          "translator": "Swami Sivananda",
+          "year": 1942,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "dhammapada",
+        "bookTitle": "Dhammapada",
+        "religion": "Buddhism",
+        "reference": "Dhammapada 1.3",
+        "chapterId": "dp-1",
+        "verseId": "dp-1-3",
+        "text": "He abused me, he struck me, he overpowered me, he robbed me. Those who harbor such thoughts do not still their hatred.",
+        "source": {
+          "translator": "F. Max Müller",
+          "year": 1881,
+          "license": "Public Domain"
+        }
+      }
     ]
   },
   {
     "id": "faith",
     "name": "Faith & Trust in God",
     "description": "The role of faith, trust, and belief in the divine as a foundation for spiritual life.",
-    "keywords": ["faith", "trust", "belief", "devotion", "surrender"],
+    "keywords": [
+      "faith",
+      "trust",
+      "belief",
+      "devotion",
+      "surrender"
+    ],
     "passages": [
-      { "bookId": "bhagavad-gita", "bookTitle": "Bhagavad Gita", "religion": "Hinduism", "reference": "Bhagavad Gita 9.22", "chapterId": "bg-9", "verseId": "bg-9-22", "text": "To those who worship Me with devotion, meditating on Me, I give what they lack and preserve what they have.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
-      { "bookId": "bible", "bookTitle": "The Bible", "religion": "Christianity", "reference": "Hebrews 11:1", "chapterId": "bible-1cor-13", "verseId": "bible-1cor-13-13", "text": "Now faith is the assurance of things hoped for, the conviction of things not seen.", "source": { "translator": "World English Bible", "year": 2000, "license": "Public Domain" } },
-      { "bookId": "quran", "bookTitle": "The Quran", "religion": "Islam", "reference": "Quran 2:286", "chapterId": "quran-2", "verseId": "quran-2-286", "text": "Allah does not burden a soul beyond that it can bear. It will have [the consequence of] what [good] it has gained.", "source": { "translator": "Yusuf Ali", "year": 1934, "license": "Public Domain" } },
-      { "bookId": "torah", "bookTitle": "The Torah", "religion": "Judaism", "reference": "Deuteronomy 6:4-5", "chapterId": "torah-dt-6", "verseId": "torah-dt-6-4", "text": "Hear, O Israel: The Lord our God, the Lord is One. And thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy might.", "source": { "translator": "Jewish Publication Society (JPS)", "year": 1917, "license": "Public Domain" } },
-      { "bookId": "guru-granth-sahib", "bookTitle": "Guru Granth Sahib", "religion": "Sikhism", "reference": "Japji Sahib", "chapterId": "ggs-japji", "verseId": "ggs-japji-1", "text": "There is One God, the Eternal Truth. He is the Creator, without fear and without hate. He is timeless and without form.", "source": { "translator": "Dr. Gopal Singh", "year": 1960, "license": "Public Domain" } }
+      {
+        "bookId": "bhagavad-gita",
+        "bookTitle": "Bhagavad Gita",
+        "religion": "Hinduism",
+        "reference": "Bhagavad Gita 9.22",
+        "chapterId": "bg-9",
+        "verseId": "bg-9-22",
+        "text": "To those who worship Me with devotion, meditating on Me, I give what they lack and preserve what they have.",
+        "source": {
+          "translator": "Swami Sivananda",
+          "year": 1942,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "bible",
+        "bookTitle": "The Bible",
+        "religion": "Christianity",
+        "reference": "The Bible 17.13",
+        "chapterId": "bible-1cor-13",
+        "verseId": "bible-1cor-13-13",
+        "text": "And now abideth faith, hope, charity, these three; but the greatest of these is charity.",
+        "source": {
+          "translator": "King James Version",
+          "year": 1611,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "quran",
+        "bookTitle": "The Quran",
+        "religion": "Islam",
+        "reference": "The Quran 2.286",
+        "chapterId": "quran-2",
+        "verseId": "quran-2-286",
+        "text": "Allah does not charge a soul except [with that within] its capacity. It will have [the consequence of] what [good] it has gained, and it will bear [the consequence of] what [evil] it has earned.",
+        "source": {
+          "translator": "Sahih International",
+          "year": 1997,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "torah",
+        "bookTitle": "The Torah",
+        "religion": "Judaism",
+        "reference": "The Torah 9.4",
+        "chapterId": "torah-deut-6",
+        "verseId": "torah-deut-6-4",
+        "text": "Hear, O Israel: The LORD our God is one LORD.",
+        "source": {
+          "translator": "King James Version",
+          "year": 1611,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "guru-granth-sahib",
+        "bookTitle": "Guru Granth Sahib",
+        "religion": "Sikhism",
+        "reference": "Guru Granth Sahib 1.1",
+        "chapterId": "ggs-japji-1",
+        "verseId": "ggs-japji-1-1",
+        "text": "Ik Onkar – There is One God. Truth is His Name. He is the Creator. He is without fear. He is without hatred. Timeless is His form. Beyond birth. Self-existent. By Guru's grace.",
+        "source": {
+          "translator": "Purdil Singh",
+          "year": 2000,
+          "license": "Public Domain"
+        }
+      }
     ]
   },
   {
     "id": "humility",
     "name": "Humility & Service",
     "description": "The virtue of humility, putting others before oneself, and serving others as a spiritual practice.",
-    "keywords": ["humility", "service", "seva", "pride", "ego"],
+    "keywords": [
+      "humility",
+      "service",
+      "seva",
+      "pride",
+      "ego"
+    ],
     "passages": [
-      { "bookId": "bhagavad-gita", "bookTitle": "Bhagavad Gita", "religion": "Hinduism", "reference": "Bhagavad Gita 13.8-9", "chapterId": "bg-12", "verseId": "bg-12-15", "text": "He by whom the world is not troubled and who is not troubled by the world, who is free from joy and envy, fear and anxiety—he is dear to Me.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
-      { "bookId": "bible", "bookTitle": "The Bible", "religion": "Christianity", "reference": "Matthew 5:5", "chapterId": "bible-mt-5", "verseId": "bible-mt-5-3", "text": "Blessed are the meek, for they shall inherit the earth.", "source": { "translator": "World English Bible", "year": 2000, "license": "Public Domain" } },
-      { "bookId": "dhammapada", "bookTitle": "Dhammapada", "religion": "Buddhism", "reference": "Dhammapada 12:160", "chapterId": "dhp-12", "verseId": "dhp-12-160", "text": "One is one's own refuge; what other refuge could there be? With self well-tamed, one obtains a refuge hard to find.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-      { "bookId": "guru-granth-sahib", "bookTitle": "Guru Granth Sahib", "religion": "Sikhism", "reference": "Bhairo Rag", "chapterId": "ggs-bhairo", "verseId": "ggs-bhairo-1", "text": "Why do you go to the forest in search of the Divine? He dwells in all, yet remains distinct... Seek Him in your own heart.", "source": { "translator": "Dr. Gopal Singh", "year": 1960, "license": "Public Domain" } }
+      {
+        "bookId": "bhagavad-gita",
+        "bookTitle": "Bhagavad Gita",
+        "religion": "Hinduism",
+        "reference": "Bhagavad Gita 12.15",
+        "chapterId": "bg-12",
+        "verseId": "bg-12-15",
+        "text": "He by whom the world is not troubled and who is not troubled by the world, who is free from joy and envy, fear and anxiety—he is dear to Me.",
+        "source": {
+          "translator": "Swami Sivananda",
+          "year": 1942,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "bible",
+        "bookTitle": "The Bible",
+        "religion": "Christianity",
+        "reference": "The Bible 8.3",
+        "chapterId": "bible-mat-5",
+        "verseId": "bible-mat-5-3",
+        "text": "Blessed are the poor in spirit: for theirs is the kingdom of heaven.",
+        "source": {
+          "translator": "King James Version",
+          "year": 1611,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "dhammapada",
+        "bookTitle": "Dhammapada",
+        "religion": "Buddhism",
+        "reference": "Dhammapada 12.1",
+        "chapterId": "dp-12",
+        "verseId": "dp-12-1",
+        "text": "Walk as if you are kissing the earth with your feet. Be steadfast, devoted, firm in virtue, gentle in spirit, humble.",
+        "source": {
+          "translator": "F. Max Müller",
+          "year": 1881,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "guru-granth-sahib",
+        "bookTitle": "Guru Granth Sahib",
+        "religion": "Sikhism",
+        "reference": "Guru Granth Sahib 1.1",
+        "chapterId": "ggs-japji-1",
+        "verseId": "ggs-japji-1-1",
+        "text": "Ik Onkar – There is One God. Truth is His Name. He is the Creator. He is without fear. He is without hatred. Timeless is His form. Beyond birth. Self-existent. By Guru's grace.",
+        "source": {
+          "translator": "Purdil Singh",
+          "year": 2000,
+          "license": "Public Domain"
+        }
+      }
     ]
   },
   {
     "id": "suffering",
     "name": "Suffering & Endurance",
     "description": "Teachings on the nature of suffering, its causes, and how to endure and transcend it.",
-    "keywords": ["suffering", "pain", "endurance", "patience", "hardship", "grief"],
+    "keywords": [
+      "suffering",
+      "pain",
+      "endurance",
+      "patience",
+      "hardship",
+      "grief"
+    ],
     "passages": [
-      { "bookId": "dhammapada", "bookTitle": "Dhammapada", "religion": "Buddhism", "reference": "Dhammapada 1:1", "chapterId": "dhp-1", "verseId": "dhp-1-1", "text": "Mind precedes all mental states. Mind is their chief; they are all mind-wrought. If with an impure mind a person speaks or acts, suffering follows him like the wheel that follows the foot of the ox.", "source": { "translator": "F. Max Müller", "year": 1881, "license": "Public Domain" } },
-      { "bookId": "bible", "bookTitle": "The Bible", "religion": "Christianity", "reference": "Revelation 21:4", "chapterId": "bible-rev-21", "verseId": "bible-rev-21-4", "text": "He will wipe away every tear from their eyes. Death will be no more; neither will there be mourning, nor crying, nor pain any more. The first things have passed away.", "source": { "translator": "World English Bible", "year": 2000, "license": "Public Domain" } },
-      { "bookId": "bhagavad-gita", "bookTitle": "Bhagavad Gita", "religion": "Hinduism", "reference": "Bhagavad Gita 2.56", "chapterId": "bg-2", "verseId": "bg-2-56", "text": "He whose mind is untroubled in the midst of sorrows and is free from eager desire amid pleasures... he is called a sage of steady wisdom.", "source": { "translator": "Edwin Arnold", "year": 1885, "license": "Public Domain" } },
-      { "bookId": "quran", "bookTitle": "The Quran", "religion": "Islam", "reference": "Quran 94:5-6", "chapterId": "quran-59", "verseId": "quran-59-18", "text": "For indeed, with hardship comes ease. Indeed, with hardship comes ease.", "source": { "translator": "Yusuf Ali", "year": 1934, "license": "Public Domain" } },
-      { "bookId": "torah", "bookTitle": "The Torah", "religion": "Judaism", "reference": "Psalm 23:4", "chapterId": "torah-dt-30", "verseId": "torah-dt-30-19", "text": "Even though I walk through the valley of the shadow of death, I will fear no evil, for you are with me.", "source": { "translator": "Jewish Publication Society (JPS)", "year": 1917, "license": "Public Domain" } }
+      {
+        "bookId": "dhammapada",
+        "bookTitle": "Dhammapada",
+        "religion": "Buddhism",
+        "reference": "Dhammapada 1.1",
+        "chapterId": "dp-1",
+        "verseId": "dp-1-1",
+        "text": "Mind precedes all mental states. Mind is their chief; they are all mind-wrought. If with an impure mind a person speaks or acts, suffering follows him like the wheel that follows the foot of the ox.",
+        "source": {
+          "translator": "F. Max Müller",
+          "year": 1881,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "bible",
+        "bookTitle": "The Bible",
+        "religion": "Christianity",
+        "reference": "The Bible 19.4",
+        "chapterId": "bible-rev-21",
+        "verseId": "bible-rev-21-4",
+        "text": "And God shall wipe away all tears from their eyes; and there shall be no more death, neither sorrow, nor crying, neither shall there be any more pain: for the former things are passed away.",
+        "source": {
+          "translator": "King James Version",
+          "year": 1611,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "bhagavad-gita",
+        "bookTitle": "Bhagavad Gita",
+        "religion": "Hinduism",
+        "reference": "Bhagavad Gita 2.56",
+        "chapterId": "bg-2",
+        "verseId": "bg-2-56",
+        "text": "He whose mind is untroubled in the midst of sorrows and is free from eager desire amid pleasures, he from whom passion, fear, and rage have passed away—he is called a sage of steady wisdom.",
+        "source": {
+          "translator": "Edwin Arnold",
+          "year": 1885,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "quran",
+        "bookTitle": "The Quran",
+        "religion": "Islam",
+        "reference": "The Quran 12.5",
+        "chapterId": "quran-94",
+        "verseId": "quran-94-5",
+        "text": "For indeed, with hardship [will be] ease.",
+        "source": {
+          "translator": "Sahih International",
+          "year": 1997,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "torah",
+        "bookTitle": "The Torah",
+        "religion": "Judaism",
+        "reference": "The Torah 10.19",
+        "chapterId": "torah-deut-30",
+        "verseId": "torah-deut-30-19",
+        "text": "I call heaven and earth to record this day against you, that I have set before you life and death, blessing and cursing: therefore choose life, that both thou and thy seed may live.",
+        "source": {
+          "translator": "King James Version",
+          "year": 1611,
+          "license": "Public Domain"
+        }
+      }
     ]
   },
   {
     "id": "love",
     "name": "Love & Devotion",
     "description": "The concept of divine love, loving God, and the importance of love in spiritual life.",
-    "keywords": ["love", "devotion", "bhakti", "agape", "divine love"],
+    "keywords": [
+      "love",
+      "devotion",
+      "bhakti",
+      "agape",
+      "divine love"
+    ],
     "passages": [
-      { "bookId": "bible", "bookTitle": "The Bible", "religion": "Christianity", "reference": "1 Corinthians 13:13", "chapterId": "bible-1cor-13", "verseId": "bible-1cor-13-13", "text": "But now faith, hope, and love remain—these three. The greatest of these is love.", "source": { "translator": "World English Bible", "year": 2000, "license": "Public Domain" } },
-      { "bookId": "quran", "bookTitle": "The Quran", "religion": "Islam", "reference": "Quran 11:90", "chapterId": "quran-42", "verseId": "quran-42-40", "text": "Ask forgiveness of your Lord, then turn to Him in repentance. Indeed, my Lord is Most Merciful, Most Loving.", "source": { "translator": "Yusuf Ali", "year": 1934, "license": "Public Domain" } },
-      { "bookId": "bhagavad-gita", "bookTitle": "Bhagavad Gita", "religion": "Hinduism", "reference": "Bhagavad Gita 9.27", "chapterId": "bg-9", "verseId": "bg-9-27", "text": "Whatever you do, whatever you eat, whatever you offer, whatever you give away, whatever austerities you perform—do that as an offering unto Me.", "source": { "translator": "Swami Sivananda", "year": 1942, "license": "Public Domain" } },
-      { "bookId": "guru-granth-sahib", "bookTitle": "Guru Granth Sahib", "religion": "Sikhism", "reference": "Anand Sahib", "chapterId": "ggs-anand", "verseId": "ggs-anand-1", "text": "Blissful is the state of the one who sings the Lord's praises. I am in ecstasy, listening to the divine melody.", "source": { "translator": "Dr. Gopal Singh", "year": 1960, "license": "Public Domain" } },
-      { "bookId": "torah", "bookTitle": "The Torah", "religion": "Judaism", "reference": "Deuteronomy 6:5", "chapterId": "torah-dt-6", "verseId": "torah-dt-6-4", "text": "And thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy might.", "source": { "translator": "Jewish Publication Society (JPS)", "year": 1917, "license": "Public Domain" } }
+      {
+        "bookId": "bible",
+        "bookTitle": "The Bible",
+        "religion": "Christianity",
+        "reference": "The Bible 17.13",
+        "chapterId": "bible-1cor-13",
+        "verseId": "bible-1cor-13-13",
+        "text": "And now abideth faith, hope, charity, these three; but the greatest of these is charity.",
+        "source": {
+          "translator": "King James Version",
+          "year": 1611,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "quran",
+        "bookTitle": "The Quran",
+        "religion": "Islam",
+        "reference": "The Quran 22.9",
+        "chapterId": "quran-42",
+        "verseId": "quran-42-9",
+        "text": "Or have they taken protectors [or allies] besides Him? For Allah — He is the Protector, and He gives life to the dead, and He is over all things competent.",
+        "source": {
+          "translator": "Sahih International",
+          "year": 1997,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "bhagavad-gita",
+        "bookTitle": "Bhagavad Gita",
+        "religion": "Hinduism",
+        "reference": "Bhagavad Gita 9.27",
+        "chapterId": "bg-9",
+        "verseId": "bg-9-27",
+        "text": "Whatever you do, whatever you eat, whatever you offer, whatever you give away, whatever austerities you perform—do that as an offering unto Me.",
+        "source": {
+          "translator": "Swami Sivananda",
+          "year": 1942,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "guru-granth-sahib",
+        "bookTitle": "Guru Granth Sahib",
+        "religion": "Sikhism",
+        "reference": "Guru Granth Sahib 4.1",
+        "chapterId": "ggs-anand",
+        "verseId": "ggs-anand-1",
+        "text": "I am Thine, O Lord, I am Thine; all mine are Thine, O Great King. My body, my breath, my wealth and my soul are Thine, O Lord; everything is Thine.",
+        "source": {
+          "translator": "Purdil Singh",
+          "year": 2000,
+          "license": "Public Domain"
+        }
+      },
+      {
+        "bookId": "torah",
+        "bookTitle": "The Torah",
+        "religion": "Judaism",
+        "reference": "The Torah 9.4",
+        "chapterId": "torah-deut-6",
+        "verseId": "torah-deut-6-4",
+        "text": "Hear, O Israel: The LORD our God is one LORD.",
+        "source": {
+          "translator": "King James Version",
+          "year": 1611,
+          "license": "Public Domain"
+        }
+      }
     ]
   }
 ]

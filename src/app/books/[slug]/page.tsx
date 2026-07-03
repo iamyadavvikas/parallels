@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import ReligionBadge from "@/components/ui/ReligionBadge";
 import VerseCard from "@/components/ui/VerseCard";
 import ChapterNav from "@/components/ui/ChapterNav";
+import MobileChapterView from "@/components/ui/MobileChapterView";
 import RecordVisit from "@/components/layout/RecordVisit";
 import { NeonDot, NeonBar, BackToTop } from "@/components/ui/NeonElements";
 
@@ -117,33 +118,17 @@ export default async function BookPage({ params }: { params: Promise<{ slug: str
               Chapters & Verses
             </h2>
           </div>
-          <div className="space-y-8">
-            {book.chapters.map((chapter) => (
-              <div key={chapter.id} id={`${book.slug}-ch-${chapter.number}`}>
-                <div className="mb-4 flex items-center gap-3">
-                  <NeonBar religion={book.religion} />
-                  <h3 className="text-lg font-bold text-text-primary font-display tracking-tight">
-                    {chapter.number}. {chapter.title}
-                  </h3>
-                </div>
-                <div className="space-y-3">
-                  {chapter.verses.map((verse) => (
-                    <VerseCard
-                      key={verse.id}
-                      verse={verse}
-                      chapterTitle={chapter.title}
-                      reference={`${chapter.number}.${verse.number}`}
-                      religionStyles={`border-l-[3px]`}
-                      bookSlug={book.slug}
-                      bookTitle={book.title}
-                      religion={book.religion}
-                      chapterNum={chapter.number}
-                    />
-                  ))}
-                </div>
-              </div>
-            ))}
-          </div>
+          <MobileChapterView
+            chapters={book.chapters.map((ch) => ({
+              id: ch.id,
+              number: ch.number,
+              title: ch.title,
+              verses: ch.verses,
+            }))}
+            religion={book.religion}
+            bookSlug={book.slug}
+            bookTitle={book.title}
+          />
         </section>
 
         <BackToTop religion={book.religion} />

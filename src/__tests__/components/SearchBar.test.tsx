@@ -12,29 +12,38 @@ vi.mock("next/navigation", () => ({
 describe("SearchBar", () => {
   it("renders search input", () => {
     render(<SearchBar />);
-    expect(screen.getByRole("searchbox")).toBeInTheDocument();
+    expect(screen.getByRole("combobox")).toBeInTheDocument();
   });
 
   it("renders large variant with search icon", () => {
     render(<SearchBar large />);
-    const input = screen.getByRole("searchbox");
+    const input = screen.getByRole("combobox");
     expect(input).toBeInTheDocument();
     expect(input).toHaveAttribute("enterKeyHint", "search");
   });
 
   it("has proper accessibility attributes", () => {
     render(<SearchBar />);
-    const input = screen.getByRole("searchbox");
-    expect(input).toHaveAttribute("type", "search");
+    const input = screen.getByRole("combobox");
     expect(input).toHaveAttribute("inputMode", "search");
+    expect(input).toHaveAttribute("aria-label", "Search sacred texts");
   });
 
   it("navigates to search page on submit", async () => {
     const user = userEvent.setup();
     render(<SearchBar />);
-    const input = screen.getByRole("searchbox");
+    const input = screen.getByRole("combobox");
     await user.type(input, "peace");
     await user.keyboard("{Enter}");
     expect(mockPush).toHaveBeenCalledWith("/search?q=peace");
+  });
+
+  it("shows autocomplete suggestions when typing", async () => {
+    const user = userEvent.setup();
+    render(<SearchBar />);
+    const input = screen.getByRole("combobox");
+    await user.type(input, "pea");
+    const suggestions = await screen.findAllByRole("option");
+    expect(suggestions.length).toBeGreaterThan(0);
   });
 });

@@ -1,6 +1,4 @@
 import { NextRequest, NextResponse } from "next/server";
-import { hybridSearch } from "@/lib/search";
-import { getConceptSummary, expandQuery } from "@/lib/search/concepts";
 
 const VALID_RELIGIONS = ["Hinduism", "Christianity", "Islam", "Judaism", "Sikhism", "Buddhism"];
 
@@ -10,7 +8,6 @@ export async function GET(req: NextRequest) {
   const bookId = req.nextUrl.searchParams.get("book") || undefined;
   const limitRaw = req.nextUrl.searchParams.get("limit") || "20";
 
-  // Normalize religion: lowercase input -> PascalCase
   const religion = religionRaw
     ? VALID_RELIGIONS.find((r) => r.toLowerCase() === religionRaw.toLowerCase()) || undefined
     : undefined;
@@ -20,28 +17,22 @@ export async function GET(req: NextRequest) {
   if (!q.trim()) {
     return NextResponse.json(
       { results: [], query: q },
-      {
-        headers: {
-          "Cache-Control": "public, s-maxage=60, stale-while-revalidate=300",
-        },
-      }
+      { headers: { "Cache-Control": "public, s-maxage=60, stale-while-revalidate=300" } }
     );
   }
 
-  const results = hybridSearch({
-    query: q,
-    religion,
-    bookId,
-    limit,
-  });
-
+  const { expandQuery, getConceptSummary } = await import("@/lib/search/concepts");
   const expandedTerms = expandQuery(q);
+
+  const { hybridSearch } = await import("@/lib/search");
+  const results = hybridSearch({ query: q, religion, bookId, limit });
 
   return NextResponse.json(
     {
       query: q,
       conceptSummary: getConceptSummary(q),
       expandedTerms,
+      semanticSearch: false,
       results: results.map((r) => ({
         bookId: r.book.id,
         bookTitle: r.book.title,
@@ -62,9 +53,7 @@ export async function GET(req: NextRequest) {
       })),
     },
     {
-      headers: {
-        "Cache-Control": "public, s-maxage=300, stale-while-revalidate=600",
-      },
+      headers: { "Cache-Control": "public, s-maxage=300, stale-while-revalidate=600" },
     }
   );
 }

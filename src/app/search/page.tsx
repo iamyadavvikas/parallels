@@ -2,6 +2,7 @@ import Link from "next/link";
 import { hybridSearch } from "@/lib/search";
 import { getConceptSummary } from "@/lib/search/concepts";
 import { highlightText } from "@/lib/utils";
+import { books } from "@/data";
 import SearchBar from "@/components/ui/SearchBar";
 import Perspectives from "@/components/ui/Perspectives";
 
@@ -27,6 +28,8 @@ export default async function SearchPage({
   let results: ReturnType<typeof hybridSearch> = [];
   if (query) results = hybridSearch({ query, limit: 50 });
   const conceptSummary = getConceptSummary(query);
+  const totalChapters = books.reduce((sum, b) => sum + b.chapters.length, 0);
+  const totalVerses = books.reduce((sum, b) => sum + b.chapters.reduce((s, c) => s + c.verses.length, 0), 0);
 
   return (
     <div className="search-page space-y-8 page-enter">
@@ -187,11 +190,11 @@ export default async function SearchPage({
             </div>
             <div className="flex items-center gap-1.5">
               <span className="h-1 w-1 rounded-full bg-accent" />
-              <span>109 chapters</span>
+              <span>{totalChapters} chapters</span>
             </div>
             <div className="flex items-center gap-1.5">
               <span className="h-1 w-1 rounded-full bg-[var(--tradition-islam)]" />
-              <span>109 verses</span>
+              <span>{totalVerses} verses</span>
             </div>
           </div>
         </div>

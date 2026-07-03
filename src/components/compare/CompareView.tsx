@@ -7,6 +7,7 @@ import { books as allBooks, topics, questions } from "@/data";
 import BookSelector from "./BookSelector";
 import CustomDropdown from "./CustomDropdown";
 import MagneticButton from "@/components/ui/MagneticButton";
+import AIExplainButton from "@/components/ui/AIExplainButton";
 
 interface CompareViewProps {
   initialTopic?: string;
@@ -29,6 +30,8 @@ export default function CompareView({ initialTopic }: CompareViewProps) {
   const [loading, setLoading] = useState(false);
   const [fusing, setFusing] = useState(false);
   const [showResults, setShowResults] = useState(false);
+  const [fusionResult, setFusionResult] = useState("");
+  const [fusionError, setFusionError] = useState("");
   const [viewMode, setViewMode] = useState<"grid" | "timeline">("grid");
   const svgRef = useRef<SVGSVGElement>(null);
 
@@ -86,15 +89,51 @@ export default function CompareView({ initialTopic }: CompareViewProps) {
     return result;
   }, [selectedBooks, selectedTopic, selectedQuestion]);
 
-  const triggerFusion = useCallback(() => {
+  const triggerFusion = useCallback(async () => {
     if (passages.length === 0) return;
     setFusing(true);
     setShowResults(false);
-    setTimeout(() => {
-      setFusing(false);
-      setShowResults(true);
-    }, 1200);
-  }, [passages.length]);
+    setFusionResult("");
+    setFusionError("");
+    try {
+      const res = await fetch("/api/fuse", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          passages: passages.map((p) => ({
+            religion: p.religion,
+            bookTitle: p.bookTitle,
+            text: p.text,
+            reference: p.reference,
+          })),
+          topic: selectedTopic ? topics.find((t) => t.id === selectedTopic)?.name : undefined,
+          question: selectedQuestion ? questions.find((q) => q.id === selectedQuestion)?.question : undefined,
+        }),
+      });
+      if (!res.ok) {
+        const err = await res.json();
+        setFusionError(err.error || "Fusion failed");
+        setFusing(false);
+        return;
+      }
+      const reader = res.body?.getReader();
+      if (!reader) {
+        setFusionError("No response stream");
+        setFusing(false);
+        return;
+      }
+      const decoder = new TextDecoder();
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
+        setFusionResult((prev) => prev + decoder.decode(value, { stream: true }));
+      }
+    } catch (e) {
+      setFusionError("Network error: could not reach AI service");
+    }
+    setFusing(false);
+    setShowResults(true);
+  }, [passages, selectedTopic, selectedQuestion, topics, questions]);
 
   function toggleBook(book: Book) {
     setSelectedBooks((prev) =>
@@ -349,8 +388,37 @@ export default function CompareView({ initialTopic }: CompareViewProps) {
         </div>
       )}
 
+      {/* AI Synthesis panel */}
+      {!fusing && showResults && fusionResult && (
+        <div className="relative rounded-2xl border border-accent/20 bg-accent/5 backdrop-blur-sm p-6">
+          <div className="mb-3 flex items-center gap-2">
+            <span className="text-accent">✦</span>
+            <h3 className="text-sm font-mono tracking-[0.2em] uppercase text-accent">AI Synthesis</h3>
+          </div>
+          <div className="prose prose-invert prose-sm max-w-none text-text-secondary [&_strong]:text-accent [&_h3]:text-text-primary [&_h3]:text-sm [&_h3]:font-mono [&_h3]:tracking-wider [&_h3]:mt-4 [&_h3]:mb-2 [&_ul]:list-disc [&_ul]:pl-4">
+            {fusionResult.split("\n").map((line, i) => {
+              if (line.startsWith("**") && line.endsWith("**")) {
+                return <h3 key={i} className="text-sm font-mono tracking-wider text-accent uppercase mt-4 mb-2">{line.replace(/\*\*/g, "")}</h3>;
+              }
+              if (line.startsWith("- ")) {
+                return <li key={i} className="text-text-secondary text-sm ml-4">{line.slice(2)}</li>;
+              }
+              if (line.trim() === "") return <br key={i} />;
+              return <p key={i} className="text-text-secondary text-sm leading-relaxed mb-2">{line}</p>;
+            })}
+          </div>
+        </div>
+      )}
+
+      {/* Fusion error */}
+      {!fusing && showResults && fusionError && (
+        <div className="rounded-xl border border-red-500/20 bg-red-500/5 p-4 text-sm text-red-300">
+          {fusionError}
+        </div>
+      )}
+
       {/* Results — Wisdom Threads (Grid mode) */}
-      {!loading && !fusing && showResults && passages.length > 0 && viewMode === "grid" && (
+      {!loading && !fusing && (showResults || passages.length > 0) && viewMode === "grid" && passages.length > 0 && (
         <div className="space-y-6">
           <div className="flex items-center gap-3">
             <div className="h-px flex-1 bg-gradient-to-r from-transparent via-accent/30 to-transparent" />
@@ -388,9 +456,16 @@ export default function CompareView({ initialTopic }: CompareViewProps) {
                 <p className="text-text-primary font-serif">
                   &ldquo;{p.text}&rdquo;
                 </p>
-                <p className="attribution mt-3">
-                  — {p.source.translator} ({p.source.year})
-                </p>
+                <div className="mt-3 flex items-center justify-between">
+                  <p className="attribution">
+                    — {p.source.translator} ({p.source.year})
+                  </p>
+                  <AIExplainButton
+                    verse={p.text}
+                    religion={p.religion}
+                    bookTitle={p.bookTitle}
+                  />
+                </div>
               </div>
             ))}
           </div>
@@ -398,7 +473,7 @@ export default function CompareView({ initialTopic }: CompareViewProps) {
       )}
 
       {/* Results — Timeline mode */}
-      {!loading && !fusing && showResults && passages.length > 0 && viewMode === "timeline" && (
+      {!loading && !fusing && (showResults || passages.length > 0) && viewMode === "timeline" && passages.length > 0 && (
         <div className="space-y-6">
           <div className="flex items-center gap-3">
             <div className="h-px flex-1 bg-gradient-to-r from-transparent via-accent/30 to-transparent" />
@@ -431,9 +506,16 @@ export default function CompareView({ initialTopic }: CompareViewProps) {
                   <p className="text-text-primary font-serif">
                     &ldquo;{p.text}&rdquo;
                   </p>
-                  <p className="attribution mt-2">
-                    — {p.source.translator} ({p.source.year})
-                  </p>
+                  <div className="mt-2 flex items-center justify-between">
+                    <p className="attribution">
+                      — {p.source.translator} ({p.source.year})
+                    </p>
+                    <AIExplainButton
+                      verse={p.text}
+                      religion={p.religion}
+                      bookTitle={p.bookTitle}
+                    />
+                  </div>
                 </div>
               </div>
             ))}
