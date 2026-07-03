@@ -2,61 +2,127 @@
   {
     "id": "q-peace",
     "question": "What does this text say about peace?",
-    "keywords": ["peace", "peacemakers", "shalom", "salaam", "harmony"],
-    "description": "Explore how different scriptures describe the nature of peace and how to achieve it."
+    "keywords": [
+      "peace",
+      "peacemakers",
+      "shalom",
+      "salaam",
+      "harmony"
+    ],
+    "description": "Explore how different scriptures describe the nature of peace and how to achieve it.",
+    "scienceNotes": "Peace psychology (Christie et al., 2001) identifies intergroup contact, cooperative superordinate goals, and constructive conflict resolution as evidence-based pathways to peace. fMRI studies of meditation show that compassion training reduces amygdala reactivity to suffering — the neural correlate of equanimity — after just 7 hours of practice (Klimecki et al., 2013). The 'inner peace' described across scriptures has measurable physiological correlates: reduced cortisol, increased heart rate variability, and lower inflammatory markers (Creswell et al., 2014)."
   },
   {
     "id": "q-golden-rule",
     "question": "How should we treat others?",
-    "keywords": ["treat others", "golden rule", "neighbor", "love"],
-    "description": "Compare the versions of the Golden Rule and teachings on interpersonal conduct."
+    "keywords": [
+      "treat others",
+      "golden rule",
+      "neighbor",
+      "love"
+    ],
+    "description": "Compare the versions of the Golden Rule and teachings on interpersonal conduct.",
+    "scienceNotes": "The Golden Rule's universality is supported by convergent evidence from evolutionary game theory (Nowak & Highfield, 2011 — 'SuperCooperators'), developmental psychology (Warneken & Tomasello, 2006 — prosocial behavior in 18-month-olds), and behavioral economics (Fehr & Fischbacher, 2003 — strong reciprocity across cultures). Mirror neuron research (Iacoboni, 2009) provides a neural mechanism: observing another's experience activates overlapping brain regions as experiencing it oneself."
   },
   {
     "id": "q-afterlife",
     "question": "What happens after death?",
-    "keywords": ["death", "afterlife", "heaven", "hell", "rebirth", "immortality"],
-    "description": "Compare beliefs about what happens after death across traditions."
+    "keywords": [
+      "death",
+      "afterlife",
+      "heaven",
+      "hell",
+      "rebirth",
+      "immortality"
+    ],
+    "description": "Compare beliefs about what happens after death across traditions.",
+    "scienceNotes": "The scientific status of afterlife beliefs is complex. Near-death experience research (van Lommel, 2010; Greyson, 2021) documents consistent reports across cultures — witnessing events from above, meeting deceased relatives, life review — occurring during physiologically compromised states (cardiac arrest, flat EEG). The AWARE-II study (Parnia et al., 2023) placed hidden images on ceiling shelves to test out-of-body perception; results are still being analyzed. Neurobiological counter-hypotheses include cerebral hypoxia, NMDA-receptor blockade, and dream-like intrusion of REM neurochemistry into waking consciousness. The question remains open."
   },
   {
     "id": "q-purpose",
     "question": "What is the purpose of human life?",
-    "keywords": ["purpose", "meaning", "goal", "human existence"],
-    "description": "Explore how different scriptures define the meaning and purpose of human existence."
+    "keywords": [
+      "purpose",
+      "meaning",
+      "goal",
+      "human existence"
+    ],
+    "description": "Explore how different scriptures define the meaning and purpose of human existence.",
+    "scienceNotes": "Psychometric research on meaning in life (Steger et al., 2006; Presence of Meaning Scale) shows that purpose is a distinct construct from happiness, predictive of resilience, lower suicidality, and better physical health. Frankl's (1946) logotherapy — the clinical application of meaning-seeking — has been validated by RCTs (Breitbart et al., 2010 showing improved spiritual well-being and QOL in advanced cancer patients). The 'meaning hypothesis' in evolutionary psychology (Baumeister, 1991) proposes that humans evolved a drive to construct narratives of purpose as a mechanism for deferred gratification and long-term planning."
   },
   {
     "id": "q-suffering",
     "question": "Why is there suffering and how should we respond?",
-    "keywords": ["suffering", "pain", "hardship", "sorrow", "endure"],
-    "description": "Compare explanations for suffering and prescriptions for responding to it."
+    "keywords": [
+      "suffering",
+      "pain",
+      "hardship",
+      "sorrow",
+      "endure"
+    ],
+    "description": "Compare explanations for suffering and prescriptions for responding to it.",
+    "scienceNotes": "Pain is objectively measurable (fMRI, EEG), but suffering — the subjective emotional response — is modulated by meaning-making (Park, 2010 meaning-making model). The placebo effect in pain (Wager & Atlas, 2015) demonstrates that belief and expectation directly alter pain signaling in the spinal cord and brain. Post-traumatic growth (PTG) research (Tedeschi & Calhoun, 2004) finds that about 50% of trauma survivors report positive transformation across 5 domains: appreciation of life, relationships, personal strength, new possibilities, and spiritual change — echoing scriptural reframing of suffering as transformative."
   },
   {
     "id": "q-god",
     "question": "What is the nature of God or the Ultimate Reality?",
-    "keywords": ["god", "divine", "ultimate", "creator", "nature of god"],
-    "description": "Explore different conceptions of the divine across religious traditions."
+    "keywords": [
+      "god",
+      "divine",
+      "ultimate",
+      "creator",
+      "nature of god"
+    ],
+    "description": "Explore different conceptions of the divine across religious traditions.",
+    "scienceNotes": "The cognitive science of religion (Barrett, 2011; McCauley, 2011) proposes that belief in gods is a natural byproduct of evolved cognitive systems: hypersensitive agency detection (HADD), theory of mind, and intuitive dualism (body/mind distinction). Neurotheology (Newberg & Waldman, 2009) studies brain activity during prayer and meditation, finding reduced parietal lobe activity (sense of self-dissolution) and increased frontal lobe focus. This describes correlates of spiritual experience without adjudicating the ontological question — a boundary the scientific method cannot cross by design."
   },
   {
     "id": "q-charity",
     "question": "What is the importance of charity and giving?",
-    "keywords": ["charity", "giving", "alms", "generosity", "poor"],
-    "description": "Compare teachings on charity, generosity, and caring for the needy."
+    "keywords": [
+      "charity",
+      "giving",
+      "alms",
+      "generosity",
+      "poor"
+    ],
+    "description": "Compare teachings on charity, generosity, and caring for the needy.",
+    "scienceNotes": "Experimental economics (Andreoni et al., 2017) demonstrates that charitable giving activates brain reward centers more reliably than personal financial gain — 'warm-glow giving' is now a well-documented behavioral phenomenon. Public health research (Post, 2005) shows that altruistic behavior predicts lower mortality with effect sizes comparable to exercise. The 'helper's high' — a physiological state of reduced cortisol, increased oxytocin, and elevated endorphins — has been documented after spontaneous prosocial acts."
   },
   {
     "id": "q-forgiveness",
     "question": "How is forgiveness understood and practiced?",
-    "keywords": ["forgiveness", "forgive", "mercy", "repentance"],
-    "description": "Compare teachings on forgiveness—both divine forgiveness and forgiving others."
+    "keywords": [
+      "forgiveness",
+      "forgive",
+      "mercy",
+      "repentance"
+    ],
+    "description": "Compare teachings on forgiveness—both divine forgiveness and forgiving others.",
+    "scienceNotes": "Forgiveness is one of the most extensively studied virtues in clinical psychology. Enright's process model (Enright & Fitzgibbons, 2015) identifies 4 phases (uncovering, decision, work, outcome) validated by 30+ RCTs. Worthington's REACH model (Recall, Empathize, Altruistic gift, Commit, Hold) shows d = 0.5-0.9 effects on mental health. Neuroimaging (Witvliet et al., 2020) shows that unforgiveness correlates with elevated heart rate, blood pressure, and cortisol, while forgiveness restores parasympathetic tone within minutes."
   },
   {
     "id": "q-justice",
     "question": "What is justice and how should it be pursued?",
-    "keywords": ["justice", "righteousness", "fair", "judgment"],
-    "description": "Explore the concept of justice and righteous living across traditions."
+    "keywords": [
+      "justice",
+      "righteousness",
+      "fair",
+      "judgment"
+    ],
+    "description": "Explore the concept of justice and righteous living across traditions.",
+    "scienceNotes": "Justice is studied across psychology, economics, and neuroscience. The Ultimatum Game (Güth et al., 1982) demonstrates that humans reject unfair offers even at personal cost, mediated by insula and dlPFC activity (Sanfey et al., 2003). Kohlberg's stages of moral development (1981) identify justice reasoning as a developmental achievement progressing from punishment-avoidance to universal principles, correlated with prefrontal cortex maturation. International relations research (Paris, 2004) provides evidence that 'positive peace' (Galtung) — structural justice, not just absence of violence — reduces conflict recidivism."
   },
   {
     "id": "q-compassion",
     "question": "What is the role of compassion in spiritual life?",
-    "keywords": ["compassion", "mercy", "kindness", "empathy"],
-    "description": "Compare teachings on compassion and mercy toward all beings."
+    "keywords": [
+      "compassion",
+      "mercy",
+      "kindness",
+      "empathy"
+    ],
+    "description": "Compare teachings on compassion and mercy toward all beings.",
+    "scienceNotes": "Compassion has been operationalized in contemplative neuroscience (Davidson & Dahl, 2018). The Compassion Cultivation Training (CCT) program (Jazaieri et al., 2013) shows significant increases in compassion and decreases in fear of compassion after 9 weeks. fMRI compassion training studies (Weng et al., 2013) demonstrate that 30 minutes/day of compassion meditation for 2 weeks increases altruistic behavior and alters neural responses to others' suffering — shifting from amygdala activation to ventral striatum (reward) activation. This contradicts the folk theory that compassion leads to empathic distress."
   }
 ]

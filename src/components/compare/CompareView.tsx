@@ -8,6 +8,7 @@ import BookSelector from "./BookSelector";
 import CustomDropdown from "./CustomDropdown";
 import MagneticButton from "@/components/ui/MagneticButton";
 import AIExplainButton from "@/components/ui/AIExplainButton";
+import ScienceInsight from "@/components/ui/ScienceInsight";
 
 interface CompareViewProps {
   initialTopic?: string;
@@ -414,6 +415,29 @@ export default function CompareView({ initialTopic }: CompareViewProps) {
       {!fusing && showResults && fusionError && (
         <div className="rounded-xl border border-red-500/20 bg-red-500/5 p-4 text-sm text-red-300">
           {fusionError}
+        </div>
+      )}
+
+      {/* Science & Research insight */}
+      {!loading && !fusing && (showResults || passages.length > 0) && (selectedTopic || selectedQuestion) && (
+        <div className="flex justify-center">
+          <ScienceInsight
+            curatedNotes={
+              selectedTopic
+                ? topics.find((t) => t.id === selectedTopic)?.scienceNotes
+                : selectedQuestion
+                  ? questions.find((q) => q.id === selectedQuestion)?.scienceNotes
+                  : undefined
+            }
+            label={
+              selectedTopic
+                ? topics.find((t) => t.id === selectedTopic)?.name || ""
+                : selectedQuestion
+                  ? questions.find((q) => q.id === selectedQuestion)?.question || ""
+                  : ""
+            }
+            passages={passages}
+          />
         </div>
       )}
 

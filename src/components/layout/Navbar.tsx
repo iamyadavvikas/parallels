@@ -6,6 +6,7 @@ import { useEffect, useState, useRef, useCallback } from "react";
 import { BookOpen, Search, Layers, GitCompare, Bookmark, Heart } from "lucide-react";
 import ThemeToggle from "../ui/ThemeToggle";
 import Logo from "../ui/Logo";
+import NavbarAuth from "../auth/NavbarAuth";
 
 const navLinks = [
   { href: "/", label: "Library", icon: BookOpen },
@@ -88,7 +89,8 @@ export default function Navbar() {
               </Link>
             ))}
             <div ref={indicatorRef} className="nav-slide-indicator" />
-            <div className="ml-2 border-l border-border/40 pl-2">
+            <div className="ml-2 border-l border-border/40 pl-2 flex items-center gap-1">
+              <NavbarAuth />
               <ThemeToggle />
             </div>
           </div>

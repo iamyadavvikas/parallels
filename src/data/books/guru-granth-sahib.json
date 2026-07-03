@@ -435,46 +435,6 @@
       ]
     },
     {
-      "id": "ggs-anand",
-      "number": 4,
-      "title": "Anand Sahib — The Song of Bliss (Guru Amar Das)",
-      "verses": [
-        {
-          "id": "ggs-anand-1",
-          "number": 1,
-          "text": "I am Thine, O Lord, I am Thine; all mine are Thine, O Great King. My body, my breath, my wealth and my soul are Thine, O Lord; everything is Thine.",
-          "source": {
-            "translator": "Purdil Singh",
-            "year": 2000,
-            "license": "Public Domain"
-          },
-          "explanation": "This verse from Anand Sahib (Song of Bliss) by Guru Amar Das celebrates the spiritual ecstasy that comes from union with the Divine. True bliss is found in the company of the holy and in meditation on God's name."
-        },
-        {
-          "id": "ggs-anand-3",
-          "number": 3,
-          "text": "He is the treasure of virtue, the fountain of peace. He is the ocean of mercy, the form of bliss. He is the remover of pain, the bestower of peace.",
-          "source": {
-            "translator": "Purdil Singh",
-            "year": 2000,
-            "license": "Public Domain"
-          },
-          "explanation": "This verse from Anand Sahib (Song of Bliss) by Guru Amar Das celebrates the spiritual ecstasy that comes from union with the Divine. True bliss is found in the company of the holy and in meditation on God's name."
-        },
-        {
-          "id": "ggs-anand-11",
-          "number": 11,
-          "text": "The Guru has shown me the Lord's path, and wiped away my sorrows. Nanak, the servant, sings of the Lord's praises.",
-          "source": {
-            "translator": "Purdil Singh",
-            "year": 2000,
-            "license": "Public Domain"
-          },
-          "explanation": "This verse from Anand Sahib (Song of Bliss) by Guru Amar Das celebrates the spiritual ecstasy that comes from union with the Divine. True bliss is found in the company of the holy and in meditation on God's name."
-        }
-      ]
-    },
-    {
       "id": "ggs-sukhmani",
       "number": 5,
       "title": "Sukhmani Sahib — The Psalm of Peace (Guru Arjan)",

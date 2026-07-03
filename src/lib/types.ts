@@ -70,6 +70,7 @@ export interface Topic {
   description: string;
   keywords: string[];
   passages: Passage[];
+  scienceNotes?: string;
 }
 
 export interface CuratedQuestion {
@@ -77,6 +78,7 @@ export interface CuratedQuestion {
   question: string;
   keywords: string[];
   description: string;
+  scienceNotes?: string;
 }
 
 export interface SearchResult {

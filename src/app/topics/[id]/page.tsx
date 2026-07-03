@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import ReligionBadge from "@/components/ui/ReligionBadge";
 import Link from "next/link";
 import { GlassCard, NeonDot } from "@/components/ui/NeonElements";
+import ScienceInsight from "@/components/ui/ScienceInsight";
 
 export default async function TopicPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
@@ -21,9 +22,17 @@ export default async function TopicPage({ params }: { params: Promise<{ id: stri
         </div>
         <h1 className="text-4xl font-extrabold tracking-tight text-text-primary sm:text-5xl font-display" style={{ letterSpacing: '-0.03em' }}>{topic.name}</h1>
         <p className="mt-3 max-w-3xl mx-auto text-lg text-text-secondary font-body">{topic.description}</p>
-        <p className="mt-3 text-sm text-text-muted font-mono tracking-wide">
-          {topic.passages.length} passages across {religions.length} traditions
-        </p>
+        <div className="mt-4 flex flex-wrap items-center justify-center gap-3">
+          <p className="text-sm text-text-muted font-mono tracking-wide">
+            {topic.passages.length} passages across {religions.length} traditions
+          </p>
+          <span className="text-text-muted/30">·</span>
+          <ScienceInsight
+            curatedNotes={topic.scienceNotes}
+            label={topic.name}
+            passages={topic.passages}
+          />
+        </div>
       </header>
 
       <div className="space-y-5">
