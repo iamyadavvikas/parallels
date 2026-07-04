@@ -27,6 +27,9 @@ export default function Home() {
       {/* ═══ HERO — Galaxy ═══ */}
       <section className="relative overflow-hidden rounded-3xl bg-bg-surface px-6 py-24 text-center sm:px-16 sm:py-32"
         style={{ boxShadow: '0 0 80px rgba(255, 209, 102, 0.04), 0 4px 24px var(--color-shadow-sm), 0 32px 100px var(--color-shadow-md)' }}>
+        {/* Deep space backdrop */}
+        <div className="galaxy-layer galaxy-backdrop" />
+
         {/* Nebula — slow rotating conic gradient */}
         <div className="galaxy-layer galaxy-nebula" />
 
@@ -35,16 +38,16 @@ export default function Home() {
 
         {/* Orbit rings — faint circles */}
         <div className="galaxy-orbit-ring" style={{ width: 240, height: 240, marginTop: -120, marginLeft: -120 }} />
-        <div className="galaxy-orbit-ring" style={{ width: 360, height: 360, marginTop: -180, marginLeft: -180 }} />
-        <div className="galaxy-orbit-ring" style={{ width: 500, height: 500, marginTop: -250, marginLeft: -250 }} />
+        <div className="galaxy-orbit-ring" style={{ width: 380, height: 380, marginTop: -190, marginLeft: -190 }} />
+        <div className="galaxy-orbit-ring" style={{ width: 540, height: 540, marginTop: -270, marginLeft: -270 }} />
 
-        {/* Orbiting planets — one per tradition */}
-        <div className="galaxy-planet" style={{ width: 6, height: 6, background: 'var(--tradition-hinduism)', '--orbit-radius': '120px', '--orbit-duration': '18s', animationDelay: '0s' } as React.CSSProperties} />
-        <div className="galaxy-planet" style={{ width: 5, height: 5, background: 'var(--tradition-christianity)', '--orbit-radius': '180px', '--orbit-duration': '25s', animationDelay: '-5s' } as React.CSSProperties} />
-        <div className="galaxy-planet" style={{ width: 7, height: 7, background: 'var(--tradition-islam)', '--orbit-radius': '250px', '--orbit-duration': '35s', animationDelay: '-12s' } as React.CSSProperties} />
-        <div className="galaxy-planet" style={{ width: 5, height: 5, background: 'var(--tradition-judaism)', '--orbit-radius': '140px', '--orbit-duration': '22s', animationDelay: '-8s' } as React.CSSProperties} />
-        <div className="galaxy-planet" style={{ width: 4, height: 4, background: 'var(--tradition-sikhism)', '--orbit-radius': '200px', '--orbit-duration': '30s', animationDelay: '-15s' } as React.CSSProperties} />
-        <div className="galaxy-planet" style={{ width: 6, height: 6, background: 'var(--tradition-buddhism)', '--orbit-radius': '160px', '--orbit-duration': '28s', animationDelay: '-3s' } as React.CSSProperties} />
+        {/* Orbiting planets — one per tradition, larger with glow */}
+        <div className="galaxy-planet" style={{ width: 8, height: 8, background: 'var(--tradition-hinduism)', boxShadow: '0 0 12px var(--tradition-hinduism)', '--orbit-radius': '120px', '--orbit-duration': '18s', animationDelay: '0s' } as React.CSSProperties} />
+        <div className="galaxy-planet" style={{ width: 7, height: 7, background: 'var(--tradition-christianity)', boxShadow: '0 0 10px var(--tradition-christianity)', '--orbit-radius': '190px', '--orbit-duration': '26s', animationDelay: '-5s' } as React.CSSProperties} />
+        <div className="galaxy-planet" style={{ width: 9, height: 9, background: 'var(--tradition-islam)', boxShadow: '0 0 14px var(--tradition-islam)', '--orbit-radius': '270px', '--orbit-duration': '36s', animationDelay: '-12s' } as React.CSSProperties} />
+        <div className="galaxy-planet" style={{ width: 6, height: 6, background: 'var(--tradition-judaism)', boxShadow: '0 0 10px var(--tradition-judaism)', '--orbit-radius': '145px', '--orbit-duration': '22s', animationDelay: '-8s' } as React.CSSProperties} />
+        <div className="galaxy-planet" style={{ width: 6, height: 6, background: 'var(--tradition-sikhism)', boxShadow: '0 0 10px var(--tradition-sikhism)', '--orbit-radius': '210px', '--orbit-duration': '32s', animationDelay: '-15s' } as React.CSSProperties} />
+        <div className="galaxy-planet" style={{ width: 7, height: 7, background: 'var(--tradition-buddhism)', boxShadow: '0 0 12px var(--tradition-buddhism)', '--orbit-radius': '165px', '--orbit-duration': '28s', animationDelay: '-3s' } as React.CSSProperties} />
 
         <div className="relative z-10">
           {/* Sigil — neon glow */}
