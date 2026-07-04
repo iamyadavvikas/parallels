@@ -256,9 +256,9 @@ function LazyChapter({ chapter, verses, isLoading, religion, bookSlug, bookTitle
         </div>
       ) : (
         <div className="space-y-3">
-          {displayVerses.map((verse) => (
+          {displayVerses.map((verse, idx) => (
             <VerseCard
-              key={verse.id}
+              key={verse.id || `${chapter.id}-v${verse.number}-${idx}`}
               verse={verse}
               chapterTitle={chapter.title}
               reference={`${chapter.number}.${verse.number}`}
