@@ -67,19 +67,44 @@ export default function Home() {
           {/* Headline — larger, tighter */}
           <h1 className="hero-headline-delay mb-6 text-5xl font-extrabold tracking-tight text-text-primary sm:text-7xl font-display"
             style={{ letterSpacing: "-0.045em", lineHeight: "1.05" }}>
-            Explore the World&apos;s
+            See How the World
             <br />
-            <span className="gradient-text-wide">Sacred Texts</span>
+            <span className="gradient-text-wide">Compares</span>
           </h1>
 
           <p className="hero-headline-delay-2 mx-auto mb-14 max-w-2xl text-lg text-text-secondary font-body leading-relaxed">
-            Browse, search, and compare passages from six major religious
+            Browse, search, and <span className="text-accent font-semibold">compare passages</span> from six major religious
             traditions — side by side, in a space designed for reverence.
           </p>
 
           {/* Search */}
           <div className="hero-headline-delay-2 mx-auto max-w-xl">
             <SearchBar large />
+          </div>
+
+          {/* Sample comparison questions — curiosity + controversy */}
+          <div className="hero-headline-delay-2 mt-8 mx-auto max-w-2xl">
+            <p className="text-[10px] font-mono tracking-[0.2em] uppercase text-text-muted/60 mb-3">
+              Try a question
+            </p>
+            <div className="flex flex-wrap justify-center gap-2">
+              {[
+                { id: "q-one-true-path", text: "Is there one true path to God?" },
+                { id: "q-good-without-belief", text: "Can a good person be condemned for not believing?" },
+                { id: "q-suffering-best", text: "Which tradition explains suffering best?" },
+                { id: "q-most-compelling-afterlife", text: "Which afterlife concept is most honest?" },
+                { id: "q-all-true", text: "Can different religions all be true?" },
+              ].map((q) => (
+                <Link
+                  key={q.id}
+                  href={`/compare?q=${q.id}`}
+                  className="question-chip group inline-flex items-center gap-2 rounded-full border border-border bg-bg-secondary/40 backdrop-blur-md px-4 py-2 text-sm text-text-muted hover:text-accent hover:border-accent/30 transition-all font-body"
+                >
+                  <span className="text-accent/70 group-hover:text-accent font-mono text-xs">?</span>
+                  <span>{q.text}</span>
+                </Link>
+              ))}
+            </div>
           </div>
 
           {/* Tradition chips — neon border glow on hover */}

@@ -124,5 +124,109 @@
     ],
     "description": "Compare teachings on compassion and mercy toward all beings.",
     "scienceNotes": "Compassion has been operationalized in contemplative neuroscience (Davidson & Dahl, 2018). The Compassion Cultivation Training (CCT) program (Jazaieri et al., 2013) shows significant increases in compassion and decreases in fear of compassion after 9 weeks. fMRI compassion training studies (Weng et al., 2013) demonstrate that 30 minutes/day of compassion meditation for 2 weeks increases altruistic behavior and alters neural responses to others' suffering — shifting from amygdala activation to ventral striatum (reward) activation. This contradicts the folk theory that compassion leads to empathic distress."
+  },
+  {
+    "id": "q-one-true-path",
+    "question": "Is there one true path to God?",
+    "keywords": [
+      "one true path",
+      "exclusivity",
+      "only way",
+      "salvation",
+      "truth",
+      "way",
+      "path"
+    ],
+    "description": "One of the deepest divides in religious thought — can multiple traditions lead to the same divine truth, or does only one path lead to salvation?",
+    "scienceNotes": "The psychology of religious exclusivism vs. pluralism (Kirkpatrick, 2005) correlates exclusivist beliefs with attachment style and need for cognitive closure. Gallup polling (2023) finds 47% of Americans believe only their religion leads to heaven — down from 68% in 1977 — suggesting generational pluralization. Theological exclusivism (C.S. Lewis's 'Lord, Liar, Lunatic' trilemma) and inclusivism (Karl Rahner's 'anonymous Christians') represent formal positions. Neuroscience of self-categorization (Turner et al., 1987) explains why in-group/out-group dynamics extend naturally to religious identity, making exclusivism cognitively 'natural' even when unsupported empirically."
+  },
+  {
+    "id": "q-never-heard",
+    "question": "What happens to those who never heard God's message?",
+    "keywords": [
+      "never heard",
+      "unreached",
+      "unaware",
+      "innocent",
+      "unborn",
+      "ignorance",
+      "unheard"
+    ],
+    "description": "A question with radically different answers across traditions — from eternal damnation to universal salvation to karmic reckoning.",
+    "scienceNotes": "The 'virtuous pagan' problem (Limbo/Limbus) has been debated since Augustine. Religious cognition research (Gervais & Norenzayan, 2012) shows that promiscuous teleology — attributing purpose to natural events — makes supernatural belief intuitive even without cultural transmission. The question intersects with moral philosophy: the Euthyphro dilemma (is something good because God commands it, or does God command it because it is good?) gains empirical dimension in cross-cultural moral psychology research showing convergent moral intuitions across religious and non-religious populations (Gray et al., 2014)."
+  },
+  {
+    "id": "q-all-true",
+    "question": "Can different religions all be true?",
+    "keywords": [
+      "all true",
+      "pluralism",
+      "universalism",
+      "perennial philosophy",
+      "exclusivism",
+      "inclusivism"
+    ],
+    "description": "The perennial philosophy vs. exclusivism — one of the most debated questions in philosophy of religion.",
+    "scienceNotes": "John Hick's (1989) 'pluralistic hypothesis' proposes that all religions are culturally-conditioned responses to the same transcendent Real — analogous to blind men describing an elephant. This has been challenged by S. Mark Heim (1995) who argues religions may be genuinely different salvations. Cognitive science data (Bulbulia, 2004) suggests religious diversity may be an evolutionary adaptation: different ecological niches select for different supernatural agent concepts. The sociological evidence (Berger, 1967) shows that religious diversity correlates with existential security — secularizing nations have higher tolerance for theological contradiction."
+  },
+  {
+    "id": "q-suffering-best",
+    "question": "Which tradition explains suffering best?",
+    "keywords": [
+      "suffering explained",
+      "best explanation",
+      "why suffering",
+      "karma",
+      "sin",
+      "dukkha",
+      "theodicy"
+    ],
+    "description": "Buddhism says craving, Christianity says the Fall, Hinduism says karma, Islam says trial — fundamentally different models with different implications.",
+    "scienceNotes": "The 'suffering and its causes' framework (Nikolajsen et al., 2017) shows that explanatory models for suffering directly affect coping efficacy. Buddhist dukkha (unsatisfactoriness) aligns closest with contemporary acceptance-based therapies (ACT — Hayes et al., 2006). Christian redemptive suffering models parallel post-traumatic growth (Tedeschi & Calhoun, 2004). Hindu karmic explanations show measurable effects on locus of control (Rotter, 1966) and acceptance of inequality. Islamic patience (sabr) under trial shows resilience effects comparable to stoic acceptance (Grossmann & Kwon, 2022). No single model has empirical superiority — effectiveness depends on cultural context and individual psychology."
+  },
+  {
+    "id": "q-good-without-belief",
+    "question": "Can a good person be condemned for not believing?",
+    "keywords": [
+      "good without belief",
+      "atheist",
+      "agnostic",
+      "condemned",
+      "moral",
+      "virtuous"
+    ],
+    "description": "Perhaps the most emotionally charged question in interfaith dialogue — can virtue without faith save?",
+    "scienceNotes": "Moral psychology research (Deci & Ryan, 2000) demonstrates that moral behavior arises from intrinsic motivation, not religious authority. The 'moralizing god' hypothesis (Norenzayan, 2013) proposes that belief in morally-concerned supernatural agents evolved as a cooperation-enforcement mechanism — but this doesn't require their existence. Cross-cultural studies (Gray & Schein, 2012) show that moral judgments are remarkably consistent across religious and secular populations. The Stanford Prison Experiment (Zimbardo, 1971) and Milgram obedience studies (1963) demonstrate that moral behavior depends on situational factors more than religious belief."
+  },
+  {
+    "id": "q-religious-law",
+    "question": "Should religious law or civil law take precedence?",
+    "keywords": [
+      "religious law",
+      "civil law",
+      "sharia",
+      "halakha",
+      "dharma",
+      "church and state",
+      "separation",
+      "sovereignty"
+    ],
+    "description": "A politically charged question where traditions diverge — from theocracy to strict church-state separation.",
+    "scienceNotes": "Political science research (Barro & McCleary, 2003) shows that economic development correlates with secularization, but the causal mechanism remains contested. The 'secularization thesis' (Bruce, 2002) predicted religion would decline with modernity — partially true in Europe, but reversed in the US and globally. Neurotheology research (Koenig, 2008) identifies that religious communities provide social capital (Putnam, 2000) that secular institutions struggle to replicate, complicating simple separation arguments. Historical analysis (Nussbaum, 2012) suggests that religious law and civil law have always existed in tension, with the productive balance point varying by culture."
+  },
+  {
+    "id": "q-most-compelling-afterlife",
+    "question": "Which afterlife concept is most honest?",
+    "keywords": [
+      "afterlife honest",
+      "heaven hell",
+      "reincarnation",
+      "nirvana",
+      "resurrection",
+      "rebirth",
+      "eternal"
+    ],
+    "description": "Heaven and hell, reincarnation, nirvana, or nothing — each tradition offers a radically different map of what lies beyond death.",
+    "scienceNotes": "Terror Management Theory (Greenberg et al., 1986) demonstrates that mortality salience increases worldview defense and self-esteem striving — explaining why afterlife beliefs are so psychologically invested in. The neuroscience of dying (Borjigin et al., 2023) found that gamma-wave surges in the dying brain mirror those of conscious awareness — consistent with both 'death as release' and 'death as transition' frameworks. Cross-cultural surveys (Bering, 2013) show that belief in some form of post-mortem survival is near-universal across cultures, suggesting deep cognitive roots regardless of theological specifics."
   }
 ]

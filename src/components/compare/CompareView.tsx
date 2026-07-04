@@ -12,6 +12,7 @@ import ScienceInsight from "@/components/ui/ScienceInsight";
 
 interface CompareViewProps {
   initialTopic?: string;
+  initialQuestion?: string;
 }
 
 const religionOrbColors: Record<Religion, string> = {
@@ -24,10 +25,10 @@ const religionOrbColors: Record<Religion, string> = {
 };
 
 
-export default function CompareView({ initialTopic }: CompareViewProps) {
+export default function CompareView({ initialTopic, initialQuestion }: CompareViewProps) {
   const [selectedBooks, setSelectedBooks] = useState<Book[]>([]);
   const [selectedTopic, setSelectedTopic] = useState<string>(initialTopic || "");
-  const [selectedQuestion, setSelectedQuestion] = useState<string>("");
+  const [selectedQuestion, setSelectedQuestion] = useState<string>(initialQuestion || "");
   const [loading, setLoading] = useState(false);
   const [fusing, setFusing] = useState(false);
   const [showResults, setShowResults] = useState(false);

@@ -1,6 +1,13 @@
 import CompareView from "@/components/compare/CompareView";
 
-export default function ComparePage() {
+export default async function ComparePage({
+  searchParams,
+}: {
+  searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
+}) {
+  const params = await searchParams;
+  const q = typeof params.q === "string" ? params.q : undefined;
+
   return (
     <div className="space-y-8 page-enter">
       <header className="text-center py-4">
@@ -12,7 +19,7 @@ export default function ComparePage() {
         </p>
       </header>
 
-      <CompareView />
+      <CompareView initialQuestion={q} />
     </div>
   );
 }
