@@ -7,6 +7,8 @@ import MobileChapterView from "@/components/ui/MobileChapterView";
 import RecordVisit from "@/components/layout/RecordVisit";
 import { NeonDot, NeonBar, BackToTop } from "@/components/ui/NeonElements";
 
+export const dynamic = "force-dynamic";
+
 const traditionColors: Record<string, string> = {
   Hinduism: "var(--tradition-hinduism)",
   Christianity: "var(--tradition-christianity)",
@@ -24,10 +26,6 @@ const traditionGlows: Record<string, string> = {
   Sikhism: "var(--neon-sikhism)",
   Buddhism: "var(--neon-buddhism)",
 };
-
-export function generateStaticParams() {
-  return books.map((book) => ({ slug: book.slug }));
-}
 
 export default async function BookPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
