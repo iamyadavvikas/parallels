@@ -4,21 +4,7 @@ import { books } from "@/data";
 import VerseCard from "@/components/ui/VerseCard";
 import ChapterNav from "@/components/ui/ChapterNav";
 
-export async function generateStaticParams() {
-  const params: { bookSlug: string; chapterId: string; verseId: string }[] = [];
-  for (const book of books) {
-    for (const chapter of book.chapters) {
-      for (const verse of chapter.verses) {
-        params.push({
-          bookSlug: book.slug,
-          chapterId: chapter.id,
-          verseId: verse.id,
-        });
-      }
-    }
-  }
-  return params;
-}
+export const dynamic = "force-dynamic";
 
 export async function generateMetadata({
   params,
