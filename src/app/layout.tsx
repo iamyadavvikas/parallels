@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import "./globals.css";
 import ThemeProvider from "@/components/layout/ThemeProvider";
 import Navbar from "@/components/layout/Navbar";
@@ -8,6 +9,7 @@ import AmbientPlayer from "@/components/ui/AmbientPlayer";
 import PageTransition from "@/components/ui/PageTransition";
 import UIReviewAgent from "@/components/ui/UIReviewAgent";
 import ErrorBoundary from "@/components/ui/ErrorBoundary";
+import { Analytics } from "@/components/analytics/Analytics";
 
 const SITE_URL = "https://parallels-ten.vercel.app";
 
@@ -67,6 +69,9 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <head>
+        <Suspense fallback={null}>
+          <Analytics />
+        </Suspense>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />

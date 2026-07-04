@@ -4,7 +4,8 @@ import SearchBar from "@/components/ui/SearchBar";
 import ReligionBadge from "@/components/ui/ReligionBadge";
 import ReadingHistorySection from "@/components/layout/ReadingHistorySection";
 import Logo from "@/components/ui/Logo";
-import DailyWisdom from "@/components/ui/DailyWisdom";
+import VerseOfDay from "@/components/ui/VerseOfDay";
+import NewsletterSignup from "@/components/ui/NewsletterSignup";
 import GamificationBar from "@/components/ui/GamificationBar";
 import Link from "next/link";
 
@@ -102,15 +103,8 @@ export default function Home() {
       {/* ═══ READING HISTORY ═══ */}
       <ReadingHistorySection />
 
-      {/* ═══ DAILY WISDOM + ACHIEVEMENTS ═══ */}
-      <div className="grid gap-8 lg:grid-cols-3">
-        <div className="lg:col-span-2">
-          <DailyWisdom />
-        </div>
-        <div className="lg:col-span-1">
-          <GamificationBar />
-        </div>
-      </div>
+      {/* ═══ VERSE OF THE DAY ═══ */}
+      <VerseOfDay />
 
       {/* ═══ FEATURED TOPIC ═══ */}
       {featureTopic && (
@@ -228,6 +222,9 @@ export default function Home() {
           </Link>
         </div>
       </section>
+
+      {/* ═══ NEWSLETTER SIGNUP ═══ */}
+      <NewsletterSignup />
     </div>
   );
 }
