@@ -2,9 +2,10 @@ import Link from "next/link";
 import { hybridSearch } from "@/lib/search";
 import { getConceptSummary } from "@/lib/search/concepts";
 import { highlightText } from "@/lib/utils";
-import { books } from "@/data";
-import SearchBar from "@/components/ui/SearchBar";
+import { books, topics, questions } from "@/data";
+import SearchPageClient from "@/components/search/SearchPageClient";
 import Perspectives from "@/components/ui/Perspectives";
+import ScienceInsight from "@/components/ui/ScienceInsight";
 
 const suggestedTerms = [
   { term: "peace", icon: "🕊" },
@@ -52,12 +53,8 @@ export default async function SearchPage({
         )}
       </header>
 
-      {/* Search bar */}
-      <div className="mx-auto max-w-2xl">
-        <SearchBar initialQuery={query} large />
-      </div>
-
-      {/* Concept summary */}
+      <SearchPageClient query={query} resultCount={results.length}>
+        {/* Concept summary */}
       {query && conceptSummary && (
         <div className="mx-auto max-w-2xl concept-banner rounded-xl p-5">
           <div className="flex items-start gap-3">
@@ -82,6 +79,46 @@ export default async function SearchPage({
           verseNumber: r.verse.number,
           text: r.verse.translation || r.verse.text,
         }))} />
+      )}
+
+      {/* Science & Research */}
+      {query && results.length > 0 && (
+        <section className="rounded-2xl border border-emerald-500/15 bg-emerald-500/[0.03] p-6">
+          <div className="mb-4 flex items-center gap-3">
+            <div className="flex h-7 w-7 items-center justify-center rounded-lg bg-emerald-500/10">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-emerald-400">
+                <path d="M9 3h6v11l-3 3-3-3V3z" />
+                <path d="M6 21h12" />
+                <path d="M9 3v4" />
+                <path d="M15 3v4" />
+              </svg>
+            </div>
+            <div>
+              <h3 className="text-sm font-semibold text-emerald-400 font-mono tracking-wider uppercase">
+                Science & Research
+              </h3>
+              <p className="text-xs text-text-muted">What empirical research says about &ldquo;{query}&rdquo;</p>
+            </div>
+          </div>
+          <ScienceInsight
+            curatedNotes={
+              topics.find((t) => t.id === query || t.name.toLowerCase() === query.toLowerCase())?.scienceNotes
+              || questions.find((q) => q.id === `q-${query}` || q.question.toLowerCase().includes(query.toLowerCase()))?.scienceNotes
+              || undefined
+            }
+            label={query}
+            passages={results.slice(0, 10).map((r) => ({
+              bookId: r.book.id,
+              bookTitle: r.book.title,
+              religion: r.book.religion,
+              reference: `${r.chapter.title} ${r.verse.number}`,
+              chapterId: r.chapter.id,
+              verseId: r.verse.id,
+              text: r.verse.translation || r.verse.text,
+              source: r.verse.source,
+            }))}
+          />
+        </section>
       )}
 
       {/* Results */}
@@ -221,6 +258,7 @@ export default async function SearchPage({
           </div>
         </div>
       )}
+      </SearchPageClient>
     </div>
   );
 }

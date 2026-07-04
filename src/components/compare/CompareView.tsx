@@ -111,6 +111,16 @@ export default function CompareView({ initialTopic }: CompareViewProps) {
           question: selectedQuestion ? questions.find((q) => q.id === selectedQuestion)?.question : undefined,
         }),
       });
+      if (res.status === 429) {
+        setFusionError("Rate limited. Please try again in a moment.");
+        setFusing(false);
+        return;
+      }
+      if (res.status === 503) {
+        setFusionError("AI features require an API key. Contact support.");
+        setFusing(false);
+        return;
+      }
       if (!res.ok) {
         const err = await res.json();
         setFusionError(err.error || "Fusion failed");
@@ -414,13 +424,42 @@ export default function CompareView({ initialTopic }: CompareViewProps) {
       {/* Fusion error */}
       {!fusing && showResults && fusionError && (
         <div className="rounded-xl border border-red-500/20 bg-red-500/5 p-4 text-sm text-red-300">
-          {fusionError}
+          <p className="mb-2">{fusionError}</p>
+          <button
+            onClick={triggerFusion}
+            className="text-xs text-red-200 underline hover:text-red-100"
+          >
+            Try again
+          </button>
         </div>
       )}
 
       {/* Science & Research insight */}
       {!loading && !fusing && (showResults || passages.length > 0) && (selectedTopic || selectedQuestion) && (
-        <div className="flex justify-center">
+        <section className="rounded-2xl border border-emerald-500/15 bg-emerald-500/[0.03] p-6">
+          <div className="mb-4 flex items-center gap-3">
+            <div className="flex h-7 w-7 items-center justify-center rounded-lg bg-emerald-500/10">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-emerald-400">
+                <path d="M9 3h6v11l-3 3-3-3V3z" />
+                <path d="M6 21h12" />
+                <path d="M9 3v4" />
+                <path d="M15 3v4" />
+              </svg>
+            </div>
+            <div>
+              <h3 className="text-sm font-semibold text-emerald-400 font-mono tracking-wider uppercase">
+                Science & Research
+              </h3>
+              <p className="text-xs text-text-muted">
+                What empirical research says about{' '}
+                {selectedTopic
+                  ? topics.find((t) => t.id === selectedTopic)?.name
+                  : selectedQuestion
+                    ? questions.find((q) => q.id === selectedQuestion)?.question
+                    : ''}
+              </p>
+            </div>
+          </div>
           <ScienceInsight
             curatedNotes={
               selectedTopic
@@ -438,7 +477,7 @@ export default function CompareView({ initialTopic }: CompareViewProps) {
             }
             passages={passages}
           />
-        </div>
+        </section>
       )}
 
       {/* Results — Wisdom Threads (Grid mode) */}

@@ -12,6 +12,13 @@ export interface Source {
   license: string;
 }
 
+export interface Translation {
+  id: string;
+  translator: string;
+  text: string;
+  source?: Source;
+}
+
 export interface Verse {
   id: string;
   number: number;
@@ -21,6 +28,7 @@ export interface Verse {
   altText?: string;
   altSource?: Source;
   explanation?: string;
+  translations?: Translation[];
 }
 
 export interface Chapter {

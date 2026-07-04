@@ -25,7 +25,7 @@
     },
     {
       "label": "Composed",
-      "value": "c. 200 BCE \u2013 200 CE"
+      "value": "c. 200 BCE – 200 CE"
     },
     {
       "label": "Part of",
@@ -59,7 +59,14 @@
             "year": 1885,
             "license": "Public Domain"
           },
-          "explanation": "The Gita opens with the blind king Dhritarashtra asking his secretary Sanjaya about the battle. The word \"dharma-k\u1e63hetre\" (field of dharma) is significant \u2014 Kurukshetra is not just a battlefield but a place of righteousness. By calling it \"dharma-kshetra,\" the text foreshadows that the outcome will favor dharma. The king's anxiety is revealed by \"m\u0101mak\u0101\u1e25\" (my sons) vs \"p\u0101\u1e47\u1e0dav\u0101\u1e25\" (sons of Pandu) \u2014 he separates them, showing his bias."
+          "explanation": "The Gita opens with the blind king Dhritarashtra asking his secretary Sanjaya about the battle. The word \"dharma-kṣhetre\" (field of dharma) is significant — Kurukshetra is not just a battlefield but a place of righteousness. By calling it \"dharma-kshetra,\" the text foreshadows that the outcome will favor dharma. The king's anxiety is revealed by \"māmakāḥ\" (my sons) vs \"pāṇḍavāḥ\" (sons of Pandu) — he separates them, showing his bias.",
+          "translations": [
+            {
+              "id": "bg-1-1-eknath-easwaran",
+              "translator": "Eknath Easwaran",
+              "text": "Dhritarashtra said: Tell me, Sanjaya, what happened on the sacred field of Kurukshetra. What did my sons and the sons of Pandu do, eager for battle?"
+            }
+          ]
         },
         {
           "id": "bg-1-2",
@@ -70,7 +77,14 @@
             "year": 1942,
             "license": "Public Domain"
           },
-          "explanation": "Duryodhana's first instinct upon seeing the Pandava army is to run to his teacher Drona \u2014 not to strategize, but to seek reassurance. This reveals his insecurity despite having the larger army. The word \"vy\u016b\u1e0dham\" (arranged in formation) indicates the Pandavas are well-organized, which disturbs Duryodhana."
+          "explanation": "Duryodhana's first instinct upon seeing the Pandava army is to run to his teacher Drona — not to strategize, but to seek reassurance. This reveals his insecurity despite having the larger army. The word \"vyūḍham\" (arranged in formation) indicates the Pandavas are well-organized, which disturbs Duryodhana.",
+          "translations": [
+            {
+              "id": "bg-1-2-eknath-easwaran",
+              "translator": "Eknath Easwaran",
+              "text": "Sanjaya said: When Prince Duryodhana saw the army of the Pandavas drawn up in battle array, he approached his teacher Drona and spoke these words:"
+            }
+          ]
         },
         {
           "id": "bg-1-3",
@@ -80,7 +94,14 @@
             "translator": "Swami Sivananda",
             "year": 1942,
             "license": "Public Domain"
-          }
+          },
+          "translations": [
+            {
+              "id": "bg-1-3-eknath-easwaran",
+              "translator": "Eknath Easwaran",
+              "text": "See, O Teacher, this mighty army of the Pandavas, arrayed by the son of Drupada, thy wise disciple."
+            }
+          ]
         },
         {
           "id": "bg-1-4",
@@ -91,7 +112,14 @@
             "year": 1942,
             "license": "Public Domain"
           },
-          "explanation": "Technically? maharatha means a warrior who is proficient in the science of war and who is able to fight alone with ten thousand archers."
+          "explanation": "Technically? maharatha means a warrior who is proficient in the science of war and who is able to fight alone with ten thousand archers.",
+          "translations": [
+            {
+              "id": "bg-1-4-eknath-easwaran",
+              "translator": "Eknath Easwaran",
+              "text": "Here are heroes, mighty archers, equal to Bhima and Arjuna: Yuyudhan, Virat, and Drupada, master charioteer."
+            }
+          ]
         },
         {
           "id": "bg-1-5",
@@ -101,7 +129,14 @@
             "translator": "Swami Sivananda",
             "year": 1942,
             "license": "Public Domain"
-          }
+          },
+          "translations": [
+            {
+              "id": "bg-1-5-eknath-easwaran",
+              "translator": "Eknath Easwaran",
+              "text": "Dhrishtaketu, Chekitana, and the valiant king of Kashi, Purujit, Kuntibhoja, and Saibya — all these are leading men."
+            }
+          ]
         },
         {
           "id": "bg-1-6",
@@ -334,7 +369,7 @@
             "year": 1942,
             "license": "Public Domain"
           },
-          "explanation": "Arjuna's breakdown begins physically \u2014 his body rebels before his mind does. \"S\u012bdanti mama g\u0101tr\u0101\u1e47i\" (my limbs are failing) and \"mukha\u1e41 ca pari\u015bu\u1e63yati\" (my mouth is drying up) are classic symptoms of extreme anxiety. The Gita acknowledges that spiritual crises manifest in the body first."
+          "explanation": "Arjuna's breakdown begins physically — his body rebels before his mind does. \"Sīdanti mama gātrāṇi\" (my limbs are failing) and \"mukhaṁ ca pariśuṣyati\" (my mouth is drying up) are classic symptoms of extreme anxiety. The Gita acknowledges that spiritual crises manifest in the body first."
         },
         {
           "id": "bg-1-29",
@@ -523,13 +558,13 @@
         {
           "id": "bg-1-47",
           "number": 47,
-          "text": "I shall not fight\u2014thus spoke Arjuna to Govinda, and with these words, he sat down on the chariot, casting aside his bow and arrows, his mind overwhelmed with grief.",
+          "text": "I shall not fight—thus spoke Arjuna to Govinda, and with these words, he sat down on the chariot, casting aside his bow and arrows, his mind overwhelmed with grief.",
           "source": {
             "translator": "Edwin Arnold",
             "year": 1885,
             "license": "Public Domain"
           },
-          "explanation": "This is the climactic verse of Chapter 1. Arjuna \u2014 the greatest warrior of his time \u2014 collapses. He doesn't just put down his weapons; he \"casts them aside\" (vis\u1e5bjya), an act of complete renunciation. The word \"\u015bhoka-sa\u1e41vigna-m\u0101nasa\u1e25\" (mind overwhelmed with grief) describes a total psychological breakdown. This sets up the entire teaching of the Gita."
+          "explanation": "This is the climactic verse of Chapter 1. Arjuna — the greatest warrior of his time — collapses. He doesn't just put down his weapons; he \"casts them aside\" (visṛjya), an act of complete renunciation. The word \"śhoka-saṁvigna-mānasaḥ\" (mind overwhelmed with grief) describes a total psychological breakdown. This sets up the entire teaching of the Gita."
         }
       ]
     },
@@ -607,13 +642,13 @@
         {
           "id": "bg-2-7",
           "number": 7,
-          "text": "My nature is weighed down by weakness and confusion about my duty. Tell me decisively what is best for me. I am your disciple, surrendered to you \u2014 please instruct me.",
+          "text": "My nature is weighed down by weakness and confusion about my duty. Tell me decisively what is best for me. I am your disciple, surrendered to you — please instruct me.",
           "source": {
             "translator": "Swami Sivananda",
             "year": 1942,
             "license": "Public Domain"
           },
-          "explanation": "This is the pivotal verse where Arjuna formally becomes a student. Three things happen: (1) he admits his weakness \u2014 \"k\u0101rpa\u1e47ya-do\u1e63hopahata\"; (2) he admits confusion \u2014 \"dharma-samm\u016b\u1e0dha\"; (3) he surrenders \u2014 \"\u015bhi\u1e63hyas te'ha\u1e41\" (I am your student). This surrender triggers the entire teaching of the Gita."
+          "explanation": "This is the pivotal verse where Arjuna formally becomes a student. Three things happen: (1) he admits his weakness — \"kārpaṇya-doṣhopahata\"; (2) he admits confusion — \"dharma-sammūḍha\"; (3) he surrenders — \"śhiṣhyas te'haṁ\" (I am your student). This surrender triggers the entire teaching of the Gita."
         },
         {
           "id": "bg-2-8",
@@ -657,7 +692,7 @@
             "year": 1942,
             "license": "Public Domain"
           },
-          "explanation": "This is Krishna's first teaching verse. He immediately challenges Arjuna: you speak like a philosopher but grieve like the ignorant. The word \"pa\u1e47\u1e0dit\u0101\u1e25\" (the truly wise) is key \u2014 real wisdom is not intellectual knowledge but the understanding that the soul is eternal."
+          "explanation": "This is Krishna's first teaching verse. He immediately challenges Arjuna: you speak like a philosopher but grieve like the ignorant. The word \"paṇḍitāḥ\" (the truly wise) is key — real wisdom is not intellectual knowledge but the understanding that the soul is eternal."
         },
         {
           "id": "bg-2-12",
@@ -679,7 +714,7 @@
             "year": 1942,
             "license": "Public Domain"
           },
-          "explanation": "Krishna uses a simple analogy everyone can understand: you've already \"died\" many times \u2014 the child you were is gone, the teenager is gone. Each stage felt like you, yet the body changed completely. Death is just one more such transition. The word \"dh\u012bra\u1e25\" (the steady-minded) suggests this understanding brings calm, not grief."
+          "explanation": "Krishna uses a simple analogy everyone can understand: you've already \"died\" many times — the child you were is gone, the teenager is gone. Each stage felt like you, yet the body changed completely. Death is just one more such transition. The word \"dhīraḥ\" (the steady-minded) suggests this understanding brings calm, not grief."
         },
         {
           "id": "bg-2-14",
@@ -690,7 +725,7 @@
             "year": 1942,
             "license": "Public Domain"
           },
-          "explanation": "Krishna introduces a foundational concept: all sensory experiences are temporary. The key insight is \"\u0101gam\u0101p\u0101yina\u1e25\" (they come and go) and \"anity\u0101\u1e25\" (not permanent). This is not suppression \u2014 it's understanding that no emotional state lasts forever. The instruction \"titik\u1e63hasva\" means to develop equanimity."
+          "explanation": "Krishna introduces a foundational concept: all sensory experiences are temporary. The key insight is \"āgamāpāyinaḥ\" (they come and go) and \"anityāḥ\" (not permanent). This is not suppression — it's understanding that no emotional state lasts forever. The instruction \"titikṣhasva\" means to develop equanimity."
         },
         {
           "id": "bg-2-15",
@@ -723,7 +758,7 @@
             "year": 1942,
             "license": "Public Domain"
           },
-          "explanation": "By Swami Sivananda2.17 \u0905\u0935\u093f\u0928\u093e\u0936\u093f indestructible? \u0924\u0941 indeed? \u0924\u0924\u094d That? \u0935\u093f\u0926\u094d\u0927\u093f know (thou)? \u092f\u0947\u0928 by which? \u0938\u0930\u094d\u0935\u092e\u094d all? \u0907\u0926\u092e\u094d this? \u0924\u0924\u092e\u094d is pervaded? \u0935\u093f\u0928\u093e\u0936\u092e\u094d destruction? \u0905\u0935\u094d\u092f\u092f\u0938\u094d\u092f \u0905\u0938\u094d\u092f of this Imperishable? \u0928 not? \u0915\u0936\u094d\u091a\u093f\u0924\u094d anyone? \u0915\u0930\u094d\u0924\u0941\u092e\u094d to do? \u0905\u0930\u094d\u0939\u0924\u093f is able.Commentary -- Brahman or Atman pervades all the objects like ether. Even if the pot is broken? the ether that is within and without the pot cannot be destroyed. Even so? if the bodies and all other objects perish? Brahman or the Self that pervades them cannot perish. It is the living Truth? Sat.Brahman has no parts. There cannot be either increase or diminution in Brahman. People are ruined by loss of wealth. But Brahman does not suffer any loss in that way. It is inexhaustible. Therefore? none can bring about the disappearance or destruction of the Self. It always exists. It is always allfull and selfcontained. It is Existence Absolute. It is immutable."
+          "explanation": "By Swami Sivananda2.17 अविनाशि indestructible? तु indeed? तत् That? विद्धि know (thou)? येन by which? सर्वम् all? इदम् this? ततम् is pervaded? विनाशम् destruction? अव्ययस्य अस्य of this Imperishable? न not? कश्चित् anyone? कर्तुम् to do? अर्हति is able.Commentary -- Brahman or Atman pervades all the objects like ether. Even if the pot is broken? the ether that is within and without the pot cannot be destroyed. Even so? if the bodies and all other objects perish? Brahman or the Self that pervades them cannot perish. It is the living Truth? Sat.Brahman has no parts. There cannot be either increase or diminution in Brahman. People are ruined by loss of wealth. But Brahman does not suffer any loss in that way. It is inexhaustible. Therefore? none can bring about the disappearance or destruction of the Self. It always exists. It is always allfull and selfcontained. It is Existence Absolute. It is immutable."
         },
         {
           "id": "bg-2-18",
@@ -739,7 +774,7 @@
         {
           "id": "bg-2-19",
           "number": 19,
-          "text": "He who thinks the Self to be the slayer and he who thinks it to be slain\u2014both are ignorant. The Self neither slays nor is slain.",
+          "text": "He who thinks the Self to be the slayer and he who thinks it to be slain—both are ignorant. The Self neither slays nor is slain.",
           "source": {
             "translator": "Swami Sivananda",
             "year": 1942,
@@ -756,7 +791,7 @@
             "year": 1942,
             "license": "Public Domain"
           },
-          "explanation": "This is one of the most powerful declarations in the Gita. Krishna stacks six negations to describe the soul: not born, not dying, not ceasing, unborn (aja\u1e25), eternal (nitya\u1e25), primeval (pur\u0101\u1e47a\u1e25). The final line is devastating in its simplicity \u2014 even when the body is destroyed, the soul remains untouched."
+          "explanation": "This is one of the most powerful declarations in the Gita. Krishna stacks six negations to describe the soul: not born, not dying, not ceasing, unborn (ajaḥ), eternal (nityaḥ), primeval (purāṇaḥ). The final line is devastating in its simplicity — even when the body is destroyed, the soul remains untouched."
         },
         {
           "id": "bg-2-21",
@@ -1146,7 +1181,7 @@
         {
           "id": "bg-2-56",
           "number": 56,
-          "text": "He whose mind is untroubled in the midst of sorrows and is free from eager desire amid pleasures, he from whom passion, fear, and rage have passed away\u2014he is called a sage of steady wisdom.",
+          "text": "He whose mind is untroubled in the midst of sorrows and is free from eager desire amid pleasures, he from whom passion, fear, and rage have passed away—he is called a sage of steady wisdom.",
           "source": {
             "translator": "Edwin Arnold",
             "year": 1885,
@@ -1157,7 +1192,7 @@
         {
           "id": "bg-2-57",
           "number": 57,
-          "text": "He who is without attachment everywhere, who does not rejoice upon obtaining good nor grieve upon obtaining evil\u2014he is of steady wisdom.",
+          "text": "He who is without attachment everywhere, who does not rejoice upon obtaining good nor grieve upon obtaining evil—he is of steady wisdom.",
           "source": {
             "translator": "Swami Sivananda",
             "year": 1942,
@@ -1218,7 +1253,7 @@
             "year": 1942,
             "license": "Public Domain"
           },
-          "explanation": "Krishna maps the psychology of downfall as a chain reaction: contemplation \u2192 attachment \u2192 desire \u2192 anger. This is remarkably modern \u2014 cognitive behavioral therapy describes similar \"thought chains.\" The chain continues in the next verse: anger \u2192 delusion \u2192 memory loss \u2192 loss of intelligence \u2192 destruction."
+          "explanation": "Krishna maps the psychology of downfall as a chain reaction: contemplation → attachment → desire → anger. This is remarkably modern — cognitive behavioral therapy describes similar \"thought chains.\" The chain continues in the next verse: anger → delusion → memory loss → loss of intelligence → destruction."
         },
         {
           "id": "bg-2-63",
@@ -1300,7 +1335,7 @@
         {
           "id": "bg-2-70",
           "number": 70,
-          "text": "A person is able to stand firm in the midst of streams of desires that come from all sides, like the ocean remains unmoved by the rivers that flow into it\u2014such a person attains peace.",
+          "text": "A person is able to stand firm in the midst of streams of desires that come from all sides, like the ocean remains unmoved by the rivers that flow into it—such a person attains peace.",
           "source": {
             "translator": "Swami Sivananda",
             "year": 1942,
@@ -1311,7 +1346,7 @@
         {
           "id": "bg-2-71",
           "number": 71,
-          "text": "A person who has given up all desires and acts free from longing, without any sense of 'mine' or ego\u2014such a person attains peace.",
+          "text": "A person who has given up all desires and acts free from longing, without any sense of 'mine' or ego—such a person attains peace.",
           "source": {
             "translator": "Swami Sivananda",
             "year": 1942,
@@ -1566,7 +1601,7 @@
             "year": 1942,
             "license": "Public Domain"
           },
-          "explanation": "Krishna explains leadership by example. The word \"\u015bhre\u1e63h\u1e6dha\u1e25\" means not just powerful but excellent in character. Leaders don't just give orders \u2014 they set \"pram\u0101\u1e47am\" (standards) through their own conduct. Society unconsciously mirrors those it admires."
+          "explanation": "Krishna explains leadership by example. The word \"śhreṣhṭhaḥ\" means not just powerful but excellent in character. Leaders don't just give orders — they set \"pramāṇam\" (standards) through their own conduct. Society unconsciously mirrors those it admires."
         },
         {
           "id": "bg-3-22",
@@ -1802,7 +1837,7 @@
         {
           "id": "bg-3-43",
           "number": 43,
-          "text": "[The Ast, introdcues this verse with, 'Tatah kim, what follows from that?'-Tr.] Understanding the Self thus [Understanding\u09f7\u09f7.thus:that desires can be conered through the knowledge of the Self.] as superior to the intellect, and completely establishing (the Self) is spiritual absorption with the (help of) the mind, O mighty-armed one, vanish the enemy in the form of desire, which is difficult to subdue.",
+          "text": "[The Ast, introdcues this verse with, 'Tatah kim, what follows from that?'-Tr.] Understanding the Self thus [Understanding৷৷.thus:that desires can be conered through the knowledge of the Self.] as superior to the intellect, and completely establishing (the Self) is spiritual absorption with the (help of) the mind, O mighty-armed one, vanish the enemy in the form of desire, which is difficult to subdue.",
           "source": {
             "translator": "Swami Sivananda",
             "year": 1942,
@@ -1892,7 +1927,7 @@
             "year": 1942,
             "license": "Public Domain"
           },
-          "explanation": "One of the most quoted verses in Hinduism. Krishna declares he incarnates whenever dharma is threatened \u2014 not on a fixed schedule but in response to cosmic need. \"Yad\u0101 yad\u0101\" (whenever, whenever) emphasizes this is an eternal promise, not a one-time event."
+          "explanation": "One of the most quoted verses in Hinduism. Krishna declares he incarnates whenever dharma is threatened — not on a fixed schedule but in response to cosmic need. \"Yadā yadā\" (whenever, whenever) emphasizes this is an eternal promise, not a one-time event."
         },
         {
           "id": "bg-4-8",
@@ -2071,7 +2106,7 @@
         {
           "id": "bg-4-24",
           "number": 24,
-          "text": "The ladle is Brahman [Some translate as 'Brahman is the ladle\u09f7\u09f7.,' etc.-Tr.], the oblations is Brahman, the offering is poured by Brahman in the fire of Brahman. Brahman alone is to be reached by him who has concentration on Brahman as the objective [As an object to be known and attained. (Some translate brahma-karma-samadhina as, 'by him who sees Brahman in action'.)",
+          "text": "The ladle is Brahman [Some translate as 'Brahman is the ladle৷৷.,' etc.-Tr.], the oblations is Brahman, the offering is poured by Brahman in the fire of Brahman. Brahman alone is to be reached by him who has concentration on Brahman as the objective [As an object to be known and attained. (Some translate brahma-karma-samadhina as, 'by him who sees Brahman in action'.)",
           "source": {
             "translator": "Swami Sivananda",
             "year": 1942,
@@ -2550,7 +2585,7 @@
         {
           "id": "bg-5-25",
           "number": 25,
-          "text": "The sages whose sins have been destroyed, whose doubts have been dispelled, who are disciplined, and who rejoice in the welfare of all beings\u2014such persons attain Brahman.",
+          "text": "The sages whose sins have been destroyed, whose doubts have been dispelled, who are disciplined, and who rejoice in the welfare of all beings—such persons attain Brahman.",
           "source": {
             "translator": "Swami Sivananda",
             "year": 1942,
@@ -2612,7 +2647,7 @@
         {
           "id": "bg-6-1",
           "number": 1,
-          "text": "The Supreme Lord said: He who performs his prescribed duty without seeking its fruit is a renouncer and a yogi\u2014not he who is without fire and without action.",
+          "text": "The Supreme Lord said: He who performs his prescribed duty without seeking its fruit is a renouncer and a yogi—not he who is without fire and without action.",
           "source": {
             "translator": "Swami Sivananda",
             "year": 1942,
@@ -3118,7 +3153,7 @@
         {
           "id": "bg-6-47",
           "number": 47,
-          "text": "Among all yogis, he who worships Me with faith, his mind absorbed in Me\u2014is considered by Me to be the best.",
+          "text": "Among all yogis, he who worships Me with faith, his mind absorbed in Me—is considered by Me to be the best.",
           "source": {
             "translator": "Swami Sivananda",
             "year": 1942,
@@ -3257,7 +3292,7 @@
         {
           "id": "bg-7-12",
           "number": 12,
-          "text": "Even the three gunas\u2014sattva, rajas, and tamas\u2014are from Me alone. I am not in them, but they are in Me.",
+          "text": "Even the three gunas—sattva, rajas, and tamas—are from Me alone. I am not in them, but they are in Me.",
           "source": {
             "translator": "Swami Sivananda",
             "year": 1942,
@@ -3517,7 +3552,7 @@
         {
           "id": "bg-8-5",
           "number": 5,
-          "text": "And whoever, at the time of death, leaves the body remembering Me alone\u2014at once attains My nature. There is no doubt about this.",
+          "text": "And whoever, at the time of death, leaves the body remembering Me alone—at once attains My nature. There is no doubt about this.",
           "source": {
             "translator": "Swami Sivananda",
             "year": 1942,
@@ -3615,7 +3650,7 @@
         {
           "id": "bg-8-14",
           "number": 14,
-          "text": "For those who worship Me alone, thinking of Me, with their mind disciplined and ever established in union with Me\u2014I am easy to reach.",
+          "text": "For those who worship Me alone, thinking of Me, with their mind disciplined and ever established in union with Me—I am easy to reach.",
           "source": {
             "translator": "Swami Sivananda",
             "year": 1942,
@@ -4024,7 +4059,7 @@
             "year": 1942,
             "license": "Public Domain"
           },
-          "explanation": "Krishna makes a personal guarantee: \"vah\u0101my aham\" \u2014 I personally carry. Not \"I arrange\" or \"I bless\" but \"I carry\" \u2014 like a parent carrying provisions for a child. The condition is \"anany\u0101\u1e25\" (undivided devotion). This verse is the foundation of the bhakti tradition."
+          "explanation": "Krishna makes a personal guarantee: \"vahāmy aham\" — I personally carry. Not \"I arrange\" or \"I bless\" but \"I carry\" — like a parent carrying provisions for a child. The condition is \"ananyāḥ\" (undivided devotion). This verse is the foundation of the bhakti tradition."
         },
         {
           "id": "bg-9-23",
@@ -4073,7 +4108,7 @@
         {
           "id": "bg-9-27",
           "number": 27,
-          "text": "Whatever you do, whatever you eat, whatever you offer, whatever you give away, whatever austerities you perform\u2014do that as an offering unto Me.",
+          "text": "Whatever you do, whatever you eat, whatever you offer, whatever you give away, whatever austerities you perform—do that as an offering unto Me.",
           "source": {
             "translator": "Swami Sivananda",
             "year": 1942,
@@ -4574,7 +4609,7 @@
         {
           "id": "bg-10-38",
           "number": 38,
-          "text": "Of the punishers I am the rod; I am the righteous policy of those who desire to coner. And of things secret, I am verily silence; I am knowledge of the men of knowledge\u09f7\u09f7",
+          "text": "Of the punishers I am the rod; I am the righteous policy of those who desire to coner. And of things secret, I am verily silence; I am knowledge of the men of knowledge৷৷",
           "source": {
             "translator": "Swami Sivananda",
             "year": 1942,
@@ -4762,7 +4797,7 @@
             "year": 1885,
             "license": "Public Domain"
           },
-          "explanation": "This verse inspired Robert Oppenheimer during the first nuclear test. Sanjaya describes Krishna's cosmic form with the most extreme visual metaphor possible \u2014 a thousand suns rising simultaneously. Even this, the Gita says, would only \"resemble\" (sad\u1e5b\u015bh\u012b) the divine radiance, not match it."
+          "explanation": "This verse inspired Robert Oppenheimer during the first nuclear test. Sanjaya describes Krishna's cosmic form with the most extreme visual metaphor possible — a thousand suns rising simultaneously. Even this, the Gita says, would only \"resemble\" (sadṛśhī) the divine radiance, not match it."
         },
         {
           "id": "bg-11-13",
@@ -4980,18 +5015,18 @@
             "year": 1942,
             "license": "Public Domain"
           },
-          "explanation": "Krishna reveals himself as K\u0101la \u2014 Time itself, the ultimate destroyer. This verse, also quoted by Oppenheimer, carries a devastating message: the outcome is already decided. \"\u1e5aite 'pi tv\u0101\u1e41\" \u2014 even without you. Arjuna's choice is not whether these warriors die, but whether he fulfills his role in the cosmic order."
+          "explanation": "Krishna reveals himself as Kāla — Time itself, the ultimate destroyer. This verse, also quoted by Oppenheimer, carries a devastating message: the outcome is already decided. \"Ṛite 'pi tvāṁ\" — even without you. Arjuna's choice is not whether these warriors die, but whether he fulfills his role in the cosmic order."
         },
         {
           "id": "bg-11-33",
           "number": 33,
-          "text": "Therefore, arise and win glory! Conquer your enemies and enjoy a prosperous kingdom. They are already slain by Me \u2014 be merely an instrument, O Savyasachin.",
+          "text": "Therefore, arise and win glory! Conquer your enemies and enjoy a prosperous kingdom. They are already slain by Me — be merely an instrument, O Savyasachin.",
           "source": {
             "translator": "Swami Sivananda",
             "year": 1942,
             "license": "Public Domain"
           },
-          "explanation": "Following the revelation of Time, Krishna gives Arjuna a direct command: arise (utti\u1e63h\u1e6dha). The key phrase is \"nimitta-m\u0101tram\" \u2014 be merely an instrument. This resolves Arjuna's guilt: he is not the killer, just the instrument of a fate already sealed. It's a profound teaching on agency and surrender."
+          "explanation": "Following the revelation of Time, Krishna gives Arjuna a direct command: arise (uttiṣhṭha). The key phrase is \"nimitta-mātram\" — be merely an instrument. This resolves Arjuna's guilt: he is not the killer, just the instrument of a fate already sealed. It's a profound teaching on agency and surrender."
         },
         {
           "id": "bg-11-34",
@@ -5024,7 +5059,7 @@
             "year": 1942,
             "license": "Public Domain"
           },
-          "explanation": "Arjuna responds to the cosmic vision with this verse of praise. He affirms that the universe's response to divinity is natural: the good rejoice, the evil flee, the wise bow. \"Sth\u0101ne\" (rightly so) \u2014 this is not forced worship but the natural order responding to its source."
+          "explanation": "Arjuna responds to the cosmic vision with this verse of praise. He affirms that the universe's response to divinity is natural: the good rejoice, the evil flee, the wise bow. \"Sthāne\" (rightly so) — this is not forced worship but the natural order responding to its source."
         },
         {
           "id": "bg-11-37",
@@ -5244,7 +5279,7 @@
         {
           "id": "bg-12-1",
           "number": 1,
-          "text": "Arjuna said: Those devoted to Thee and those who worship the Imperishable\u2014which of them are better versed in yoga?",
+          "text": "Arjuna said: Those devoted to Thee and those who worship the Imperishable—which of them are better versed in yoga?",
           "source": {
             "translator": "Swami Sivananda",
             "year": 1942,
@@ -5255,7 +5290,7 @@
         {
           "id": "bg-12-2",
           "number": 2,
-          "text": "The Supreme Lord said: Those who, fixing their minds on Me, worship Me with unfailing devotion and are endowed with supreme faith\u2014they are considered the best yogis.",
+          "text": "The Supreme Lord said: Those who, fixing their minds on Me, worship Me with unfailing devotion and are endowed with supreme faith—they are considered the best yogis.",
           "source": {
             "translator": "Swami Sivananda",
             "year": 1942,
@@ -5376,7 +5411,7 @@
         {
           "id": "bg-12-13",
           "number": 13,
-          "text": "He who hates no creature, who is friendly and compassionate, who is free from egoism and the sense of 'mine,' who is equal in pain and pleasure, who is forgiving\u2014such a devotee is dear to Me.",
+          "text": "He who hates no creature, who is friendly and compassionate, who is free from egoism and the sense of 'mine,' who is equal in pain and pleasure, who is forgiving—such a devotee is dear to Me.",
           "source": {
             "translator": "Swami Sivananda",
             "year": 1942,
@@ -5387,7 +5422,7 @@
         {
           "id": "bg-12-14",
           "number": 14,
-          "text": "He who is free from enmity, modest, the same in pleasure and pain, and forgiving\u2014such a devotee is dear to Me.",
+          "text": "He who is free from enmity, modest, the same in pleasure and pain, and forgiving—such a devotee is dear to Me.",
           "source": {
             "translator": "Swami Sivananda",
             "year": 1942,
@@ -5398,7 +5433,7 @@
         {
           "id": "bg-12-15",
           "number": 15,
-          "text": "He by whom the world is not troubled and who is not troubled by the world, who is free from joy and envy, fear and anxiety\u2014he is dear to Me.",
+          "text": "He by whom the world is not troubled and who is not troubled by the world, who is free from joy and envy, fear and anxiety—he is dear to Me.",
           "source": {
             "translator": "Swami Sivananda",
             "year": 1942,
@@ -5420,7 +5455,7 @@
         {
           "id": "bg-12-17",
           "number": 17,
-          "text": "He who is free from attachment, who does not exult or grieve, who is beyond the pairs of opposites, and is free from delusion\u2014such a devotee is dear to Me.",
+          "text": "He who is free from attachment, who does not exult or grieve, who is beyond the pairs of opposites, and is free from delusion—such a devotee is dear to Me.",
           "source": {
             "translator": "Swami Sivananda",
             "year": 1942,
@@ -5453,7 +5488,7 @@
         {
           "id": "bg-12-20",
           "number": 20,
-          "text": "Those who follow this immortal path\u2014the yoga of devotion\u2014and who are endowed with faith, regarding Me as the supreme goal\u2014such devotees are exceedingly dear to Me.",
+          "text": "Those who follow this immortal path—the yoga of devotion—and who are endowed with faith, regarding Me as the supreme goal—such devotees are exceedingly dear to Me.",
           "source": {
             "translator": "Swami Sivananda",
             "year": 1942,
@@ -5493,7 +5528,7 @@
         {
           "id": "bg-13-3",
           "number": 3,
-          "text": "Know Me as the knower of the field in all fields, O Bharata. Knowledge of the field and the knower of the field\u2014that is My view.",
+          "text": "Know Me as the knower of the field in all fields, O Bharata. Knowledge of the field and the knower of the field—that is My view.",
           "source": {
             "translator": "Swami Sivananda",
             "year": 1942,
@@ -5697,7 +5732,7 @@
             "year": 1942,
             "license": "Public Domain"
           },
-          "explanation": "Pleasure and pain are the fruits of virtuous and vicious actions. The force of desire acts on the mind and the mind impels the senses to act to get the objects of desire. Good and evil actions proceed from Nature and lead to happiness or misery. Evil actions produce misery and sorrow. Virtuous actions cause happiness and joy. The soul is the enjoyer. The wife works and prepares nice? palatable dishes the huand silently enjoys the fruits of her labour. He sits ietly and eats them to his hearts content. Even so Nature works and the soul experiences the fruits of Her labour? viz.? pleasure and pain.When harmony predominates? virtuous actions are performed. When there is a preponderance of Rajas? both virtuous and vicious actions are performed. When Tamas predominates? sinful? unlawful and unrighteous actions are done.In the place of Kaarana (\u0915\u093e\u0930\u0923) which means cause? some read Karana (\u0915\u0930\u0923) which means instrument such as the five organs of knowledge? five organs of action? mind? intellect and egoism (thirteen principles located in the body).Karya The effect? viz.? the physical body. The five elements which form the body and the five senses? and which form the senseobjects which are born of Nature come under the term effect. All alities? such as pleasure and pain and delusion which are born of Nature? come under the term instruments because these alities reside in the instruments? the senses.In the production of the body? the senses and their sensations Nature is said to be the cause. Thus Nature is the cause of Samsara.Sugarcane is the cause. Sugarcane juice? sugar and sugarcandy are the effects or modifications of sugarcane. Milk is the cause. Curd? butter and ghee (meleted butter) are the modifications of milk. Whatever is a modification of something is its effect? and that from which the modifications come is their cause. Nature is the source or cause of all modifications. She generates everything. The ten organs? mind and the five objects of the senses are the sixteen modifications or effects.Mahat (intellect) is born of Mulaprakriti. From Mahat Ahamkara (egoism) is born. Mahat is the effect of Mulaprakriti and the cause of Ahamkara. Therefore Mahat is called PrakritiVikriti. Mahat? Ahamkara and the five Tanmatras (rootelements of matter) are the seven PrakritiVikriti. Each of these is a modification of its predecessor and is in turn the cause of its successor. The five rootelements generate the five gross elements. They are the subtle elements. These seven are both Nature and modification (Prakriti and Vikriti)? cause and effect? and are included under the term cause.The functions of the body? senses? lifeforce? mind and intellect are superimposed on the pure Self. So the ignorant man says I am black I am fat I am hungry I am angry I am deaf I am blind I am the son of so and so? I know? I am the doer? I am the enjoyer? etc.The intellect is very subtle. It is in close contact with the most subtle Self. The Consciousness of the Self is reflected in the intellect (Chidabhasa) and so the intellect which has the semblance of,the Consciousness feels I am pure consciousness or Chaitanya. I experience pleasure and pain. The attributes of the pure Self are superimposed on the intellect. There is mutual superimposition between the intellect and the Self? Nature and Spirit. This is the cause of Samsara.Purusha? Jiva? Kshetrajna and Bhokta are all synonymous terms. Purusha here referred to is not the Supreme Self. He is the conditioned soul? the soul subject to transmigration who experiences pleasure and pain. The Self or the Absolute is ever free from Samsara and is unchanging.Prakriti and Purusha are the cause of Samsara. Nature generates the body? lifeforce? mind? intellect and the senses. The soul experiences pleasure and pain. Samsara is the experience of pleasure and pain. The soul is the Samsarin. He is the experiencer of pleasure and pain. (Cf.XV.9)"
+          "explanation": "Pleasure and pain are the fruits of virtuous and vicious actions. The force of desire acts on the mind and the mind impels the senses to act to get the objects of desire. Good and evil actions proceed from Nature and lead to happiness or misery. Evil actions produce misery and sorrow. Virtuous actions cause happiness and joy. The soul is the enjoyer. The wife works and prepares nice? palatable dishes the huand silently enjoys the fruits of her labour. He sits ietly and eats them to his hearts content. Even so Nature works and the soul experiences the fruits of Her labour? viz.? pleasure and pain.When harmony predominates? virtuous actions are performed. When there is a preponderance of Rajas? both virtuous and vicious actions are performed. When Tamas predominates? sinful? unlawful and unrighteous actions are done.In the place of Kaarana (कारण) which means cause? some read Karana (करण) which means instrument such as the five organs of knowledge? five organs of action? mind? intellect and egoism (thirteen principles located in the body).Karya The effect? viz.? the physical body. The five elements which form the body and the five senses? and which form the senseobjects which are born of Nature come under the term effect. All alities? such as pleasure and pain and delusion which are born of Nature? come under the term instruments because these alities reside in the instruments? the senses.In the production of the body? the senses and their sensations Nature is said to be the cause. Thus Nature is the cause of Samsara.Sugarcane is the cause. Sugarcane juice? sugar and sugarcandy are the effects or modifications of sugarcane. Milk is the cause. Curd? butter and ghee (meleted butter) are the modifications of milk. Whatever is a modification of something is its effect? and that from which the modifications come is their cause. Nature is the source or cause of all modifications. She generates everything. The ten organs? mind and the five objects of the senses are the sixteen modifications or effects.Mahat (intellect) is born of Mulaprakriti. From Mahat Ahamkara (egoism) is born. Mahat is the effect of Mulaprakriti and the cause of Ahamkara. Therefore Mahat is called PrakritiVikriti. Mahat? Ahamkara and the five Tanmatras (rootelements of matter) are the seven PrakritiVikriti. Each of these is a modification of its predecessor and is in turn the cause of its successor. The five rootelements generate the five gross elements. They are the subtle elements. These seven are both Nature and modification (Prakriti and Vikriti)? cause and effect? and are included under the term cause.The functions of the body? senses? lifeforce? mind and intellect are superimposed on the pure Self. So the ignorant man says I am black I am fat I am hungry I am angry I am deaf I am blind I am the son of so and so? I know? I am the doer? I am the enjoyer? etc.The intellect is very subtle. It is in close contact with the most subtle Self. The Consciousness of the Self is reflected in the intellect (Chidabhasa) and so the intellect which has the semblance of,the Consciousness feels I am pure consciousness or Chaitanya. I experience pleasure and pain. The attributes of the pure Self are superimposed on the intellect. There is mutual superimposition between the intellect and the Self? Nature and Spirit. This is the cause of Samsara.Purusha? Jiva? Kshetrajna and Bhokta are all synonymous terms. Purusha here referred to is not the Supreme Self. He is the conditioned soul? the soul subject to transmigration who experiences pleasure and pain. The Self or the Absolute is ever free from Samsara and is unchanging.Prakriti and Purusha are the cause of Samsara. Nature generates the body? lifeforce? mind? intellect and the senses. The soul experiences pleasure and pain. Samsara is the experience of pleasure and pain. The soul is the Samsarin. He is the experiencer of pleasure and pain. (Cf.XV.9)"
         },
         {
           "id": "bg-13-22",
@@ -5768,7 +5803,7 @@
         {
           "id": "bg-13-28",
           "number": 28,
-          "text": "He who sees the Supreme Lord existing equally in all beings, the imperishable within the perishable\u2014he sees indeed.",
+          "text": "He who sees the Supreme Lord existing equally in all beings, the imperishable within the perishable—he sees indeed.",
           "source": {
             "translator": "Swami Sivananda",
             "year": 1942,
@@ -5807,7 +5842,7 @@
             "year": 1942,
             "license": "Public Domain"
           },
-          "explanation": "A man attains to unity with the Supreme when he knows or realises through intuition that all these manifold forms are rooted in the One. As waves in water? atoms in the earth? rays in the sun? organs in the body? emotions in the mind? sparks in the fire? so verily are all forms rooted in the One. Wherever he turns his gaze he beholds only the one Self and enjoys the bliss of the Self.When he beholds the diversity of beings rooted in the One in accordance with the teachings of the scriptures and the preceptor? he realises through intuitive experience that all that he beholds is nothing but the Self and that the origin and the evolution of all is from That One alone. Compare with the Chhandogya Upanishad? 7.26.1.\u0906\u0924\u094d\u092e\u0924\u0903 \u092a\u094d\u0930\u093e\u0923 \u0906\u0924\u094d\u092e\u0924 \u0906\u0936\u093e \u0906\u0924\u094d\u092e\u0924\u0903 \u0938\u094d\u092e\u0930\u0906\u0924\u094d\u092e\u0924 \u0906\u0915\u093e\u0936 \u0906\u0924\u094d\u092e\u0924\u0938\u094d\u0924\u0947\u091c \u0906\u0924\u094d\u092e\u0924 \u0906\u092a\u0903\u0906\u0924\u094d\u092e\u0924 \u0906\u0935\u093f\u0930\u094d\u092d\u093e\u0935\u0924\u093f\u0930\u094b\u092d\u093e\u0935\u093e\u0935\u093e\u0924\u094d\u092e\u0924\u094b\u093d\u0928\u094d\u0928\u092e\u094d\u0964\u0964Atmatah prana atmata asa atmatah smaraAtmata akasa atmatasteja atmata apahAtmata avirbhavatirobhavavatmatonnam.From the Self is life from the Self is desire from the Self is love from the Self is ether from the Self is light from the Self are the waters from the Self is appearance and disappearance from the Self is food."
+          "explanation": "A man attains to unity with the Supreme when he knows or realises through intuition that all these manifold forms are rooted in the One. As waves in water? atoms in the earth? rays in the sun? organs in the body? emotions in the mind? sparks in the fire? so verily are all forms rooted in the One. Wherever he turns his gaze he beholds only the one Self and enjoys the bliss of the Self.When he beholds the diversity of beings rooted in the One in accordance with the teachings of the scriptures and the preceptor? he realises through intuitive experience that all that he beholds is nothing but the Self and that the origin and the evolution of all is from That One alone. Compare with the Chhandogya Upanishad? 7.26.1.आत्मतः प्राण आत्मत आशा आत्मतः स्मरआत्मत आकाश आत्मतस्तेज आत्मत आपःआत्मत आविर्भावतिरोभावावात्मतोऽन्नम्।।Atmatah prana atmata asa atmatah smaraAtmata akasa atmatasteja atmata apahAtmata avirbhavatirobhavavatmatonnam.From the Self is life from the Self is desire from the Self is love from the Self is ether from the Self is light from the Self are the waters from the Self is appearance and disappearance from the Self is food."
         },
         {
           "id": "bg-13-32",
@@ -5907,7 +5942,7 @@
         {
           "id": "bg-14-5",
           "number": 5,
-          "text": "Sattva (goodness), rajas (passion), and tamas (ignorance)\u2014these three modes of prakriti born of My nature bind the imperishable Self to the body, O Arjuna.",
+          "text": "Sattva (goodness), rajas (passion), and tamas (ignorance)—these three modes of prakriti born of My nature bind the imperishable Self to the body, O Arjuna.",
           "source": {
             "translator": "Swami Sivananda",
             "year": 1942,
@@ -6228,7 +6263,7 @@
             "year": 1942,
             "license": "Public Domain"
           },
-          "explanation": "That supreme abode is selfillumined for Brahman is selfluminous. It existed before the sun? the moon and the fire came into existence during creation. It remains even after they dissolve into the Unmanifested during the dissolution of the world.This verse is taken from the Kathopanishad The sun does not shine there? nor do the moon and the stars? nor does this lightning shine and much less this fire. When It shines? everything shines after It? by Its light? all these shine (Chap.II?5.15). The same idea occurs in the Svetasvatara Upanishad (6.14) and the Mundaka Upanishad (II.2.10). The sun? the moon? etc.? derive their light from Para Brahman. Nothing else is needed for illuminating the Supreme Being because It is selfluminous.Dhama paramam Supreme abode or superexcellent seat or Para Brahman.Though the sun is endowed with the power of illumining all? it cannot illumine the Supreme Being.\u092f\u0924\u094d \u0927\u093e\u092e \u0935\u0948\u0937\u094d\u0923\u0935\u0902 \u092a\u0926\u0902 \u0917\u0924\u094d\u0935\u093e \u092a\u094d\u0930\u093e\u092a\u094d\u092f \u0928 \u0928\u093f\u0935\u0930\u094d\u0924\u0928\u094d\u0924\u0947 \u092f\u0924\u094d \u091a \u0938\u0942\u0930\u094d\u092f\u093e\u0926\u093f\u092d\u093f\u0903 \u0928 \u092d\u093e\u0938\u092f\u0924\u0947 \u0924\u0924\u094d \u0927\u093e\u092e \u092a\u0926\u0902 \u092a\u0930\u092e\u0902 \u092e\u092e \u0935\u093f\u0937\u094d\u0923\u094b\u0903\u0964That abode? to which having gone? none returns? and which the sun? moon? stars? lightning and fire do not illumine? is the highest abode of Vishnu.(Cf.VIII.21)"
+          "explanation": "That supreme abode is selfillumined for Brahman is selfluminous. It existed before the sun? the moon and the fire came into existence during creation. It remains even after they dissolve into the Unmanifested during the dissolution of the world.This verse is taken from the Kathopanishad The sun does not shine there? nor do the moon and the stars? nor does this lightning shine and much less this fire. When It shines? everything shines after It? by Its light? all these shine (Chap.II?5.15). The same idea occurs in the Svetasvatara Upanishad (6.14) and the Mundaka Upanishad (II.2.10). The sun? the moon? etc.? derive their light from Para Brahman. Nothing else is needed for illuminating the Supreme Being because It is selfluminous.Dhama paramam Supreme abode or superexcellent seat or Para Brahman.Though the sun is endowed with the power of illumining all? it cannot illumine the Supreme Being.यत् धाम वैष्णवं पदं गत्वा प्राप्य न निवर्तन्ते यत् च सूर्यादिभिः न भासयते तत् धाम पदं परमं मम विष्णोः।That abode? to which having gone? none returns? and which the sun? moon? stars? lightning and fire do not illumine? is the highest abode of Vishnu.(Cf.VIII.21)"
         },
         {
           "id": "bg-15-7",
@@ -6239,7 +6274,7 @@
             "year": 1942,
             "license": "Public Domain"
           },
-          "explanation": "Now the Lord explains how the individual soul comes into being. The individual soul is a ray of the Lord. A ray of the Supreme Being enters Nature? draws to itself the five senses and the mind and becomes an embodied soul (Jiva) by assuming a body. Here is a description of how the subtle body or LingaSariria enters the gross body.Although the sun is reflected in water? it is not in any way tainted. When a crystal comes in,contact with a red cloth or red flower? it seems to be red but it is really not so. Even so the Supreme Beings is not in any way tainted by the actions of the individual soul.Ignorance is the limiting adjunct of the individual soul. On account of the limitation caused by this ignorance the soul experiences that it is the doer and the enjoyer. In essence the individual soul is identical with the Supreme Being or Brahman. When ignorance? the limiting adjunct or principle? is destroyed? the individual soul (Jiva) realises it identity with the Supreme Being (Brahman).Just as the ether in the pot becomes one with the universal ether when the limiting adjunct? the pot? is broken? so also the individual soul becomes one with Brahman when the limiting adjunct? ignorance? is annihilated. Just as there is no return of the potether after it has become one with the universal ether when the pot is destroyed? so also there is no return of the individual soul after the limiting adjunct (the Antahkarana? i.e.? mind and the other inner instruments) is destroyed. It becomes one with Brahman.Pratibimba (reflection) is only a portion of the Bimba (object). The reflected sun is only a portion of the real sun (the rays of the sun). When the water is removed the reflected sun goes back to the original sun? as it were. It does not return to the water again. Even so? when ignorance or the mind is annihilated? the Jiva (individual soul) which is a reflection of Brahman in ignorance is absorbed in the Bimba Brahman. It does not return to this world of birth and death.The individual soul is only an imaginary or fictitious portion of Brahman. It is not a real portion. For the Supreme Being is indivisible. It has no parts. If It has parts? It would be liable to destruction when the parts are disjointed or removed.The senses abide in Nature? in their respective seats such as ear? skin? tongue? eye and nose. A Sannyasi living in the caves of the Himalayas dreams that he is a married man and moves about hither and thither to get a job for his livelihood. Even so? the individual soul forgets its real divine nature? mistakes the impure? perishable body for the pure? immortal Self and imagines that it is the real actor and enjoyer by identifying itself with the body. It says? I am the Karta. I am the Bhokta. I am a soul bound by Samsara. I am happy. I am miserable. It becomes finite.In essence the Jiva is identical with Brahman. The difference is on account of delusion or imagination or superimposition. The illusion of difference is due to the limiting adjunct or principle (the mind) even as the illusion that the ether in the pot is different from the universal ether is caused by the limiting adjunct? viz.? the pot. Jivabrahmabhedabhranti (the delusion of the distinctior between the individual soul and the Supreme Being) is removed when the limiting adjunct (mind) is annihilated. In deep sleep the mind rests in a subtle state along with all the Samskaras (impressions) and Vasanas (tendencies) in its cause (primordial ignorance). Again it comes back from this state of ignorance when you return to the waking state. If the cause (ignorance) is destroyed by the knowledge of the Self? its effect (mind) is also annihilated.Just as the tortoise stretches out its head and feet which were in a state of Laya (absorption) in its body? so also the individual soul strecthces out its mind and senses which were in a state of absorption in primordial ignorance in deep sleep? to enjoy the sensual objects in the waking state.A ray of the Supreme Being enters Nature? draws to itself the five senses and the mind In this verse the formation of the astral body (LingaSarira or Sukshmasarira) is described.The Sruti declares\u0938 \u090f\u0937 \u0907\u0939 \u092a\u094d\u0930\u0935\u093f\u0937\u094d\u091f\u0903 \u0906\u0928\u0916\u093e\u0917\u094d\u0930\u0947\u092d\u094d\u092f\u0903 \u0924\u0924\u094d \u0938\u0943\u0937\u094d\u091f\u094d\u0935\u093e \u0924\u0926\u0947\u0935\u093e\u0928\u0941\u092a\u094d\u0930\u093e\u0935\u093f\u0936\u0924\u094d\u0964\u0964That Supreme Being Itself? having created this aggregate of the body from the head to the toe? entered this body in the form of the Jiva.According to Vedanta there are nineteen principles? viz.? the five organs of knowledge? the five organs of action? the five vital airs (Prana? Apana? Vyana? Samana and Udana)? the mind? intellect? Chitta (the subconscious or the unconscious mind)? and egoism. We will have to conclude that the words the five senses and the mind point to the collection of the remaining thirteen principles also.Amsa This does not mean here a particle or portion which has been cut out. It is like the Amsar of the ether in the pot the ether is not cut out but still remains the whole ether. (Cf.XIV.3)"
+          "explanation": "Now the Lord explains how the individual soul comes into being. The individual soul is a ray of the Lord. A ray of the Supreme Being enters Nature? draws to itself the five senses and the mind and becomes an embodied soul (Jiva) by assuming a body. Here is a description of how the subtle body or LingaSariria enters the gross body.Although the sun is reflected in water? it is not in any way tainted. When a crystal comes in,contact with a red cloth or red flower? it seems to be red but it is really not so. Even so the Supreme Beings is not in any way tainted by the actions of the individual soul.Ignorance is the limiting adjunct of the individual soul. On account of the limitation caused by this ignorance the soul experiences that it is the doer and the enjoyer. In essence the individual soul is identical with the Supreme Being or Brahman. When ignorance? the limiting adjunct or principle? is destroyed? the individual soul (Jiva) realises it identity with the Supreme Being (Brahman).Just as the ether in the pot becomes one with the universal ether when the limiting adjunct? the pot? is broken? so also the individual soul becomes one with Brahman when the limiting adjunct? ignorance? is annihilated. Just as there is no return of the potether after it has become one with the universal ether when the pot is destroyed? so also there is no return of the individual soul after the limiting adjunct (the Antahkarana? i.e.? mind and the other inner instruments) is destroyed. It becomes one with Brahman.Pratibimba (reflection) is only a portion of the Bimba (object). The reflected sun is only a portion of the real sun (the rays of the sun). When the water is removed the reflected sun goes back to the original sun? as it were. It does not return to the water again. Even so? when ignorance or the mind is annihilated? the Jiva (individual soul) which is a reflection of Brahman in ignorance is absorbed in the Bimba Brahman. It does not return to this world of birth and death.The individual soul is only an imaginary or fictitious portion of Brahman. It is not a real portion. For the Supreme Being is indivisible. It has no parts. If It has parts? It would be liable to destruction when the parts are disjointed or removed.The senses abide in Nature? in their respective seats such as ear? skin? tongue? eye and nose. A Sannyasi living in the caves of the Himalayas dreams that he is a married man and moves about hither and thither to get a job for his livelihood. Even so? the individual soul forgets its real divine nature? mistakes the impure? perishable body for the pure? immortal Self and imagines that it is the real actor and enjoyer by identifying itself with the body. It says? I am the Karta. I am the Bhokta. I am a soul bound by Samsara. I am happy. I am miserable. It becomes finite.In essence the Jiva is identical with Brahman. The difference is on account of delusion or imagination or superimposition. The illusion of difference is due to the limiting adjunct or principle (the mind) even as the illusion that the ether in the pot is different from the universal ether is caused by the limiting adjunct? viz.? the pot. Jivabrahmabhedabhranti (the delusion of the distinctior between the individual soul and the Supreme Being) is removed when the limiting adjunct (mind) is annihilated. In deep sleep the mind rests in a subtle state along with all the Samskaras (impressions) and Vasanas (tendencies) in its cause (primordial ignorance). Again it comes back from this state of ignorance when you return to the waking state. If the cause (ignorance) is destroyed by the knowledge of the Self? its effect (mind) is also annihilated.Just as the tortoise stretches out its head and feet which were in a state of Laya (absorption) in its body? so also the individual soul strecthces out its mind and senses which were in a state of absorption in primordial ignorance in deep sleep? to enjoy the sensual objects in the waking state.A ray of the Supreme Being enters Nature? draws to itself the five senses and the mind In this verse the formation of the astral body (LingaSarira or Sukshmasarira) is described.The Sruti declaresस एष इह प्रविष्टः आनखाग्रेभ्यः तत् सृष्ट्वा तदेवानुप्राविशत्।।That Supreme Being Itself? having created this aggregate of the body from the head to the toe? entered this body in the form of the Jiva.According to Vedanta there are nineteen principles? viz.? the five organs of knowledge? the five organs of action? the five vital airs (Prana? Apana? Vyana? Samana and Udana)? the mind? intellect? Chitta (the subconscious or the unconscious mind)? and egoism. We will have to conclude that the words the five senses and the mind point to the collection of the remaining thirteen principles also.Amsa This does not mean here a particle or portion which has been cut out. It is like the Amsar of the ether in the pot the ether is not cut out but still remains the whole ether. (Cf.XIV.3)"
         },
         {
           "id": "bg-15-8",
@@ -6261,7 +6296,7 @@
             "year": 1942,
             "license": "Public Domain"
           },
-          "explanation": "Here is a description of how the subtle body remaining in the gross body enjoys the objects of the senses.The individual soul uses the mind along with each sense separately and enjoys or experiences the objects of the senses such as sound? touch? colour (form)? taste and smell.It sits on the marvellous car of its mind? passes through the gateway of the ear in the twinkling of an eye and enjoys the various kinds of music of this world. It holds the reins of the nerves of sensation? enters the domain of touch through the portal of the skin and enjoys the diverse kinds of soft objects. It roams about in the hills of beautiful forms and enjoys them through the windows of his eyes. It enters the cave of taste by the avenue of the tongue and enjoyes dainties? palatable dishes and refreshing beverages. It enters the forest of scents through the door of the nose and enjoys them to its hearts content.It makes its abode in the ears? the eyes? the skin? the tongue and the nose? as also in the mind and enjoys the objects of the senses. It gains experiences of the outer world through the mind?,intellect? subconscious mind? egoism? the ten senses and the five vital airs.Ghranameva cha The word cha (and) indicates that we shall have to include the five organs of action? and also the fourfold inner instrument (mind? intellect? subconscious mind and egoism). In the Katha Upanishad it is said \u0906\u0924\u094d\u092e\u0947\u0928\u094d\u0926\u094d\u0930\u093f\u092f\u092e\u0928\u094b\u092f\u0941\u0915\u094d\u0924\u0902 \u092d\u094b\u0915\u094d\u0924\u0947\u0924\u094d\u092f\u093e\u0939\u0941\u0930\u094d\u092e\u0928\u0940\u0937\u093f\u0923\u0903\u0964\u0964The Self? the senses and the mind united? the wise call the enjoyer."
+          "explanation": "Here is a description of how the subtle body remaining in the gross body enjoys the objects of the senses.The individual soul uses the mind along with each sense separately and enjoys or experiences the objects of the senses such as sound? touch? colour (form)? taste and smell.It sits on the marvellous car of its mind? passes through the gateway of the ear in the twinkling of an eye and enjoys the various kinds of music of this world. It holds the reins of the nerves of sensation? enters the domain of touch through the portal of the skin and enjoys the diverse kinds of soft objects. It roams about in the hills of beautiful forms and enjoys them through the windows of his eyes. It enters the cave of taste by the avenue of the tongue and enjoyes dainties? palatable dishes and refreshing beverages. It enters the forest of scents through the door of the nose and enjoys them to its hearts content.It makes its abode in the ears? the eyes? the skin? the tongue and the nose? as also in the mind and enjoys the objects of the senses. It gains experiences of the outer world through the mind?,intellect? subconscious mind? egoism? the ten senses and the five vital airs.Ghranameva cha The word cha (and) indicates that we shall have to include the five organs of action? and also the fourfold inner instrument (mind? intellect? subconscious mind and egoism). In the Katha Upanishad it is said आत्मेन्द्रियमनोयुक्तं भोक्तेत्याहुर्मनीषिणः।।The Self? the senses and the mind united? the wise call the enjoyer."
         },
         {
           "id": "bg-15-10",
@@ -6316,7 +6351,7 @@
             "year": 1942,
             "license": "Public Domain"
           },
-          "explanation": "The immanence of the Lord as the gastric fire in all living beings is described in this verse.Vaisvanara The fire that abides in the stomach. This fire is fanned by the bellows of the incoming and the outgoing breaths continuously and large antities of food are digested. Inside the wonderful laboratory of the stomach I digest the food by taking the form of this gastric fire.Four kinds of food (1) Food which has to be eaten by mastication (Bhakshyam). (2) That which has to be sucked in (Bhojyam). (3) That which has to be licked (Lehyam). (4) That which has to be devoured or swallowed (Choshyam). Another classification is as follows (1) Rice is PrithiviAnnam (solid food) for human beings. (2) Water is Apyannam (watery food) for birds like the Chataka. (3) Fire is Tejasannam (hot food) for certain creatures. (4) Air is Vayvannam (air as food) for serpents.\u0905\u092f\u092e\u0917\u094d\u0928\u093f\u0930\u094d\u0935\u0948\u0936\u094d\u0935\u093e\u0928\u0930\u094b \u092f\u094b\u093d\u092f\u092e\u0928\u094d\u0924\u0903 \u092a\u0941\u0930\u0941\u0937\u0903 \u092f\u0947\u0928\u0947\u0926\u092e\u0928\u094d\u0928\u0902 \u092a\u091a\u094d\u092f\u0924\u0947\u0964\u0964This fire which is within man and by which the food is digested is Vaisvanara. (Brihadaranyaka Upanishad 5.9.1)He who thinks or meditates and feels that the Vaisvanara fire is the eater? that the food eaten by the fire is the Soma (moon) and that the two together form AgniSoma is not contaminated by the impurities in the food. He who meditates before he takes his food that the whole world which is in the form of eater and eaten is made up of Agni and Soma? is not tainted by the evil arising from eating bad food.Repeat this verse daily before you take your food. You will be free from all taints of impurity in food."
+          "explanation": "The immanence of the Lord as the gastric fire in all living beings is described in this verse.Vaisvanara The fire that abides in the stomach. This fire is fanned by the bellows of the incoming and the outgoing breaths continuously and large antities of food are digested. Inside the wonderful laboratory of the stomach I digest the food by taking the form of this gastric fire.Four kinds of food (1) Food which has to be eaten by mastication (Bhakshyam). (2) That which has to be sucked in (Bhojyam). (3) That which has to be licked (Lehyam). (4) That which has to be devoured or swallowed (Choshyam). Another classification is as follows (1) Rice is PrithiviAnnam (solid food) for human beings. (2) Water is Apyannam (watery food) for birds like the Chataka. (3) Fire is Tejasannam (hot food) for certain creatures. (4) Air is Vayvannam (air as food) for serpents.अयमग्निर्वैश्वानरो योऽयमन्तः पुरुषः येनेदमन्नं पच्यते।।This fire which is within man and by which the food is digested is Vaisvanara. (Brihadaranyaka Upanishad 5.9.1)He who thinks or meditates and feels that the Vaisvanara fire is the eater? that the food eaten by the fire is the Soma (moon) and that the two together form AgniSoma is not contaminated by the impurities in the food. He who meditates before he takes his food that the whole world which is in the form of eater and eaten is made up of Agni and Soma? is not tainted by the evil arising from eating bad food.Repeat this verse daily before you take your food. You will be free from all taints of impurity in food."
         },
         {
           "id": "bg-15-15",
@@ -6327,7 +6362,7 @@
             "year": 1942,
             "license": "Public Domain"
           },
-          "explanation": "A sweeping declaration of divine omnipresence. Krishna is not distant \u2014 He sits in every heart (h\u1e5bidi sannivi\u1e63h\u1e6da\u1e25). Even memory, knowledge, and their loss come from Him. The verse claims that all scriptural knowledge ultimately points to one thing: knowing Him."
+          "explanation": "A sweeping declaration of divine omnipresence. Krishna is not distant — He sits in every heart (hṛidi sanniviṣhṭaḥ). Even memory, knowledge, and their loss come from Him. The verse claims that all scriptural knowledge ultimately points to one thing: knowing Him."
         },
         {
           "id": "bg-15-16",
@@ -6416,7 +6451,7 @@
         {
           "id": "bg-16-3",
           "number": 3,
-          "text": "Valor, forgiveness, fortitude, purity, absence of hatred, absence of pride\u2014these belong to one born for a divine destiny, O Bharata.",
+          "text": "Valor, forgiveness, fortitude, purity, absence of hatred, absence of pride—these belong to one born for a divine destiny, O Bharata.",
           "source": {
             "translator": "Swami Sivananda",
             "year": 1942,
@@ -6427,7 +6462,7 @@
         {
           "id": "bg-16-4",
           "number": 4,
-          "text": "O Arjuna, the demoniac qualities are: uncleanliness, harshness, stubbornness, and also cruelty and ignorance\u2014these belong to the demoniac destiny.",
+          "text": "O Arjuna, the demoniac qualities are: uncleanliness, harshness, stubbornness, and also cruelty and ignorance—these belong to the demoniac destiny.",
           "source": {
             "translator": "Swami Sivananda",
             "year": 1942,
@@ -6581,7 +6616,7 @@
         {
           "id": "bg-16-18",
           "number": 18,
-          "text": "Resorting to egotism, power, arrogance, passion and anger, hating Me in their own and others' bodies, (they become) [As the finite verb is missing in the verse, we have supplied 'they become'. S. adds the verb prabhavanti, wax strong, from verse 9, and constructs the last portion thus: '\u09f7\u09f7.the envious ones wax strond.' Following S. S., however, one may combine this verse with the preceding verse by taking 'perform sacrifices' as the finite verb.-Tr.'] envious by nature.",
+          "text": "Resorting to egotism, power, arrogance, passion and anger, hating Me in their own and others' bodies, (they become) [As the finite verb is missing in the verse, we have supplied 'they become'. S. adds the verb prabhavanti, wax strong, from verse 9, and constructs the last portion thus: '৷৷.the envious ones wax strond.' Following S. S., however, one may combine this verse with the preceding verse by taking 'perform sacrifices' as the finite verb.-Tr.'] envious by nature.",
           "source": {
             "translator": "Swami Sivananda",
             "year": 1942,
@@ -6676,7 +6711,7 @@
         {
           "id": "bg-17-2",
           "number": 2,
-          "text": "The Supreme Lord said: The faith of the embodied is of three kinds\u2014sattvika, rajasa, and tamasa. Hear about it from Me.",
+          "text": "The Supreme Lord said: The faith of the embodied is of three kinds—sattvika, rajasa, and tamasa. Hear about it from Me.",
           "source": {
             "translator": "Swami Sivananda",
             "year": 1942,
@@ -6748,7 +6783,7 @@
             "year": 1942,
             "license": "Public Domain"
           },
-          "explanation": "Pure food increases the vitality and strength of those who eat it. It augments the energy of the mind also.Sattva Cheerfulness purity inner? moral and spiritual strength and courage that keep the mind steady even in great distress.Bala Strength absence of fatigue even in doing difficult work.Priti Absence of retching good appetite.Rasyah Sweet and juicy.Sthirah Substantial which can last long in the body vitalising but not difficult to digest.Hridyah The mere sight of the food is very pleasing to the mind and it is free from odour of smoke or burnt condition.Sattvic food produces cheerfulness? serenity and mental clarity and helps the aspirants to enter into deep meditation and maintain mental poise and nervous eilibrium. It supplies the maximum energy to the body and the mind. It is very easily assimilated and absorbed.A Sattvic man relishes juicy food and other foods which are attractive in form? soft to touch and pleasant to taste? which are small in bulk but great in nourishment like the words from the lips of a spiritual preceptor. Sattvic food is highly conducive to health.Eat that food which will develop Sattva in you. Milk? butter? fresh? ripe fruits? almonds? green Dal? barley? Parwal? Torai? Karela? plantains? etc.? are Sattvic. Abandon fish? meat? liors? eggs? etc.? ruthlessly if you want to increase Sattva and attain Selfrealisation. The mind is formed of the subtle portion of the food. \u091c\u0948\u0938\u093e \u0905\u0928\u094d\u0928 \u0935\u0948\u0938\u093e \u092e\u0928 As is the food so is the mind says a Hindi proverb. If you take Sattvic food? the mind also will be Sattvic. The seven elements (Dhatus) of the body (Chyle? blood? flesh? fat? bone? marrow and semen) are formed out of food.Ideas or concepts are generated in the mind corresponding to these seven elements. As is the constitution of these elements? so is the constitution of the mind. Just as water is rendered hot when the pot that contains it is placed over the fire? so also the nature and constitution of the mind is according to the nature and constitution of the food or the seven elements."
+          "explanation": "Pure food increases the vitality and strength of those who eat it. It augments the energy of the mind also.Sattva Cheerfulness purity inner? moral and spiritual strength and courage that keep the mind steady even in great distress.Bala Strength absence of fatigue even in doing difficult work.Priti Absence of retching good appetite.Rasyah Sweet and juicy.Sthirah Substantial which can last long in the body vitalising but not difficult to digest.Hridyah The mere sight of the food is very pleasing to the mind and it is free from odour of smoke or burnt condition.Sattvic food produces cheerfulness? serenity and mental clarity and helps the aspirants to enter into deep meditation and maintain mental poise and nervous eilibrium. It supplies the maximum energy to the body and the mind. It is very easily assimilated and absorbed.A Sattvic man relishes juicy food and other foods which are attractive in form? soft to touch and pleasant to taste? which are small in bulk but great in nourishment like the words from the lips of a spiritual preceptor. Sattvic food is highly conducive to health.Eat that food which will develop Sattva in you. Milk? butter? fresh? ripe fruits? almonds? green Dal? barley? Parwal? Torai? Karela? plantains? etc.? are Sattvic. Abandon fish? meat? liors? eggs? etc.? ruthlessly if you want to increase Sattva and attain Selfrealisation. The mind is formed of the subtle portion of the food. जैसा अन्न वैसा मन As is the food so is the mind says a Hindi proverb. If you take Sattvic food? the mind also will be Sattvic. The seven elements (Dhatus) of the body (Chyle? blood? flesh? fat? bone? marrow and semen) are formed out of food.Ideas or concepts are generated in the mind corresponding to these seven elements. As is the constitution of these elements? so is the constitution of the mind. Just as water is rendered hot when the pot that contains it is placed over the fire? so also the nature and constitution of the mind is according to the nature and constitution of the food or the seven elements."
         },
         {
           "id": "bg-17-9",
@@ -6825,7 +6860,7 @@
             "year": 1942,
             "license": "Public Domain"
           },
-          "explanation": "The words of the man who practises the austerity of speech cannot cause pain to others. His words will bring cheer and solace to others. His words prove beneficial to all. The organ of speech causes great distraction of mind. Control of speech is a difficult discipline but you will have to practise it if you want to attain supreme peace. Nothing is impossible for a man who has a firm determination? sincerity of purpose? iron will? patience and perseverance.It is said in Manu Smriti\u0938\u0924\u094d\u092f\u0902 \u092c\u094d\u0930\u0942\u092f\u093e\u0924\u094d \u092a\u094d\u0930\u093f\u092f\u0902 \u092c\u094d\u0930\u0942\u092f\u093e\u0924\u094d \u0928 \u092c\u094d\u0930\u0942\u092f\u093e\u0924\u094d \u0938\u0924\u094d\u092f\u092e\u092a\u094d\u0930\u093f\u092f\u092e\u094d\u0964\u092a\u094d\u0930\u093f\u092f\u0902 \u091a \u0928\u093e\u0928\u0943\u0924\u0902 \u092c\u094d\u0930\u0942\u092f\u093e\u0924\u094d \u090f\u0937 \u0927\u0930\u094d\u092e\u0903 \u0938\u0928\u093e\u0924\u0928\u0903\u0964\u0964One should speak what is true one should speak what is pleasant. One should not speak what is true if it is not pleasant nor what is pleasant if it is false. This is the ancient Dharma.Excitement Pain to living beings.Speech? to be an austerity? must form an invariable combination of all the four attributes mentioned in this verse? viz.? nonexciting or nonpainful? truthful? pleasant and beneficial if it is wanting in one or the other of these attributes? it cannot form the austerity of speech. Speech may be pleasant but it it is lacking in the other three attributes? it will no longer be an austerity of speech."
+          "explanation": "The words of the man who practises the austerity of speech cannot cause pain to others. His words will bring cheer and solace to others. His words prove beneficial to all. The organ of speech causes great distraction of mind. Control of speech is a difficult discipline but you will have to practise it if you want to attain supreme peace. Nothing is impossible for a man who has a firm determination? sincerity of purpose? iron will? patience and perseverance.It is said in Manu Smritiसत्यं ब्रूयात् प्रियं ब्रूयात् न ब्रूयात् सत्यमप्रियम्।प्रियं च नानृतं ब्रूयात् एष धर्मः सनातनः।।One should speak what is true one should speak what is pleasant. One should not speak what is true if it is not pleasant nor what is pleasant if it is false. This is the ancient Dharma.Excitement Pain to living beings.Speech? to be an austerity? must form an invariable combination of all the four attributes mentioned in this verse? viz.? nonexciting or nonpainful? truthful? pleasant and beneficial if it is wanting in one or the other of these attributes? it cannot form the austerity of speech. Speech may be pleasant but it it is lacking in the other three attributes? it will no longer be an austerity of speech."
         },
         {
           "id": "bg-17-16",
@@ -6962,7 +6997,7 @@
         {
           "id": "bg-17-28",
           "number": 28,
-          "text": "Whatever is done without faith\u2014whether it is sacrifice, charity, austerity, or any other act\u2014is called asat (unreal). It is of no value here or hereafter.",
+          "text": "Whatever is done without faith—whether it is sacrifice, charity, austerity, or any other act—is called asat (unreal). It is of no value here or hereafter.",
           "source": {
             "translator": "Swami Sivananda",
             "year": 1942,
@@ -6997,7 +7032,7 @@
             "year": 1942,
             "license": "Public Domain"
           },
-          "explanation": "By Swami Sivananda18.2 \u0915\u093e\u092e\u094d\u092f\u093e\u0928\u093e\u092e\u094d (of) desireful? \u0915\u0930\u094d\u092e\u0923\u093e\u092e\u094d of actions? \u0928\u094d\u092f\u093e\u0938\u092e\u094d the renunciation? \u0938\u0902\u0928\u094d\u092f\u093e\u0938\u092e\u094d Sannyasa? \u0915\u0935\u092f\u0903 the sages? \u0935\u093f\u0926\u0941\u0903 understand? \u0938\u0930\u094d\u0935\u0915\u0930\u094d\u092e\u092b\u0932\u0924\u094d\u092f\u093e\u0917\u092e\u094d the abandonment of the fruits of all works? \u092a\u094d\u0930\u093e\u0939\u0941\u0903 declare? \u0924\u094d\u092f\u093e\u0917\u092e\u094d abandonment? \u0935\u093f\u091a\u0915\u094d\u0937\u0923\u093e\u0903 the wise.Commentary Kamya Karmani Activities such as the Asvamedha (a special sacrifice)? etc.? which are performed for the attainment of specific selfish ends. The wise men declare that Tyaga means abandonment of the fruits of all the Nitya and Naimittika works (ordinary and extraordinary or occasional duties).The rootmeaning of the words Sannyasa and Tyaga is to give up. In popular usage Sannyasa and Tyaga are more or less synonymous. Both mean renunciation. The two words do not mean two altogether distinct ideas as stone and fruit? or pot and cloth. They convey the same general idea with a slight distinction.An objector asks It is said that the Nitya and Naimittika actions cannot produce any fruits. Why then is the relinishment of their fruits mentioned here It is like asking for the relinishment of the barren womans sonWe say The objection is not correct. In the opinion of the Lord? ordinary and occasional duties cause their own fruits (vide XVIII.12). Sannyasins alone who have renounced the desire for the fruits of actions will not get the fruits? but other persons will have to reap the fruits of the ordinary and occasional actions.If one renounces all actions after the attainment of Selfrealisation and enters into the fourth order of life (Sannyasa) it is called VidvatSannyasa. If one renounces all actions and enters into the order of Sannyasa for the sake of doing VedantaVichara (or reflection on the truths of the Vedantaphilosophy and on the true significance of the great sentences of the Upanishads which reveal the identity of the individual soul with the Supreme Being) and for thus attaining Selfrealisation? it is called VividishaSannyasa."
+          "explanation": "By Swami Sivananda18.2 काम्यानाम् (of) desireful? कर्मणाम् of actions? न्यासम् the renunciation? संन्यासम् Sannyasa? कवयः the sages? विदुः understand? सर्वकर्मफलत्यागम् the abandonment of the fruits of all works? प्राहुः declare? त्यागम् abandonment? विचक्षणाः the wise.Commentary Kamya Karmani Activities such as the Asvamedha (a special sacrifice)? etc.? which are performed for the attainment of specific selfish ends. The wise men declare that Tyaga means abandonment of the fruits of all the Nitya and Naimittika works (ordinary and extraordinary or occasional duties).The rootmeaning of the words Sannyasa and Tyaga is to give up. In popular usage Sannyasa and Tyaga are more or less synonymous. Both mean renunciation. The two words do not mean two altogether distinct ideas as stone and fruit? or pot and cloth. They convey the same general idea with a slight distinction.An objector asks It is said that the Nitya and Naimittika actions cannot produce any fruits. Why then is the relinishment of their fruits mentioned here It is like asking for the relinishment of the barren womans sonWe say The objection is not correct. In the opinion of the Lord? ordinary and occasional duties cause their own fruits (vide XVIII.12). Sannyasins alone who have renounced the desire for the fruits of actions will not get the fruits? but other persons will have to reap the fruits of the ordinary and occasional actions.If one renounces all actions after the attainment of Selfrealisation and enters into the fourth order of life (Sannyasa) it is called VidvatSannyasa. If one renounces all actions and enters into the order of Sannyasa for the sake of doing VedantaVichara (or reflection on the truths of the Vedantaphilosophy and on the true significance of the great sentences of the Upanishads which reveal the identity of the individual soul with the Supreme Being) and for thus attaining Selfrealisation? it is called VividishaSannyasa."
         },
         {
           "id": "bg-18-3",
@@ -7079,7 +7114,7 @@
         {
           "id": "bg-18-10",
           "number": 10,
-          "text": "He who is neither attached to action nor to the fruits of action\u2014such a person is said to be a renouncer in the true sense. He has given up the fruits of action.",
+          "text": "He who is neither attached to action nor to the fruits of action—such a person is said to be a renouncer in the true sense. He has given up the fruits of action.",
           "source": {
             "translator": "Swami Sivananda",
             "year": 1942,
@@ -7140,7 +7175,7 @@
             "year": 1942,
             "license": "Public Domain"
           },
-          "explanation": "Nyayyam Right Not opposed to Dharma conformable to the scriptures justifiable.Viparitam The opposite What is opposite to Dharma and opposed to the scriptures unjustifiable.Even those actions? -- acts like winking and the like which are necessary conditions of life? are indicated by the term the right and the reverse? as they are effects of past Dharma and Adharma.Tasya Hetavah Its Causes The causes of every action.An objector argues In the previous verse it is said that the body? actor? various organs? etc.? are the necessary factors of every action. Why do you then make a distinction in actions by saying whatever action a man does by the body? speech and mindOur answer is In the performance of every action? one of the three -- body? speech or mind -- has a more prominent share than the others while seeing? hearing and other activities which accompany or go along with life are subordinate to that one.Therefore all actions are classified under three groups and are spoken of as done by the body or speech or mind. The fruit of an actions also is enjoyed through the body? speech and mind and one of the three takes a more prominent share than the rest. Therefore? it is proper to say Whatever action a man performs with his body? speech and mind\u09f7\u09f7."
+          "explanation": "Nyayyam Right Not opposed to Dharma conformable to the scriptures justifiable.Viparitam The opposite What is opposite to Dharma and opposed to the scriptures unjustifiable.Even those actions? -- acts like winking and the like which are necessary conditions of life? are indicated by the term the right and the reverse? as they are effects of past Dharma and Adharma.Tasya Hetavah Its Causes The causes of every action.An objector argues In the previous verse it is said that the body? actor? various organs? etc.? are the necessary factors of every action. Why do you then make a distinction in actions by saying whatever action a man does by the body? speech and mindOur answer is In the performance of every action? one of the three -- body? speech or mind -- has a more prominent share than the others while seeing? hearing and other activities which accompany or go along with life are subordinate to that one.Therefore all actions are classified under three groups and are spoken of as done by the body or speech or mind. The fruit of an actions also is enjoyed through the body? speech and mind and one of the three takes a more prominent share than the rest. Therefore? it is proper to say Whatever action a man performs with his body? speech and mind৷৷."
         },
         {
           "id": "bg-18-16",
@@ -7162,7 +7197,7 @@
             "year": 1942,
             "license": "Public Domain"
           },
-          "explanation": "I will explain to thee? O Arjuna? the characterisitics of the man who has transcended activity? and who has gone beyond the bonds of Karma.When selfishnes and egoism are destroyed? when desire and personal gain are renounced? actions cannot bind a man. He knows that the Self is not destroyed when the body perishes. He has no idea of agency. The act of killing itself? in his case? becomes one necessary for the peace and harmony of the world. His killing without desire is like the killing of a murderer by the executioner and the judge on behalf of the community for the preservation of peace and harmony in the world.He who has a trained intellect? pure understanding and developed reason? who has a knowledge of the scriptures? who has devoted himself to the study of the scriptures? who is eipped with the knowledge of logic? who is well trained by the instructions of his preceptor? is absolutely free from the egoistic notion that I am the agent or the doer. He knows perfectly well that Nature or Guna or ones own nature does everything. He thus thinks I am the silent witness of all activities. I am not the doer. These five (the body? the actor? etc.) which are superimposed on the pure? actionless Self through ignorance are the causes of all actions. I do not do anything. The senses move amongst the senseobjects. The alities (Gunas) move in their counterparts in the senses which are also the products of the Gunas. I know the essence of the divisions of the alities and their functions. I am in essence without limbs. How can action or work be ascribed to me I am without hands? without legs? without feet? without breath and without mind. I am ever pure? spotless and immovable and immutable. He will never repent thus I have done a wrong action. I ought to have done like this. I have done an evil action. I will go to hell. He is always wise. He can,never do a wrong action. His will has become one with the cosmic will. His will has become blended with the will of the Lord. Whatever he does is done by the Lord only. He has no will of his own. He sees rightly. Though he kills? he does not commit the act of killing. He is not bound by the fruit of a vicious action as an effect of that act. He is beyond good and evil? beyond the pairs of opposites? as he has knowledge of the Self.An objector says The statement that though he kills these people? he does not kill? is selfcontradictory.We say This objection is really not tenable. From the worldly point of view the Lord says though he kills? because man identifies the Self with the body? etc.? and thinks I am the killer. From the transcendental point of view explained above? the Lord says? He kills not? he is not bound.Another objector says The Self acts in conjunction with the body? etc.? -- He who looks upon his Self Which is isolated? as the agent\u09f7\u09f7.  (XVIII.16)We say This objection also cannot stand. As the omnipresent ether is not affected by reason of its subtlety? even so the Self? seated everywhere in the body? is not affected. This immortal? immutable? changeless? formless? attributeless Self? though seated in the body? does not act and is not affected? just as the crystal is not affected by the red colour of the flower that comes into contact with it? just as the sun is not affected by the diseases of the eye. A thing that changes only can join with others and become the agent. The Self is always isolated? independent and free. This Self is immutable (II.25). The alities move amidst the alities (III.28). Though seated in the body? He does not act (XIII.31). Actions are wrought by the alities (III.27). You will find in the Brihadaranyaka were. By reasoning also we may establish the same conclusion thusThe Self is indivisible? allpervading? infinite? limbless? without parts? independent? ever free and immutable. Therefore the actions of the body can never be ascribed to the agency of the Self.Verily the actions of one cannot go to another who has not done them. Just as blue colour cannot belong to the sky? silver to the motherofpearl? water to mirage? so also what is ascribed to the Self by ignorance cannot really belong to It. The changes that occur in the body pertain to the body but not to the pure actionless Self which is always the spectator or the silent witness. Therefore? it is right to say that the wise man who is free from egoism and all impurities of the mind? neither kills nor is he bound though he kills.In chapter II.19? the Lord stated the proposition -- He slayeth not? nor is he slain. In chapter II.20? He said The Self is unborn? eternal? ancient the Self is not slain when the body is killed. The Lord has touched here and there that the Self is not affected by works? that there is no necessity for the wise man of doing actions. He concludes that the sage kills not? nor is he bound? and sums up the teaching of the Gita. The teaching of the Gita has been concluded in this verse. The Sannyasins who are free from egoism are not affected by Karma. The threefold fruits of action? viz.? evil? good and mixed (see verse 12 above) do not accrue to them. Those worldlyminded persons who work with egoism and expectation of fruits are tainted by the works. They are forced to experience the fruits of their actions and to take birth again and again. (Cf.II.19V.7)"
+          "explanation": "I will explain to thee? O Arjuna? the characterisitics of the man who has transcended activity? and who has gone beyond the bonds of Karma.When selfishnes and egoism are destroyed? when desire and personal gain are renounced? actions cannot bind a man. He knows that the Self is not destroyed when the body perishes. He has no idea of agency. The act of killing itself? in his case? becomes one necessary for the peace and harmony of the world. His killing without desire is like the killing of a murderer by the executioner and the judge on behalf of the community for the preservation of peace and harmony in the world.He who has a trained intellect? pure understanding and developed reason? who has a knowledge of the scriptures? who has devoted himself to the study of the scriptures? who is eipped with the knowledge of logic? who is well trained by the instructions of his preceptor? is absolutely free from the egoistic notion that I am the agent or the doer. He knows perfectly well that Nature or Guna or ones own nature does everything. He thus thinks I am the silent witness of all activities. I am not the doer. These five (the body? the actor? etc.) which are superimposed on the pure? actionless Self through ignorance are the causes of all actions. I do not do anything. The senses move amongst the senseobjects. The alities (Gunas) move in their counterparts in the senses which are also the products of the Gunas. I know the essence of the divisions of the alities and their functions. I am in essence without limbs. How can action or work be ascribed to me I am without hands? without legs? without feet? without breath and without mind. I am ever pure? spotless and immovable and immutable. He will never repent thus I have done a wrong action. I ought to have done like this. I have done an evil action. I will go to hell. He is always wise. He can,never do a wrong action. His will has become one with the cosmic will. His will has become blended with the will of the Lord. Whatever he does is done by the Lord only. He has no will of his own. He sees rightly. Though he kills? he does not commit the act of killing. He is not bound by the fruit of a vicious action as an effect of that act. He is beyond good and evil? beyond the pairs of opposites? as he has knowledge of the Self.An objector says The statement that though he kills these people? he does not kill? is selfcontradictory.We say This objection is really not tenable. From the worldly point of view the Lord says though he kills? because man identifies the Self with the body? etc.? and thinks I am the killer. From the transcendental point of view explained above? the Lord says? He kills not? he is not bound.Another objector says The Self acts in conjunction with the body? etc.? -- He who looks upon his Self Which is isolated? as the agent৷৷.  (XVIII.16)We say This objection also cannot stand. As the omnipresent ether is not affected by reason of its subtlety? even so the Self? seated everywhere in the body? is not affected. This immortal? immutable? changeless? formless? attributeless Self? though seated in the body? does not act and is not affected? just as the crystal is not affected by the red colour of the flower that comes into contact with it? just as the sun is not affected by the diseases of the eye. A thing that changes only can join with others and become the agent. The Self is always isolated? independent and free. This Self is immutable (II.25). The alities move amidst the alities (III.28). Though seated in the body? He does not act (XIII.31). Actions are wrought by the alities (III.27). You will find in the Brihadaranyaka were. By reasoning also we may establish the same conclusion thusThe Self is indivisible? allpervading? infinite? limbless? without parts? independent? ever free and immutable. Therefore the actions of the body can never be ascribed to the agency of the Self.Verily the actions of one cannot go to another who has not done them. Just as blue colour cannot belong to the sky? silver to the motherofpearl? water to mirage? so also what is ascribed to the Self by ignorance cannot really belong to It. The changes that occur in the body pertain to the body but not to the pure actionless Self which is always the spectator or the silent witness. Therefore? it is right to say that the wise man who is free from egoism and all impurities of the mind? neither kills nor is he bound though he kills.In chapter II.19? the Lord stated the proposition -- He slayeth not? nor is he slain. In chapter II.20? He said The Self is unborn? eternal? ancient the Self is not slain when the body is killed. The Lord has touched here and there that the Self is not affected by works? that there is no necessity for the wise man of doing actions. He concludes that the sage kills not? nor is he bound? and sums up the teaching of the Gita. The teaching of the Gita has been concluded in this verse. The Sannyasins who are free from egoism are not affected by Karma. The threefold fruits of action? viz.? evil? good and mixed (see verse 12 above) do not accrue to them. Those worldlyminded persons who work with egoism and expectation of fruits are tainted by the works. They are forced to experience the fruits of their actions and to take birth again and again. (Cf.II.19V.7)"
         },
         {
           "id": "bg-18-18",
@@ -7189,7 +7224,7 @@
         {
           "id": "bg-18-20",
           "number": 20,
-          "text": "The knowledge by which one sees the one imperishable Self in all beings, undivided among the divided\u2014that knowledge is sattvika.",
+          "text": "The knowledge by which one sees the one imperishable Self in all beings, undivided among the divided—that knowledge is sattvika.",
           "source": {
             "translator": "Swami Sivananda",
             "year": 1942,
@@ -7475,7 +7510,7 @@
         {
           "id": "bg-18-46",
           "number": 46,
-          "text": "He who dedicates all his actions to the Supreme, from whom all beings come, by whom all this is pervaded\u2014attains perfection through yoga.",
+          "text": "He who dedicates all his actions to the Supreme, from whom all beings come, by whom all this is pervaded—attains perfection through yoga.",
           "source": {
             "translator": "Swami Sivananda",
             "year": 1942,
@@ -7508,7 +7543,7 @@
         {
           "id": "bg-18-49",
           "number": 49,
-          "text": "He who is without attachment, who has conquered the self, and has given up all actions\u2014his liberation is said to be perfected through renunciation.",
+          "text": "He who is without attachment, who has conquered the self, and has given up all actions—his liberation is said to be perfected through renunciation.",
           "source": {
             "translator": "Swami Sivananda",
             "year": 1942,
@@ -7519,7 +7554,7 @@
         {
           "id": "bg-18-50",
           "number": 50,
-          "text": "Learn from Me how he who has attained perfection reaches Brahman\u2014the supreme state of knowledge.",
+          "text": "Learn from Me how he who has attained perfection reaches Brahman—the supreme state of knowledge.",
           "source": {
             "translator": "Swami Sivananda",
             "year": 1942,
@@ -7563,7 +7598,7 @@
         {
           "id": "bg-18-54",
           "number": 54,
-          "text": "He who is established in yoga, whose mind is pure, who has conquered the self, whose passions are at rest, and who has become one with Brahman\u2014such a person attains supreme devotion to Me.",
+          "text": "He who is established in yoga, whose mind is pure, who has conquered the self, whose passions are at rest, and who has become one with Brahman—such a person attains supreme devotion to Me.",
           "source": {
             "translator": "Swami Sivananda",
             "year": 1942,
@@ -7574,7 +7609,7 @@
         {
           "id": "bg-18-55",
           "number": 55,
-          "text": "Through devotion, he comes to know Me\u2014what My form is, and who I am in very truth. Then, having known Me in truth, he immediately enters into Me.",
+          "text": "Through devotion, he comes to know Me—what My form is, and who I am in very truth. Then, having known Me in truth, he immediately enters into Me.",
           "source": {
             "translator": "Swami Sivananda",
             "year": 1942,
@@ -7668,7 +7703,7 @@
             "year": 1942,
             "license": "Public Domain"
           },
-          "explanation": "Remarkably, after 18 chapters of teaching, Krishna does not command \u2014 He says \"do as you wish\" (yathechchhasi tath\u0101 kuru). This is the Gita's deepest respect for free will. The divine teaches, reveals, guides \u2014 but never compels. The choice always remains with the individual."
+          "explanation": "Remarkably, after 18 chapters of teaching, Krishna does not command — He says \"do as you wish\" (yathechchhasi tathā kuru). This is the Gita's deepest respect for free will. The divine teaches, reveals, guides — but never compels. The choice always remains with the individual."
         },
         {
           "id": "bg-18-64",
@@ -7701,7 +7736,7 @@
             "year": 1942,
             "license": "Public Domain"
           },
-          "explanation": "Known as the \"charama shloka\" \u2014 the ultimate verse. After teaching karma yoga, jnana yoga, bhakti yoga, and more, Krishna distills everything into one instruction: surrender. \"Sarva-dharm\u0101n parityajya\" is radical \u2014 abandon even your ideas about duty. \"M\u0101 \u015bhucha\u1e25\" (do not grieve) echoes back to Arjuna's original grief in Chapter 1."
+          "explanation": "Known as the \"charama shloka\" — the ultimate verse. After teaching karma yoga, jnana yoga, bhakti yoga, and more, Krishna distills everything into one instruction: surrender. \"Sarva-dharmān parityajya\" is radical — abandon even your ideas about duty. \"Mā śhuchaḥ\" (do not grieve) echoes back to Arjuna's original grief in Chapter 1."
         },
         {
           "id": "bg-18-67",
@@ -7778,7 +7813,7 @@
             "year": 1942,
             "license": "Public Domain"
           },
-          "explanation": "The Gita comes full circle. Arjuna, who dropped his bow in Chapter 1 overwhelmed by grief and confusion, now stands firm. \"Na\u1e63h\u1e6do moha\u1e25\" (delusion destroyed) directly answers the original crisis. \"Kari\u1e63hye vachana\u1e41 tava\" (I shall do as You say) is not blind obedience \u2014 it follows 18 chapters of questioning, reasoning, and understanding."
+          "explanation": "The Gita comes full circle. Arjuna, who dropped his bow in Chapter 1 overwhelmed by grief and confusion, now stands firm. \"Naṣhṭo mohaḥ\" (delusion destroyed) directly answers the original crisis. \"Kariṣhye vachanaṁ tava\" (I shall do as You say) is not blind obedience — it follows 18 chapters of questioning, reasoning, and understanding."
         },
         {
           "id": "bg-18-74",
@@ -7827,13 +7862,13 @@
         {
           "id": "bg-18-78",
           "number": 78,
-          "text": "Where there is Krishna, the Lord of Yoga, and where there is Arjuna, the wielder of the bow, there will be prosperity, victory, power, and righteousness\u2014such is my conviction.",
+          "text": "Where there is Krishna, the Lord of Yoga, and where there is Arjuna, the wielder of the bow, there will be prosperity, victory, power, and righteousness—such is my conviction.",
           "source": {
             "translator": "Swami Sivananda",
             "year": 1942,
             "license": "Public Domain"
           },
-          "explanation": "Sanjaya speaks the closing verse. The pairing of Krishna (divine wisdom) and Arjuna (human effort) is the Gita's ultimate formula: when wisdom guides action, success is certain. \"Dhruv\u0101 n\u012bti\u1e25\" \u2014 righteousness is assured, not just victory. This is the Gita's final word: align with the divine, act with courage, and the outcome takes care of itself."
+          "explanation": "Sanjaya speaks the closing verse. The pairing of Krishna (divine wisdom) and Arjuna (human effort) is the Gita's ultimate formula: when wisdom guides action, success is certain. \"Dhruvā nītiḥ\" — righteousness is assured, not just victory. This is the Gita's final word: align with the divine, act with courage, and the outcome takes care of itself."
         }
       ]
     }

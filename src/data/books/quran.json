@@ -60,7 +60,14 @@
             "year": 1997,
             "license": "Public Domain"
           },
-          "explanation": "This opening chapter of the Quran, Al-Fatiha, is a prayer for guidance, praising God as the Most Gracious, Most Merciful, and Master of the Day of Judgment."
+          "explanation": "This opening chapter of the Quran, Al-Fatiha, is a prayer for guidance, praising God as the Most Gracious, Most Merciful, and Master of the Day of Judgment.",
+          "translations": [
+            {
+              "id": "quran-1-1-yusuf-ali",
+              "translator": "Yusuf Ali",
+              "text": "In the name of Allah, the Most Gracious, the Most Merciful."
+            }
+          ]
         },
         {
           "id": "quran-1-2",
@@ -71,7 +78,14 @@
             "year": 1997,
             "license": "Public Domain"
           },
-          "explanation": "This opening chapter of the Quran, Al-Fatiha, is a prayer for guidance, praising God as the Most Gracious, Most Merciful, and Master of the Day of Judgment."
+          "explanation": "This opening chapter of the Quran, Al-Fatiha, is a prayer for guidance, praising God as the Most Gracious, Most Merciful, and Master of the Day of Judgment.",
+          "translations": [
+            {
+              "id": "quran-1-2-yusuf-ali",
+              "translator": "Yusuf Ali",
+              "text": "Praise be to Allah, the Cherisher and Sustainer of the worlds:"
+            }
+          ]
         },
         {
           "id": "quran-1-3",
@@ -82,7 +96,14 @@
             "year": 1997,
             "license": "Public Domain"
           },
-          "explanation": "This opening chapter of the Quran, Al-Fatiha, is a prayer for guidance, praising God as the Most Gracious, Most Merciful, and Master of the Day of Judgment."
+          "explanation": "This opening chapter of the Quran, Al-Fatiha, is a prayer for guidance, praising God as the Most Gracious, Most Merciful, and Master of the Day of Judgment.",
+          "translations": [
+            {
+              "id": "quran-1-3-yusuf-ali",
+              "translator": "Yusuf Ali",
+              "text": "Most Gracious, Most Merciful;"
+            }
+          ]
         },
         {
           "id": "quran-1-4",
@@ -93,7 +114,14 @@
             "year": 1997,
             "license": "Public Domain"
           },
-          "explanation": "This opening chapter of the Quran, Al-Fatiha, is a prayer for guidance, praising God as the Most Gracious, Most Merciful, and Master of the Day of Judgment."
+          "explanation": "This opening chapter of the Quran, Al-Fatiha, is a prayer for guidance, praising God as the Most Gracious, Most Merciful, and Master of the Day of Judgment.",
+          "translations": [
+            {
+              "id": "quran-1-4-yusuf-ali",
+              "translator": "Yusuf Ali",
+              "text": "Master of the Day of Judgment."
+            }
+          ]
         },
         {
           "id": "quran-1-5",
@@ -104,7 +132,14 @@
             "year": 1997,
             "license": "Public Domain"
           },
-          "explanation": "This opening chapter of the Quran, Al-Fatiha, is a prayer for guidance, praising God as the Most Gracious, Most Merciful, and Master of the Day of Judgment."
+          "explanation": "This opening chapter of the Quran, Al-Fatiha, is a prayer for guidance, praising God as the Most Gracious, Most Merciful, and Master of the Day of Judgment.",
+          "translations": [
+            {
+              "id": "quran-1-5-yusuf-ali",
+              "translator": "Yusuf Ali",
+              "text": "Thee do we worship, and Thine aid we seek."
+            }
+          ]
         },
         {
           "id": "quran-1-6",

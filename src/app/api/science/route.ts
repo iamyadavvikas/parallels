@@ -8,6 +8,7 @@ const google = createGoogleGenerativeAI({
 
 export async function POST(req: NextRequest) {
   if (!process.env.GOOGLE_GENERATIVE_AI_API_KEY) {
+    console.error("[/api/science] GOOGLE_GENERATIVE_AI_API_KEY is not configured");
     return Response.json(
       { error: "GOOGLE_GENERATIVE_AI_API_KEY is not configured" },
       { status: 503 }
@@ -15,6 +16,7 @@ export async function POST(req: NextRequest) {
   }
 
   const { topic, question, passages } = await req.json();
+  console.log("[/api/science] Request:", { topic, question, passageCount: passages?.length });
 
   if (!topic && !question) {
     return Response.json({ error: "topic or question is required" }, { status: 400 });

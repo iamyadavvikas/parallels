@@ -1,8 +1,12 @@
-import type { Verse, Religion } from "@/lib/types";
+"use client";
+
+import { useState } from "react";
+import type { Verse, Religion, Translation } from "@/lib/types";
 import BookmarkButton from "./BookmarkButton";
 import NoteButton from "./NoteButton";
 import AIExplainButton from "./AIExplainButton";
 import ShareButton from "./ShareButton";
+import TranslationSelector from "./TranslationSelector";
 
 interface VerseCardProps {
   verse: Verse;
@@ -13,6 +17,7 @@ interface VerseCardProps {
   bookTitle?: string;
   religion?: Religion;
   chapterNum?: number;
+  chapterId?: string;
 }
 
 export default function VerseCard({
@@ -24,7 +29,17 @@ export default function VerseCard({
   bookTitle,
   religion,
   chapterNum,
+  chapterId,
 }: VerseCardProps) {
+  const [activeTranslation, setActiveTranslation] = useState<string | null>(null);
+
+  const translations = verse.translations || [];
+  const currentTranslation = activeTranslation
+    ? translations.find((t) => t.id === activeTranslation)
+    : null;
+
+  const displayText = currentTranslation?.text || verse.translation || verse.text;
+
   return (
     <div
       className="group rounded-xl border border-glass-border bg-glass backdrop-blur-sm p-5 transition-all duration-500 hover:border-border/30 hover:shadow-[0_0_20px_var(--neon-default)]"
@@ -44,14 +59,19 @@ export default function VerseCard({
               {reference && <span>{reference}</span>}
             </div>
           )}
-          {(verse.translation || verse.text) && (
+          {displayText && (
             <p className="leading-relaxed text-text-primary font-serif leading-[1.9]">
-              {verse.translation || verse.text}
+              {displayText}
             </p>
           )}
-          {verse.text && verse.translation && (
+          {verse.text && verse.translation && !currentTranslation && (
             <p className="mt-3 text-sm italic text-text-muted border-l-2 border-border/30 pl-4 leading-relaxed font-serif">
               {verse.text}
+            </p>
+          )}
+          {currentTranslation && (
+            <p className="mt-2 text-xs text-accent font-mono">
+              — {currentTranslation.translator}
             </p>
           )}
           <div className="mt-4 flex items-center justify-between">
@@ -62,6 +82,11 @@ export default function VerseCard({
             )}
             {bookSlug && religion && (
               <div className="flex items-center gap-1">
+                <TranslationSelector
+                  translations={translations}
+                  onSelect={setActiveTranslation}
+                  activeId={activeTranslation}
+                />
                 <BookmarkButton
                   verseId={verse.id}
                   bookSlug={bookSlug}
@@ -70,7 +95,7 @@ export default function VerseCard({
                   chapterNum={chapterNum || 0}
                   verseNum={verse.number}
                   reference={reference}
-                  text={verse.translation || verse.text}
+                  text={displayText}
                 />
                 <NoteButton
                   verseId={verse.id}
@@ -83,10 +108,12 @@ export default function VerseCard({
                 <ShareButton
                   verseId={verse.id}
                   reference={reference}
-                  text={verse.translation || verse.text}
+                  text={displayText}
+                  bookSlug={bookSlug}
+                  chapterId={chapterId}
                 />
                 <AIExplainButton
-                  verse={verse.translation || verse.text}
+                  verse={displayText}
                   religion={religion}
                   bookTitle={bookTitle}
                 />

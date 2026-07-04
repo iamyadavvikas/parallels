@@ -41,6 +41,12 @@ export default function AIExplainButton({ verse, religion, bookTitle }: AIExplai
       signal: abortRef.current.signal,
     })
       .then(async (res) => {
+        if (res.status === 429) {
+          throw new Error("Rate limited. Please try again in a moment.");
+        }
+        if (res.status === 503) {
+          throw new Error("AI features require an API key. Contact support.");
+        }
         if (!res.ok) {
           const data = await res.json().catch(() => ({}));
           throw new Error(data.error || "Failed to explain");
@@ -104,7 +110,13 @@ export default function AIExplainButton({ verse, religion, bookTitle }: AIExplai
 
           {error && (
             <div className="rounded-lg bg-red-500/10 p-3 text-sm text-red-400">
-              {error}
+              <p className="mb-2">{error}</p>
+              <button
+                onClick={() => { setError(""); setContent(""); setLoading(false); }}
+                className="text-xs text-red-300 underline hover:text-red-200"
+              >
+                Try again
+              </button>
             </div>
           )}
 

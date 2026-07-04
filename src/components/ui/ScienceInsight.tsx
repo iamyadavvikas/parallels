@@ -18,7 +18,7 @@ export default function ScienceInsight({
   label,
   passages,
 }: ScienceInsightProps) {
-  const [expanded, setExpanded] = useState(false);
+  const [expanded, setExpanded] = useState(!!curatedNotes);
   const [aiContent, setAiContent] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
@@ -66,6 +66,12 @@ export default function ScienceInsight({
       signal: abortRef.current.signal,
     })
       .then(async (res) => {
+        if (res.status === 429) {
+          throw new Error("Rate limited. Please try again in a moment.");
+        }
+        if (res.status === 503) {
+          throw new Error("AI features require an API key. Contact support.");
+        }
         if (!res.ok) {
           const data = await res.json().catch(() => ({}));
           throw new Error(data.error || "Science API unavailable");
@@ -159,7 +165,13 @@ export default function ScienceInsight({
 
             {error && (
               <div className="rounded-lg bg-red-500/10 p-3 text-sm text-red-400">
-                {error}
+                <p className="mb-2">{error}</p>
+                <button
+                  onClick={() => { setError(""); setAiContent(""); setLoading(false); }}
+                  className="text-xs text-red-300 underline hover:text-red-200"
+                >
+                  Try again
+                </button>
               </div>
             )}
 

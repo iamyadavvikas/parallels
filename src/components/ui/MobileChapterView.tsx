@@ -78,6 +78,7 @@ export default function MobileChapterView({ chapters, religion, bookSlug, bookTi
                   bookTitle={bookTitle}
                   religion={religion}
                   chapterNum={current.number}
+                  chapterId={current.id}
                 />
               ))}
             </div>
@@ -138,6 +139,7 @@ function AllChapters({ chapters, religion, bookSlug, bookTitle }: MobileChapterV
                 bookTitle={bookTitle}
                 religion={religion}
                 chapterNum={chapter.number}
+                chapterId={chapter.id}
               />
             ))}
           </div>
