@@ -1706,3 +1706,28 @@ mark::after {
 .animate-pulse-gold {
   animation: pulse-gold 1.5s ease-in-out infinite;
 }
+
+/* Search bar attention-seeking animations */
+@keyframes search-glow-pulse {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 0.8; }
+}
+.search-glow-pulse {
+  animation: search-glow-pulse 3s ease-in-out infinite;
+}
+
+@keyframes search-icon-pulse {
+  0%, 100% { opacity: 0.5; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.1); }
+}
+.search-icon-pulse {
+  animation: search-icon-pulse 2s ease-in-out infinite;
+}
+
+@keyframes search-border-pulse {
+  0%, 100% { border-color: rgba(255, 209, 102, 0.08); }
+  50% { border-color: rgba(255, 209, 102, 0.2); }
+}
+.search-border-pulse {
+  animation: search-border-pulse 3s ease-in-out infinite;
+}

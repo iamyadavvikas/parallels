@@ -95,11 +95,14 @@ export default function SearchBar({
 
   return (
     <form onSubmit={handleSubmit} className="relative w-full group">
-      {/* Ambient glow behind search bar */}
+      {/* Ambient glow behind search bar — always visible, pulses when idle */}
       <div
         className={`absolute -inset-6 rounded-3xl blur-2xl transition-opacity duration-700 ${
-          focused ? "opacity-100" : "opacity-0"
+          focused ? "opacity-100" : "opacity-60 search-glow-pulse"
         }`}
+        style={{
+          background: "radial-gradient(ellipse at center, rgba(255,209,102,0.12) 0%, rgba(255,209,102,0.04) 50%, transparent 70%)",
+        }}
       />
 
       <div className={`search-container relative transition-all duration-500 ${
@@ -116,26 +119,30 @@ export default function SearchBar({
           }}
         />
 
-        {/* Inner container */}
-        <div className={`relative flex items-center rounded-2xl border border-white/[0.06] bg-bg-secondary/80 backdrop-blur-xl transition-all duration-500 ${suggestions.length > 0 ? "rounded-b-none" : ""}`}
+        {/* Inner container — subtle border glow when idle, stronger on focus */}
+        <div className={`relative flex items-center rounded-2xl border bg-bg-secondary/80 backdrop-blur-xl transition-all duration-500 ${suggestions.length > 0 ? "rounded-b-none" : ""} ${
+          focused
+            ? "border-accent/30"
+            : "border-white/[0.08] search-border-pulse"
+        }`}
           style={{
             boxShadow: focused
               ? "0 8px 40px var(--color-shadow-lg), 0 0 0 1px rgba(255,209,102,0.08), 0 0 60px rgba(255,209,102,0.06), inset 0 1px 0 rgba(255,255,255,0.04)"
               : large
-                ? "0 4px 24px var(--color-shadow-md)"
+                ? "0 4px 24px var(--color-shadow-md), 0 0 20px rgba(255,209,102,0.04)"
                 : "0 2px 8px var(--color-shadow-sm)",
           }}
         >
-          {/* Search icon with pulse */}
+          {/* Search icon — pulses gold when idle to draw attention */}
           <div className={`relative pl-4 transition-all duration-300 ${focused ? "pl-5" : ""}`}>
             <Search className={`transition-all duration-300 ${
               large ? "h-5 w-5" : "h-4 w-4"
             } ${
-              focused ? "text-accent scale-110" : "text-text-muted group-focus-within:text-accent"
+              focused ? "text-accent scale-110" : "text-accent/60 search-icon-pulse"
             }`} />
-            {focused && (
+            {!focused && (
               <div className="absolute inset-0 animate-pulse-gold">
-                <Search className={`h-5 w-5 text-accent/30`} />
+                <Search className={`h-5 w-5 text-accent/20`} />
               </div>
             )}
           </div>
@@ -187,7 +194,7 @@ export default function SearchBar({
               <div className={`hidden sm:flex items-center gap-1.5 rounded-lg border px-2.5 py-1 text-[11px] font-mono tracking-wider transition-all duration-300 ${
                 focused
                   ? "border-accent/30 bg-accent/10 text-accent"
-                  : "border-border bg-bg-tertiary text-text-muted"
+                  : "border-accent/20 bg-accent/5 text-accent/70"
               }`}>
                 <span className="text-xs">⌘</span>
                 <span>K</span>

@@ -80,6 +80,9 @@ export default function Home() {
           {/* Search */}
           <div className="hero-headline-delay-2 mx-auto max-w-xl">
             <SearchBar large />
+            <p className="mt-3 text-xs text-text-muted/50 font-body text-center">
+              Try: <span className="text-accent/60">forgiveness</span>, <span className="text-accent/60">afterlife</span>, <span className="text-accent/60">suffering</span>, <span className="text-accent/60">justice</span>
+            </p>
           </div>
 
           {/* Sample comparison questions — curiosity + controversy */}
