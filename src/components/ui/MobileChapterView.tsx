@@ -59,7 +59,7 @@ export default function MobileChapterView({ chapters, religion, bookSlug, bookTi
 
         {/* Current chapter */}
         {current && (
-          <div key={current.id}>
+          <div key={current.id} id={current.id}>
             <div className="mb-4 flex items-center gap-3">
               <NeonBar religion={religion} />
               <h3 className="text-lg font-bold text-text-primary font-display tracking-tight">
@@ -120,7 +120,7 @@ function AllChapters({ chapters, religion, bookSlug, bookTitle }: MobileChapterV
   return (
     <div className="space-y-8">
       {chapters.map((chapter) => (
-        <div key={chapter.id}>
+        <div key={chapter.id} id={chapter.id}>
           <div className="mb-4 flex items-center gap-3">
             <NeonBar religion={religion} />
             <h3 className="text-lg font-bold text-text-primary font-display tracking-tight">

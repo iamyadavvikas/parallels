@@ -1,6 +1,7 @@
 "use client";
 
 import type { Chapter, Religion } from "@/lib/types";
+import { useCallback } from "react";
 
 const traditionColors: Record<Religion, string> = {
   Hinduism: "var(--tradition-hinduism)",
@@ -30,6 +31,15 @@ export default function ChapterNav({
   const color = traditionColors[religion];
   const glow = traditionGlows[religion];
 
+  const handleChapterClick = useCallback((e: React.MouseEvent<HTMLAnchorElement>, chId: string) => {
+    e.preventDefault();
+    const el = document.getElementById(chId);
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth" });
+      history.replaceState(null, "", `#${chId}`);
+    }
+  }, []);
+
   return (
     <>
       <nav className="hidden lg:block">
@@ -38,6 +48,7 @@ export default function ChapterNav({
             <li key={ch.id}>
               <a
                 href={`#${ch.id}`}
+                onClick={(e) => handleChapterClick(e, ch.id)}
                 className="flex items-center gap-2 rounded-lg px-2.5 py-1.5 text-sm text-text-muted hover:bg-glass hover:text-text-primary transition-all duration-300 font-body group/ch"
               >
                 <span
@@ -59,6 +70,7 @@ export default function ChapterNav({
           onChange={(e) => {
             if (e.target.value) {
               document.getElementById(e.target.value)?.scrollIntoView({ behavior: "smooth" });
+              history.replaceState(null, "", `#${e.target.value}`);
             }
           }}
           defaultValue=""
