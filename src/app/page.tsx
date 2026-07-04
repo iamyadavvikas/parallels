@@ -24,38 +24,27 @@ const traditionIcons: Record<string, string> = {
 export default function Home() {
   return (
     <div className="space-y-20 page-enter">
-      {/* ═══ HERO — Futuristic Aurora ═══ */}
+      {/* ═══ HERO — Galaxy ═══ */}
       <section className="relative overflow-hidden rounded-3xl bg-bg-surface px-6 py-24 text-center sm:px-16 sm:py-32"
         style={{ boxShadow: '0 0 80px rgba(255, 209, 102, 0.04), 0 4px 24px var(--color-shadow-sm), 0 32px 100px var(--color-shadow-md)' }}>
-        {/* Aurora mesh background */}
-        <div className="hero-depth-layer depth-1 hero-mesh" />
+        {/* Nebula — slow rotating conic gradient */}
+        <div className="galaxy-layer galaxy-nebula" />
 
-        {/* Floating glow orbs — larger, more vivid */}
-        <div className="hero-depth-layer depth-2">
-          <div className="hero-glow-morph absolute left-[8%] top-[12%] h-72 w-72 rounded-full opacity-[0.08]"
-            style={{ background: `radial-gradient(circle, var(--tradition-hinduism) 0%, transparent 70%)` }} />
-          <div className="hero-glow-morph absolute right-[10%] top-[20%] h-64 w-64 rounded-full opacity-[0.07]"
-            style={{ background: `radial-gradient(circle, var(--tradition-christianity) 0%, transparent 70%)`, animationDelay: '-4s' }} />
-          <div className="hero-glow-morph absolute left-[40%] bottom-[8%] h-56 w-56 rounded-full opacity-[0.06]"
-            style={{ background: `radial-gradient(circle, var(--tradition-islam) 0%, transparent 70%)`, animationDelay: '-8s' }} />
-          <div className="hero-glow-morph absolute right-[5%] bottom-[15%] h-48 w-48 rounded-full opacity-[0.06]"
-            style={{ background: `radial-gradient(circle, var(--tradition-judaism) 0%, transparent 70%)`, animationDelay: '-12s' }} />
-          <div className="hero-glow-morph absolute left-[20%] top-[60%] h-40 w-40 rounded-full opacity-[0.05]"
-            style={{ background: `radial-gradient(circle, var(--tradition-sikhism) 0%, transparent 70%)`, animationDelay: '-6s' }} />
-          <div className="hero-glow-morph absolute right-[30%] top-[10%] h-36 w-36 rounded-full opacity-[0.05]"
-            style={{ background: `radial-gradient(circle, var(--tradition-buddhism) 0%, transparent 70%)`, animationDelay: '-10s' }} />
-        </div>
+        {/* Star field — twinkling dots */}
+        <div className="galaxy-layer galaxy-stars" />
 
-        {/* Dot grid — subtle constellation */}
-        <div className="hero-depth-layer depth-3 absolute inset-0 opacity-[0.02]"
-          style={{
-            backgroundImage: `radial-gradient(circle, var(--color-accent) 0.5px, transparent 0.5px)`,
-            backgroundSize: "40px 40px",
-          }} />
+        {/* Orbit rings — faint circles */}
+        <div className="galaxy-orbit-ring" style={{ width: 240, height: 240, marginTop: -120, marginLeft: -120 }} />
+        <div className="galaxy-orbit-ring" style={{ width: 360, height: 360, marginTop: -180, marginLeft: -180 }} />
+        <div className="galaxy-orbit-ring" style={{ width: 500, height: 500, marginTop: -250, marginLeft: -250 }} />
 
-        {/* Horizontal neon line */}
-        <div className="absolute left-1/2 top-0 h-px w-64 -translate-x-1/2 bg-gradient-to-r from-transparent via-accent/40 to-transparent" />
-        <div className="absolute left-1/2 bottom-0 h-px w-48 -translate-x-1/2 bg-gradient-to-r from-transparent via-accent/20 to-transparent" />
+        {/* Orbiting planets — one per tradition */}
+        <div className="galaxy-planet" style={{ width: 6, height: 6, background: 'var(--tradition-hinduism)', '--orbit-radius': '120px', '--orbit-duration': '18s', animationDelay: '0s' } as React.CSSProperties} />
+        <div className="galaxy-planet" style={{ width: 5, height: 5, background: 'var(--tradition-christianity)', '--orbit-radius': '180px', '--orbit-duration': '25s', animationDelay: '-5s' } as React.CSSProperties} />
+        <div className="galaxy-planet" style={{ width: 7, height: 7, background: 'var(--tradition-islam)', '--orbit-radius': '250px', '--orbit-duration': '35s', animationDelay: '-12s' } as React.CSSProperties} />
+        <div className="galaxy-planet" style={{ width: 5, height: 5, background: 'var(--tradition-judaism)', '--orbit-radius': '140px', '--orbit-duration': '22s', animationDelay: '-8s' } as React.CSSProperties} />
+        <div className="galaxy-planet" style={{ width: 4, height: 4, background: 'var(--tradition-sikhism)', '--orbit-radius': '200px', '--orbit-duration': '30s', animationDelay: '-15s' } as React.CSSProperties} />
+        <div className="galaxy-planet" style={{ width: 6, height: 6, background: 'var(--tradition-buddhism)', '--orbit-radius': '160px', '--orbit-duration': '28s', animationDelay: '-3s' } as React.CSSProperties} />
 
         <div className="relative z-10">
           {/* Sigil — neon glow */}
