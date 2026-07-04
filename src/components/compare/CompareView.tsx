@@ -24,6 +24,15 @@ const religionOrbColors: Record<Religion, string> = {
   Buddhism: "var(--tradition-buddhism)",
 };
 
+const religionSymbols: Record<Religion, string> = {
+  Hinduism: "🕉",
+  Christianity: "✝",
+  Islam: "☪",
+  Judaism: "✡",
+  Sikhism: "☬",
+  Buddhism: "☸",
+};
+
 
 export default function CompareView({ initialTopic, initialQuestion }: CompareViewProps) {
   const [selectedBooks, setSelectedBooks] = useState<Book[]>([]);
@@ -50,6 +59,9 @@ export default function CompareView({ initialTopic, initialQuestion }: CompareVi
 
   const passages = useMemo(() => {
     const result: Passage[] = [];
+    const MAX_PER_BOOK = 15; // Cap per tradition to prevent dominance
+    const countsByBook = new Map<string, number>();
+    const seenVerseIds = new Set<string>();
 
     if (selectedTopic) {
       const topic = topics.find((t) => t.id === selectedTopic);
@@ -67,9 +79,15 @@ export default function CompareView({ initialTopic, initialQuestion }: CompareVi
       if (question) {
         for (const keyword of question.keywords) {
           for (const book of selectedBooks.length > 0 ? selectedBooks : allBooks) {
+            const bookCount = countsByBook.get(book.id) || 0;
+            if (bookCount >= MAX_PER_BOOK) continue;
+
             for (const chapter of book.chapters) {
               for (const verse of chapter.verses) {
+                if (seenVerseIds.has(verse.id)) continue;
                 if (verse.text.toLowerCase().includes(keyword)) {
+                  seenVerseIds.add(verse.id);
+                  countsByBook.set(book.id, (countsByBook.get(book.id) || 0) + 1);
                   result.push({
                     bookId: book.id,
                     bookTitle: book.title,
@@ -80,8 +98,10 @@ export default function CompareView({ initialTopic, initialQuestion }: CompareVi
                     text: verse.translation || verse.text,
                     source: verse.source,
                   });
+                  if ((countsByBook.get(book.id) || 0) >= MAX_PER_BOOK) break;
                 }
               }
+              if ((countsByBook.get(book.id) || 0) >= MAX_PER_BOOK) break;
             }
           }
         }
@@ -98,11 +118,26 @@ export default function CompareView({ initialTopic, initialQuestion }: CompareVi
     setFusionResult("");
     setFusionError("");
     try {
+      // Shuffle and balance passages so no single tradition dominates the AI prompt
+      const byReligion = new Map<string, typeof passages>();
+      for (const p of passages) {
+        const arr = byReligion.get(p.religion) || [];
+        arr.push(p);
+        byReligion.set(p.religion, arr);
+      }
+      const balanced: typeof passages = [];
+      const maxPerReligion = 10;
+      for (const [, arr] of byReligion) {
+        balanced.push(...arr.slice(0, maxPerReligion));
+      }
+      // Interleave by religion for mixed context
+      balanced.sort((a, b) => a.religion.localeCompare(b.religion));
+
       const res = await fetch("/api/fuse", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          passages: passages.map((p) => ({
+          passages: balanced.map((p) => ({
             religion: p.religion,
             bookTitle: p.bookTitle,
             text: p.text,
@@ -280,8 +315,8 @@ export default function CompareView({ initialTopic, initialQuestion }: CompareVi
                       background: `radial-gradient(circle at 30% 30%, ${religionOrbColors[book.religion]}20, transparent)`,
                     }}
                   >
-                    <span className="text-sm font-bold" style={{ color: religionOrbColors[book.religion] }}>
-                      {book.title[0]}
+                    <span className="text-xl" style={{ color: religionOrbColors[book.religion] }}>
+                      {religionSymbols[book.religion]}
                     </span>
                   </div>
                   <span className="absolute -bottom-5 left-1/2 -translate-x-1/2 text-[10px] font-mono tracking-wider text-text-muted whitespace-nowrap">

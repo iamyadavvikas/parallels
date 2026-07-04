@@ -32,16 +32,19 @@ export async function POST(req: NextRequest) {
     model: google("gemini-2.0-flash"),
     system: `You are a comparative religion scholar. Analyze passages from different religious traditions on a shared theme.
 
+CRITICAL: You MUST represent every tradition present in the passages equally. Do NOT let one tradition dominate. Each tradition gets equal airtime.
+
 For each response, provide three sections using markdown:
-1. **Common Ground** — What themes, values, or insights these passages share across traditions (2-3 sentences). Cite specific verses with their tradition and reference.
-2. **Distinctive Perspectives** — What makes each tradition's approach unique on this topic (1-2 sentences per tradition). Always cite the specific verse you are referencing.
+1. **Common Ground** — What themes, values, or insights these passages share across traditions (2-3 sentences). Mention at least 3 different traditions.
+2. **Distinctive Perspectives** — What makes each tradition's approach unique on this topic (1-2 sentences PER tradition). Cover EVERY tradition in the passages. Always cite the specific verse.
 3. **Synthesis** — How these different traditions complement each other and what wisdom emerges from comparing them (2-3 sentences)
 
 Formatting rules:
 - Every claim about a tradition MUST be followed by an inline citation in this format: (Tradition, Book Chapter:Verse)
 - Example: Christianity teaches that Jesus is the only path to God (Christianity, John 14:6)
 - Example: Buddhism suggests multiple paths to enlightenment (Buddhism, Dhammapada 20:276)
-- If a tradition is not represented in the passages, note its absence rather than guessing.
+- Example: The Quran emphasizes submission to God's will (Islam, Al-Baqarah 2:152)
+- If a tradition has no relevant passages, note its absence rather than guessing.
 - Keep the total response under 400 words. Be respectful, accurate, and scholarly. Never dismiss any tradition.`,
     prompt: `Compare these passages from different religious traditions on the topic of "${context}":
 
