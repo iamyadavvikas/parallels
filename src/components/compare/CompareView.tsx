@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo, useCallback, useRef } from "react";
+import { useState, useMemo, useCallback, useRef, useEffect } from "react";
 import type { Book, Passage, Religion } from "@/lib/types";
 import { religionDotColors, religionGlowColors } from "@/lib/utils";
 import { books as allBooks, topics, questions } from "@/data";
@@ -146,6 +146,22 @@ export default function CompareView({ initialTopic, initialQuestion }: CompareVi
     setFusing(false);
     setShowResults(true);
   }, [passages, selectedTopic, selectedQuestion, topics, questions]);
+
+  // Auto-select all books on mount when coming from deep-link
+  useEffect(() => {
+    if ((initialTopic || initialQuestion) && selectedBooks.length === 0) {
+      setSelectedBooks([...allBooks]);
+    }
+  }, [initialTopic, initialQuestion, selectedBooks.length]);
+
+  // Auto-trigger fusion when initialQuestion is set and passages are ready
+  const autoTriggeredRef = useRef(false);
+  useEffect(() => {
+    if ((initialTopic || initialQuestion) && !autoTriggeredRef.current && passages.length > 0 && !fusing && !showResults) {
+      autoTriggeredRef.current = true;
+      setTimeout(() => triggerFusion(), 300);
+    }
+  }, [initialTopic, initialQuestion, passages.length, fusing, showResults, triggerFusion]);
 
   function toggleBook(book: Book) {
     setSelectedBooks((prev) =>
