@@ -46,1504 +46,6 @@
   ],
   "chapters": [
     {
-      "id": "bible-gen-12",
-      "number": 12,
-      "title": "Genesis 12 — The Call of Abraham",
-      "verses": [
-        {
-          "id": "bible-gen-12-1",
-          "number": 1,
-          "text": "Now the LORD had said unto Abram, Get thee out of thy country, and from thy kindred, and from thy father's house, unto a land that I will shew thee.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "God calls Abraham to leave his homeland and promises to make him a great nation, blessing all peoples through him. As it is written: \"Now the LORD had said unto Abram, Get thee out of thy country, and from thy k....\""
-        },
-        {
-          "id": "bible-gen-12-2",
-          "number": 2,
-          "text": "And I will make of thee a great nation, and I will bless thee, and make thy name great; and thou shalt be a blessing.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "God calls Abraham to leave his homeland and promises to make him a great nation, blessing all peoples through him. As it is written: \"And I will make of thee a great nation, and I will bless thee, and make thy n....\""
-        },
-        {
-          "id": "bible-gen-12-3",
-          "number": 3,
-          "text": "And I will bless them that bless thee, and curse him that curseth thee: and in thee shall all families of the earth be blessed.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "God calls Abraham to leave his homeland and promises to make him a great nation, blessing all peoples through him. As it is written: \"And I will bless them that bless thee, and curse him that curseth thee: and i....\""
-        }
-      ]
-    },
-    {
-      "id": "bible-exo-20",
-      "number": 20,
-      "title": "Exodus 20 — The Ten Commandments",
-      "verses": [
-        {
-          "id": "bible-exo-20-1",
-          "number": 1,
-          "text": "And God spake all these words, saying,",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "God gives the Ten Commandments to Israel at Mount Sinai, establishing His covenant law. Here we read: \"And God spake all these words, saying,.\""
-        },
-        {
-          "id": "bible-exo-20-3",
-          "number": 3,
-          "text": "Thou shalt have no other gods before me.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "God gives the Ten Commandments to Israel at Mount Sinai, establishing His covenant law, commanding His people: \"Thou shalt have no other gods before me.\""
-        },
-        {
-          "id": "bible-exo-20-7",
-          "number": 7,
-          "text": "Thou shalt not take the name of the LORD thy God in vain; for the LORD will not hold him guiltless that taketh his name in vain.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "God gives the Ten Commandments to Israel at Mount Sinai, establishing His covenant law, commanding His people: \"Thou shalt not take the name of the LORD thy God in vain; for the LORD will n....\""
-        },
-        {
-          "id": "bible-exo-20-8",
-          "number": 8,
-          "text": "Remember the sabbath day, to keep it holy.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "God gives the Ten Commandments to Israel at Mount Sinai, establishing His covenant law. As it is written: \"Remember the sabbath day, to keep it holy.\""
-        },
-        {
-          "id": "bible-exo-20-12",
-          "number": 12,
-          "text": "Honour thy father and thy mother: that thy days may be long upon the land which the LORD thy God giveth thee.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "God gives the Ten Commandments to Israel at Mount Sinai, establishing His covenant law. As it is written: \"Honour thy father and thy mother: that thy days may be long upon the land whi....\""
-        },
-        {
-          "id": "bible-exo-20-13",
-          "number": 13,
-          "text": "Thou shalt not kill.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "God gives the Ten Commandments to Israel at Mount Sinai, establishing His covenant law, commanding His people: \"Thou shalt not kill.\""
-        },
-        {
-          "id": "bible-exo-20-14",
-          "number": 14,
-          "text": "Thou shalt not commit adultery.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "God gives the Ten Commandments to Israel at Mount Sinai, establishing His covenant law, commanding His people: \"Thou shalt not commit adultery.\""
-        },
-        {
-          "id": "bible-exo-20-15",
-          "number": 15,
-          "text": "Thou shalt not steal.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "God gives the Ten Commandments to Israel at Mount Sinai, establishing His covenant law, commanding His people: \"Thou shalt not steal.\""
-        },
-        {
-          "id": "bible-exo-20-16",
-          "number": 16,
-          "text": "Thou shalt not bear false witness against thy neighbour.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "God gives the Ten Commandments to Israel at Mount Sinai, establishing His covenant law, commanding His people: \"Thou shalt not bear false witness against thy neighbour.\""
-        },
-        {
-          "id": "bible-exo-20-17",
-          "number": 17,
-          "text": "Thou shalt not covet thy neighbour's house, thou shalt not covet thy neighbour's wife, nor his manservant, nor his maidservant, nor his ox, nor his ass, nor any thing that is thy neighbour's.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "God gives the Ten Commandments to Israel at Mount Sinai, establishing His covenant law, commanding His people: \"Thou shalt not covet thy neighbour's house, thou shalt not covet thy neighbou....\""
-        }
-      ]
-    },
-    {
-      "id": "bible-ps-23",
-      "number": 23,
-      "title": "Psalm 23 — The Lord Is My Shepherd",
-      "verses": [
-        {
-          "id": "bible-ps-23-1",
-          "number": 1,
-          "text": "The LORD is my shepherd; I shall not want.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "David expresses complete trust in the Lord's guidance, provision, and protection, declaring: \"The LORD is my shepherd; I shall not want.\""
-        },
-        {
-          "id": "bible-ps-23-2",
-          "number": 2,
-          "text": "He maketh me to lie down in green pastures: he leadeth me beside the still waters.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "David expresses complete trust in the Lord's guidance, provision, and protection. As it is written: \"He maketh me to lie down in green pastures: he leadeth me beside the still wa....\""
-        },
-        {
-          "id": "bible-ps-23-3",
-          "number": 3,
-          "text": "He restoreth my soul: he leadeth me in the paths of righteousness for his name's sake.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "David expresses complete trust in the Lord's guidance, provision, and protection. As it is written: \"He restoreth my soul: he leadeth me in the paths of righteousness for his nam....\""
-        },
-        {
-          "id": "bible-ps-23-4",
-          "number": 4,
-          "text": "Yea, though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me; thy rod and thy staff they comfort me.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "David expresses complete trust in the Lord's guidance, provision, and protection. As it is written: \"Yea, though I walk through the valley of the shadow of death, I will fear no ....\""
-        },
-        {
-          "id": "bible-ps-23-5",
-          "number": 5,
-          "text": "Thou preparest a table before me in the presence of mine enemies: thou anointest my head with oil; my cup runneth over.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "David expresses complete trust in the Lord's guidance, provision, and protection, commanding His people: \"Thou preparest a table before me in the presence of mine enemies: thou anoint....\""
-        },
-        {
-          "id": "bible-ps-23-6",
-          "number": 6,
-          "text": "Surely goodness and mercy shall follow me all the days of my life: and I will dwell in the house of the LORD for ever.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "David expresses complete trust in the Lord's guidance, provision, and protection. As it is written: \"Surely goodness and mercy shall follow me all the days of my life: and I will....\""
-        }
-      ]
-    },
-    {
-      "id": "bible-isa-53",
-      "number": 53,
-      "title": "Isaiah 53 — The Suffering Servant",
-      "verses": [
-        {
-          "id": "bible-isa-53-3",
-          "number": 3,
-          "text": "He is despised and rejected of men; a man of sorrows, and acquainted with grief: and we hid as it were our faces from him; he was despised, and we esteemed him not.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "The prophecy of the Messiah who suffers for the sins of His people. As it is written: \"He is despised and rejected of men; a man of sorrows, and acquainted with gri....\""
-        },
-        {
-          "id": "bible-isa-53-4",
-          "number": 4,
-          "text": "Surely he hath borne our griefs, and carried our sorrows: yet we did esteem him stricken, smitten of God, and afflicted.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "The prophecy of the Messiah who suffers for the sins of His people. As it is written: \"Surely he hath borne our griefs, and carried our sorrows: yet we did esteem h....\""
-        },
-        {
-          "id": "bible-isa-53-5",
-          "number": 5,
-          "text": "But he was wounded for our transgressions, he was bruised for our iniquities: the chastisement of our peace was upon him; and with his stripes we are healed.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "The prophecy of the Messiah who suffers for the sins of His people. As it is written: \"But he was wounded for our transgressions, he was bruised for our iniquities:....\""
-        }
-      ]
-    },
-    {
-      "id": "bible-matt-5",
-      "number": 5,
-      "title": "Matthew 5 — The Sermon on the Mount",
-      "verses": [
-        {
-          "id": "bible-matt-5-3",
-          "number": 3,
-          "text": "Blessed are the poor in spirit: for theirs is the kingdom of heaven.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus teaches the Beatitudes and the principles of the Kingdom of Heaven. Jesus declares: \"Blessed are the poor in spirit: for theirs is the kingdom of heaven.\""
-        },
-        {
-          "id": "bible-matt-5-4",
-          "number": 4,
-          "text": "Blessed are they that mourn: for they shall be comforted.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus teaches the Beatitudes and the principles of the Kingdom of Heaven. Jesus declares: \"Blessed are they that mourn: for they shall be comforted.\""
-        },
-        {
-          "id": "bible-matt-5-5",
-          "number": 5,
-          "text": "Blessed are the meek: for they shall inherit the earth.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus teaches the Beatitudes and the principles of the Kingdom of Heaven. Jesus declares: \"Blessed are the meek: for they shall inherit the earth.\""
-        },
-        {
-          "id": "bible-matt-5-6",
-          "number": 6,
-          "text": "Blessed are they which do hunger and thirst after righteousness: for they shall be filled.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus teaches the Beatitudes and the principles of the Kingdom of Heaven. Jesus declares: \"Blessed are they which do hunger and thirst after righteousness: for they sha....\""
-        },
-        {
-          "id": "bible-matt-5-7",
-          "number": 7,
-          "text": "Blessed are the merciful: for they shall obtain mercy.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus teaches the Beatitudes and the principles of the Kingdom of Heaven. Jesus declares: \"Blessed are the merciful: for they shall obtain mercy.\""
-        },
-        {
-          "id": "bible-matt-5-8",
-          "number": 8,
-          "text": "Blessed are the pure in heart: for they shall see God.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus teaches the Beatitudes and the principles of the Kingdom of Heaven. Jesus declares: \"Blessed are the pure in heart: for they shall see God.\""
-        },
-        {
-          "id": "bible-matt-5-9",
-          "number": 9,
-          "text": "Blessed are the peacemakers: for they shall be called the children of God.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus teaches the Beatitudes and the principles of the Kingdom of Heaven. Jesus declares: \"Blessed are the peacemakers: for they shall be called the children of God.\""
-        },
-        {
-          "id": "bible-matt-5-12",
-          "number": 12,
-          "text": "Rejoice, and be exceeding glad: for great is your reward in heaven: for so persecuted they the prophets which were before you.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus teaches the Beatitudes and the principles of the Kingdom of Heaven. As it is written: \"Rejoice, and be exceeding glad: for great is your reward in heaven: for so pe....\""
-        },
-        {
-          "id": "bible-matt-5-16",
-          "number": 16,
-          "text": "Let your light so shine before men, that they may see your good works, and glorify your Father which is in heaven.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus teaches the Beatitudes and the principles of the Kingdom of Heaven, commanding His people: \"Let your light so shine before men, that they may see your good works, and gl....\""
-        },
-        {
-          "id": "bible-matt-5-43",
-          "number": 43,
-          "text": "Ye have heard that it hath been said, Thou shalt love thy neighbour, and hate thine enemy.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus teaches the Beatitudes and the principles of the Kingdom of Heaven, commanding His people: \"Ye have heard that it hath been said, Thou shalt love thy neighbour, and hate....\""
-        },
-        {
-          "id": "bible-matt-5-44",
-          "number": 44,
-          "text": "But I say unto you, Love your enemies, bless them that curse you, do good to them that hate you, and pray for them which despitefully use you, and persecute you.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus teaches the Beatitudes and the principles of the Kingdom of Heaven. As it is written: \"But I say unto you, Love your enemies, bless them that curse you, do good to ....\""
-        },
-        {
-          "id": "bible-matt-5-48",
-          "number": 48,
-          "text": "Be ye therefore perfect, even as your Father which is in heaven is perfect.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus teaches the Beatitudes and the principles of the Kingdom of Heaven. As it is written: \"Be ye therefore perfect, even as your Father which is in heaven is perfect.\""
-        }
-      ]
-    },
-    {
-      "id": "bible-matt-6",
-      "number": 6,
-      "title": "Matthew 6 — The Lord's Prayer",
-      "verses": [
-        {
-          "id": "bible-matt-6-9",
-          "number": 9,
-          "text": "After this manner therefore pray ye: Our Father which art in heaven, Hallowed be thy name.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus teaches about prayer, fasting, and trusting God rather than wealth. As it is written: \"After this manner therefore pray ye: Our Father which art in heaven, Hallowed....\""
-        },
-        {
-          "id": "bible-matt-6-10",
-          "number": 10,
-          "text": "Thy kingdom come. Thy will be done in earth, as it is in heaven.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus teaches about prayer, fasting, and trusting God rather than wealth. As it is written: \"Thy kingdom come. Thy will be done in earth, as it is in heaven.\""
-        },
-        {
-          "id": "bible-matt-6-11",
-          "number": 11,
-          "text": "Give us this day our daily bread.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus teaches about prayer, fasting, and trusting God rather than wealth. As it is written: \"Give us this day our daily bread.\""
-        },
-        {
-          "id": "bible-matt-6-12",
-          "number": 12,
-          "text": "And forgive us our debts, as we forgive our debtors.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus teaches about prayer, fasting, and trusting God rather than wealth. As it is written: \"And forgive us our debts, as we forgive our debtors.\""
-        },
-        {
-          "id": "bible-matt-6-14",
-          "number": 14,
-          "text": "For if ye forgive men their trespasses, your heavenly Father will also forgive you.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus teaches about prayer, fasting, and trusting God rather than wealth. As it is written: \"For if ye forgive men their trespasses, your heavenly Father will also forgiv....\""
-        }
-      ]
-    },
-    {
-      "id": "bible-matt-22",
-      "number": 22,
-      "title": "Matthew 22 — The Greatest Commandment",
-      "verses": [
-        {
-          "id": "bible-matt-22-36",
-          "number": 36,
-          "text": "Master, which is the great commandment in the law?",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus teaches the greatest commandments and answers the religious leaders. As it is written: \"Master, which is the great commandment in the law?.\""
-        },
-        {
-          "id": "bible-matt-22-37",
-          "number": 37,
-          "text": "Jesus said unto him, Thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy mind.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus teaches the greatest commandments and answers the religious leaders. Jesus teaches: \"Jesus said unto him, Thou shalt love the Lord thy God with all thy heart, and....\""
-        },
-        {
-          "id": "bible-matt-22-38",
-          "number": 38,
-          "text": "This is the first and great commandment.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus teaches the greatest commandments and answers the religious leaders. As it is written: \"This is the first and great commandment.\""
-        },
-        {
-          "id": "bible-matt-22-39",
-          "number": 39,
-          "text": "And the second is like unto it, Thou shalt love thy neighbour as thyself.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus teaches the greatest commandments and answers the religious leaders, commanding His people: \"And the second is like unto it, Thou shalt love thy neighbour as thyself.\""
-        },
-        {
-          "id": "bible-matt-22-40",
-          "number": 40,
-          "text": "On these two commandments hang all the law and the prophets.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus teaches the greatest commandments and answers the religious leaders. As it is written: \"On these two commandments hang all the law and the prophets.\""
-        }
-      ]
-    },
-    {
-      "id": "bible-matt-28",
-      "number": 28,
-      "title": "Matthew 28 — The Great Commission",
-      "verses": [
-        {
-          "id": "bible-matt-28-19",
-          "number": 19,
-          "text": "Go ye therefore, and teach all nations, baptizing them in the name of the Father, and of the Son, and of the Holy Ghost.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus rises from the dead and commissions His disciples, commanding His people: \"Go ye therefore, and teach all nations, baptizing them in the name of the Fat....\""
-        },
-        {
-          "id": "bible-matt-28-20",
-          "number": 20,
-          "text": "Teaching them to observe all things whatsoever I have commanded you: and, lo, I am with you always, even unto the end of the world.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus rises from the dead and commissions His disciples, with the instruction: \"Teaching them to observe all things whatsoever I have commanded you: and, lo,....\""
-        }
-      ]
-    },
-    {
-      "id": "bible-john-1",
-      "number": 1,
-      "title": "John 1 — The Word Became Flesh",
-      "verses": [
-        {
-          "id": "bible-john-1-1",
-          "number": 1,
-          "text": "In the beginning was the Word, and the Word was with God, and the Word was God.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "The Word (Jesus) becomes flesh, and John the Baptist testifies of Him. This opening verse declares: \"In the beginning was the Word, and the Word was with God, and the Word was God.\""
-        },
-        {
-          "id": "bible-john-1-2",
-          "number": 2,
-          "text": "The same was in the beginning with God.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "The Word (Jesus) becomes flesh, and John the Baptist testifies of Him. As it is written: \"The same was in the beginning with God.\""
-        },
-        {
-          "id": "bible-john-1-3",
-          "number": 3,
-          "text": "All things were made by him; and without him was not any thing made that was made.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "The Word (Jesus) becomes flesh, and John the Baptist testifies of Him. As it is written: \"All things were made by him; and without him was not any thing made that was ....\""
-        },
-        {
-          "id": "bible-john-1-4",
-          "number": 4,
-          "text": "In him was life; and the life was the light of men.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "The Word (Jesus) becomes flesh, and John the Baptist testifies of Him. As it is written: \"In him was life; and the life was the light of men.\""
-        },
-        {
-          "id": "bible-john-1-5",
-          "number": 5,
-          "text": "And the light shineth in darkness; and the darkness comprehended it not.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "The Word (Jesus) becomes flesh, and John the Baptist testifies of Him. As it is written: \"And the light shineth in darkness; and the darkness comprehended it not.\""
-        },
-        {
-          "id": "bible-john-1-14",
-          "number": 14,
-          "text": "And the Word was made flesh, and dwelt among us, (and we beheld his glory, the glory as of the only begotten of the Father,) full of grace and truth.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "The Word (Jesus) becomes flesh, and John the Baptist testifies of Him. As it is written: \"And the Word was made flesh, and dwelt among us, (and we beheld his glory, th....\""
-        }
-      ]
-    },
-    {
-      "id": "bible-john-3",
-      "number": 3,
-      "title": "John 3 — For God So Loved the World",
-      "verses": [
-        {
-          "id": "bible-john-3-3",
-          "number": 3,
-          "text": "Jesus answered and said unto him, Verily, verily, I say unto thee, Except a man be born again, he cannot see the kingdom of God.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus teaches Nicodemus about being born again and God's love for the world. Jesus teaches: \"Jesus answered and said unto him, Verily, verily, I say unto thee, Except a m....\""
-        },
-        {
-          "id": "bible-john-3-5",
-          "number": 5,
-          "text": "Jesus answered, Verily, verily, I say unto thee, Except a man be born of water and of the Spirit, he cannot enter into the kingdom of God.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus teaches Nicodemus about being born again and God's love for the world. Jesus teaches: \"Jesus answered, Verily, verily, I say unto thee, Except a man be born of wate....\""
-        },
-        {
-          "id": "bible-john-3-16",
-          "number": 16,
-          "text": "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus teaches Nicodemus about being born again and God's love for the world. John reveals: \"For God so loved the world, that he gave his only begotten Son, that whosoeve....\""
-        },
-        {
-          "id": "bible-john-3-17",
-          "number": 17,
-          "text": "For God sent not his Son into the world to condemn the world; but that the world through him might be saved.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus teaches Nicodemus about being born again and God's love for the world. John reveals: \"For God sent not his Son into the world to condemn the world; but that the wo....\""
-        }
-      ]
-    },
-    {
-      "id": "bible-john-14",
-      "number": 14,
-      "title": "John 14 — The Way, the Truth, and the Life",
-      "verses": [
-        {
-          "id": "bible-john-14-1",
-          "number": 1,
-          "text": "Let not your heart be troubled: ye believe in God, believe also in me.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus comforts His disciples and declares Himself the way, the truth, and the life, commanding His people: \"Let not your heart be troubled: ye believe in God, believe also in me.\""
-        },
-        {
-          "id": "bible-john-14-2",
-          "number": 2,
-          "text": "In my Father's house are many mansions: if it were not so, I would have told you. I go to prepare a place for you.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus comforts His disciples and declares Himself the way, the truth, and the life. As it is written: \"In my Father's house are many mansions: if it were not so, I would have told ....\""
-        },
-        {
-          "id": "bible-john-14-3",
-          "number": 3,
-          "text": "And if I go and prepare a place for you, I will come again, and receive you unto myself; that where I am, there ye may be also.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus comforts His disciples and declares Himself the way, the truth, and the life. As it is written: \"And if I go and prepare a place for you, I will come again, and receive you u....\""
-        },
-        {
-          "id": "bible-john-14-6",
-          "number": 6,
-          "text": "Jesus saith unto him, I am the way, the truth, and the life: no man cometh unto the Father, but by me.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus comforts His disciples and declares Himself the way, the truth, and the life. Jesus teaches: \"Jesus saith unto him, I am the way, the truth, and the life: no man cometh un....\""
-        },
-        {
-          "id": "bible-john-14-15",
-          "number": 15,
-          "text": "If ye love me, keep my commandments.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus comforts His disciples and declares Himself the way, the truth, and the life. As it is written: \"If ye love me, keep my commandments.\""
-        },
-        {
-          "id": "bible-john-14-27",
-          "number": 27,
-          "text": "Peace I leave with you, my peace I give unto you: not as the world giveth, give I unto you. Let not your heart be troubled, neither let it be afraid.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus comforts His disciples and declares Himself the way, the truth, and the life. As it is written: \"Peace I leave with you, my peace I give unto you: not as the world giveth, gi....\""
-        }
-      ]
-    },
-    {
-      "id": "bible-rom-8",
-      "number": 8,
-      "title": "Romans 8 — Life Through the Spirit",
-      "verses": [
-        {
-          "id": "bible-rom-8-1",
-          "number": 1,
-          "text": "There is therefore now no condemnation to them which are in Christ Jesus, who walk not after the flesh, but after the Spirit.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "There is no condemnation for those in Christ Jesus, and nothing can separate us from God's love. Paul declares: \"There is therefore now no condemnation to them which are in Christ Jesus, who....\""
-        },
-        {
-          "id": "bible-rom-8-2",
-          "number": 2,
-          "text": "For the law of the Spirit of life in Christ Jesus hath made me free from the law of sin and death.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "There is no condemnation for those in Christ Jesus, and nothing can separate us from God's love. As it is written: \"For the law of the Spirit of life in Christ Jesus hath made me free from the ....\""
-        },
-        {
-          "id": "bible-rom-8-28",
-          "number": 28,
-          "text": "And we know that all things work together for good to them that love God, to them who are the called according to his purpose.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "There is no condemnation for those in Christ Jesus, and nothing can separate us from God's love. As it is written: \"And we know that all things work together for good to them that love God, to ....\""
-        },
-        {
-          "id": "bible-rom-8-31",
-          "number": 31,
-          "text": "What shall we then say to these things? If God be for us, who can be against us?",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "There is no condemnation for those in Christ Jesus, and nothing can separate us from God's love. As it is written: \"What shall we then say to these things? If God be for us, who can be against us?.\""
-        },
-        {
-          "id": "bible-rom-8-38",
-          "number": 38,
-          "text": "For I am persuaded, that neither death, nor life, nor angels, nor principalities, nor powers, nor things present, nor things to come.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "There is no condemnation for those in Christ Jesus, and nothing can separate us from God's love. As it is written: \"For I am persuaded, that neither death, nor life, nor angels, nor principalit....\""
-        },
-        {
-          "id": "bible-rom-8-39",
-          "number": 39,
-          "text": "Nor height, nor depth, nor any other creature, shall be able to separate us from the love of God, which is in Christ Jesus our Lord.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "There is no condemnation for those in Christ Jesus, and nothing can separate us from God's love. As it is written: \"Nor height, nor depth, nor any other creature, shall be able to separate us f....\""
-        }
-      ]
-    },
-    {
-      "id": "bible-1cor-13",
-      "number": 13,
-      "title": "1 Corinthians 13 — The Love Chapter",
-      "verses": [
-        {
-          "id": "bible-1cor-13-4",
-          "number": 4,
-          "text": "Charity suffereth long, and is kind; charity envieth not; charity vaunteth not itself, is not puffed up.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Paul teaches that love is the greatest of all spiritual gifts, outlasting faith and hope. As it is written: \"Charity suffereth long, and is kind; charity envieth not; charity vaunteth no....\""
-        },
-        {
-          "id": "bible-1cor-13-5",
-          "number": 5,
-          "text": "Doth not behave itself unseemly, seeketh not her own, is not easily provoked, thinketh no evil.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Paul teaches that love is the greatest of all spiritual gifts, outlasting faith and hope. As it is written: \"Doth not behave itself unseemly, seeketh not her own, is not easily provoked,....\""
-        },
-        {
-          "id": "bible-1cor-13-6",
-          "number": 6,
-          "text": "Rejoiceth not in iniquity, but rejoiceth in the truth.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Paul teaches that love is the greatest of all spiritual gifts, outlasting faith and hope. As it is written: \"Rejoiceth not in iniquity, but rejoiceth in the truth.\""
-        },
-        {
-          "id": "bible-1cor-13-7",
-          "number": 7,
-          "text": "Beareth all things, believeth all things, hopeth all things, endureth all things.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Paul teaches that love is the greatest of all spiritual gifts, outlasting faith and hope. As it is written: \"Beareth all things, believeth all things, hopeth all things, endureth all things.\""
-        },
-        {
-          "id": "bible-1cor-13-8",
-          "number": 8,
-          "text": "Charity never faileth: but whether there be prophecies, they shall fail; whether there be tongues, they shall cease; whether there be knowledge, it shall vanish away.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Paul teaches that love is the greatest of all spiritual gifts, outlasting faith and hope. As it is written: \"Charity never faileth: but whether there be prophecies, they shall fail; whet....\""
-        },
-        {
-          "id": "bible-1cor-13-13",
-          "number": 13,
-          "text": "And now abideth faith, hope, charity, these three; but the greatest of these is charity.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Paul teaches that love is the greatest of all spiritual gifts, outlasting faith and hope. As it is written: \"And now abideth faith, hope, charity, these three; but the greatest of these ....\""
-        }
-      ]
-    },
-    {
-      "id": "bible-eph-2",
-      "number": 2,
-      "title": "Ephesians 2 — Saved by Grace",
-      "verses": [
-        {
-          "id": "bible-eph-2-8",
-          "number": 8,
-          "text": "For by grace are ye saved through faith; and that not of yourselves: it is the gift of God.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Salvation is by grace through faith, not by works, and believers are united in Christ. As it is written: \"For by grace are ye saved through faith; and that not of yourselves: it is th....\""
-        },
-        {
-          "id": "bible-eph-2-9",
-          "number": 9,
-          "text": "Not of works, lest any man should boast.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Salvation is by grace through faith, not by works, and believers are united in Christ. As it is written: \"Not of works, lest any man should boast.\""
-        },
-        {
-          "id": "bible-eph-2-10",
-          "number": 10,
-          "text": "For we are his workmanship, created in Christ Jesus unto good works, which God hath before ordained that we should walk in them.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Salvation is by grace through faith, not by works, and believers are united in Christ. As it is written: \"For we are his workmanship, created in Christ Jesus unto good works, which Go....\""
-        }
-      ]
-    },
-    {
-      "id": "bible-rev-21",
-      "number": 21,
-      "title": "Revelation 21 — The New Heaven and Earth",
-      "verses": [
-        {
-          "id": "bible-rev-21-1",
-          "number": 1,
-          "text": "And I saw a new heaven and a new earth: for the first heaven and the first earth were passed away; and there was no more sea.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "The vision of the new heaven, new earth, and the New Jerusalem where God dwells with His people. As it is written: \"And I saw a new heaven and a new earth: for the first heaven and the first ea....\""
-        },
-        {
-          "id": "bible-rev-21-4",
-          "number": 4,
-          "text": "And God shall wipe away all tears from their eyes; and there shall be no more death, neither sorrow, nor crying, neither shall there be any more pain: for the former things are passed away.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "The vision of the new heaven, new earth, and the New Jerusalem where God dwells with His people. Here we read: \"And God shall wipe away all tears from their eyes; and there shall be no more....\""
-        },
-        {
-          "id": "bible-rev-21-5",
-          "number": 5,
-          "text": "And he that sat upon the throne said, Behold, I make all things new.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "The vision of the new heaven, new earth, and the New Jerusalem where God dwells with His people. As it is written: \"And he that sat upon the throne said, Behold, I make all things new.\""
-        }
-      ]
-    },
-    {
-      "id": "bible-prov-3",
-      "number": 6,
-      "title": "Proverbs 3 — Trust in the Lord",
-      "verses": [
-        {
-          "id": "bible-prov-3-5",
-          "number": 5,
-          "text": "Trust in the LORD with all thine heart; and lean not unto thine own understanding.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Trust in the Lord with all your heart and acknowledge Him in all your ways. As it is written: \"Trust in the LORD with all thine heart; and lean not unto thine own understan....\""
-        },
-        {
-          "id": "bible-prov-3-6",
-          "number": 6,
-          "text": "In all thy ways acknowledge him, and he shall direct thy paths.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Trust in the Lord with all your heart and acknowledge Him in all your ways. As it is written: \"In all thy ways acknowledge him, and he shall direct thy paths.\""
-        },
-        {
-          "id": "bible-prov-3-7",
-          "number": 7,
-          "text": "Be not wise in thine own eyes: fear the LORD, and depart from evil.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Trust in the Lord with all your heart and acknowledge Him in all your ways. As it is written: \"Be not wise in thine own eyes: fear the LORD, and depart from evil.\""
-        }
-      ]
-    },
-    {
-      "id": "bible-isa-40",
-      "number": 7,
-      "title": "Isaiah 40 — Comfort for God's People",
-      "verses": [
-        {
-          "id": "bible-isa-40-3",
-          "number": 3,
-          "text": "The voice of him that crieth in the wilderness, Prepare ye the way of the LORD, make straight in the desert a highway for our God.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Comfort for God's people — a prophecy of preparation for the Lord's coming. As it is written: \"The voice of him that crieth in the wilderness, Prepare ye the way of the LOR....\""
-        },
-        {
-          "id": "bible-isa-40-8",
-          "number": 8,
-          "text": "The grass withereth, the flower fadeth: but the word of our God shall stand for ever.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Comfort for God's people — a prophecy of preparation for the Lord's coming. As it is written: \"The grass withereth, the flower fadeth: but the word of our God shall stand f....\""
-        },
-        {
-          "id": "bible-isa-40-31",
-          "number": 31,
-          "text": "But they that wait upon the LORD shall renew their strength; they shall mount up with wings as eagles; they shall run, and not be weary; and they shall walk, and not faint.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Comfort for God's people — a prophecy of preparation for the Lord's coming. As it is written: \"But they that wait upon the LORD shall renew their strength; they shall mount....\""
-        }
-      ]
-    },
-    {
-      "id": "bible-mat-5",
-      "number": 8,
-      "title": "Matthew 5 — The Beatitudes",
-      "verses": [
-        {
-          "id": "bible-mat-5-3",
-          "number": 3,
-          "text": "Blessed are the poor in spirit: for theirs is the kingdom of heaven.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus teaches the Beatitudes and the principles of the Kingdom of Heaven. Jesus declares: \"Blessed are the poor in spirit: for theirs is the kingdom of heaven.\""
-        },
-        {
-          "id": "bible-mat-5-4",
-          "number": 4,
-          "text": "Blessed are they that mourn: for they shall be comforted.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus teaches the Beatitudes and the principles of the Kingdom of Heaven. Jesus declares: \"Blessed are they that mourn: for they shall be comforted.\""
-        },
-        {
-          "id": "bible-mat-5-5",
-          "number": 5,
-          "text": "Blessed are the meek: for they shall inherit the earth.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus teaches the Beatitudes and the principles of the Kingdom of Heaven. Jesus declares: \"Blessed are the meek: for they shall inherit the earth.\""
-        },
-        {
-          "id": "bible-mat-5-6",
-          "number": 6,
-          "text": "Blessed are they which do hunger and thirst after righteousness: for they shall be filled.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus teaches the Beatitudes and the principles of the Kingdom of Heaven. Jesus declares: \"Blessed are they which do hunger and thirst after righteousness: for they sha....\""
-        },
-        {
-          "id": "bible-mat-5-7",
-          "number": 7,
-          "text": "Blessed are the merciful: for they shall obtain mercy.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus teaches the Beatitudes and the principles of the Kingdom of Heaven. Jesus declares: \"Blessed are the merciful: for they shall obtain mercy.\""
-        },
-        {
-          "id": "bible-mat-5-8",
-          "number": 8,
-          "text": "Blessed are the pure in heart: for they shall see God.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus teaches the Beatitudes and the principles of the Kingdom of Heaven. Jesus declares: \"Blessed are the pure in heart: for they shall see God.\""
-        },
-        {
-          "id": "bible-mat-5-9",
-          "number": 9,
-          "text": "Blessed are the peacemakers: for they shall be called the children of God.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus teaches the Beatitudes and the principles of the Kingdom of Heaven. Jesus declares: \"Blessed are the peacemakers: for they shall be called the children of God.\""
-        },
-        {
-          "id": "bible-mat-5-14",
-          "number": 14,
-          "text": "Ye are the light of the world. A city that is set on an hill cannot be hid.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus teaches the Beatitudes and the principles of the Kingdom of Heaven. As it is written: \"Ye are the light of the world. A city that is set on an hill cannot be hid.\""
-        },
-        {
-          "id": "bible-mat-5-16",
-          "number": 16,
-          "text": "Let your light so shine before men, that they may see your good works, and glorify your Father which is in heaven.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus teaches the Beatitudes and the principles of the Kingdom of Heaven, commanding His people: \"Let your light so shine before men, that they may see your good works, and gl....\""
-        },
-        {
-          "id": "bible-mat-5-44",
-          "number": 44,
-          "text": "But I say unto you, Love your enemies, bless them that curse you, do good to them that hate you, and pray for them which despitefully use you, and persecute you.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus teaches the Beatitudes and the principles of the Kingdom of Heaven. As it is written: \"But I say unto you, Love your enemies, bless them that curse you, do good to ....\""
-        }
-      ]
-    },
-    {
-      "id": "bible-mat-6",
-      "number": 9,
-      "title": "Matthew 6 — The Lord's Prayer",
-      "verses": [
-        {
-          "id": "bible-mat-6-9",
-          "number": 9,
-          "text": "After this manner therefore pray ye: Our Father which art in heaven, Hallowed be thy name.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus teaches about prayer, fasting, and trusting God rather than wealth. As it is written: \"After this manner therefore pray ye: Our Father which art in heaven, Hallowed....\""
-        },
-        {
-          "id": "bible-mat-6-10",
-          "number": 10,
-          "text": "Thy kingdom come, Thy will be done in earth, as it is in heaven.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus teaches about prayer, fasting, and trusting God rather than wealth. As it is written: \"Thy kingdom come, Thy will be done in earth, as it is in heaven.\""
-        },
-        {
-          "id": "bible-mat-6-12",
-          "number": 12,
-          "text": "And forgive us our debts, as we forgive our debtors.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus teaches about prayer, fasting, and trusting God rather than wealth. As it is written: \"And forgive us our debts, as we forgive our debtors.\""
-        },
-        {
-          "id": "bible-mat-6-13",
-          "number": 13,
-          "text": "And lead us not into temptation, but deliver us from evil: For thine is the kingdom, and the power, and the glory, for ever. Amen.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus teaches about prayer, fasting, and trusting God rather than wealth. As it is written: \"And lead us not into temptation, but deliver us from evil: For thine is the k....\""
-        }
-      ]
-    },
-    {
-      "id": "bible-mat-22",
-      "number": 10,
-      "title": "Matthew 22 — The Greatest Commandment",
-      "verses": [
-        {
-          "id": "bible-mat-22-37",
-          "number": 37,
-          "text": "Jesus said unto him, Thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy mind.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus teaches the greatest commandments and answers the religious leaders. Jesus teaches: \"Jesus said unto him, Thou shalt love the Lord thy God with all thy heart, and....\""
-        },
-        {
-          "id": "bible-mat-22-38",
-          "number": 38,
-          "text": "This is the first and great commandment.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus teaches the greatest commandments and answers the religious leaders. As it is written: \"This is the first and great commandment.\""
-        },
-        {
-          "id": "bible-mat-22-39",
-          "number": 39,
-          "text": "And the second is like unto it, Thou shalt love thy neighbour as thyself.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus teaches the greatest commandments and answers the religious leaders, commanding His people: \"And the second is like unto it, Thou shalt love thy neighbour as thyself.\""
-        }
-      ]
-    },
-    {
-      "id": "bible-mat-28",
-      "number": 11,
-      "title": "Matthew 28 — The Great Commission",
-      "verses": [
-        {
-          "id": "bible-mat-28-19",
-          "number": 19,
-          "text": "Go ye therefore, and teach all nations, baptizing them in the name of the Father, and of the Son, and of the Holy Ghost.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus rises from the dead and commissions His disciples, commanding His people: \"Go ye therefore, and teach all nations, baptizing them in the name of the Fat....\""
-        },
-        {
-          "id": "bible-mat-28-20",
-          "number": 20,
-          "text": "Teaching them to observe all things whatsoever I have commanded you: and, lo, I am with you always, even unto the end of the world. Amen.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus rises from the dead and commissions His disciples, with the instruction: \"Teaching them to observe all things whatsoever I have commanded you: and, lo,....\""
-        }
-      ]
-    },
-    {
-      "id": "bible-mk-12",
-      "number": 12,
-      "title": "Mark 12 — The Widow's Offering",
-      "verses": [
-        {
-          "id": "bible-mk-12-41",
-          "number": 41,
-          "text": "And Jesus sat over against the treasury, and beheld how the people cast money into the treasury.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus teaches about the greatest commandment and true devotion. As it is written: \"And Jesus sat over against the treasury, and beheld how the people cast money....\""
-        },
-        {
-          "id": "bible-mk-12-44",
-          "number": 44,
-          "text": "For all they did cast in of their abundance; but she of her want did cast in all that she had, even all her living.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus teaches about the greatest commandment and true devotion. As it is written: \"For all they did cast in of their abundance; but she of her want did cast in ....\""
-        }
-      ]
-    },
-    {
-      "id": "bible-lk-15",
-      "number": 13,
-      "title": "Luke 15 — The Prodigal Son",
-      "verses": [
-        {
-          "id": "bible-lk-15-20",
-          "number": 20,
-          "text": "And he arose, and came to his father. But when he was yet a great way off, his father saw him, and had compassion, and ran, and fell on his neck, and kissed him.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus tells parables of the lost sheep, coin, and prodigal son about God's love for the lost. As it is written: \"And he arose, and came to his father. But when he was yet a great way off, hi....\""
-        },
-        {
-          "id": "bible-lk-15-24",
-          "number": 24,
-          "text": "For this my son was dead, and is alive again; he was lost, and is found. And they began to be merry.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus tells parables of the lost sheep, coin, and prodigal son about God's love for the lost. As it is written: \"For this my son was dead, and is alive again; he was lost, and is found. And ....\""
-        }
-      ]
-    },
-    {
-      "id": "bible-jn-1",
-      "number": 14,
-      "title": "John 1 — The Word Made Flesh",
-      "verses": [
-        {
-          "id": "bible-jn-1-1",
-          "number": 1,
-          "text": "In the beginning was the Word, and the Word was with God, and the Word was God.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "The Word (Jesus) becomes flesh, and John the Baptist testifies of Him. This opening verse declares: \"In the beginning was the Word, and the Word was with God, and the Word was God.\""
-        },
-        {
-          "id": "bible-jn-1-5",
-          "number": 5,
-          "text": "And the light shineth in darkness; and the darkness comprehended it not.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "The Word (Jesus) becomes flesh, and John the Baptist testifies of Him. As it is written: \"And the light shineth in darkness; and the darkness comprehended it not.\""
-        },
-        {
-          "id": "bible-jn-1-14",
-          "number": 14,
-          "text": "And the Word was made flesh, and dwelt among us, (and we beheld his glory, the glory as of the only begotten of the Father,) full of grace and truth.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "The Word (Jesus) becomes flesh, and John the Baptist testifies of Him. As it is written: \"And the Word was made flesh, and dwelt among us, (and we beheld his glory, th....\""
-        }
-      ]
-    },
-    {
-      "id": "bible-jn-3",
-      "number": 15,
-      "title": "John 3 — New Birth",
-      "verses": [
-        {
-          "id": "bible-jn-3-16",
-          "number": 16,
-          "text": "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus teaches Nicodemus about being born again and God's love for the world. John reveals: \"For God so loved the world, that he gave his only begotten Son, that whosoeve....\""
-        },
-        {
-          "id": "bible-jn-3-17",
-          "number": 17,
-          "text": "For God sent not his Son into the world to condemn the world; but that the world through him might be saved.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus teaches Nicodemus about being born again and God's love for the world. John reveals: \"For God sent not his Son into the world to condemn the world; but that the wo....\""
-        }
-      ]
-    },
-    {
-      "id": "bible-jn-13",
-      "number": 16,
-      "title": "John 13 — A New Commandment",
-      "verses": [
-        {
-          "id": "bible-jn-13-34",
-          "number": 34,
-          "text": "A new commandment I give unto you, That ye love one another; as I have loved you, that ye also love one another.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus washes the disciples' feet and gives a new commandment to love one another. As it is written: \"A new commandment I give unto you, That ye love one another; as I have loved ....\""
-        },
-        {
-          "id": "bible-jn-13-35",
-          "number": 35,
-          "text": "By this shall all men know that ye are my disciples, if ye have love one to another.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Jesus washes the disciples' feet and gives a new commandment to love one another. As it is written: \"By this shall all men know that ye are my disciples, if ye have love one to a....\""
-        }
-      ]
-    },
-    {
-      "id": "bible-ephes-2",
-      "number": 18,
-      "title": "Ephesians 2 — Saved by Grace",
-      "verses": [
-        {
-          "id": "bible-ephes-2-8",
-          "number": 8,
-          "text": "For by grace are ye saved through faith; and that not of yourselves: it is the gift of God.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Salvation is by grace through faith, not by works, and believers are united in Christ. As it is written: \"For by grace are ye saved through faith; and that not of yourselves: it is th....\""
-        },
-        {
-          "id": "bible-ephes-2-9",
-          "number": 9,
-          "text": "Not of works, lest any man should boast.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Salvation is by grace through faith, not by works, and believers are united in Christ. As it is written: \"Not of works, lest any man should boast.\""
-        },
-        {
-          "id": "bible-ephes-2-10",
-          "number": 10,
-          "text": "For we are his workmanship, created in Christ Jesus unto good works, which God hath before ordained that we should walk in them.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "Salvation is by grace through faith, not by works, and believers are united in Christ. As it is written: \"For we are his workmanship, created in Christ Jesus unto good works, which Go....\""
-        }
-      ]
-    },
-    {
       "id": "bible-gen-1",
       "number": 1,
       "title": "Genesis 1 — The Creation",
@@ -1931,6 +433,46 @@
       ]
     },
     {
+      "id": "bible-gen-12",
+      "number": 6,
+      "title": "Genesis 12 — The Call of Abraham",
+      "verses": [
+        {
+          "id": "bible-gen-12-1",
+          "number": 1,
+          "text": "Now the LORD had said unto Abram, Get thee out of thy country, and from thy kindred, and from thy father's house, unto a land that I will shew thee.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "God calls Abraham to leave his homeland and promises to make him a great nation, blessing all peoples through him. As it is written: \"Now the LORD had said unto Abram, Get thee out of thy country, and from thy k....\""
+        },
+        {
+          "id": "bible-gen-12-2",
+          "number": 2,
+          "text": "And I will make of thee a great nation, and I will bless thee, and make thy name great; and thou shalt be a blessing.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "God calls Abraham to leave his homeland and promises to make him a great nation, blessing all peoples through him. As it is written: \"And I will make of thee a great nation, and I will bless thee, and make thy n....\""
+        },
+        {
+          "id": "bible-gen-12-3",
+          "number": 3,
+          "text": "And I will bless them that bless thee, and curse him that curseth thee: and in thee shall all families of the earth be blessed.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "God calls Abraham to leave his homeland and promises to make him a great nation, blessing all peoples through him. As it is written: \"And I will bless them that bless thee, and curse him that curseth thee: and i....\""
+        }
+      ]
+    },
+    {
       "id": "bible-gen-22",
       "number": 7,
       "title": "Genesis 22 — The Binding of Isaac",
@@ -2142,12 +684,12 @@
       ]
     },
     {
-      "id": "bible-ex-20",
+      "id": "bible-exo-20",
       "number": 12,
       "title": "Exodus 20 — The Ten Commandments",
       "verses": [
         {
-          "id": "bible-ex-20-1",
+          "id": "bible-exo-20-1",
           "number": 1,
           "text": "And God spake all these words, saying,",
           "source": {
@@ -2158,7 +700,7 @@
           "explanation": "God gives the Ten Commandments to Israel at Mount Sinai, establishing His covenant law. Here we read: \"And God spake all these words, saying,.\""
         },
         {
-          "id": "bible-ex-20-3",
+          "id": "bible-exo-20-3",
           "number": 3,
           "text": "Thou shalt have no other gods before me.",
           "source": {
@@ -2169,29 +711,18 @@
           "explanation": "God gives the Ten Commandments to Israel at Mount Sinai, establishing His covenant law, commanding His people: \"Thou shalt have no other gods before me.\""
         },
         {
-          "id": "bible-ex-20-4",
-          "number": 4,
-          "text": "Thou shalt not make unto thee any graven image.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "God gives the Ten Commandments to Israel at Mount Sinai, establishing His covenant law, commanding His people: \"Thou shalt not make unto thee any graven image.\""
-        },
-        {
-          "id": "bible-ex-20-7",
+          "id": "bible-exo-20-7",
           "number": 7,
-          "text": "Thou shalt not take the name of the LORD thy God in vain.",
+          "text": "Thou shalt not take the name of the LORD thy God in vain; for the LORD will not hold him guiltless that taketh his name in vain.",
           "source": {
             "translator": "King James Version",
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "God gives the Ten Commandments to Israel at Mount Sinai, establishing His covenant law, commanding His people: \"Thou shalt not take the name of the LORD thy God in vain.\""
+          "explanation": "God gives the Ten Commandments to Israel at Mount Sinai, establishing His covenant law, commanding His people: \"Thou shalt not take the name of the LORD thy God in vain; for the LORD will n....\""
         },
         {
-          "id": "bible-ex-20-8",
+          "id": "bible-exo-20-8",
           "number": 8,
           "text": "Remember the sabbath day, to keep it holy.",
           "source": {
@@ -2202,18 +733,18 @@
           "explanation": "God gives the Ten Commandments to Israel at Mount Sinai, establishing His covenant law. As it is written: \"Remember the sabbath day, to keep it holy.\""
         },
         {
-          "id": "bible-ex-20-12",
+          "id": "bible-exo-20-12",
           "number": 12,
-          "text": "Honour thy father and thy mother.",
+          "text": "Honour thy father and thy mother: that thy days may be long upon the land which the LORD thy God giveth thee.",
           "source": {
             "translator": "King James Version",
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "God gives the Ten Commandments to Israel at Mount Sinai, establishing His covenant law. As it is written: \"Honour thy father and thy mother.\""
+          "explanation": "God gives the Ten Commandments to Israel at Mount Sinai, establishing His covenant law. As it is written: \"Honour thy father and thy mother: that thy days may be long upon the land whi....\""
         },
         {
-          "id": "bible-ex-20-13",
+          "id": "bible-exo-20-13",
           "number": 13,
           "text": "Thou shalt not kill.",
           "source": {
@@ -2224,7 +755,7 @@
           "explanation": "God gives the Ten Commandments to Israel at Mount Sinai, establishing His covenant law, commanding His people: \"Thou shalt not kill.\""
         },
         {
-          "id": "bible-ex-20-14",
+          "id": "bible-exo-20-14",
           "number": 14,
           "text": "Thou shalt not commit adultery.",
           "source": {
@@ -2235,7 +766,7 @@
           "explanation": "God gives the Ten Commandments to Israel at Mount Sinai, establishing His covenant law, commanding His people: \"Thou shalt not commit adultery.\""
         },
         {
-          "id": "bible-ex-20-15",
+          "id": "bible-exo-20-15",
           "number": 15,
           "text": "Thou shalt not steal.",
           "source": {
@@ -2246,7 +777,7 @@
           "explanation": "God gives the Ten Commandments to Israel at Mount Sinai, establishing His covenant law, commanding His people: \"Thou shalt not steal.\""
         },
         {
-          "id": "bible-ex-20-16",
+          "id": "bible-exo-20-16",
           "number": 16,
           "text": "Thou shalt not bear false witness against thy neighbour.",
           "source": {
@@ -2257,15 +788,15 @@
           "explanation": "God gives the Ten Commandments to Israel at Mount Sinai, establishing His covenant law, commanding His people: \"Thou shalt not bear false witness against thy neighbour.\""
         },
         {
-          "id": "bible-ex-20-17",
+          "id": "bible-exo-20-17",
           "number": 17,
-          "text": "Thou shalt not covet thy neighbour's house, nor any thing that is thy neighbour's.",
+          "text": "Thou shalt not covet thy neighbour's house, thou shalt not covet thy neighbour's wife, nor his manservant, nor his maidservant, nor his ox, nor his ass, nor any thing that is thy neighbour's.",
           "source": {
             "translator": "King James Version",
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "God gives the Ten Commandments to Israel at Mount Sinai, establishing His covenant law, commanding His people: \"Thou shalt not covet thy neighbour's house, nor any thing that is thy neighbo....\""
+          "explanation": "God gives the Ten Commandments to Israel at Mount Sinai, establishing His covenant law, commanding His people: \"Thou shalt not covet thy neighbour's house, thou shalt not covet thy neighbou....\""
         }
       ]
     },
@@ -3014,6 +1545,79 @@
             "license": "Public Domain"
           },
           "explanation": "A prophetic psalm of suffering and deliverance, foreshadowing the crucifixion. As it is written: \"All the ends of the world shall remember and turn unto the LORD: and all the ....\""
+        }
+      ]
+    },
+    {
+      "id": "bible-ps-23",
+      "number": 35,
+      "title": "Psalm 23 — The Lord Is My Shepherd",
+      "verses": [
+        {
+          "id": "bible-ps-23-1",
+          "number": 1,
+          "text": "The LORD is my shepherd; I shall not want.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "David expresses complete trust in the Lord's guidance, provision, and protection, declaring: \"The LORD is my shepherd; I shall not want.\""
+        },
+        {
+          "id": "bible-ps-23-2",
+          "number": 2,
+          "text": "He maketh me to lie down in green pastures: he leadeth me beside the still waters.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "David expresses complete trust in the Lord's guidance, provision, and protection. As it is written: \"He maketh me to lie down in green pastures: he leadeth me beside the still wa....\""
+        },
+        {
+          "id": "bible-ps-23-3",
+          "number": 3,
+          "text": "He restoreth my soul: he leadeth me in the paths of righteousness for his name's sake.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "David expresses complete trust in the Lord's guidance, provision, and protection. As it is written: \"He restoreth my soul: he leadeth me in the paths of righteousness for his nam....\""
+        },
+        {
+          "id": "bible-ps-23-4",
+          "number": 4,
+          "text": "Yea, though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me; thy rod and thy staff they comfort me.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "David expresses complete trust in the Lord's guidance, provision, and protection. As it is written: \"Yea, though I walk through the valley of the shadow of death, I will fear no ....\""
+        },
+        {
+          "id": "bible-ps-23-5",
+          "number": 5,
+          "text": "Thou preparest a table before me in the presence of mine enemies: thou anointest my head with oil; my cup runneth over.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "David expresses complete trust in the Lord's guidance, provision, and protection, commanding His people: \"Thou preparest a table before me in the presence of mine enemies: thou anoint....\""
+        },
+        {
+          "id": "bible-ps-23-6",
+          "number": 6,
+          "text": "Surely goodness and mercy shall follow me all the days of my life: and I will dwell in the house of the LORD for ever.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "David expresses complete trust in the Lord's guidance, provision, and protection. As it is written: \"Surely goodness and mercy shall follow me all the days of my life: and I will....\""
         }
       ]
     },
@@ -4822,8 +3426,48 @@
       ]
     },
     {
-      "id": "bible-prov-4",
+      "id": "bible-prov-3",
       "number": 69,
+      "title": "Proverbs 3 — Trust in the Lord",
+      "verses": [
+        {
+          "id": "bible-prov-3-5",
+          "number": 5,
+          "text": "Trust in the LORD with all thine heart; and lean not unto thine own understanding.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Trust in the Lord with all your heart and acknowledge Him in all your ways. As it is written: \"Trust in the LORD with all thine heart; and lean not unto thine own understan....\""
+        },
+        {
+          "id": "bible-prov-3-6",
+          "number": 6,
+          "text": "In all thy ways acknowledge him, and he shall direct thy paths.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Trust in the Lord with all your heart and acknowledge Him in all your ways. As it is written: \"In all thy ways acknowledge him, and he shall direct thy paths.\""
+        },
+        {
+          "id": "bible-prov-3-7",
+          "number": 7,
+          "text": "Be not wise in thine own eyes: fear the LORD, and depart from evil.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Trust in the Lord with all your heart and acknowledge Him in all your ways. As it is written: \"Be not wise in thine own eyes: fear the LORD, and depart from evil.\""
+        }
+      ]
+    },
+    {
+      "id": "bible-prov-4",
+      "number": 70,
       "title": "Proverbs 4 — The Path of the Just",
       "verses": [
         {
@@ -4885,7 +3529,7 @@
     },
     {
       "id": "bible-prov-10",
-      "number": 70,
+      "number": 71,
       "title": "Proverbs 10 — The Proverbs of Solomon",
       "verses": [
         {
@@ -4980,7 +3624,7 @@
     },
     {
       "id": "bible-prov-11",
-      "number": 71,
+      "number": 72,
       "title": "Proverbs 11 — Wise Living",
       "verses": [
         {
@@ -5042,7 +3686,7 @@
     },
     {
       "id": "bible-prov-12",
-      "number": 72,
+      "number": 73,
       "title": "Proverbs 12 — The Root of the Righteous",
       "verses": [
         {
@@ -5104,7 +3748,7 @@
     },
     {
       "id": "bible-prov-15",
-      "number": 73,
+      "number": 74,
       "title": "Proverbs 15 — A Soft Answer",
       "verses": [
         {
@@ -5177,7 +3821,7 @@
     },
     {
       "id": "bible-prov-16",
-      "number": 74,
+      "number": 75,
       "title": "Proverbs 16 — The Lord's Purpose",
       "verses": [
         {
@@ -5283,7 +3927,7 @@
     },
     {
       "id": "bible-prov-18",
-      "number": 75,
+      "number": 76,
       "title": "Proverbs 18 — The Tongue",
       "verses": [
         {
@@ -5334,7 +3978,7 @@
     },
     {
       "id": "bible-prov-22",
-      "number": 76,
+      "number": 77,
       "title": "Proverbs 22 — A Good Name",
       "verses": [
         {
@@ -5396,7 +4040,7 @@
     },
     {
       "id": "bible-prov-25",
-      "number": 77,
+      "number": 78,
       "title": "Proverbs 25 — Wise Words",
       "verses": [
         {
@@ -5436,7 +4080,7 @@
     },
     {
       "id": "bible-prov-27",
-      "number": 78,
+      "number": 79,
       "title": "Proverbs 27 — Tomorrow",
       "verses": [
         {
@@ -5487,7 +4131,7 @@
     },
     {
       "id": "bible-isa-6",
-      "number": 79,
+      "number": 80,
       "title": "Isaiah 6 — Here Am I, Send Me",
       "verses": [
         {
@@ -5549,7 +4193,7 @@
     },
     {
       "id": "bible-isa-9",
-      "number": 80,
+      "number": 81,
       "title": "Isaiah 9 — Unto Us a Child Is Born",
       "verses": [
         {
@@ -5588,8 +4232,48 @@
       ]
     },
     {
+      "id": "bible-isa-40",
+      "number": 82,
+      "title": "Isaiah 40 — Comfort for God's People",
+      "verses": [
+        {
+          "id": "bible-isa-40-3",
+          "number": 3,
+          "text": "The voice of him that crieth in the wilderness, Prepare ye the way of the LORD, make straight in the desert a highway for our God.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Comfort for God's people — a prophecy of preparation for the Lord's coming. As it is written: \"The voice of him that crieth in the wilderness, Prepare ye the way of the LOR....\""
+        },
+        {
+          "id": "bible-isa-40-8",
+          "number": 8,
+          "text": "The grass withereth, the flower fadeth: but the word of our God shall stand for ever.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Comfort for God's people — a prophecy of preparation for the Lord's coming. As it is written: \"The grass withereth, the flower fadeth: but the word of our God shall stand f....\""
+        },
+        {
+          "id": "bible-isa-40-31",
+          "number": 31,
+          "text": "But they that wait upon the LORD shall renew their strength; they shall mount up with wings as eagles; they shall run, and not be weary; and they shall walk, and not faint.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Comfort for God's people — a prophecy of preparation for the Lord's coming. As it is written: \"But they that wait upon the LORD shall renew their strength; they shall mount....\""
+        }
+      ]
+    },
+    {
       "id": "bible-isa-43",
-      "number": 81,
+      "number": 83,
       "title": "Isaiah 43 — Fear Not",
       "verses": [
         {
@@ -5672,8 +4356,48 @@
       ]
     },
     {
+      "id": "bible-isa-53",
+      "number": 84,
+      "title": "Isaiah 53 — The Suffering Servant",
+      "verses": [
+        {
+          "id": "bible-isa-53-3",
+          "number": 3,
+          "text": "He is despised and rejected of men; a man of sorrows, and acquainted with grief: and we hid as it were our faces from him; he was despised, and we esteemed him not.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "The prophecy of the Messiah who suffers for the sins of His people. As it is written: \"He is despised and rejected of men; a man of sorrows, and acquainted with gri....\""
+        },
+        {
+          "id": "bible-isa-53-4",
+          "number": 4,
+          "text": "Surely he hath borne our griefs, and carried our sorrows: yet we did esteem him stricken, smitten of God, and afflicted.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "The prophecy of the Messiah who suffers for the sins of His people. As it is written: \"Surely he hath borne our griefs, and carried our sorrows: yet we did esteem h....\""
+        },
+        {
+          "id": "bible-isa-53-5",
+          "number": 5,
+          "text": "But he was wounded for our transgressions, he was bruised for our iniquities: the chastisement of our peace was upon him; and with his stripes we are healed.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "The prophecy of the Messiah who suffers for the sins of His people. As it is written: \"But he was wounded for our transgressions, he was bruised for our iniquities:....\""
+        }
+      ]
+    },
+    {
       "id": "bible-jer-1",
-      "number": 82,
+      "number": 85,
       "title": "Jeremiah 1 — The Call of Jeremiah",
       "verses": [
         {
@@ -5746,7 +4470,7 @@
     },
     {
       "id": "bible-ezek-34",
-      "number": 83,
+      "number": 86,
       "title": "Ezekiel 34 — The Good Shepherd",
       "verses": [
         {
@@ -5819,7 +4543,7 @@
     },
     {
       "id": "bible-dan-10",
-      "number": 84,
+      "number": 87,
       "title": "Daniel 10 — The Vision of Daniel",
       "verses": [
         {
@@ -5859,7 +4583,7 @@
     },
     {
       "id": "bible-mat-1",
-      "number": 85,
+      "number": 88,
       "title": "Matthew 1 — The Genealogy of Jesus",
       "verses": [
         {
@@ -5953,8 +4677,326 @@
       ]
     },
     {
+      "id": "bible-matt-5",
+      "number": 89,
+      "title": "Matthew 5 — The Sermon on the Mount",
+      "verses": [
+        {
+          "id": "bible-matt-5-3",
+          "number": 3,
+          "text": "Blessed are the poor in spirit: for theirs is the kingdom of heaven.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus teaches the Beatitudes and the principles of the Kingdom of Heaven. Jesus declares: \"Blessed are the poor in spirit: for theirs is the kingdom of heaven.\""
+        },
+        {
+          "id": "bible-matt-5-4",
+          "number": 4,
+          "text": "Blessed are they that mourn: for they shall be comforted.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus teaches the Beatitudes and the principles of the Kingdom of Heaven. Jesus declares: \"Blessed are they that mourn: for they shall be comforted.\""
+        },
+        {
+          "id": "bible-matt-5-5",
+          "number": 5,
+          "text": "Blessed are the meek: for they shall inherit the earth.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus teaches the Beatitudes and the principles of the Kingdom of Heaven. Jesus declares: \"Blessed are the meek: for they shall inherit the earth.\""
+        },
+        {
+          "id": "bible-matt-5-6",
+          "number": 6,
+          "text": "Blessed are they which do hunger and thirst after righteousness: for they shall be filled.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus teaches the Beatitudes and the principles of the Kingdom of Heaven. Jesus declares: \"Blessed are they which do hunger and thirst after righteousness: for they sha....\""
+        },
+        {
+          "id": "bible-matt-5-7",
+          "number": 7,
+          "text": "Blessed are the merciful: for they shall obtain mercy.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus teaches the Beatitudes and the principles of the Kingdom of Heaven. Jesus declares: \"Blessed are the merciful: for they shall obtain mercy.\""
+        },
+        {
+          "id": "bible-matt-5-8",
+          "number": 8,
+          "text": "Blessed are the pure in heart: for they shall see God.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus teaches the Beatitudes and the principles of the Kingdom of Heaven. Jesus declares: \"Blessed are the pure in heart: for they shall see God.\""
+        },
+        {
+          "id": "bible-matt-5-9",
+          "number": 9,
+          "text": "Blessed are the peacemakers: for they shall be called the children of God.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus teaches the Beatitudes and the principles of the Kingdom of Heaven. Jesus declares: \"Blessed are the peacemakers: for they shall be called the children of God.\""
+        },
+        {
+          "id": "bible-matt-5-12",
+          "number": 12,
+          "text": "Rejoice, and be exceeding glad: for great is your reward in heaven: for so persecuted they the prophets which were before you.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus teaches the Beatitudes and the principles of the Kingdom of Heaven. As it is written: \"Rejoice, and be exceeding glad: for great is your reward in heaven: for so pe....\""
+        },
+        {
+          "id": "bible-matt-5-16",
+          "number": 16,
+          "text": "Let your light so shine before men, that they may see your good works, and glorify your Father which is in heaven.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus teaches the Beatitudes and the principles of the Kingdom of Heaven, commanding His people: \"Let your light so shine before men, that they may see your good works, and gl....\""
+        },
+        {
+          "id": "bible-matt-5-43",
+          "number": 43,
+          "text": "Ye have heard that it hath been said, Thou shalt love thy neighbour, and hate thine enemy.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus teaches the Beatitudes and the principles of the Kingdom of Heaven, commanding His people: \"Ye have heard that it hath been said, Thou shalt love thy neighbour, and hate....\""
+        },
+        {
+          "id": "bible-matt-5-44",
+          "number": 44,
+          "text": "But I say unto you, Love your enemies, bless them that curse you, do good to them that hate you, and pray for them which despitefully use you, and persecute you.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus teaches the Beatitudes and the principles of the Kingdom of Heaven. As it is written: \"But I say unto you, Love your enemies, bless them that curse you, do good to ....\""
+        },
+        {
+          "id": "bible-matt-5-48",
+          "number": 48,
+          "text": "Be ye therefore perfect, even as your Father which is in heaven is perfect.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus teaches the Beatitudes and the principles of the Kingdom of Heaven. As it is written: \"Be ye therefore perfect, even as your Father which is in heaven is perfect.\""
+        }
+      ]
+    },
+    {
+      "id": "bible-mat-5",
+      "number": 90,
+      "title": "Matthew 5 — The Beatitudes",
+      "verses": [
+        {
+          "id": "bible-mat-5-3",
+          "number": 3,
+          "text": "Blessed are the poor in spirit: for theirs is the kingdom of heaven.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus teaches the Beatitudes and the principles of the Kingdom of Heaven. Jesus declares: \"Blessed are the poor in spirit: for theirs is the kingdom of heaven.\""
+        },
+        {
+          "id": "bible-mat-5-4",
+          "number": 4,
+          "text": "Blessed are they that mourn: for they shall be comforted.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus teaches the Beatitudes and the principles of the Kingdom of Heaven. Jesus declares: \"Blessed are they that mourn: for they shall be comforted.\""
+        },
+        {
+          "id": "bible-mat-5-5",
+          "number": 5,
+          "text": "Blessed are the meek: for they shall inherit the earth.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus teaches the Beatitudes and the principles of the Kingdom of Heaven. Jesus declares: \"Blessed are the meek: for they shall inherit the earth.\""
+        },
+        {
+          "id": "bible-mat-5-6",
+          "number": 6,
+          "text": "Blessed are they which do hunger and thirst after righteousness: for they shall be filled.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus teaches the Beatitudes and the principles of the Kingdom of Heaven. Jesus declares: \"Blessed are they which do hunger and thirst after righteousness: for they sha....\""
+        },
+        {
+          "id": "bible-mat-5-7",
+          "number": 7,
+          "text": "Blessed are the merciful: for they shall obtain mercy.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus teaches the Beatitudes and the principles of the Kingdom of Heaven. Jesus declares: \"Blessed are the merciful: for they shall obtain mercy.\""
+        },
+        {
+          "id": "bible-mat-5-8",
+          "number": 8,
+          "text": "Blessed are the pure in heart: for they shall see God.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus teaches the Beatitudes and the principles of the Kingdom of Heaven. Jesus declares: \"Blessed are the pure in heart: for they shall see God.\""
+        },
+        {
+          "id": "bible-mat-5-9",
+          "number": 9,
+          "text": "Blessed are the peacemakers: for they shall be called the children of God.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus teaches the Beatitudes and the principles of the Kingdom of Heaven. Jesus declares: \"Blessed are the peacemakers: for they shall be called the children of God.\""
+        },
+        {
+          "id": "bible-mat-5-14",
+          "number": 14,
+          "text": "Ye are the light of the world. A city that is set on an hill cannot be hid.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus teaches the Beatitudes and the principles of the Kingdom of Heaven. As it is written: \"Ye are the light of the world. A city that is set on an hill cannot be hid.\""
+        },
+        {
+          "id": "bible-mat-5-16",
+          "number": 16,
+          "text": "Let your light so shine before men, that they may see your good works, and glorify your Father which is in heaven.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus teaches the Beatitudes and the principles of the Kingdom of Heaven, commanding His people: \"Let your light so shine before men, that they may see your good works, and gl....\""
+        },
+        {
+          "id": "bible-mat-5-44",
+          "number": 44,
+          "text": "But I say unto you, Love your enemies, bless them that curse you, do good to them that hate you, and pray for them which despitefully use you, and persecute you.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus teaches the Beatitudes and the principles of the Kingdom of Heaven. As it is written: \"But I say unto you, Love your enemies, bless them that curse you, do good to ....\""
+        }
+      ]
+    },
+    {
+      "id": "bible-matt-6",
+      "number": 91,
+      "title": "Matthew 6 — The Lord's Prayer",
+      "verses": [
+        {
+          "id": "bible-matt-6-9",
+          "number": 9,
+          "text": "After this manner therefore pray ye: Our Father which art in heaven, Hallowed be thy name.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus teaches about prayer, fasting, and trusting God rather than wealth. As it is written: \"After this manner therefore pray ye: Our Father which art in heaven, Hallowed....\""
+        },
+        {
+          "id": "bible-matt-6-10",
+          "number": 10,
+          "text": "Thy kingdom come. Thy will be done in earth, as it is in heaven.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus teaches about prayer, fasting, and trusting God rather than wealth. As it is written: \"Thy kingdom come. Thy will be done in earth, as it is in heaven.\""
+        },
+        {
+          "id": "bible-matt-6-11",
+          "number": 11,
+          "text": "Give us this day our daily bread.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus teaches about prayer, fasting, and trusting God rather than wealth. As it is written: \"Give us this day our daily bread.\""
+        },
+        {
+          "id": "bible-matt-6-12",
+          "number": 12,
+          "text": "And forgive us our debts, as we forgive our debtors.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus teaches about prayer, fasting, and trusting God rather than wealth. As it is written: \"And forgive us our debts, as we forgive our debtors.\""
+        },
+        {
+          "id": "bible-matt-6-14",
+          "number": 14,
+          "text": "For if ye forgive men their trespasses, your heavenly Father will also forgive you.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus teaches about prayer, fasting, and trusting God rather than wealth. As it is written: \"For if ye forgive men their trespasses, your heavenly Father will also forgiv....\""
+        }
+      ]
+    },
+    {
       "id": "bible-mat-7",
-      "number": 86,
+      "number": 92,
       "title": "Matthew 7 — Sermon on the Mount",
       "verses": [
         {
@@ -6203,7 +5245,7 @@
     },
     {
       "id": "bible-mat-17",
-      "number": 87,
+      "number": 93,
       "title": "Matthew 17 — The Transfiguration",
       "verses": [
         {
@@ -6253,8 +5295,99 @@
       ]
     },
     {
+      "id": "bible-matt-22",
+      "number": 94,
+      "title": "Matthew 22 — The Greatest Commandment",
+      "verses": [
+        {
+          "id": "bible-matt-22-36",
+          "number": 36,
+          "text": "Master, which is the great commandment in the law?",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus teaches the greatest commandments and answers the religious leaders. As it is written: \"Master, which is the great commandment in the law?.\""
+        },
+        {
+          "id": "bible-matt-22-37",
+          "number": 37,
+          "text": "Jesus said unto him, Thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy mind.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus teaches the greatest commandments and answers the religious leaders. Jesus teaches: \"Jesus said unto him, Thou shalt love the Lord thy God with all thy heart, and....\""
+        },
+        {
+          "id": "bible-matt-22-38",
+          "number": 38,
+          "text": "This is the first and great commandment.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus teaches the greatest commandments and answers the religious leaders. As it is written: \"This is the first and great commandment.\""
+        },
+        {
+          "id": "bible-matt-22-39",
+          "number": 39,
+          "text": "And the second is like unto it, Thou shalt love thy neighbour as thyself.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus teaches the greatest commandments and answers the religious leaders, commanding His people: \"And the second is like unto it, Thou shalt love thy neighbour as thyself.\""
+        },
+        {
+          "id": "bible-matt-22-40",
+          "number": 40,
+          "text": "On these two commandments hang all the law and the prophets.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus teaches the greatest commandments and answers the religious leaders. As it is written: \"On these two commandments hang all the law and the prophets.\""
+        }
+      ]
+    },
+    {
+      "id": "bible-matt-28",
+      "number": 95,
+      "title": "Matthew 28 — The Great Commission",
+      "verses": [
+        {
+          "id": "bible-matt-28-19",
+          "number": 19,
+          "text": "Go ye therefore, and teach all nations, baptizing them in the name of the Father, and of the Son, and of the Holy Ghost.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus rises from the dead and commissions His disciples, commanding His people: \"Go ye therefore, and teach all nations, baptizing them in the name of the Fat....\""
+        },
+        {
+          "id": "bible-matt-28-20",
+          "number": 20,
+          "text": "Teaching them to observe all things whatsoever I have commanded you: and, lo, I am with you always, even unto the end of the world.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus rises from the dead and commissions His disciples, with the instruction: \"Teaching them to observe all things whatsoever I have commanded you: and, lo,....\""
+        }
+      ]
+    },
+    {
       "id": "bible-mk-1",
-      "number": 88,
+      "number": 96,
       "title": "Mark 1 — The Beginning of the Gospel",
       "verses": [
         {
@@ -6360,7 +5493,7 @@
     },
     {
       "id": "bible-mk-2",
-      "number": 89,
+      "number": 97,
       "title": "Mark 2 — Jesus Heals the Paralytic",
       "verses": [
         {
@@ -6477,7 +5610,7 @@
     },
     {
       "id": "bible-mk-9",
-      "number": 90,
+      "number": 98,
       "title": "Mark 9 — Faith and Prayer",
       "verses": [
         {
@@ -6538,8 +5671,37 @@
       ]
     },
     {
+      "id": "bible-mk-12",
+      "number": 99,
+      "title": "Mark 12 — The Widow's Offering",
+      "verses": [
+        {
+          "id": "bible-mk-12-41",
+          "number": 41,
+          "text": "And Jesus sat over against the treasury, and beheld how the people cast money into the treasury.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus teaches about the greatest commandment and true devotion. As it is written: \"And Jesus sat over against the treasury, and beheld how the people cast money....\""
+        },
+        {
+          "id": "bible-mk-12-44",
+          "number": 44,
+          "text": "For all they did cast in of their abundance; but she of her want did cast in all that she had, even all her living.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus teaches about the greatest commandment and true devotion. As it is written: \"For all they did cast in of their abundance; but she of her want did cast in ....\""
+        }
+      ]
+    },
+    {
       "id": "bible-lk-1",
-      "number": 91,
+      "number": 100,
       "title": "Luke 1 — The Birth of John and Jesus Foretold",
       "verses": [
         {
@@ -6733,7 +5895,7 @@
     },
     {
       "id": "bible-lk-2",
-      "number": 92,
+      "number": 101,
       "title": "Luke 2 — The Birth of Jesus",
       "verses": [
         {
@@ -6982,7 +6144,7 @@
     },
     {
       "id": "bible-lk-6",
-      "number": 93,
+      "number": 102,
       "title": "Luke 6 — The Beatitudes",
       "verses": [
         {
@@ -7219,8 +6381,332 @@
       ]
     },
     {
+      "id": "bible-lk-15",
+      "number": 103,
+      "title": "Luke 15 — The Prodigal Son",
+      "verses": [
+        {
+          "id": "bible-lk-15-20",
+          "number": 20,
+          "text": "And he arose, and came to his father. But when he was yet a great way off, his father saw him, and had compassion, and ran, and fell on his neck, and kissed him.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus tells parables of the lost sheep, coin, and prodigal son about God's love for the lost. As it is written: \"And he arose, and came to his father. But when he was yet a great way off, hi....\""
+        },
+        {
+          "id": "bible-lk-15-24",
+          "number": 24,
+          "text": "For this my son was dead, and is alive again; he was lost, and is found. And they began to be merry.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus tells parables of the lost sheep, coin, and prodigal son about God's love for the lost. As it is written: \"For this my son was dead, and is alive again; he was lost, and is found. And ....\""
+        }
+      ]
+    },
+    {
+      "id": "bible-john-1",
+      "number": 104,
+      "title": "John 1 — The Word Became Flesh",
+      "verses": [
+        {
+          "id": "bible-john-1-1",
+          "number": 1,
+          "text": "In the beginning was the Word, and the Word was with God, and the Word was God.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "The Word (Jesus) becomes flesh, and John the Baptist testifies of Him. This opening verse declares: \"In the beginning was the Word, and the Word was with God, and the Word was God.\""
+        },
+        {
+          "id": "bible-john-1-2",
+          "number": 2,
+          "text": "The same was in the beginning with God.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "The Word (Jesus) becomes flesh, and John the Baptist testifies of Him. As it is written: \"The same was in the beginning with God.\""
+        },
+        {
+          "id": "bible-john-1-3",
+          "number": 3,
+          "text": "All things were made by him; and without him was not any thing made that was made.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "The Word (Jesus) becomes flesh, and John the Baptist testifies of Him. As it is written: \"All things were made by him; and without him was not any thing made that was ....\""
+        },
+        {
+          "id": "bible-john-1-4",
+          "number": 4,
+          "text": "In him was life; and the life was the light of men.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "The Word (Jesus) becomes flesh, and John the Baptist testifies of Him. As it is written: \"In him was life; and the life was the light of men.\""
+        },
+        {
+          "id": "bible-john-1-5",
+          "number": 5,
+          "text": "And the light shineth in darkness; and the darkness comprehended it not.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "The Word (Jesus) becomes flesh, and John the Baptist testifies of Him. As it is written: \"And the light shineth in darkness; and the darkness comprehended it not.\""
+        },
+        {
+          "id": "bible-john-1-14",
+          "number": 14,
+          "text": "And the Word was made flesh, and dwelt among us, (and we beheld his glory, the glory as of the only begotten of the Father,) full of grace and truth.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "The Word (Jesus) becomes flesh, and John the Baptist testifies of Him. As it is written: \"And the Word was made flesh, and dwelt among us, (and we beheld his glory, th....\""
+        }
+      ]
+    },
+    {
+      "id": "bible-jn-1",
+      "number": 105,
+      "title": "John 1 — The Word Made Flesh",
+      "verses": [
+        {
+          "id": "bible-jn-1-1",
+          "number": 1,
+          "text": "In the beginning was the Word, and the Word was with God, and the Word was God.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "The Word (Jesus) becomes flesh, and John the Baptist testifies of Him. This opening verse declares: \"In the beginning was the Word, and the Word was with God, and the Word was God.\""
+        },
+        {
+          "id": "bible-jn-1-5",
+          "number": 5,
+          "text": "And the light shineth in darkness; and the darkness comprehended it not.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "The Word (Jesus) becomes flesh, and John the Baptist testifies of Him. As it is written: \"And the light shineth in darkness; and the darkness comprehended it not.\""
+        },
+        {
+          "id": "bible-jn-1-14",
+          "number": 14,
+          "text": "And the Word was made flesh, and dwelt among us, (and we beheld his glory, the glory as of the only begotten of the Father,) full of grace and truth.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "The Word (Jesus) becomes flesh, and John the Baptist testifies of Him. As it is written: \"And the Word was made flesh, and dwelt among us, (and we beheld his glory, th....\""
+        }
+      ]
+    },
+    {
+      "id": "bible-john-3",
+      "number": 106,
+      "title": "John 3 — For God So Loved the World",
+      "verses": [
+        {
+          "id": "bible-john-3-3",
+          "number": 3,
+          "text": "Jesus answered and said unto him, Verily, verily, I say unto thee, Except a man be born again, he cannot see the kingdom of God.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus teaches Nicodemus about being born again and God's love for the world. Jesus teaches: \"Jesus answered and said unto him, Verily, verily, I say unto thee, Except a m....\""
+        },
+        {
+          "id": "bible-john-3-5",
+          "number": 5,
+          "text": "Jesus answered, Verily, verily, I say unto thee, Except a man be born of water and of the Spirit, he cannot enter into the kingdom of God.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus teaches Nicodemus about being born again and God's love for the world. Jesus teaches: \"Jesus answered, Verily, verily, I say unto thee, Except a man be born of wate....\""
+        },
+        {
+          "id": "bible-john-3-16",
+          "number": 16,
+          "text": "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus teaches Nicodemus about being born again and God's love for the world. John reveals: \"For God so loved the world, that he gave his only begotten Son, that whosoeve....\""
+        },
+        {
+          "id": "bible-john-3-17",
+          "number": 17,
+          "text": "For God sent not his Son into the world to condemn the world; but that the world through him might be saved.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus teaches Nicodemus about being born again and God's love for the world. John reveals: \"For God sent not his Son into the world to condemn the world; but that the wo....\""
+        }
+      ]
+    },
+    {
+      "id": "bible-jn-3",
+      "number": 107,
+      "title": "John 3 — New Birth",
+      "verses": [
+        {
+          "id": "bible-jn-3-16",
+          "number": 16,
+          "text": "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus teaches Nicodemus about being born again and God's love for the world. John reveals: \"For God so loved the world, that he gave his only begotten Son, that whosoeve....\""
+        },
+        {
+          "id": "bible-jn-3-17",
+          "number": 17,
+          "text": "For God sent not his Son into the world to condemn the world; but that the world through him might be saved.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus teaches Nicodemus about being born again and God's love for the world. John reveals: \"For God sent not his Son into the world to condemn the world; but that the wo....\""
+        }
+      ]
+    },
+    {
+      "id": "bible-jn-13",
+      "number": 108,
+      "title": "John 13 — A New Commandment",
+      "verses": [
+        {
+          "id": "bible-jn-13-34",
+          "number": 34,
+          "text": "A new commandment I give unto you, That ye love one another; as I have loved you, that ye also love one another.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus washes the disciples' feet and gives a new commandment to love one another. As it is written: \"A new commandment I give unto you, That ye love one another; as I have loved ....\""
+        },
+        {
+          "id": "bible-jn-13-35",
+          "number": 35,
+          "text": "By this shall all men know that ye are my disciples, if ye have love one to another.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus washes the disciples' feet and gives a new commandment to love one another. As it is written: \"By this shall all men know that ye are my disciples, if ye have love one to a....\""
+        }
+      ]
+    },
+    {
+      "id": "bible-john-14",
+      "number": 109,
+      "title": "John 14 — The Way, the Truth, and the Life",
+      "verses": [
+        {
+          "id": "bible-john-14-1",
+          "number": 1,
+          "text": "Let not your heart be troubled: ye believe in God, believe also in me.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus comforts His disciples and declares Himself the way, the truth, and the life, commanding His people: \"Let not your heart be troubled: ye believe in God, believe also in me.\""
+        },
+        {
+          "id": "bible-john-14-2",
+          "number": 2,
+          "text": "In my Father's house are many mansions: if it were not so, I would have told you. I go to prepare a place for you.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus comforts His disciples and declares Himself the way, the truth, and the life. As it is written: \"In my Father's house are many mansions: if it were not so, I would have told ....\""
+        },
+        {
+          "id": "bible-john-14-3",
+          "number": 3,
+          "text": "And if I go and prepare a place for you, I will come again, and receive you unto myself; that where I am, there ye may be also.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus comforts His disciples and declares Himself the way, the truth, and the life. As it is written: \"And if I go and prepare a place for you, I will come again, and receive you u....\""
+        },
+        {
+          "id": "bible-john-14-6",
+          "number": 6,
+          "text": "Jesus saith unto him, I am the way, the truth, and the life: no man cometh unto the Father, but by me.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus comforts His disciples and declares Himself the way, the truth, and the life. Jesus teaches: \"Jesus saith unto him, I am the way, the truth, and the life: no man cometh un....\""
+        },
+        {
+          "id": "bible-john-14-15",
+          "number": 15,
+          "text": "If ye love me, keep my commandments.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus comforts His disciples and declares Himself the way, the truth, and the life. As it is written: \"If ye love me, keep my commandments.\""
+        },
+        {
+          "id": "bible-john-14-27",
+          "number": 27,
+          "text": "Peace I leave with you, my peace I give unto you: not as the world giveth, give I unto you. Let not your heart be troubled, neither let it be afraid.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Jesus comforts His disciples and declares Himself the way, the truth, and the life. As it is written: \"Peace I leave with you, my peace I give unto you: not as the world giveth, gi....\""
+        }
+      ]
+    },
+    {
       "id": "bible-acts-1",
-      "number": 94,
+      "number": 110,
       "title": "Acts 1 — The Ascension",
       "verses": [
         {
@@ -7271,7 +6757,7 @@
     },
     {
       "id": "bible-acts-12",
-      "number": 95,
+      "number": 111,
       "title": "Acts 12 — Peter's Miraculous Escape",
       "verses": [
         {
@@ -7354,8 +6840,81 @@
       ]
     },
     {
+      "id": "bible-rom-8",
+      "number": 112,
+      "title": "Romans 8 — Life Through the Spirit",
+      "verses": [
+        {
+          "id": "bible-rom-8-1",
+          "number": 1,
+          "text": "There is therefore now no condemnation to them which are in Christ Jesus, who walk not after the flesh, but after the Spirit.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "There is no condemnation for those in Christ Jesus, and nothing can separate us from God's love. Paul declares: \"There is therefore now no condemnation to them which are in Christ Jesus, who....\""
+        },
+        {
+          "id": "bible-rom-8-2",
+          "number": 2,
+          "text": "For the law of the Spirit of life in Christ Jesus hath made me free from the law of sin and death.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "There is no condemnation for those in Christ Jesus, and nothing can separate us from God's love. As it is written: \"For the law of the Spirit of life in Christ Jesus hath made me free from the ....\""
+        },
+        {
+          "id": "bible-rom-8-28",
+          "number": 28,
+          "text": "And we know that all things work together for good to them that love God, to them who are the called according to his purpose.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "There is no condemnation for those in Christ Jesus, and nothing can separate us from God's love. As it is written: \"And we know that all things work together for good to them that love God, to ....\""
+        },
+        {
+          "id": "bible-rom-8-31",
+          "number": 31,
+          "text": "What shall we then say to these things? If God be for us, who can be against us?",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "There is no condemnation for those in Christ Jesus, and nothing can separate us from God's love. As it is written: \"What shall we then say to these things? If God be for us, who can be against us?.\""
+        },
+        {
+          "id": "bible-rom-8-38",
+          "number": 38,
+          "text": "For I am persuaded, that neither death, nor life, nor angels, nor principalities, nor powers, nor things present, nor things to come.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "There is no condemnation for those in Christ Jesus, and nothing can separate us from God's love. As it is written: \"For I am persuaded, that neither death, nor life, nor angels, nor principalit....\""
+        },
+        {
+          "id": "bible-rom-8-39",
+          "number": 39,
+          "text": "Nor height, nor depth, nor any other creature, shall be able to separate us from the love of God, which is in Christ Jesus our Lord.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "There is no condemnation for those in Christ Jesus, and nothing can separate us from God's love. As it is written: \"Nor height, nor depth, nor any other creature, shall be able to separate us f....\""
+        }
+      ]
+    },
+    {
       "id": "bible-rom-12",
-      "number": 96,
+      "number": 113,
       "title": "Romans 12 — Living Sacrifice",
       "verses": [
         {
@@ -7538,7 +7097,7 @@
     },
     {
       "id": "bible-1cor-12",
-      "number": 97,
+      "number": 114,
       "title": "1 Corinthians 12 — Spiritual Gifts",
       "verses": [
         {
@@ -7709,8 +7268,81 @@
       ]
     },
     {
+      "id": "bible-1cor-13",
+      "number": 115,
+      "title": "1 Corinthians 13 — The Love Chapter",
+      "verses": [
+        {
+          "id": "bible-1cor-13-4",
+          "number": 4,
+          "text": "Charity suffereth long, and is kind; charity envieth not; charity vaunteth not itself, is not puffed up.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Paul teaches that love is the greatest of all spiritual gifts, outlasting faith and hope. As it is written: \"Charity suffereth long, and is kind; charity envieth not; charity vaunteth no....\""
+        },
+        {
+          "id": "bible-1cor-13-5",
+          "number": 5,
+          "text": "Doth not behave itself unseemly, seeketh not her own, is not easily provoked, thinketh no evil.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Paul teaches that love is the greatest of all spiritual gifts, outlasting faith and hope. As it is written: \"Doth not behave itself unseemly, seeketh not her own, is not easily provoked,....\""
+        },
+        {
+          "id": "bible-1cor-13-6",
+          "number": 6,
+          "text": "Rejoiceth not in iniquity, but rejoiceth in the truth.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Paul teaches that love is the greatest of all spiritual gifts, outlasting faith and hope. As it is written: \"Rejoiceth not in iniquity, but rejoiceth in the truth.\""
+        },
+        {
+          "id": "bible-1cor-13-7",
+          "number": 7,
+          "text": "Beareth all things, believeth all things, hopeth all things, endureth all things.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Paul teaches that love is the greatest of all spiritual gifts, outlasting faith and hope. As it is written: \"Beareth all things, believeth all things, hopeth all things, endureth all things.\""
+        },
+        {
+          "id": "bible-1cor-13-8",
+          "number": 8,
+          "text": "Charity never faileth: but whether there be prophecies, they shall fail; whether there be tongues, they shall cease; whether there be knowledge, it shall vanish away.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Paul teaches that love is the greatest of all spiritual gifts, outlasting faith and hope. As it is written: \"Charity never faileth: but whether there be prophecies, they shall fail; whet....\""
+        },
+        {
+          "id": "bible-1cor-13-13",
+          "number": 13,
+          "text": "And now abideth faith, hope, charity, these three; but the greatest of these is charity.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Paul teaches that love is the greatest of all spiritual gifts, outlasting faith and hope. As it is written: \"And now abideth faith, hope, charity, these three; but the greatest of these ....\""
+        }
+      ]
+    },
+    {
       "id": "bible-2cor-9",
-      "number": 98,
+      "number": 116,
       "title": "2 Corinthians 9 — Cheerful Giving",
       "verses": [
         {
@@ -7827,7 +7459,7 @@
     },
     {
       "id": "bible-eph-1",
-      "number": 99,
+      "number": 117,
       "title": "Ephesians 1 — Spiritual Blessings in Christ",
       "verses": [
         {
@@ -7987,8 +7619,48 @@
       ]
     },
     {
+      "id": "bible-eph-2",
+      "number": 118,
+      "title": "Ephesians 2 — Saved by Grace",
+      "verses": [
+        {
+          "id": "bible-eph-2-8",
+          "number": 8,
+          "text": "For by grace are ye saved through faith; and that not of yourselves: it is the gift of God.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Salvation is by grace through faith, not by works, and believers are united in Christ. As it is written: \"For by grace are ye saved through faith; and that not of yourselves: it is th....\""
+        },
+        {
+          "id": "bible-eph-2-9",
+          "number": 9,
+          "text": "Not of works, lest any man should boast.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Salvation is by grace through faith, not by works, and believers are united in Christ. As it is written: \"Not of works, lest any man should boast.\""
+        },
+        {
+          "id": "bible-eph-2-10",
+          "number": 10,
+          "text": "For we are his workmanship, created in Christ Jesus unto good works, which God hath before ordained that we should walk in them.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "Salvation is by grace through faith, not by works, and believers are united in Christ. As it is written: \"For we are his workmanship, created in Christ Jesus unto good works, which Go....\""
+        }
+      ]
+    },
+    {
       "id": "bible-heb-4",
-      "number": 100,
+      "number": 119,
       "title": "Hebrews 4 — The Rest of God",
       "verses": [
         {
@@ -8050,7 +7722,7 @@
     },
     {
       "id": "bible-heb-11",
-      "number": 101,
+      "number": 120,
       "title": "Hebrews 11 — By Faith (more)",
       "verses": [
         {
@@ -8266,7 +7938,7 @@
     },
     {
       "id": "bible-james-5",
-      "number": 102,
+      "number": 121,
       "title": "James 5 — Prayer of Faith",
       "verses": [
         {
@@ -8394,7 +8066,7 @@
     },
     {
       "id": "bible-1pet-2",
-      "number": 103,
+      "number": 122,
       "title": "1 Peter 2 — Living Stones",
       "verses": [
         {
@@ -8605,6 +8277,46 @@
             "license": "Public Domain"
           },
           "explanation": "Believers are living stones built into a spiritual house and a royal priesthood. As it is written: \"For ye were as sheep going astray; but are now returned unto the Shepherd and....\""
+        }
+      ]
+    },
+    {
+      "id": "bible-rev-21",
+      "number": 123,
+      "title": "Revelation 21 — The New Heaven and Earth",
+      "verses": [
+        {
+          "id": "bible-rev-21-1",
+          "number": 1,
+          "text": "And I saw a new heaven and a new earth: for the first heaven and the first earth were passed away; and there was no more sea.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "The vision of the new heaven, new earth, and the New Jerusalem where God dwells with His people. As it is written: \"And I saw a new heaven and a new earth: for the first heaven and the first ea....\""
+        },
+        {
+          "id": "bible-rev-21-4",
+          "number": 4,
+          "text": "And God shall wipe away all tears from their eyes; and there shall be no more death, neither sorrow, nor crying, neither shall there be any more pain: for the former things are passed away.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "The vision of the new heaven, new earth, and the New Jerusalem where God dwells with His people. Here we read: \"And God shall wipe away all tears from their eyes; and there shall be no more....\""
+        },
+        {
+          "id": "bible-rev-21-5",
+          "number": 5,
+          "text": "And he that sat upon the throne said, Behold, I make all things new.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "The vision of the new heaven, new earth, and the New Jerusalem where God dwells with His people. As it is written: \"And he that sat upon the throne said, Behold, I make all things new.\""
         }
       ]
     }

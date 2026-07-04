@@ -394,511 +394,246 @@
       ]
     },
     {
-      "id": "torah-gen-12",
+      "id": "torah-gen-2",
       "number": 2,
-      "title": "Genesis 12 — The Call of Abraham",
+      "title": "Genesis 2 — The Garden of Eden",
       "verses": [
         {
-          "id": "torah-gen-12-1",
+          "id": "torah-gen-2-1",
           "number": 1,
-          "text": "Now the LORD had said unto Abram, Get thee out of thy country, and from thy kindred, and from thy father's house, unto a land that I will shew thee.",
+          "text": "Thus the heavens and the earth were finished, and all the host of them.",
           "source": {
             "translator": "King James Version",
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This verse recounts the Call of Abraham, where God promises to make him a great nation. It marks the beginning of the covenant relationship between God and the patriarchs of Israel."
+          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
         },
         {
-          "id": "torah-gen-12-2",
+          "id": "torah-gen-2-2",
           "number": 2,
-          "text": "And I will make of thee a great nation, and I will bless thee, and make thy name great; and thou shalt be a blessing.",
+          "text": "And on the seventh day God ended his work which he had made; and he rested on the seventh day from all his work which he had made.",
           "source": {
             "translator": "King James Version",
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This verse recounts the Call of Abraham, where God promises to make him a great nation. It marks the beginning of the covenant relationship between God and the patriarchs of Israel."
+          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
         },
         {
-          "id": "torah-gen-12-3",
+          "id": "torah-gen-2-3",
           "number": 3,
-          "text": "And I will bless them that bless thee, and curse him that curseth thee: and in thee shall all families of the earth be blessed.",
+          "text": "And God blessed the seventh day, and sanctified it: because that in it he had rested from all his work which God created and made.",
           "source": {
             "translator": "King James Version",
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This verse recounts the Call of Abraham, where God promises to make him a great nation. It marks the beginning of the covenant relationship between God and the patriarchs of Israel."
-        }
-      ]
-    },
-    {
-      "id": "torah-gen-15",
-      "number": 3,
-      "title": "Genesis 15 — The Covenant with Abraham",
-      "verses": [
-        {
-          "id": "torah-gen-15-1",
-          "number": 1,
-          "text": "After these things the word of the LORD came unto Abram in a vision, saying, Fear not, Abram: I am thy shield, and thy exceeding great reward.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "This verse from the Covenant with Abraham describes God's promise of descendants as numerous as the stars and the formal establishment of the covenant with Abraham."
+          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
         },
         {
-          "id": "torah-gen-15-5",
-          "number": 5,
-          "text": "And he brought him forth abroad, and said, Look now toward heaven, and tell the stars, if thou be able to number them: and he said unto him, So shall thy seed be.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "This verse from the Covenant with Abraham describes God's promise of descendants as numerous as the stars and the formal establishment of the covenant with Abraham."
-        },
-        {
-          "id": "torah-gen-15-6",
-          "number": 6,
-          "text": "And he believed in the LORD; and he counted it to him for righteousness.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "This verse from the Covenant with Abraham describes God's promise of descendants as numerous as the stars and the formal establishment of the covenant with Abraham."
-        }
-      ]
-    },
-    {
-      "id": "torah-gen-22",
-      "number": 4,
-      "title": "Genesis 22 — The Binding of Isaac",
-      "verses": [
-        {
-          "id": "torah-gen-22-1",
-          "number": 1,
-          "text": "And it came to pass after these things, that God did tempt Abraham, and said unto him, Abraham: and he said, Behold, here I am.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "This verse from the Binding of Isaac (the Akedah) tells of Abraham's ultimate test of faith when God commands him to sacrifice his son Isaac, foreshadowing complete trust in divine providence."
-        },
-        {
-          "id": "torah-gen-22-2",
-          "number": 2,
-          "text": "And he said, Take now thy son, thine only son Isaac, whom thou lovest, and get thee into the land of Moriah; and offer him there for a burnt offering.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "This verse from the Binding of Isaac (the Akedah) tells of Abraham's ultimate test of faith when God commands him to sacrifice his son Isaac, foreshadowing complete trust in divine providence."
-        },
-        {
-          "id": "torah-gen-22-12",
-          "number": 12,
-          "text": "And he said, Lay not thine hand upon the lad, neither do thou any thing unto him: for now I know that thou fearest God, seeing thou hast not withheld thy son, thine only son from me.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "This verse from the Binding of Isaac (the Akedah) tells of Abraham's ultimate test of faith when God commands him to sacrifice his son Isaac, foreshadowing complete trust in divine providence."
-        }
-      ]
-    },
-    {
-      "id": "torah-gen-28",
-      "number": 5,
-      "title": "Genesis 28 — Jacob's Ladder",
-      "verses": [
-        {
-          "id": "torah-gen-28-13",
-          "number": 13,
-          "text": "And, behold, the LORD stood above it, and said, I am the LORD God of Abraham thy father, and the God of Isaac: the land whereon thou liest, to thee will I give it, and to thy seed.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "This verse describes Jacob's dream of a ladder reaching to heaven, with angels ascending and descending. It affirms that God is present everywhere and renews the covenant with Jacob."
-        },
-        {
-          "id": "torah-gen-28-14",
-          "number": 14,
-          "text": "And thy seed shall be as the dust of the earth, and thou shalt spread abroad to the west, and to the east, and to the north, and to the south: and in thee and in thy seed shall all the families of the earth be blessed.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "This verse describes Jacob's dream of a ladder reaching to heaven, with angels ascending and descending. It affirms that God is present everywhere and renews the covenant with Jacob."
-        },
-        {
-          "id": "torah-gen-28-15",
-          "number": 15,
-          "text": "And, behold, I am with thee, and will keep thee in all places whither thou goest, and will bring thee again into this land: for I will not leave thee, until I have done that which I have spoken to thee of.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "This verse describes Jacob's dream of a ladder reaching to heaven, with angels ascending and descending. It affirms that God is present everywhere and renews the covenant with Jacob."
-        }
-      ]
-    },
-    {
-      "id": "torah-gen-50",
-      "number": 6,
-      "title": "Genesis 50 — Joseph Forgives His Brothers",
-      "verses": [
-        {
-          "id": "torah-gen-50-19",
-          "number": 19,
-          "text": "And Joseph said unto them, Fear not: for am I in the place of God?",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "This verse recounts Joseph's forgiveness of his brothers who sold him into slavery. It teaches the power of reconciliation and trust that God works through all circumstances for good."
-        },
-        {
-          "id": "torah-gen-50-20",
-          "number": 20,
-          "text": "But as for you, ye thought evil against me; but God meant it unto good, to bring to pass, as it is this day, to save much people alive.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "This verse recounts Joseph's forgiveness of his brothers who sold him into slavery. It teaches the power of reconciliation and trust that God works through all circumstances for good."
-        }
-      ]
-    },
-    {
-      "id": "torah-exo-3",
-      "number": 7,
-      "title": "Exodus 3 — The Burning Bush",
-      "verses": [
-        {
-          "id": "torah-exo-3-4",
+          "id": "torah-gen-2-4",
           "number": 4,
-          "text": "And when the LORD saw that he turned aside to see, God called unto him out of the midst of the bush, and said, Moses, Moses. And he said, Here am I.",
+          "text": "These are the generations of the heavens and of the earth when they were created, in the day that the LORD God made the earth and the heavens,",
           "source": {
             "translator": "King James Version",
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This verse describes the Burning Bush, where God reveals His name to Moses and commissions him to lead the Israelites out of Egypt. It is a foundational moment of divine revelation."
+          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
         },
         {
-          "id": "torah-exo-3-5",
+          "id": "torah-gen-2-5",
           "number": 5,
-          "text": "And he said, Draw not nigh hither: put off thy shoes from off thy feet, for the place whereon thou standest is holy ground.",
+          "text": "And every plant of the field before it was in the earth, and every herb of the field before it grew: for the LORD God had not caused it to rain upon the earth, and there was not a man to till the ground.",
           "source": {
             "translator": "King James Version",
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This verse describes the Burning Bush, where God reveals His name to Moses and commissions him to lead the Israelites out of Egypt. It is a foundational moment of divine revelation."
+          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
         },
         {
-          "id": "torah-exo-3-14",
-          "number": 14,
-          "text": "And God said unto Moses, I AM THAT I AM: and he said, Thus shalt thou say unto the children of Israel, I AM hath sent me unto you.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "This verse describes the Burning Bush, where God reveals His name to Moses and commissions him to lead the Israelites out of Egypt. It is a foundational moment of divine revelation."
-        }
-      ]
-    },
-    {
-      "id": "torah-exo-20",
-      "number": 8,
-      "title": "Exodus 20 — The Ten Commandments",
-      "verses": [
-        {
-          "id": "torah-exo-20-1",
-          "number": 1,
-          "text": "And God spake all these words, saying,",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
-        },
-        {
-          "id": "torah-exo-20-2",
-          "number": 2,
-          "text": "I am the LORD thy God, which have brought thee out of the land of Egypt, out of the house of bondage.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
-        },
-        {
-          "id": "torah-exo-20-3",
-          "number": 3,
-          "text": "Thou shalt have no other gods before me.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
-        },
-        {
-          "id": "torah-exo-20-4",
-          "number": 4,
-          "text": "Thou shalt not make unto thee any graven image, or any likeness of any thing that is in heaven above, or that is in the earth beneath, or that is in the water under the earth:",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
-        },
-        {
-          "id": "torah-exo-20-5",
-          "number": 5,
-          "text": "Thou shalt not bow down thyself to them, nor serve them: for I the LORD thy God am a jealous God, visiting the iniquity of the fathers upon the children unto the third and fourth generation of them that hate me;",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
-        },
-        {
-          "id": "torah-exo-20-6",
+          "id": "torah-gen-2-6",
           "number": 6,
-          "text": "And shewing mercy unto thousands of them that love me, and keep my commandments.",
+          "text": "But there went up a mist from the earth, and watered the whole face of the ground.",
           "source": {
             "translator": "King James Version",
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
+          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
         },
         {
-          "id": "torah-exo-20-7",
+          "id": "torah-gen-2-7",
           "number": 7,
-          "text": "Thou shalt not take the name of the LORD thy God in vain; for the LORD will not hold him guiltless that taketh his name in vain.",
+          "text": "And the LORD God formed man of the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.",
           "source": {
             "translator": "King James Version",
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
+          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
         },
         {
-          "id": "torah-exo-20-8",
+          "id": "torah-gen-2-8",
           "number": 8,
-          "text": "Remember the sabbath day, to keep it holy.",
+          "text": "And the LORD God planted a garden eastward in Eden; and there he put the man whom he had formed.",
           "source": {
             "translator": "King James Version",
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
+          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
         },
         {
-          "id": "torah-exo-20-9",
+          "id": "torah-gen-2-9",
           "number": 9,
-          "text": "Six days shalt thou labour, and do all thy work:",
+          "text": "And out of the ground made the LORD God to grow every tree that is pleasant to the sight, and good for food; the tree of life also in the midst of the garden, and the tree of knowledge of good and evil.",
           "source": {
             "translator": "King James Version",
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
+          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
         },
         {
-          "id": "torah-exo-20-10",
+          "id": "torah-gen-2-10",
           "number": 10,
-          "text": "But the seventh day is the sabbath of the LORD thy God: in it thou shalt not do any work, thou, nor thy son, nor thy daughter, thy manservant, nor thy maidservant, nor thy cattle, nor thy stranger that is within thy gates:",
+          "text": "And a river went out of Eden to water the garden; and from thence it was parted, and became into four heads.",
           "source": {
             "translator": "King James Version",
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
+          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
         },
         {
-          "id": "torah-exo-20-11",
+          "id": "torah-gen-2-11",
           "number": 11,
-          "text": "For in six days the LORD made heaven and earth, the sea, and all that in them is, and rested the seventh day: wherefore the LORD blessed the sabbath day, and hallowed it.",
+          "text": "And the LORD God took the man, and put him into the garden of Eden to dress it and to keep it.",
           "source": {
             "translator": "King James Version",
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
+          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
         },
         {
-          "id": "torah-exo-20-12",
+          "id": "torah-gen-2-12",
           "number": 12,
-          "text": "Honour thy father and thy mother: that thy days may be long upon the land which the LORD thy God giveth thee.",
+          "text": "And the LORD God commanded the man, saying, Of every tree of the garden thou mayest freely eat:",
           "source": {
             "translator": "King James Version",
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
+          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
         },
         {
-          "id": "torah-exo-20-13",
+          "id": "torah-gen-2-13",
           "number": 13,
-          "text": "Thou shalt not kill.",
+          "text": "But of the tree of the knowledge of good and evil, thou shalt not eat of it: for in the day that thou eatest thereof thou shalt surely die.",
           "source": {
             "translator": "King James Version",
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
+          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
         },
         {
-          "id": "torah-exo-20-14",
+          "id": "torah-gen-2-14",
           "number": 14,
-          "text": "Thou shalt not commit adultery.",
+          "text": "And the LORD God said, It is not good that the man should be alone; I will make him an help meet for him.",
           "source": {
             "translator": "King James Version",
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
+          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
         },
         {
-          "id": "torah-exo-20-15",
+          "id": "torah-gen-2-15",
           "number": 15,
-          "text": "Thou shalt not steal.",
+          "text": "And out of the ground the LORD God formed every beast of the field, and every fowl of the air; and brought them unto Adam to see what he would call them: and whatsoever Adam called every living creature, that was the name thereof.",
           "source": {
             "translator": "King James Version",
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
+          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
         },
         {
-          "id": "torah-exo-20-16",
+          "id": "torah-gen-2-16",
           "number": 16,
-          "text": "Thou shalt not bear false witness against thy neighbour.",
+          "text": "And Adam gave names to all cattle, and to the fowl of the air, and to every beast of the field; but for Adam there was not found an help meet for him.",
           "source": {
             "translator": "King James Version",
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
+          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
         },
         {
-          "id": "torah-exo-20-17",
+          "id": "torah-gen-2-17",
           "number": 17,
-          "text": "Thou shalt not covet thy neighbour's house, thou shalt not covet thy neighbour's wife, nor his manservant, nor his maidservant, nor his ox, nor his ass, nor any thing that is thy neighbour's.",
+          "text": "And the LORD God caused a deep sleep to fall upon Adam, and he slept: and he took one of his ribs, and closed up the flesh instead thereof;",
           "source": {
             "translator": "King James Version",
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
-        }
-      ]
-    },
-    {
-      "id": "torah-deut-6",
-      "number": 9,
-      "title": "Deuteronomy 6 — The Shema",
-      "verses": [
-        {
-          "id": "torah-deut-6-4",
-          "number": 4,
-          "text": "Hear, O Israel: The LORD our God is one LORD.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "This verse contains the Shema: 'Hear, O Israel: The Lord our God, the Lord is One.' It is the central declaration of faith in Judaism, calling for wholehearted love of God."
+          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
         },
         {
-          "id": "torah-deut-6-5",
-          "number": 5,
-          "text": "And thou shalt love the LORD thy God with all thine heart, and with all thy soul, and with all thy might.",
+          "id": "torah-gen-2-18",
+          "number": 18,
+          "text": "And the rib, which the LORD God had taken from man, made he a woman, and brought her unto the man.",
           "source": {
             "translator": "King James Version",
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This verse contains the Shema: 'Hear, O Israel: The Lord our God, the Lord is One.' It is the central declaration of faith in Judaism, calling for wholehearted love of God."
+          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
         },
         {
-          "id": "torah-deut-6-6",
-          "number": 6,
-          "text": "And these words, which I command thee this day, shall be in thine heart.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "This verse contains the Shema: 'Hear, O Israel: The Lord our God, the Lord is One.' It is the central declaration of faith in Judaism, calling for wholehearted love of God."
-        },
-        {
-          "id": "torah-deut-6-7",
-          "number": 7,
-          "text": "And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "This verse contains the Shema: 'Hear, O Israel: The Lord our God, the Lord is One.' It is the central declaration of faith in Judaism, calling for wholehearted love of God."
-        }
-      ]
-    },
-    {
-      "id": "torah-deut-30",
-      "number": 10,
-      "title": "Deuteronomy 30 — Life and Death",
-      "verses": [
-        {
-          "id": "torah-deut-30-19",
+          "id": "torah-gen-2-19",
           "number": 19,
-          "text": "I call heaven and earth to record this day against you, that I have set before you life and death, blessing and cursing: therefore choose life, that both thou and thy seed may live.",
+          "text": "And Adam said, This is now bone of my bones, and flesh of my flesh: she shall be called Woman, because she was taken out of Man.",
           "source": {
             "translator": "King James Version",
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This verse presents the choice between life and death, blessing and curse. It calls upon Israel to choose life by loving God and walking in His ways."
+          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
         },
         {
-          "id": "torah-deut-30-20",
+          "id": "torah-gen-2-20",
           "number": 20,
-          "text": "That thou mayest love the LORD thy God, and that thou mayest obey his voice, and that thou mayest cleave unto him: for he is thy life, and the length of thy days.",
+          "text": "Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh.",
           "source": {
             "translator": "King James Version",
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This verse presents the choice between life and death, blessing and curse. It calls upon Israel to choose life by loving God and walking in His ways."
+          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
+        },
+        {
+          "id": "torah-gen-2-21",
+          "number": 21,
+          "text": "And they were both naked, the man and his wife, and were not ashamed.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
         }
       ]
     },
     {
       "id": "torah-gen-3",
-      "number": 11,
+      "number": 3,
       "title": "Genesis 3 — The Fall of Man",
       "verses": [
         {
@@ -1168,117 +903,88 @@
       ]
     },
     {
-      "id": "torah-ex-14",
-      "number": 12,
-      "title": "Exodus 14 — The Parting of the Red Sea",
+      "id": "torah-gen-12",
+      "number": 4,
+      "title": "Genesis 12 — The Call of Abraham",
       "verses": [
         {
-          "id": "torah-ex-14-21",
-          "number": 21,
-          "text": "And Moses stretched out his hand over the sea; and the LORD caused the sea to go back by a strong east wind all that night, and made the sea dry land, and the waters were divided.",
+          "id": "torah-gen-12-1",
+          "number": 1,
+          "text": "Now the LORD had said unto Abram, Get thee out of thy country, and from thy kindred, and from thy father's house, unto a land that I will shew thee.",
           "source": {
             "translator": "King James Version",
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This verse recounts the Parting of the Red Sea, the great miracle of deliverance where God saved the Israelites from the pursuing Egyptian army."
+          "explanation": "This verse recounts the Call of Abraham, where God promises to make him a great nation. It marks the beginning of the covenant relationship between God and the patriarchs of Israel."
         },
         {
-          "id": "torah-ex-14-22",
-          "number": 22,
-          "text": "And the children of Israel went into the midst of the sea upon the dry ground: and the waters were a wall unto them on their right hand, and on their left.",
+          "id": "torah-gen-12-2",
+          "number": 2,
+          "text": "And I will make of thee a great nation, and I will bless thee, and make thy name great; and thou shalt be a blessing.",
           "source": {
             "translator": "King James Version",
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This verse recounts the Parting of the Red Sea, the great miracle of deliverance where God saved the Israelites from the pursuing Egyptian army."
-        }
-      ]
-    },
-    {
-      "id": "torah-ex-20",
-      "number": 13,
-      "title": "Exodus 20 — The Ten Commandments",
-      "verses": [
+          "explanation": "This verse recounts the Call of Abraham, where God promises to make him a great nation. It marks the beginning of the covenant relationship between God and the patriarchs of Israel."
+        },
         {
-          "id": "torah-ex-20-3",
+          "id": "torah-gen-12-3",
           "number": 3,
-          "text": "Thou shalt have no other gods before me.",
+          "text": "And I will bless them that bless thee, and curse him that curseth thee: and in thee shall all families of the earth be blessed.",
           "source": {
             "translator": "King James Version",
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This verse contains the Ten Commandments given at Mount Sinai. It forms the core of biblical law and ethical monotheism, establishing the covenant between God and Israel."
-        },
-        {
-          "id": "torah-ex-20-12",
-          "number": 12,
-          "text": "Honour thy father and thy mother: that thy days may be long upon the land which the LORD thy God giveth thee.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "This verse contains the Ten Commandments given at Mount Sinai. It forms the core of biblical law and ethical monotheism, establishing the covenant between God and Israel."
-        },
-        {
-          "id": "torah-ex-20-13",
-          "number": 13,
-          "text": "Thou shalt not kill.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "This verse contains the Ten Commandments given at Mount Sinai. It forms the core of biblical law and ethical monotheism, establishing the covenant between God and Israel."
-        },
-        {
-          "id": "torah-ex-20-15",
-          "number": 15,
-          "text": "Thou shalt not steal.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "This verse contains the Ten Commandments given at Mount Sinai. It forms the core of biblical law and ethical monotheism, establishing the covenant between God and Israel."
+          "explanation": "This verse recounts the Call of Abraham, where God promises to make him a great nation. It marks the beginning of the covenant relationship between God and the patriarchs of Israel."
         }
       ]
     },
     {
-      "id": "torah-lev-19",
-      "number": 14,
-      "title": "Leviticus 19 — Holiness Laws",
+      "id": "torah-gen-15",
+      "number": 5,
+      "title": "Genesis 15 — The Covenant with Abraham",
       "verses": [
         {
-          "id": "torah-lev-19-18",
-          "number": 18,
-          "text": "Thou shalt not avenge, nor bear any grudge against the children of thy people, but thou shalt love thy neighbour as thyself: I am the LORD.",
+          "id": "torah-gen-15-1",
+          "number": 1,
+          "text": "After these things the word of the LORD came unto Abram in a vision, saying, Fear not, Abram: I am thy shield, and thy exceeding great reward.",
           "source": {
             "translator": "King James Version",
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This verse from the Holiness Laws commands, 'You shall be holy, for I the Lord your God am holy.' It calls for ethical conduct, charity, and justice in daily life."
+          "explanation": "This verse from the Covenant with Abraham describes God's promise of descendants as numerous as the stars and the formal establishment of the covenant with Abraham."
         },
         {
-          "id": "torah-lev-19-34",
-          "number": 34,
-          "text": "The stranger that sojourneth with you shall be unto you as the homeborn among you, and thou shalt love him as thyself; for ye were strangers in the land of Egypt: I am the LORD your God.",
+          "id": "torah-gen-15-5",
+          "number": 5,
+          "text": "And he brought him forth abroad, and said, Look now toward heaven, and tell the stars, if thou be able to number them: and he said unto him, So shall thy seed be.",
           "source": {
             "translator": "King James Version",
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This verse from the Holiness Laws commands, 'You shall be holy, for I the Lord your God am holy.' It calls for ethical conduct, charity, and justice in daily life."
+          "explanation": "This verse from the Covenant with Abraham describes God's promise of descendants as numerous as the stars and the formal establishment of the covenant with Abraham."
+        },
+        {
+          "id": "torah-gen-15-6",
+          "number": 6,
+          "text": "And he believed in the LORD; and he counted it to him for righteousness.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This verse from the Covenant with Abraham describes God's promise of descendants as numerous as the stars and the formal establishment of the covenant with Abraham."
         }
       ]
     },
     {
       "id": "torah-gen-18",
-      "number": 15,
+      "number": 6,
       "title": "Genesis 18 — Abraham's Hospitality",
       "verses": [
         {
@@ -1306,246 +1012,157 @@
       ]
     },
     {
-      "id": "torah-gen-2",
-      "number": 16,
-      "title": "Genesis 2 — The Garden of Eden",
+      "id": "torah-gen-22",
+      "number": 7,
+      "title": "Genesis 22 — The Binding of Isaac",
       "verses": [
         {
-          "id": "torah-gen-2-1",
+          "id": "torah-gen-22-1",
           "number": 1,
-          "text": "Thus the heavens and the earth were finished, and all the host of them.",
+          "text": "And it came to pass after these things, that God did tempt Abraham, and said unto him, Abraham: and he said, Behold, here I am.",
           "source": {
             "translator": "King James Version",
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
+          "explanation": "This verse from the Binding of Isaac (the Akedah) tells of Abraham's ultimate test of faith when God commands him to sacrifice his son Isaac, foreshadowing complete trust in divine providence."
         },
         {
-          "id": "torah-gen-2-2",
+          "id": "torah-gen-22-2",
           "number": 2,
-          "text": "And on the seventh day God ended his work which he had made; and he rested on the seventh day from all his work which he had made.",
+          "text": "And he said, Take now thy son, thine only son Isaac, whom thou lovest, and get thee into the land of Moriah; and offer him there for a burnt offering.",
           "source": {
             "translator": "King James Version",
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
+          "explanation": "This verse from the Binding of Isaac (the Akedah) tells of Abraham's ultimate test of faith when God commands him to sacrifice his son Isaac, foreshadowing complete trust in divine providence."
         },
         {
-          "id": "torah-gen-2-3",
-          "number": 3,
-          "text": "And God blessed the seventh day, and sanctified it: because that in it he had rested from all his work which God created and made.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
-        },
-        {
-          "id": "torah-gen-2-4",
-          "number": 4,
-          "text": "These are the generations of the heavens and of the earth when they were created, in the day that the LORD God made the earth and the heavens,",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
-        },
-        {
-          "id": "torah-gen-2-5",
-          "number": 5,
-          "text": "And every plant of the field before it was in the earth, and every herb of the field before it grew: for the LORD God had not caused it to rain upon the earth, and there was not a man to till the ground.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
-        },
-        {
-          "id": "torah-gen-2-6",
-          "number": 6,
-          "text": "But there went up a mist from the earth, and watered the whole face of the ground.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
-        },
-        {
-          "id": "torah-gen-2-7",
-          "number": 7,
-          "text": "And the LORD God formed man of the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
-        },
-        {
-          "id": "torah-gen-2-8",
-          "number": 8,
-          "text": "And the LORD God planted a garden eastward in Eden; and there he put the man whom he had formed.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
-        },
-        {
-          "id": "torah-gen-2-9",
-          "number": 9,
-          "text": "And out of the ground made the LORD God to grow every tree that is pleasant to the sight, and good for food; the tree of life also in the midst of the garden, and the tree of knowledge of good and evil.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
-        },
-        {
-          "id": "torah-gen-2-10",
-          "number": 10,
-          "text": "And a river went out of Eden to water the garden; and from thence it was parted, and became into four heads.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
-        },
-        {
-          "id": "torah-gen-2-11",
-          "number": 11,
-          "text": "And the LORD God took the man, and put him into the garden of Eden to dress it and to keep it.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
-        },
-        {
-          "id": "torah-gen-2-12",
+          "id": "torah-gen-22-12",
           "number": 12,
-          "text": "And the LORD God commanded the man, saying, Of every tree of the garden thou mayest freely eat:",
+          "text": "And he said, Lay not thine hand upon the lad, neither do thou any thing unto him: for now I know that thou fearest God, seeing thou hast not withheld thy son, thine only son from me.",
           "source": {
             "translator": "King James Version",
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
-        },
+          "explanation": "This verse from the Binding of Isaac (the Akedah) tells of Abraham's ultimate test of faith when God commands him to sacrifice his son Isaac, foreshadowing complete trust in divine providence."
+        }
+      ]
+    },
+    {
+      "id": "torah-gen-28",
+      "number": 8,
+      "title": "Genesis 28 — Jacob's Ladder",
+      "verses": [
         {
-          "id": "torah-gen-2-13",
+          "id": "torah-gen-28-13",
           "number": 13,
-          "text": "But of the tree of the knowledge of good and evil, thou shalt not eat of it: for in the day that thou eatest thereof thou shalt surely die.",
+          "text": "And, behold, the LORD stood above it, and said, I am the LORD God of Abraham thy father, and the God of Isaac: the land whereon thou liest, to thee will I give it, and to thy seed.",
           "source": {
             "translator": "King James Version",
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
+          "explanation": "This verse describes Jacob's dream of a ladder reaching to heaven, with angels ascending and descending. It affirms that God is present everywhere and renews the covenant with Jacob."
         },
         {
-          "id": "torah-gen-2-14",
+          "id": "torah-gen-28-14",
           "number": 14,
-          "text": "And the LORD God said, It is not good that the man should be alone; I will make him an help meet for him.",
+          "text": "And thy seed shall be as the dust of the earth, and thou shalt spread abroad to the west, and to the east, and to the north, and to the south: and in thee and in thy seed shall all the families of the earth be blessed.",
           "source": {
             "translator": "King James Version",
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
+          "explanation": "This verse describes Jacob's dream of a ladder reaching to heaven, with angels ascending and descending. It affirms that God is present everywhere and renews the covenant with Jacob."
         },
         {
-          "id": "torah-gen-2-15",
+          "id": "torah-gen-28-15",
           "number": 15,
-          "text": "And out of the ground the LORD God formed every beast of the field, and every fowl of the air; and brought them unto Adam to see what he would call them: and whatsoever Adam called every living creature, that was the name thereof.",
+          "text": "And, behold, I am with thee, and will keep thee in all places whither thou goest, and will bring thee again into this land: for I will not leave thee, until I have done that which I have spoken to thee of.",
           "source": {
             "translator": "King James Version",
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
-        },
+          "explanation": "This verse describes Jacob's dream of a ladder reaching to heaven, with angels ascending and descending. It affirms that God is present everywhere and renews the covenant with Jacob."
+        }
+      ]
+    },
+    {
+      "id": "torah-gen-50",
+      "number": 9,
+      "title": "Genesis 50 — Joseph Forgives His Brothers",
+      "verses": [
         {
-          "id": "torah-gen-2-16",
-          "number": 16,
-          "text": "And Adam gave names to all cattle, and to the fowl of the air, and to every beast of the field; but for Adam there was not found an help meet for him.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
-        },
-        {
-          "id": "torah-gen-2-17",
-          "number": 17,
-          "text": "And the LORD God caused a deep sleep to fall upon Adam, and he slept: and he took one of his ribs, and closed up the flesh instead thereof;",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
-        },
-        {
-          "id": "torah-gen-2-18",
-          "number": 18,
-          "text": "And the rib, which the LORD God had taken from man, made he a woman, and brought her unto the man.",
-          "source": {
-            "translator": "King James Version",
-            "year": 1611,
-            "license": "Public Domain"
-          },
-          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
-        },
-        {
-          "id": "torah-gen-2-19",
+          "id": "torah-gen-50-19",
           "number": 19,
-          "text": "And Adam said, This is now bone of my bones, and flesh of my flesh: she shall be called Woman, because she was taken out of Man.",
+          "text": "And Joseph said unto them, Fear not: for am I in the place of God?",
           "source": {
             "translator": "King James Version",
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
+          "explanation": "This verse recounts Joseph's forgiveness of his brothers who sold him into slavery. It teaches the power of reconciliation and trust that God works through all circumstances for good."
         },
         {
-          "id": "torah-gen-2-20",
+          "id": "torah-gen-50-20",
           "number": 20,
-          "text": "Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh.",
+          "text": "But as for you, ye thought evil against me; but God meant it unto good, to bring to pass, as it is this day, to save much people alive.",
           "source": {
             "translator": "King James Version",
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
+          "explanation": "This verse recounts Joseph's forgiveness of his brothers who sold him into slavery. It teaches the power of reconciliation and trust that God works through all circumstances for good."
+        }
+      ]
+    },
+    {
+      "id": "torah-exo-3",
+      "number": 10,
+      "title": "Exodus 3 — The Burning Bush",
+      "verses": [
+        {
+          "id": "torah-exo-3-4",
+          "number": 4,
+          "text": "And when the LORD saw that he turned aside to see, God called unto him out of the midst of the bush, and said, Moses, Moses. And he said, Here am I.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This verse describes the Burning Bush, where God reveals His name to Moses and commissions him to lead the Israelites out of Egypt. It is a foundational moment of divine revelation."
         },
         {
-          "id": "torah-gen-2-21",
-          "number": 21,
-          "text": "And they were both naked, the man and his wife, and were not ashamed.",
+          "id": "torah-exo-3-5",
+          "number": 5,
+          "text": "And he said, Draw not nigh hither: put off thy shoes from off thy feet, for the place whereon thou standest is holy ground.",
           "source": {
             "translator": "King James Version",
             "year": 1611,
             "license": "Public Domain"
           },
-          "explanation": "This chapter describes the intimate creation of humanity, the garden of Eden, and the establishment of the first covenant between God and humankind."
+          "explanation": "This verse describes the Burning Bush, where God reveals His name to Moses and commissions him to lead the Israelites out of Egypt. It is a foundational moment of divine revelation."
+        },
+        {
+          "id": "torah-exo-3-14",
+          "number": 14,
+          "text": "And God said unto Moses, I AM THAT I AM: and he said, Thus shalt thou say unto the children of Israel, I AM hath sent me unto you.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This verse describes the Burning Bush, where God reveals His name to Moses and commissions him to lead the Israelites out of Egypt. It is a foundational moment of divine revelation."
         }
       ]
     },
     {
       "id": "torah-exo-14",
-      "number": 17,
+      "number": 11,
       "title": "Exodus 14 — The Parting of the Red Sea",
       "verses": [
         {
@@ -1848,8 +1465,231 @@
       ]
     },
     {
+      "id": "torah-exo-20",
+      "number": 12,
+      "title": "Exodus 20 — The Ten Commandments",
+      "verses": [
+        {
+          "id": "torah-exo-20-1",
+          "number": 1,
+          "text": "And God spake all these words, saying,",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
+        },
+        {
+          "id": "torah-exo-20-2",
+          "number": 2,
+          "text": "I am the LORD thy God, which have brought thee out of the land of Egypt, out of the house of bondage.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
+        },
+        {
+          "id": "torah-exo-20-3",
+          "number": 3,
+          "text": "Thou shalt have no other gods before me.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
+        },
+        {
+          "id": "torah-exo-20-4",
+          "number": 4,
+          "text": "Thou shalt not make unto thee any graven image, or any likeness of any thing that is in heaven above, or that is in the earth beneath, or that is in the water under the earth:",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
+        },
+        {
+          "id": "torah-exo-20-5",
+          "number": 5,
+          "text": "Thou shalt not bow down thyself to them, nor serve them: for I the LORD thy God am a jealous God, visiting the iniquity of the fathers upon the children unto the third and fourth generation of them that hate me;",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
+        },
+        {
+          "id": "torah-exo-20-6",
+          "number": 6,
+          "text": "And shewing mercy unto thousands of them that love me, and keep my commandments.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
+        },
+        {
+          "id": "torah-exo-20-7",
+          "number": 7,
+          "text": "Thou shalt not take the name of the LORD thy God in vain; for the LORD will not hold him guiltless that taketh his name in vain.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
+        },
+        {
+          "id": "torah-exo-20-8",
+          "number": 8,
+          "text": "Remember the sabbath day, to keep it holy.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
+        },
+        {
+          "id": "torah-exo-20-9",
+          "number": 9,
+          "text": "Six days shalt thou labour, and do all thy work:",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
+        },
+        {
+          "id": "torah-exo-20-10",
+          "number": 10,
+          "text": "But the seventh day is the sabbath of the LORD thy God: in it thou shalt not do any work, thou, nor thy son, nor thy daughter, thy manservant, nor thy maidservant, nor thy cattle, nor thy stranger that is within thy gates:",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
+        },
+        {
+          "id": "torah-exo-20-11",
+          "number": 11,
+          "text": "For in six days the LORD made heaven and earth, the sea, and all that in them is, and rested the seventh day: wherefore the LORD blessed the sabbath day, and hallowed it.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
+        },
+        {
+          "id": "torah-exo-20-12",
+          "number": 12,
+          "text": "Honour thy father and thy mother: that thy days may be long upon the land which the LORD thy God giveth thee.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
+        },
+        {
+          "id": "torah-exo-20-13",
+          "number": 13,
+          "text": "Thou shalt not kill.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
+        },
+        {
+          "id": "torah-exo-20-14",
+          "number": 14,
+          "text": "Thou shalt not commit adultery.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
+        },
+        {
+          "id": "torah-exo-20-15",
+          "number": 15,
+          "text": "Thou shalt not steal.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
+        },
+        {
+          "id": "torah-exo-20-16",
+          "number": 16,
+          "text": "Thou shalt not bear false witness against thy neighbour.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
+        },
+        {
+          "id": "torah-exo-20-17",
+          "number": 17,
+          "text": "Thou shalt not covet thy neighbour's house, thou shalt not covet thy neighbour's wife, nor his manservant, nor his maidservant, nor his ox, nor his ass, nor any thing that is thy neighbour's.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This passage contains the Decalogue, the foundational moral law given at Sinai that shapes Judeo-Christian ethics."
+        }
+      ]
+    },
+    {
+      "id": "torah-lev-19",
+      "number": 13,
+      "title": "Leviticus 19 — Holiness Laws",
+      "verses": [
+        {
+          "id": "torah-lev-19-18",
+          "number": 18,
+          "text": "Thou shalt not avenge, nor bear any grudge against the children of thy people, but thou shalt love thy neighbour as thyself: I am the LORD.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This verse from the Holiness Laws commands, 'You shall be holy, for I the Lord your God am holy.' It calls for ethical conduct, charity, and justice in daily life."
+        },
+        {
+          "id": "torah-lev-19-34",
+          "number": 34,
+          "text": "The stranger that sojourneth with you shall be unto you as the homeborn among you, and thou shalt love him as thyself; for ye were strangers in the land of Egypt: I am the LORD your God.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This verse from the Holiness Laws commands, 'You shall be holy, for I the Lord your God am holy.' It calls for ethical conduct, charity, and justice in daily life."
+        }
+      ]
+    },
+    {
       "id": "torah-num-6",
-      "number": 18,
+      "number": 14,
       "title": "Numbers 6 — The Priestly Blessing",
       "verses": [
         {
@@ -1922,7 +1762,7 @@
     },
     {
       "id": "torah-num-14",
-      "number": 19,
+      "number": 15,
       "title": "Numbers 14 — The People Rebel",
       "verses": [
         {
@@ -2093,8 +1933,59 @@
       ]
     },
     {
+      "id": "torah-deut-6",
+      "number": 16,
+      "title": "Deuteronomy 6 — The Shema",
+      "verses": [
+        {
+          "id": "torah-deut-6-4",
+          "number": 4,
+          "text": "Hear, O Israel: The LORD our God is one LORD.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This verse contains the Shema: 'Hear, O Israel: The Lord our God, the Lord is One.' It is the central declaration of faith in Judaism, calling for wholehearted love of God."
+        },
+        {
+          "id": "torah-deut-6-5",
+          "number": 5,
+          "text": "And thou shalt love the LORD thy God with all thine heart, and with all thy soul, and with all thy might.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This verse contains the Shema: 'Hear, O Israel: The Lord our God, the Lord is One.' It is the central declaration of faith in Judaism, calling for wholehearted love of God."
+        },
+        {
+          "id": "torah-deut-6-6",
+          "number": 6,
+          "text": "And these words, which I command thee this day, shall be in thine heart.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This verse contains the Shema: 'Hear, O Israel: The Lord our God, the Lord is One.' It is the central declaration of faith in Judaism, calling for wholehearted love of God."
+        },
+        {
+          "id": "torah-deut-6-7",
+          "number": 7,
+          "text": "And thou shalt teach them diligently unto thy children, and shalt talk of them when thou sittest in thine house, and when thou walkest by the way, and when thou liest down, and when thou risest up.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This verse contains the Shema: 'Hear, O Israel: The Lord our God, the Lord is One.' It is the central declaration of faith in Judaism, calling for wholehearted love of God."
+        }
+      ]
+    },
+    {
       "id": "torah-deut-10",
-      "number": 20,
+      "number": 17,
       "title": "Deuteronomy 10 — What God Requires",
       "verses": [
         {
@@ -2327,6 +2218,35 @@
             "license": "Public Domain"
           },
           "explanation": "This passage summarizes the essence of covenant faithfulness: fearing God, walking in His ways, loving Him, and serving with heart and soul."
+        }
+      ]
+    },
+    {
+      "id": "torah-deut-30",
+      "number": 18,
+      "title": "Deuteronomy 30 — Life and Death",
+      "verses": [
+        {
+          "id": "torah-deut-30-19",
+          "number": 19,
+          "text": "I call heaven and earth to record this day against you, that I have set before you life and death, blessing and cursing: therefore choose life, that both thou and thy seed may live.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This verse presents the choice between life and death, blessing and curse. It calls upon Israel to choose life by loving God and walking in His ways."
+        },
+        {
+          "id": "torah-deut-30-20",
+          "number": 20,
+          "text": "That thou mayest love the LORD thy God, and that thou mayest obey his voice, and that thou mayest cleave unto him: for he is thy life, and the length of thy days.",
+          "source": {
+            "translator": "King James Version",
+            "year": 1611,
+            "license": "Public Domain"
+          },
+          "explanation": "This verse presents the choice between life and death, blessing and curse. It calls upon Israel to choose life by loving God and walking in His ways."
         }
       ]
     }
