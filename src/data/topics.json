@@ -22,21 +22,25 @@
           "translator": "King James Version",
           "year": 1611,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Leviticus 19 — Holiness Laws",
+        "verseNumber": 18
       },
       {
         "bookId": "bible",
         "bookTitle": "The Bible",
         "religion": "Christianity",
         "reference": "The Bible 8.44",
-        "chapterId": "bible-mat-5",
-        "verseId": "bible-mat-5-44",
+        "chapterId": "bible-matthew-5",
+        "verseId": "bible-matthew-5-44",
         "text": "But I say unto you, Love your enemies, bless them that curse you, do good to them that hate you, and pray for them which despitefully use you, and persecute you.",
         "source": {
           "translator": "King James Version",
           "year": 1611,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Matthew 5",
+        "verseNumber": 44
       },
       {
         "bookId": "bhagavad-gita",
@@ -50,7 +54,9 @@
           "translator": "Swami Sivananda",
           "year": 1942,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Bhakti Yoga (The Yoga of Devotion)",
+        "verseNumber": 13
       },
       {
         "bookId": "dhammapada",
@@ -64,7 +70,9 @@
           "translator": "F. Max Müller",
           "year": 1881,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Jaravagga Vagga (Old Age / Aging)",
+        "verseNumber": 1
       }
     ],
     "scienceNotes": "Evolutionary biology and neuroscience support the Golden Rule's cross-cultural universality. Mirror neurons — discovered by Rizzolatti et al. (1996) — provide a neural basis for empathy, while game theory research (Nowak, 2006) shows that reciprocal altruism is an evolutionarily stable strategy. Developmental psychology (Tomasello, 2009) finds that prosocial behavior emerges in human infants before language, suggesting a biological foundation for the 'treat others as you wish to be treated' ethic."
@@ -93,7 +101,9 @@
           "translator": "F. Max Müller",
           "year": 1881,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Yamaka Vagga (The Twin Verses)",
+        "verseNumber": 1
       },
       {
         "bookId": "quran",
@@ -107,7 +117,9 @@
           "translator": "Sahih International",
           "year": 1997,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Ash-Shura (Consultation)",
+        "verseNumber": 1
       },
       {
         "bookId": "bhagavad-gita",
@@ -121,21 +133,25 @@
           "translator": "Swami Sivananda",
           "year": 1942,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Bhakti Yoga (The Yoga of Devotion)",
+        "verseNumber": 13
       },
       {
         "bookId": "bible",
         "bookTitle": "The Bible",
         "religion": "Christianity",
         "reference": "The Bible 17.4",
-        "chapterId": "bible-1cor-13",
-        "verseId": "bible-1cor-13-4",
+        "chapterId": "bible-1corinthians-13",
+        "verseId": "bible-1corinthians-13-4",
         "text": "Charity suffereth long, and is kind; charity envieth not; charity vaunteth not itself, is not puffed up.",
         "source": {
           "translator": "King James Version",
           "year": 1611,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "1 Corinthians 13",
+        "verseNumber": 4
       },
       {
         "bookId": "guru-granth-sahib",
@@ -149,7 +165,9 @@
           "translator": "Purdil Singh",
           "year": 2000,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Sukhmani Sahib — The Psalm of Peace (Guru Arjan)",
+        "verseNumber": 2
       }
     ],
     "scienceNotes": "Controlled studies on Compassion-Focused Therapy (CFT) show significant reductions in depression, anxiety, and self-criticism (Leaviss & Uttley, 2015). fMRI research (Klimecki et al., 2013) reveals that compassion training activates the ventral striatum and orbitofrontal cortex — regions linked to reward and affiliation — distinct from empathy's pain-network activation. Loving-kindness meditation (LKM) interventions (Hofmann et al., 2011) demonstrate dose-dependent increases in positive affect and social connectedness, with effect sizes comparable to standard antidepressants."
@@ -178,21 +196,25 @@
           "translator": "Swami Sivananda",
           "year": 1942,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Karma Yoga (The Yoga of Action)",
+        "verseNumber": 8
       },
       {
         "bookId": "bible",
         "bookTitle": "The Bible",
         "religion": "Christianity",
         "reference": "The Bible 35.1",
-        "chapterId": "bible-ps-23",
-        "verseId": "bible-ps-23-1",
+        "chapterId": "bible-psalms-23",
+        "verseId": "bible-psalms-23-1",
         "text": "The LORD is my shepherd; I shall not want.",
         "source": {
           "translator": "King James Version",
           "year": 1611,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Psalms 23",
+        "verseNumber": 1
       },
       {
         "bookId": "quran",
@@ -206,7 +228,9 @@
           "translator": "Sahih International",
           "year": 1997,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Al-Asr (The Declining Day)",
+        "verseNumber": 1
       },
       {
         "bookId": "dhammapada",
@@ -220,7 +244,9 @@
           "translator": "F. Max Müller",
           "year": 1881,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Maghavagga Vagga (The Path)",
+        "verseNumber": 1
       },
       {
         "bookId": "guru-granth-sahib",
@@ -234,7 +260,9 @@
           "translator": "Purdil Singh",
           "year": 2000,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Japji Sahib — The Morning Prayer (Guru Nanak)",
+        "verseNumber": 1
       }
     ],
     "scienceNotes": "Psychological research on meaning and purpose (Ryff & Singer, 1998; Steger, 2009) identifies eudaimonic well-being — living in accordance with one's deepest values — as a stronger predictor of health than hedonic happiness. Longitudinal studies (Hill & Turiano, 2014) show that purpose in life predicts reduced all-cause mortality across the lifespan, mediated by lower cortisol levels and improved cardiovascular regulation. Evolutionary accounts (Buss, 2008) frame purpose-seeking as an adaptive mechanism that organizes goal-directed behavior and fosters community cohesion."
@@ -256,14 +284,16 @@
         "bookTitle": "The Bible",
         "religion": "Christianity",
         "reference": "The Bible 8.44",
-        "chapterId": "bible-mat-5",
-        "verseId": "bible-mat-5-44",
+        "chapterId": "bible-matthew-5",
+        "verseId": "bible-matthew-5-44",
         "text": "But I say unto you, Love your enemies, bless them that curse you, do good to them that hate you, and pray for them which despitefully use you, and persecute you.",
         "source": {
           "translator": "King James Version",
           "year": 1611,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Matthew 5",
+        "verseNumber": 44
       },
       {
         "bookId": "bhagavad-gita",
@@ -277,7 +307,9 @@
           "translator": "Swami Sivananda",
           "year": 1942,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Bhakti Yoga (The Yoga of Devotion)",
+        "verseNumber": 13
       },
       {
         "bookId": "quran",
@@ -291,7 +323,9 @@
           "translator": "Sahih International",
           "year": 1997,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Ash-Shura (Consultation)",
+        "verseNumber": 1
       },
       {
         "bookId": "dhammapada",
@@ -305,7 +339,9 @@
           "translator": "F. Max Müller",
           "year": 1881,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Yamaka Vagga (The Twin Verses)",
+        "verseNumber": 1
       }
     ],
     "scienceNotes": "Forgiveness interventions (Worthington et al., 2015, meta-analysis of 54 studies) produce moderate-to-large reductions in depression (g = 0.58) and anxiety (g = 0.54). fMRI research (Ricciardi et al., 2013) shows that forgiving others activates the prefrontal cortex and dampens amygdala response, suggesting cognitive reappraisal as the underlying mechanism. The Enright Forgiveness Inventory (EFI) has been validated across 20+ cultures, supporting forgiveness as a cross-cultural construct with measurable health benefits — lower blood pressure, improved immune function (vanOyen Witvliet, 2001)."
@@ -338,7 +374,9 @@
           "translator": "Swami Sivananda",
           "year": 1942,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Sankhya Yoga (The Yoga of Knowledge)",
+        "verseNumber": 20
       },
       {
         "bookId": "bible",
@@ -352,7 +390,9 @@
           "translator": "King James Version",
           "year": 1611,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "John 3",
+        "verseNumber": 16
       },
       {
         "bookId": "quran",
@@ -366,7 +406,9 @@
           "translator": "Sahih International",
           "year": 1997,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Ya-Sin",
+        "verseNumber": 1
       },
       {
         "bookId": "dhammapada",
@@ -380,7 +422,9 @@
           "translator": "F. Max Müller",
           "year": 1881,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Appamada Vagga (Heedfulness)",
+        "verseNumber": 1
       },
       {
         "bookId": "guru-granth-sahib",
@@ -394,7 +438,9 @@
           "translator": "Purdil Singh",
           "year": 2000,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Anand Sahib — The Song of Bliss (Guru Amar Das)",
+        "verseNumber": 1
       },
       {
         "bookId": "torah",
@@ -408,7 +454,9 @@
           "translator": "King James Version",
           "year": 1611,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Deuteronomy 30 — Life and Death",
+        "verseNumber": 19
       }
     ],
     "scienceNotes": "Near-Death Experience (NDE) research (van Lommel et al., 2001, Lancet; Greyson, 2021) documents consistent phenomenological reports across cultures — out-of-body perception, life review, encounter with light — occurring during cardiac arrest when clinical brain activity is absent. The AWARE studies (Parnia et al., 2014) found 2-12% of cardiac arrest survivors recall lucid experiences during EEG-silent periods. However, neurobiological explanations (oxidative stress, glutamate dysregulation, REM intrusion) remain viable. The question remains scientifically unresolved; the NDE evidence is suggestive but not conclusive, and the diversity of reported afterlifes (heaven, rebirth, annihilation) mirrors cultural expectations."
@@ -438,21 +486,25 @@
           "translator": "Sahih International",
           "year": 1997,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Al-Baqarah (The Cow)",
+        "verseNumber": 256
       },
       {
         "bookId": "bible",
         "bookTitle": "The Bible",
         "religion": "Christianity",
         "reference": "The Bible 17.13",
-        "chapterId": "bible-1cor-13",
-        "verseId": "bible-1cor-13-13",
+        "chapterId": "bible-1corinthians-13",
+        "verseId": "bible-1corinthians-13-13",
         "text": "And now abideth faith, hope, charity, these three; but the greatest of these is charity.",
         "source": {
           "translator": "King James Version",
           "year": 1611,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "1 Corinthians 13",
+        "verseNumber": 13
       },
       {
         "bookId": "bhagavad-gita",
@@ -466,7 +518,9 @@
           "translator": "Swami Sivananda",
           "year": 1942,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Karma Yoga (The Yoga of Action)",
+        "verseNumber": 19
       },
       {
         "bookId": "torah",
@@ -480,7 +534,9 @@
           "translator": "King James Version",
           "year": 1611,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Deuteronomy 10 — What God Requires",
+        "verseNumber": 12
       },
       {
         "bookId": "guru-granth-sahib",
@@ -494,7 +550,9 @@
           "translator": "Purdil Singh",
           "year": 2000,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Japji Sahib — The Morning Prayer (Guru Nanak)",
+        "verseNumber": 2
       }
     ],
     "scienceNotes": "Behavioral economics experiments (Andreoni, 1990; Harbaugh, 1998) identify 'warm-glow giving' — the intrinsic reward of generosity — via fMRI activation in the ventral striatum and caudate nucleus. Charitable giving triggers stronger neural responses than receiving money (Moll et al., 2006). Longitudinal public health studies (Musick & Wilson, 2003) show that volunteers have 20-35% lower mortality risk over 5-8 year follow-ups. The 'helpers' high' — a physiological state of reduced cortisol and increased oxytocin — has been replicated in randomized controlled trials of prosocial behavior."
@@ -523,21 +581,25 @@
           "translator": "F. Max Müller",
           "year": 1881,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Jaravagga Vagga (Old Age / Aging)",
+        "verseNumber": 1
       },
       {
         "bookId": "bible",
         "bookTitle": "The Bible",
         "religion": "Christianity",
         "reference": "The Bible 8.9",
-        "chapterId": "bible-mat-5",
-        "verseId": "bible-mat-5-9",
+        "chapterId": "bible-matthew-5",
+        "verseId": "bible-matthew-5-9",
         "text": "Blessed are the peacemakers: for they shall be called the children of God.",
         "source": {
           "translator": "King James Version",
           "year": 1611,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Matthew 5",
+        "verseNumber": 9
       },
       {
         "bookId": "bhagavad-gita",
@@ -551,7 +613,9 @@
           "translator": "Edwin Arnold",
           "year": 1885,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Sankhya Yoga (The Yoga of Knowledge)",
+        "verseNumber": 56
       },
       {
         "bookId": "quran",
@@ -565,7 +629,9 @@
           "translator": "Sahih International",
           "year": 1997,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Al-Hujurat (The Rooms)",
+        "verseNumber": 1
       },
       {
         "bookId": "guru-granth-sahib",
@@ -579,7 +645,9 @@
           "translator": "Purdil Singh",
           "year": 2000,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Japji Sahib — The Morning Prayer (Guru Nanak)",
+        "verseNumber": 1
       },
       {
         "bookId": "torah",
@@ -593,7 +661,9 @@
           "translator": "King James Version",
           "year": 1611,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Numbers 6 — The Priestly Blessing",
+        "verseNumber": 3
       }
     ],
     "scienceNotes": "The science of peace spans neurobiology (peace meditation increases gamma coherence and telomerase activity — Davidson et al., 2003; Epel et al., 2009), conflict resolution psychology (contact hypothesis — Pettigrew & Tropp, 2006 meta-analysis of 515 studies — finds intergroup contact reduces prejudice with r = -0.21), and peace economics (Collier & Hoeffler, 2004 on the economic drivers of civil war). Mindfulness-Based Stress Reduction (MBSR) protocols derived from contemplative peace traditions show effect sizes of d = 0.5-0.8 for anxiety reduction (Khoury et al., 2013)."
@@ -615,14 +685,16 @@
         "bookTitle": "The Bible",
         "religion": "Christianity",
         "reference": "The Bible 6.5",
-        "chapterId": "bible-prov-3",
-        "verseId": "bible-prov-3-5",
+        "chapterId": "bible-proverbs-3",
+        "verseId": "bible-proverbs-3-5",
         "text": "Trust in the LORD with all thine heart; and lean not unto thine own understanding.",
         "source": {
           "translator": "King James Version",
           "year": 1611,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Proverbs 3",
+        "verseNumber": 5
       },
       {
         "bookId": "dhammapada",
@@ -636,7 +708,9 @@
           "translator": "F. Max Müller",
           "year": 1881,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Pandita Vagga (The Wise)",
+        "verseNumber": 1
       },
       {
         "bookId": "bhagavad-gita",
@@ -650,7 +724,9 @@
           "translator": "Swami Sivananda",
           "year": 1942,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Jnana Karma Sannyasa Yoga (The Yoga of Wisdom and Renunciation)",
+        "verseNumber": 7
       },
       {
         "bookId": "guru-granth-sahib",
@@ -664,7 +740,9 @@
           "translator": "Purdil Singh",
           "year": 2000,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Japji Sahib — The Morning Prayer (Guru Nanak)",
+        "verseNumber": 1
       },
       {
         "bookId": "quran",
@@ -678,7 +756,9 @@
           "translator": "Sahih International",
           "year": 1997,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Al-Baqarah (The Cow)",
+        "verseNumber": 256
       }
     ],
     "scienceNotes": "Psychological wisdom research (Baltes & Staudinger, 2000; Berlin Wisdom Paradigm) operationalizes wisdom as rich factual/procedural knowledge, lifespan contextualism, value relativism, and recognition of uncertainty. fMRI studies (Meeks & Jeste, 2009) associate wisdom with prefrontal cortex function, emotional regulation, and balanced dopamine/serotonin systems. Longitudinal data (Ardelt, 2004) finds wisdom predicts life satisfaction and psychological well-being in older adults independent of education and IQ. The integration of cognitive and affective processing — a core theme in wisdom traditions — is now a focus in affective neuroscience."
@@ -707,7 +787,9 @@
           "translator": "Sahih International",
           "year": 1997,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Al-Ma'idah (The Table Spread)",
+        "verseNumber": 1
       },
       {
         "bookId": "torah",
@@ -721,21 +803,25 @@
           "translator": "King James Version",
           "year": 1611,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Deuteronomy 10 — What God Requires",
+        "verseNumber": 12
       },
       {
         "bookId": "bible",
         "bookTitle": "The Bible",
         "religion": "Christianity",
         "reference": "The Bible 96.9",
-        "chapterId": "bible-rom-12",
-        "verseId": "bible-rom-12-9",
+        "chapterId": "bible-romans-12",
+        "verseId": "bible-romans-12-9",
         "text": "Let love be without dissimulation. Abhor that which is evil; cleave to that which is good.",
         "source": {
           "translator": "King James Version",
           "year": 1611,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Romans 12",
+        "verseNumber": 9
       },
       {
         "bookId": "bhagavad-gita",
@@ -749,7 +835,9 @@
           "translator": "Swami Sivananda",
           "year": 1942,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Moksha Sannyasa Yoga (The Yoga of Liberation and Renunciation)",
+        "verseNumber": 66
       },
       {
         "bookId": "dhammapada",
@@ -763,7 +851,9 @@
           "translator": "F. Max Müller",
           "year": 1881,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Yamaka Vagga (The Twin Verses)",
+        "verseNumber": 1
       }
     ],
     "scienceNotes": "The neuroscience of fairness (Sanfey et al., 2003, Science) uses the Ultimatum Game to show that perceived unfairness activates the anterior insula (disgust response) and dorsolateral prefrontal cortex (cognitive control). Developmental psychology (Turiel, 2002) finds that justice reasoning emerges in children as young as 3-4 years, independent of religious instruction. Political philosophy's empirical turn (Haidt, 2012) identifies fairness/reciprocity as one of five innate moral foundations shared across cultures. Restorative justice programs (Latimer et al., 2005 meta-analysis) show higher offender accountability and victim satisfaction than punitive justice approaches."
@@ -792,21 +882,25 @@
           "translator": "Swami Sivananda",
           "year": 1942,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Raja Vidya Raja Guhya Yoga (The Yoga of Sovereign Knowledge and Secret)",
+        "verseNumber": 22
       },
       {
         "bookId": "bible",
         "bookTitle": "The Bible",
         "religion": "Christianity",
         "reference": "The Bible 17.13",
-        "chapterId": "bible-1cor-13",
-        "verseId": "bible-1cor-13-13",
+        "chapterId": "bible-1corinthians-13",
+        "verseId": "bible-1corinthians-13-13",
         "text": "And now abideth faith, hope, charity, these three; but the greatest of these is charity.",
         "source": {
           "translator": "King James Version",
           "year": 1611,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "1 Corinthians 13",
+        "verseNumber": 13
       },
       {
         "bookId": "quran",
@@ -820,7 +914,9 @@
           "translator": "Sahih International",
           "year": 1997,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Al-Baqarah (The Cow)",
+        "verseNumber": 286
       },
       {
         "bookId": "torah",
@@ -834,7 +930,9 @@
           "translator": "King James Version",
           "year": 1611,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Deuteronomy 6 — The Shema",
+        "verseNumber": 4
       },
       {
         "bookId": "guru-granth-sahib",
@@ -848,7 +946,9 @@
           "translator": "Purdil Singh",
           "year": 2000,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Japji Sahib — The Morning Prayer (Guru Nanak)",
+        "verseNumber": 1
       }
     ],
     "scienceNotes": "The cognitive science of religion (Barrett, 2000; Boyer, 2001) proposes that religious belief arises from evolved cognitive mechanisms: agency detection, theory of mind, and teleological reasoning — all of which develop spontaneously in early childhood. fMRI studies of prayer and meditation (Schjoedt et al., 2009) show reduced frontal lobe activity during ritualized prayer consistent with automated cognitive processing. Psychologically, faith correlates with higher reported well-being (Koenig, 2012 meta-analysis of 850+ studies), though the causal direction is debated — social support and behavioral regulation are plausible mediators rather than belief per se."
@@ -877,21 +977,25 @@
           "translator": "Swami Sivananda",
           "year": 1942,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Bhakti Yoga (The Yoga of Devotion)",
+        "verseNumber": 15
       },
       {
         "bookId": "bible",
         "bookTitle": "The Bible",
         "religion": "Christianity",
         "reference": "The Bible 8.3",
-        "chapterId": "bible-mat-5",
-        "verseId": "bible-mat-5-3",
+        "chapterId": "bible-matthew-5",
+        "verseId": "bible-matthew-5-3",
         "text": "Blessed are the poor in spirit: for theirs is the kingdom of heaven.",
         "source": {
           "translator": "King James Version",
           "year": 1611,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Matthew 5",
+        "verseNumber": 3
       },
       {
         "bookId": "dhammapada",
@@ -905,7 +1009,9 @@
           "translator": "F. Max Müller",
           "year": 1881,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Lokavagga Vagga (The World)",
+        "verseNumber": 1
       },
       {
         "bookId": "guru-granth-sahib",
@@ -919,7 +1025,9 @@
           "translator": "Purdil Singh",
           "year": 2000,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Japji Sahib — The Morning Prayer (Guru Nanak)",
+        "verseNumber": 1
       }
     ],
     "scienceNotes": "The psychological science of intellectual humility (Leary et al., 2017; Porter & Schumann, 2018) shows it predicts receptivity to opposing views, willingness to revise beliefs, and reduced polarization. Neuroimaging (Zmigrod et al., 2019) associates dogmatism with reduced prefrontal flexibility. Leadership research (Collins, 2001, Good to Great) identified personal humility combined with professional will — 'Level 5 Leadership' — as a predictor of sustained organizational success. Social psychology finds that humble individuals are rated as more competent and likeable by peers, countering the assertiveness-default assumption."
@@ -949,21 +1057,25 @@
           "translator": "F. Max Müller",
           "year": 1881,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Yamaka Vagga (The Twin Verses)",
+        "verseNumber": 1
       },
       {
         "bookId": "bible",
         "bookTitle": "The Bible",
         "religion": "Christianity",
         "reference": "The Bible 19.4",
-        "chapterId": "bible-rev-21",
-        "verseId": "bible-rev-21-4",
+        "chapterId": "bible-revelation-21",
+        "verseId": "bible-revelation-21-4",
         "text": "And God shall wipe away all tears from their eyes; and there shall be no more death, neither sorrow, nor crying, neither shall there be any more pain: for the former things are passed away.",
         "source": {
           "translator": "King James Version",
           "year": 1611,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Revelation 21",
+        "verseNumber": 4
       },
       {
         "bookId": "bhagavad-gita",
@@ -977,7 +1089,9 @@
           "translator": "Edwin Arnold",
           "year": 1885,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Sankhya Yoga (The Yoga of Knowledge)",
+        "verseNumber": 56
       },
       {
         "bookId": "quran",
@@ -991,7 +1105,9 @@
           "translator": "Sahih International",
           "year": 1997,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Ash-Sharh (The Relief)",
+        "verseNumber": 1
       },
       {
         "bookId": "torah",
@@ -1005,7 +1121,9 @@
           "translator": "King James Version",
           "year": 1611,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Deuteronomy 30 — Life and Death",
+        "verseNumber": 19
       }
     ],
     "scienceNotes": "Pain neuroscience (Melzack, 1999; Tracey & Mantyh, 2007) distinguishes between nociception (sensory) and suffering (emotional/cognitive appraisal), mediated by the anterior cingulate cortex and insula. The neuromatrix theory of pain explains why meaning-making — including spiritual reframing of suffering — can modulate pain perception. Post-traumatic growth research (Tedeschi & Calhoun, 2004) finds 30-70% of trauma survivors report positive psychological changes, including deepened meaning, which aligns with scriptural narratives of redemptive suffering. Placebo-controlled studies show that mindfulness-based pain management reduces pain intensity by 22-33% (Zeidan et al., 2011)."
@@ -1027,14 +1145,16 @@
         "bookTitle": "The Bible",
         "religion": "Christianity",
         "reference": "The Bible 17.13",
-        "chapterId": "bible-1cor-13",
-        "verseId": "bible-1cor-13-13",
+        "chapterId": "bible-1corinthians-13",
+        "verseId": "bible-1corinthians-13-13",
         "text": "And now abideth faith, hope, charity, these three; but the greatest of these is charity.",
         "source": {
           "translator": "King James Version",
           "year": 1611,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "1 Corinthians 13",
+        "verseNumber": 13
       },
       {
         "bookId": "quran",
@@ -1048,7 +1168,9 @@
           "translator": "Sahih International",
           "year": 1997,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Ash-Shura (Consultation)",
+        "verseNumber": 1
       },
       {
         "bookId": "bhagavad-gita",
@@ -1062,7 +1184,9 @@
           "translator": "Swami Sivananda",
           "year": 1942,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Raja Vidya Raja Guhya Yoga (The Yoga of Sovereign Knowledge and Secret)",
+        "verseNumber": 27
       },
       {
         "bookId": "guru-granth-sahib",
@@ -1076,7 +1200,9 @@
           "translator": "Purdil Singh",
           "year": 2000,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Anand Sahib — The Song of Bliss (Guru Amar Das)",
+        "verseNumber": 1
       },
       {
         "bookId": "torah",
@@ -1090,7 +1216,9 @@
           "translator": "King James Version",
           "year": 1611,
           "license": "Public Domain"
-        }
+        },
+        "chapterTitle": "Deuteronomy 6 — The Shema",
+        "verseNumber": 4
       }
     ],
     "scienceNotes": "Attachment theory (Bowlby, 1969; Hazan & Shaver, 1987) provides an evolutionary framework: romantic love co-opts the mother-infant attachment system. fMRI studies (Bartels & Zeki, 2000; Fisher et al., 2005) show that romantic love activates dopamine-rich reward regions (caudate, ventral tegmental area) while deactivating critical social judgment areas (prefrontal cortex, amygdala). Long-term compassionate love — distinct from passionate love — correlates with activation in the ventral pallidum, associated with long-term pair bonding (Acevedo et al., 2012). The 'love hormone' oxytocin facilitates trust, empathy, and pair bonding across mammalian species."

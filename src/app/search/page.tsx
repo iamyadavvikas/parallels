@@ -127,7 +127,9 @@ export default async function SearchPage({
               religion: r.book.religion,
               reference: `${r.chapter.title} ${r.verse.number}`,
               chapterId: r.chapter.id,
+              chapterTitle: r.chapter.title,
               verseId: r.verse.id,
+              verseNumber: r.verse.number,
               text: r.verse.translation || r.verse.text,
               source: r.verse.source,
             }))}

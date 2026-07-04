@@ -66,10 +66,13 @@ export interface Passage {
   religion: Religion;
   reference: string;
   chapterId: string;
+  chapterTitle: string;
   verseId: string;
+  verseNumber: number;
   text: string;
   context?: string;
   source: Source;
+  score?: number;
 }
 
 export interface Topic {

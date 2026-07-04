@@ -1,9 +1,11 @@
 "use client";
 
 import { useState, useMemo, useCallback, useRef, useEffect } from "react";
+import Link from "next/link";
 import type { Book, Passage, Religion } from "@/lib/types";
 import { religionDotColors, religionGlowColors } from "@/lib/utils";
 import { books as allBooks, topics, questions } from "@/data";
+import _perspectivesInsights from "@/data/perspectives-insights.json";
 import BookSelector from "./BookSelector";
 import CustomDropdown from "./CustomDropdown";
 import MagneticButton from "@/components/ui/MagneticButton";
@@ -33,6 +35,8 @@ const religionSymbols: Record<Religion, string> = {
   Buddhism: "☸",
 };
 
+const perspectivesInsights = _perspectivesInsights as Record<string, Record<Religion, string>>;
+
 
 export default function CompareView({ initialTopic, initialQuestion }: CompareViewProps) {
   const [selectedBooks, setSelectedBooks] = useState<Book[]>([]);
@@ -44,6 +48,7 @@ export default function CompareView({ initialTopic, initialQuestion }: CompareVi
   const [fusionResult, setFusionResult] = useState("");
   const [fusionError, setFusionError] = useState("");
   const [viewMode, setViewMode] = useState<"grid" | "timeline">("grid");
+  const [expandedBook, setExpandedBook] = useState<string | null>(null);
   const svgRef = useRef<SVGSVGElement>(null);
 
   const topicOptions = topics.map((t) => ({
@@ -59,16 +64,15 @@ export default function CompareView({ initialTopic, initialQuestion }: CompareVi
 
   const passages = useMemo(() => {
     const result: Passage[] = [];
-    const MAX_PER_BOOK = 15; // Cap per tradition to prevent dominance
-    const countsByBook = new Map<string, number>();
     const seenVerseIds = new Set<string>();
+    const keywordCounts = new Map<string, number>(); // verseId -> number of keywords matched
 
     if (selectedTopic) {
       const topic = topics.find((t) => t.id === selectedTopic);
       if (topic) {
         for (const p of topic.passages) {
           if (selectedBooks.length === 0 || selectedBooks.some((b) => b.id === p.bookId)) {
-            result.push(p);
+            result.push({ ...p, score: 1.0 });
           }
         }
       }
@@ -77,37 +81,50 @@ export default function CompareView({ initialTopic, initialQuestion }: CompareVi
     if (selectedQuestion) {
       const question = questions.find((q) => q.id === selectedQuestion);
       if (question) {
-        for (const keyword of question.keywords) {
+        const keywords = question.keywords;
+        for (const keyword of keywords) {
           for (const book of selectedBooks.length > 0 ? selectedBooks : allBooks) {
-            const bookCount = countsByBook.get(book.id) || 0;
-            if (bookCount >= MAX_PER_BOOK) continue;
-
             for (const chapter of book.chapters) {
               for (const verse of chapter.verses) {
                 if (seenVerseIds.has(verse.id)) continue;
-                if (verse.text.toLowerCase().includes(keyword)) {
+                const text = (verse.translation || verse.text).toLowerCase();
+                if (text.includes(keyword)) {
                   seenVerseIds.add(verse.id);
-                  countsByBook.set(book.id, (countsByBook.get(book.id) || 0) + 1);
-                  result.push({
-                    bookId: book.id,
-                    bookTitle: book.title,
-                    religion: book.religion,
-                    reference: `${book.title}`,
-                    chapterId: chapter.id,
-                    verseId: verse.id,
-                    text: verse.translation || verse.text,
-                    source: verse.source,
-                  });
-                  if ((countsByBook.get(book.id) || 0) >= MAX_PER_BOOK) break;
+                  keywordCounts.set(verse.id, (keywordCounts.get(verse.id) || 0) + 1);
                 }
               }
-              if ((countsByBook.get(book.id) || 0) >= MAX_PER_BOOK) break;
+            }
+          }
+        }
+
+        // Build passages with scores
+        for (const book of selectedBooks.length > 0 ? selectedBooks : allBooks) {
+          for (const chapter of book.chapters) {
+            for (const verse of chapter.verses) {
+              const count = keywordCounts.get(verse.id) || 0;
+              if (count > 0) {
+                result.push({
+                  bookId: book.id,
+                  bookTitle: book.title,
+                  religion: book.religion,
+                  reference: `${book.title} ${chapter.title}`,
+                  chapterId: chapter.id,
+                  chapterTitle: chapter.title,
+                  verseId: verse.id,
+                  verseNumber: verse.number,
+                  text: verse.translation || verse.text,
+                  source: verse.source,
+                  score: count / keywords.length,
+                });
+              }
             }
           }
         }
       }
     }
 
+    // Sort by score descending
+    result.sort((a, b) => (b.score || 0) - (a.score || 0));
     return result;
   }, [selectedBooks, selectedTopic, selectedQuestion]);
 
@@ -533,59 +550,138 @@ export default function CompareView({ initialTopic, initialQuestion }: CompareVi
       )}
 
       {/* Results — Wisdom Threads (Grid mode) */}
-      {!loading && !fusing && (showResults || passages.length > 0) && viewMode === "grid" && passages.length > 0 && (
-        <div className="space-y-6">
-          <div className="flex items-center gap-3">
-            <div className="h-px flex-1 bg-gradient-to-r from-transparent via-accent/30 to-transparent" />
-            <h3 className="text-sm font-mono tracking-[0.2em] uppercase text-accent">
-              Wisdom Threads ({passages.length})
-            </h3>
-            <div className="h-px flex-1 bg-gradient-to-r from-transparent via-accent/30 to-transparent" />
-          </div>
+      {!loading && !fusing && (showResults || passages.length > 0) && viewMode === "grid" && passages.length > 0 && (() => {
+        const byReligion = new Map<string, typeof passages>();
+        for (const p of passages) {
+          const arr = byReligion.get(p.religion) || [];
+          arr.push(p);
+          byReligion.set(p.religion, arr);
+        }
+        const traditions = ["Hinduism", "Christianity", "Islam", "Judaism", "Sikhism", "Buddhism"] as const;
 
-          <div className="grid gap-4 md:grid-cols-2">
-            {passages.map((p, i) => (
-              <div
-                key={`${p.bookId}-${p.verseId}-${i}`}
-                className="group relative rounded-xl border border-border bg-bg-secondary/80 backdrop-blur-sm p-5 transition-all duration-300 hover:border-border/80"
-                style={{
-                  boxShadow: `inset 0 1px 0 0 ${religionGlowColors[p.religion]}`,
-                }}
-              >
-                {/* Connection line */}
-                <div className="absolute -left-3 top-1/2 h-px w-3 bg-gradient-to-r from-transparent to-border" />
+        // Get insights from perspectives data - try multiple lookup strategies
+        const q = (selectedQuestion || selectedTopic || "").toLowerCase().replace(/^q-/, "").replace(/-/g, " ");
+        let insights = perspectivesInsights[q] || {};
+        // Try matching by first keyword if no direct match
+        if (!insights.Hinduism && selectedQuestion) {
+          const question = questions.find((qu) => qu.id === selectedQuestion);
+          if (question?.keywords) {
+            for (const kw of question.keywords) {
+              if (perspectivesInsights[kw]) {
+                insights = perspectivesInsights[kw];
+                break;
+              }
+            }
+          }
+        }
 
-                <div className="mb-3 flex items-center gap-2">
-                  <span
-                    className="h-2.5 w-2.5 rounded-full"
-                    style={{
-                      background: religionOrbColors[p.religion],
-                      boxShadow: `0 0 8px ${religionGlowColors[p.religion]}`,
-                    }}
-                  />
-                  <span className="text-[10px] font-semibold uppercase tracking-widest text-text-muted font-mono">
-                    {p.bookTitle}
-                  </span>
-                </div>
-                <p className="mb-2 text-sm font-medium text-text-muted font-body">{p.reference}</p>
-                <p className="text-text-primary font-serif">
-                  &ldquo;{p.text}&rdquo;
-                </p>
-                <div className="mt-3 flex items-center justify-between">
-                  <p className="attribution">
-                    — {p.source.translator} ({p.source.year})
-                  </p>
-                  <AIExplainButton
-                    verse={p.text}
-                    religion={p.religion}
-                    bookTitle={p.bookTitle}
-                  />
-                </div>
-              </div>
-            ))}
+        const activeTraditions = traditions.filter((t) => byReligion.has(t) || insights[t]);
+        return (
+          <div className="space-y-6">
+            <div className="flex items-center gap-3">
+              <div className="h-px flex-1 bg-gradient-to-r from-transparent via-accent/30 to-transparent" />
+              <h3 className="text-sm font-mono tracking-[0.2em] uppercase text-accent">
+                Wisdom Threads
+              </h3>
+              <div className="h-px flex-1 bg-gradient-to-r from-transparent via-accent/30 to-transparent" />
+            </div>
+
+            <div className="space-y-3">
+              {activeTraditions.map((religion) => {
+                const verses = byReligion.get(religion) || [];
+                const tradition = religion.toLowerCase();
+                const insight = insights[religion];
+                const top2 = verses.slice(0, 2);
+                const isExpanded = expandedBook === religion;
+                const hasVerses = top2.length > 0;
+
+                return (
+                  <div key={religion} className="tradition-panel tradition-tinted" data-tradition={tradition}>
+                    {/* Header — always visible */}
+                    <div
+                      className="tradition-panel-header cursor-pointer select-none"
+                      onClick={() => setExpandedBook(isExpanded ? null : religion)}
+                    >
+                      <div
+                        className="h-2.5 w-2.5 rounded-full shrink-0"
+                        style={{
+                          background: religionOrbColors[religion],
+                          boxShadow: `0 0 8px ${religionGlowColors[religion]}`,
+                        }}
+                      />
+                      <span className="text-sm font-semibold" data-tradition-text={tradition}>
+                        {religion}
+                      </span>
+                      {hasVerses ? (
+                        <span className="text-xs text-text-muted font-body">
+                          {verses.length} verse{verses.length !== 1 ? "s" : ""}
+                        </span>
+                      ) : insight ? (
+                        <span className="text-xs text-accent/60 font-body italic">Theological Insight</span>
+                      ) : null}
+                      <svg
+                        className={`ml-auto h-4 w-4 text-text-muted transition-transform duration-300 ${isExpanded ? "rotate-180" : ""}`}
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"
+                      >
+                        <path d="M6 9l6 6 6-6" />
+                      </svg>
+                    </div>
+
+                    {/* Expanded content */}
+                    {isExpanded && (
+                      <div className="perspective-panel" data-expanded="true">
+                        <div>
+                          {/* Insight summary */}
+                          {insight && (
+                            <div className="px-5 pb-4">
+                              <p className="text-sm leading-relaxed text-text-secondary font-body">
+                                {insight}
+                              </p>
+                            </div>
+                          )}
+
+                          {/* Cited verses */}
+                          {top2.map((p) => {
+                            const href = `/books/${p.bookId}?chapter=${p.chapterId}#verse-${p.verseId}`;
+                            return (
+                              <Link
+                                key={`${p.bookId}-${p.verseId}`}
+                                href={href}
+                                className="tradition-verse block group"
+                              >
+                                <div className="mb-1.5 flex items-center gap-2 pl-6">
+                                  <span className="text-xs text-text-muted font-body">{p.bookTitle}</span>
+                                  <span className="text-xs text-text-muted font-body">·</span>
+                                  <span className="text-xs text-text-muted font-body">{p.chapterTitle}</span>
+                                  <span className="text-xs text-text-muted font-body">:</span>
+                                  <span className="text-xs text-text-muted font-body">v.{p.verseNumber}</span>
+                                  <span className="text-xs text-accent/60 font-body opacity-0 group-hover:opacity-100 transition-opacity ml-auto">
+                                    read →
+                                  </span>
+                                </div>
+                                <p className="italic text-text-primary/80 border-l-2 border-accent/15 pl-6 transition-colors group-hover:border-accent/40 font-serif">
+                                  &ldquo;{p.text.length > 200 ? p.text.slice(0, 200) + "..." : p.text}&rdquo;
+                                </p>
+                              </Link>
+                            );
+                          })}
+
+                          {/* No verses + no insight */}
+                          {!hasVerses && !insight && (
+                            <div className="px-5 py-4 text-xs text-text-muted italic font-body">
+                              No relevant verses found for this tradition.
+                            </div>
+                          )}
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
           </div>
-        </div>
-      )}
+        );
+      })()}
 
       {/* Results — Timeline mode */}
       {!loading && !fusing && (showResults || passages.length > 0) && viewMode === "timeline" && passages.length > 0 && (
