@@ -6,6 +6,7 @@ import { books, topics, questions } from "@/data";
 import SearchPageClient from "@/components/search/SearchPageClient";
 import Perspectives from "@/components/ui/Perspectives";
 import ScienceInsight from "@/components/ui/ScienceInsight";
+import ComparisonCardWrapper from "@/components/search/ComparisonCardWrapper";
 
 const suggestedTerms = [
   { term: "peace", icon: "🕊" },
@@ -79,6 +80,19 @@ export default async function SearchPage({
           verseNumber: r.verse.number,
           text: r.verse.translation || r.verse.text,
         }))} />
+      )}
+
+      {/* Shareable comparison card */}
+      {query && results.length > 0 && (
+        <ComparisonCardWrapper
+          query={query}
+          results={results.slice(0, 6).map((r) => ({
+            religion: r.book.religion,
+            text: r.verse.translation || r.verse.text,
+            reference: `${r.chapter.number}.${r.verse.number}`,
+            bookTitle: r.book.title,
+          }))}
+        />
       )}
 
       {/* Science & Research */}
