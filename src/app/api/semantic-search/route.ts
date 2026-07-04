@@ -1,4 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
+import { readFileSync, existsSync } from "fs";
+import { join } from "path";
 
 const VALID_RELIGIONS = ["Hinduism", "Christianity", "Islam", "Judaism", "Sikhism", "Buddhism"];
 
@@ -45,7 +47,12 @@ export async function GET(req: NextRequest) {
 
     let verseEmbeddings: Record<string, number[]> = {};
     try {
-      verseEmbeddings = (await import("@/data/embeddings.json")).default || (await import("@/data/embeddings.json"));
+      const embPath = join(process.cwd(), "src/data/embeddings.json");
+      if (existsSync(embPath)) {
+        verseEmbeddings = JSON.parse(readFileSync(embPath, "utf-8"));
+      } else {
+        throw new Error("No pre-computed embeddings");
+      }
     } catch {
       throw new Error("No pre-computed embeddings");
     }
