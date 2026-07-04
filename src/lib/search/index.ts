@@ -87,6 +87,13 @@ export function hybridSearch(opts: HybridSearchOptions): HybridResult[] {
   const expandedQuery = expandedTerms.join(" ");
   const scored: HybridResult[] = [];
 
+  // Precompute max keyword score once (was O(n²), now O(n))
+  let maxKeyword = 1;
+  for (let j = 0; j < verses.length; j++) {
+    const s = bm25Score(bm25, expandedQuery, j);
+    if (s > maxKeyword) maxKeyword = s;
+  }
+
   for (let i = 0; i < verses.length; i++) {
     const v = verses[i];
     if (religion && v.book.religion !== religion) continue;
@@ -107,7 +114,6 @@ export function hybridSearch(opts: HybridSearchOptions): HybridResult[] {
     const keyword = bm25Score(bm25, expandedQuery, i);
     const exact = exactMatchBonus(query, v.verse.translation || v.verse.text, v.book.title, v.book.religion);
 
-    const maxKeyword = Math.max(...verses.map((_, j) => bm25Score(bm25, expandedQuery, j)), 1);
     const normalizedSemantic = semantic / 1.0;
     const normalizedKeyword = maxKeyword > 0 ? keyword / maxKeyword : 0;
 
