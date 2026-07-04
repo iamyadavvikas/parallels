@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Parallels
+
+Browse, search, and compare passages from six major religious traditions — side by side, in a space designed for reverence.
+
+**[parallels-ten.vercel.app](https://parallels-ten.vercel.app)**
+
+## What is Parallels?
+
+Parallels is an open-source web app for exploring how different religious traditions address the same timeless questions — love, suffering, justice, the nature of God, and the meaning of life.
+
+- **6 scriptures** — Bhagavad Gita, Bible (KJV), Dhammapada, Guru Granth Sahib, Quran, Torah
+- **38,000+ verses** fully indexed and searchable
+- **AI-powered comparison** — see how traditions compare on any topic
+- **Controversial questions** — explore the deepest divides in religious thought
+- **Cross-tradition perspectives** — thematic insights spanning all six traditions
+- **Science & research** — what empirical research says about each topic
+
+## Features
+
+| Feature | Description |
+|---|---|
+| **Semantic Search** | Find verses across all traditions by meaning, not just keywords |
+| **AI Explanations** | Tap any verse for AI-generated context and interpretation |
+| **Fusion Chamber** | Compare passages side-by-side with AI synthesis |
+| **Question Chips** | Click a controversial question to auto-generate a cross-tradition analysis |
+| **Deep Verse Links** | Link directly to any verse with rich metadata |
+| **Verse of the Day** | Daily cross-tradition verse display |
+| **Bookmarks** | Save and organize your favorite passages |
+| **Dark/Light Theme** | Full theme support with tradition-specific accent colors |
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 18+
+- A [Google AI API key](https://aistudio.google.com/apikey) (for AI features)
+
+### Setup
 
 ```bash
+git clone https://github.com/iamyadavvikas/parallels.git
+cd parallels
+npm install
+cp .env.example .env.local
+# Add your API key to .env.local
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Environment Variables
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Variable | Required | Description |
+|---|---|---|
+| `GOOGLE_GENERATIVE_AI_API_KEY` | Yes (for AI) | Google AI API key for verse explanations and fusion |
+| `NEXT_PUBLIC_GA_ID` | No | Google Analytics measurement ID |
 
-## Learn More
+## Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Framework**: Next.js 16 (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS v4 with custom theme tokens
+- **AI**: Google Gemini 2.0 Flash via Vercel AI SDK
+- **State**: Zustand with persist middleware
+- **Testing**: Vitest
+- **Deployment**: Vercel
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Scripture Sources
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+| Tradition | Text | Translation | License |
+|---|---|---|---|
+| Hinduism | Bhagavad Gita | Easwaran translation samples | Fair use excerpts |
+| Christianity | The Bible | King James Version (1611) | Public Domain |
+| Buddhism | Dhammapada | Various public domain | Public Domain |
+| Sikhism | Guru Granth Sahib | Transliterated excerpts | Fair use excerpts |
+| Islam | The Quran | Sahih International | Public Domain |
+| Judaism | The Torah | Public domain translations | Public Domain |
 
-## Deploy on Vercel
+## Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+
+This project is licensed under the MIT License — see [LICENSE](LICENSE) for details.
+
+## Acknowledgments
+
+- Scripture data sourced from public domain translations
+- AI powered by Google Gemini
+- Built with Next.js and Vercel
