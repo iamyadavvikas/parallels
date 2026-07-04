@@ -70,5 +70,13 @@
     "Judaism": "Tefillah connects the individual to God. The Shema declares oneness; the Amidah is the central prayer.",
     "Sikhism": "Naam Simran is the core practice. 'Remember the Lord, and all thy fears shall depart.'",
     "Buddhism": "Meditation and chanting cultivate mindfulness. Buddhist prayer is reflection and recitation."
+  },
+  "god": {
+    "Hinduism": "Brahman is the ultimate reality — formless, infinite, and beyond comprehension. The Gita reveals Krishna as the personal God (Ishvara) who pervades all creation. Multiple paths (yoga, bhakti, jnana) lead to the Divine.",
+    "Christianity": "God is the Creator of heaven and earth, one God in three persons (Father, Son, Holy Spirit). The Shema declares: \"Hear, O Israel: The Lord our God, the Lord is one.\" God is both transcendent and immanent.",
+    "Islam": "Allah is the One God — the Creator, Sustainer, and Judge. The Quran emphasizes tawhid (absolute monotheism): \"There is no god but Allah.\" God is merciful, compassionate, and beyond human comprehension.",
+    "Judaism": "YHWH is the God of Abraham, Isaac, and Jacob — the God who liberates the enslaved. The Shema: \"Hear, O Israel: The Lord our God, the Lord is one.\" God is both judge and redeemer.",
+    "Sikhism": "Ik Onkar — there is one God, the Creator of all. God is beyond form, timeless, and self-existent. Through Naam (divine Name) and Guru's grace, the soul merges with the Divine.",
+    "Buddhism": "Buddhism does not posit a creator God. The question of God is set aside as unhelpful for liberation. The Dhammapada teaches self-reliance and ethical conduct as the path beyond suffering."
   }
 }
