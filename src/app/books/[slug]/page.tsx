@@ -121,7 +121,7 @@ export default async function BookPage({ params }: { params: Promise<{ slug: str
               id: ch.id,
               number: ch.number,
               title: ch.title,
-              verses: ch.verses,
+              verseCount: ch.verses.length,
             }))}
             religion={book.religion}
             bookSlug={book.slug}
