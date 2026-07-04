@@ -1,0 +1,24 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="512">
+      <stop offset="0%" stop-color="#0a0a1a"/>
+      <stop offset="100%" stop-color="#06060C"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFD966"/>
+      <stop offset="100%" stop-color="#FFD966" stop-opacity="0.6"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="10.24" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="112.64" fill="url(#bg)"/>
+  <g filter="url(#glow)">
+    <rect x="110.08" y="128" width="35.84" height="256" rx="17.92" fill="url(#bar)" opacity="0.7"/>
+    <rect x="238.07999999999998" y="64" width="35.84" height="384" rx="17.92" fill="url(#bar)"/>
+    <rect x="366.08" y="160" width="35.84" height="192" rx="17.92" fill="url(#bar)" opacity="0.7"/>
+  </g>
+  <path d="M163.84 256 Q238.07999999999998 215.04 238.07999999999998 256" stroke="#FFD966" stroke-width="4.096" fill="none" opacity="0.3" stroke-linecap="round"/>
+  <path d="M273.92 256 Q366.08 286.72 366.08 256" stroke="#FFD966" stroke-width="4.096" fill="none" opacity="0.3" stroke-linecap="round"/>
+</svg>
