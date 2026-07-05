@@ -25,8 +25,7 @@ export default function Home() {
   return (
     <div className="space-y-20 page-enter">
       {/* ═══ HERO — Galaxy ═══ */}
-      <section className="relative overflow-hidden rounded-3xl bg-bg-surface px-6 py-24 text-center sm:px-16 sm:py-32"
-        style={{ boxShadow: '0 0 80px rgba(255, 209, 102, 0.04), 0 4px 24px var(--color-shadow-sm), 0 32px 100px var(--color-shadow-md)' }}>
+      <section className="hero-glow relative overflow-hidden rounded-3xl bg-bg-surface px-6 py-24 text-center sm:px-16 sm:py-32">
         {/* Deep space backdrop */}
         <div className="galaxy-layer galaxy-backdrop" />
 
@@ -51,14 +50,12 @@ export default function Home() {
 
         <div className="relative z-10">
           {/* Sigil — neon glow */}
-          <div className="hero-headline mx-auto mb-12 flex h-16 w-16 items-center justify-center rounded-2xl bg-accent/8 border border-accent/20 hero-sigil"
-            style={{ boxShadow: '0 0 24px rgba(255, 209, 102, 0.15), 0 0 48px rgba(255, 209, 102, 0.05)' }}>
+          <div className="hero-headline hero-sigil-glow mx-auto mb-12 flex h-16 w-16 items-center justify-center rounded-2xl bg-accent/8 border border-accent/20 hero-sigil">
             <Logo size={40} />
           </div>
 
           {/* Headline — larger, tighter */}
-          <h1 className="hero-headline-delay mb-6 text-5xl font-extrabold tracking-tight text-text-primary sm:text-7xl font-display"
-            style={{ letterSpacing: "-0.045em", lineHeight: "1.05" }}>
+          <h1 className="hero-headline-delay mb-6 text-5xl font-extrabold tracking-tighter text-text-primary sm:text-7xl font-display leading-[1.05]">
             See How the World
             <br />
             <span className="gradient-text-wide">Compares</span>
@@ -226,8 +223,7 @@ export default function Home() {
 
         <div className="relative z-10">
           <div className="ornate-divider mx-auto mb-8 max-w-xs"><span>✦</span></div>
-          <h2 className="mb-5 text-4xl font-bold text-text-primary font-display tracking-tight sm:text-5xl"
-            style={{ letterSpacing: "-0.03em" }}>
+          <h2 className="mb-5 text-4xl font-bold text-text-primary font-display tracking-tight sm:text-5xl">
             Compare Across Traditions
           </h2>
           <p className="mx-auto mb-12 max-w-xl text-lg text-text-secondary font-body leading-relaxed">

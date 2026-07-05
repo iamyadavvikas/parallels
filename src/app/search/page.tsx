@@ -37,8 +37,7 @@ export default async function SearchPage({
     <div className="search-page space-y-8 page-enter">
       {/* Header */}
       <header className="text-center py-2">
-        <h1 className="mb-3 text-4xl font-bold tracking-tight text-text-primary sm:text-5xl font-serif"
-          style={{ letterSpacing: "-0.03em" }}>
+        <h1 className="mb-3 text-4xl font-bold tracking-tight text-text-primary sm:text-5xl font-serif">
           {query ? (
             <><span className="text-accent mr-1">✦</span> Search Results</>
           ) : (

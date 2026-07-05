@@ -20,7 +20,7 @@ export default async function TopicPage({ params }: { params: Promise<{ id: stri
             <ReligionBadge key={r} religion={r} />
           ))}
         </div>
-        <h1 className="text-4xl font-extrabold tracking-tight text-text-primary sm:text-5xl font-display" style={{ letterSpacing: '-0.03em' }}>{topic.name}</h1>
+        <h1 className="text-4xl font-extrabold tracking-tight text-text-primary sm:text-5xl font-display">{topic.name}</h1>
         <p className="mt-3 max-w-3xl mx-auto text-lg text-text-secondary font-body">{topic.description}</p>
         <div className="mt-4 flex flex-wrap items-center justify-center gap-3">
           <p className="text-sm text-text-muted font-mono tracking-wide">

@@ -1462,8 +1462,9 @@ mark::after {
 
 .dropdown-trigger:hover { border-color: rgba(255, 209, 102, 0.25); }
 
-.dropdown-trigger:focus {
-  outline: none;
+.dropdown-trigger:focus-visible {
+  outline: 2px solid var(--color-accent-glow, var(--color-accent));
+  outline-offset: 2px;
   border-color: var(--color-accent);
   box-shadow: 0 0 0 3px rgba(255, 209, 102, 0.1);
 }
@@ -2020,4 +2021,45 @@ textarea:focus-visible,
 select:focus-visible {
   outline: 2px solid var(--color-accent-glow, var(--color-accent));
   outline-offset: 2px;
+}
+
+/* Hero section shadow */
+.hero-glow {
+  box-shadow: 0 0 80px rgba(255, 209, 102, 0.04), 0 4px 24px var(--color-shadow-sm), 0 32px 100px var(--color-shadow-md);
+}
+
+.light .hero-glow {
+  box-shadow: 0 0 60px rgba(255, 209, 102, 0.06), 0 4px 16px var(--color-shadow-sm), 0 24px 64px var(--color-shadow-md);
+}
+
+/* Hero sigil glow */
+.hero-sigil-glow {
+  box-shadow: 0 0 24px rgba(255, 209, 102, 0.15), 0 0 48px rgba(255, 209, 102, 0.05);
+}
+
+/* Book card hover glow */
+.book-card-glow {
+  box-shadow: 0 4px 24px var(--color-shadow-md), 0 0 30px rgba(255, 209, 102, 0.03);
+}
+
+.light .book-card-glow {
+  box-shadow: 0 2px 8px rgba(26, 21, 40, 0.04), 0 8px 24px rgba(26, 21, 40, 0.06);
+}
+
+/* Tradition icon glow */
+.tradition-icon-glow--hinduism { box-shadow: 0 0 40px var(--tradition-hinduism-glow), 0 0 80px var(--tradition-hinduism-glow); }
+.tradition-icon-glow--christianity { box-shadow: 0 0 40px var(--tradition-christianity-glow), 0 0 80px var(--tradition-christianity-glow); }
+.tradition-icon-glow--islam { box-shadow: 0 0 40px var(--tradition-islam-glow), 0 0 80px var(--tradition-islam-glow); }
+.tradition-icon-glow--judaism { box-shadow: 0 0 40px var(--tradition-judaism-glow), 0 0 80px var(--tradition-judaism-glow); }
+.tradition-icon-glow--sikhism { box-shadow: 0 0 40px var(--tradition-sikhism-glow), 0 0 80px var(--tradition-sikhism-glow); }
+.tradition-icon-glow--buddhism { box-shadow: 0 0 40px var(--tradition-buddhism-glow), 0 0 80px var(--tradition-buddhism-glow); }
+
+/* Card flip perspective */
+.card-perspective {
+  perspective: 1200px;
+}
+
+/* Card backface hidden */
+.card-backface-hidden {
+  backface-visibility: hidden;
 }

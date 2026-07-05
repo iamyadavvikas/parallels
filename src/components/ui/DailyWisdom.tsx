@@ -83,8 +83,7 @@ export default function DailyWisdom() {
       </div>
 
       <div
-        className="relative cursor-pointer"
-        style={{ perspective: "1200px" }}
+        className="relative cursor-pointer card-perspective"
         role="button"
         tabIndex={0}
         aria-label={
@@ -109,8 +108,7 @@ export default function DailyWisdom() {
         >
           {/* Front — Mandala */}
           <div
-            className="w-full rounded-2xl border border-border bg-bg-secondary/80 backdrop-blur-sm p-8 text-center overflow-hidden"
-            style={{ backfaceVisibility: "hidden" }}
+            className="w-full rounded-2xl border border-border bg-bg-secondary/80 backdrop-blur-sm p-8 text-center overflow-hidden card-backface-hidden"
           >
             {/* Tradition glow behind mandala */}
             <div

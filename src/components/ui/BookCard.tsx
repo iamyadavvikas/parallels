@@ -59,7 +59,7 @@ export default function BookCard({ book }: { book: Book }) {
       onMouseMove={handleMouseMove}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={handleMouseLeave}
-      className="group relative" style={{ perspective: "1200px" }}>
+      className="group relative card-perspective">
       <Link href={`/books/${book.slug}`} className="block">
         <div className="vault-tile relative w-full rounded-2xl overflow-hidden transition-all duration-500 ease-out"
           data-tradition={tradition}
@@ -93,8 +93,7 @@ export default function BookCard({ book }: { book: Book }) {
             {/* Central icon with orbit rings */}
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="relative">
-                <div className="flex h-24 w-24 items-center justify-center rounded-full border-2 border-white/[0.25] bg-white/[0.15] backdrop-blur-sm transition-all duration-700 group-hover:scale-110 group-hover:border-white/20"
-                  style={{ boxShadow: `0 0 40px var(--tradition-${tradition}-glow), 0 0 80px var(--tradition-${tradition}-glow)` }}>
+                <div className={`flex h-24 w-24 items-center justify-center rounded-full border-2 border-white/[0.25] bg-white/[0.15] backdrop-blur-sm transition-all duration-700 group-hover:scale-110 group-hover:border-white/20 tradition-icon-glow--${tradition}`}>
                   <span className="text-4xl">{icon}</span>
                 </div>
                 <div className="absolute -inset-6 rounded-full border border-white/[0.12] transition-all duration-700 group-hover:scale-110 group-hover:border-white/20" />
@@ -127,9 +126,9 @@ export default function BookCard({ book }: { book: Book }) {
               <p className="text-[10px] text-text-muted font-mono tracking-wider mb-2">
               </p>
               <div className="flex items-center justify-center gap-2">
-                <span className={`h-1 w-8 rounded-full tradition-dot tradition-dot--${tradition}`} style={{ opacity: 0.8 }} />
+                <span className={`h-1 w-8 rounded-full tradition-dot tradition-dot--${tradition} opacity-80`} />
                 <span className="text-[10px] italic text-text-secondary font-serif">{theme}</span>
-                <span className={`h-1 w-8 rounded-full tradition-dot tradition-dot--${tradition}`} style={{ opacity: 0.8 }} />
+                <span className={`h-1 w-8 rounded-full tradition-dot tradition-dot--${tradition} opacity-80`} />
               </div>
             </div>
           </div>
