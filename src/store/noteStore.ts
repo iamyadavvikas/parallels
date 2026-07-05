@@ -10,6 +10,7 @@ interface NoteState {
   updateNote: (id: string, text: string) => void;
   deleteNote: (id: string) => void;
   getNoteForVerse: (verseId: string) => Note | undefined;
+  syncFromServer: (serverNotes: Note[]) => void;
 }
 
 export const useNoteStore = create<NoteState>()(
@@ -30,6 +31,17 @@ export const useNoteStore = create<NoteState>()(
         })),
       getNoteForVerse: (verseId) =>
         get().notes.find((n) => n.verseId === verseId),
+      syncFromServer: (serverNotes) =>
+        set((state) => {
+          const localMap = new Map(state.notes.map((n) => [n.verseId, n]));
+          for (const sn of serverNotes) {
+            const local = localMap.get(sn.verseId);
+            if (!local || new Date(sn.updatedAt) > new Date(local.updatedAt)) {
+              localMap.set(sn.verseId, sn);
+            }
+          }
+          return { notes: Array.from(localMap.values()).sort((a, b) => new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime()) };
+        }),
     }),
     { name: "parallels-notes" },
   ),

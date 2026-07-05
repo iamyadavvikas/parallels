@@ -42,12 +42,12 @@ export default function Home() {
         <div className="galaxy-orbit-ring" style={{ width: 540, height: 540, marginTop: -270, marginLeft: -270 }} />
 
         {/* Orbiting planets — one per tradition, larger with glow */}
-        <div className="galaxy-planet" style={{ width: 8, height: 8, background: 'var(--tradition-hinduism)', boxShadow: '0 0 12px var(--tradition-hinduism)', '--orbit-radius': '120px', '--orbit-duration': '18s', animationDelay: '0s' } as React.CSSProperties} />
-        <div className="galaxy-planet" style={{ width: 7, height: 7, background: 'var(--tradition-christianity)', boxShadow: '0 0 10px var(--tradition-christianity)', '--orbit-radius': '190px', '--orbit-duration': '26s', animationDelay: '-5s' } as React.CSSProperties} />
-        <div className="galaxy-planet" style={{ width: 9, height: 9, background: 'var(--tradition-islam)', boxShadow: '0 0 14px var(--tradition-islam)', '--orbit-radius': '270px', '--orbit-duration': '36s', animationDelay: '-12s' } as React.CSSProperties} />
-        <div className="galaxy-planet" style={{ width: 6, height: 6, background: 'var(--tradition-judaism)', boxShadow: '0 0 10px var(--tradition-judaism)', '--orbit-radius': '145px', '--orbit-duration': '22s', animationDelay: '-8s' } as React.CSSProperties} />
-        <div className="galaxy-planet" style={{ width: 6, height: 6, background: 'var(--tradition-sikhism)', boxShadow: '0 0 10px var(--tradition-sikhism)', '--orbit-radius': '210px', '--orbit-duration': '32s', animationDelay: '-15s' } as React.CSSProperties} />
-        <div className="galaxy-planet" style={{ width: 7, height: 7, background: 'var(--tradition-buddhism)', boxShadow: '0 0 12px var(--tradition-buddhism)', '--orbit-radius': '165px', '--orbit-duration': '28s', animationDelay: '-3s' } as React.CSSProperties} />
+        <div className="galaxy-planet galaxy-planet--hinduism" style={{ width: 8, height: 8, '--orbit-radius': '120px', '--orbit-duration': '18s', animationDelay: '0s' } as React.CSSProperties} />
+        <div className="galaxy-planet galaxy-planet--christianity" style={{ width: 7, height: 7, '--orbit-radius': '190px', '--orbit-duration': '26s', animationDelay: '-5s' } as React.CSSProperties} />
+        <div className="galaxy-planet galaxy-planet--islam" style={{ width: 9, height: 9, '--orbit-radius': '270px', '--orbit-duration': '36s', animationDelay: '-12s' } as React.CSSProperties} />
+        <div className="galaxy-planet galaxy-planet--judaism" style={{ width: 6, height: 6, '--orbit-radius': '145px', '--orbit-duration': '22s', animationDelay: '-8s' } as React.CSSProperties} />
+        <div className="galaxy-planet galaxy-planet--sikhism" style={{ width: 6, height: 6, '--orbit-radius': '210px', '--orbit-duration': '32s', animationDelay: '-15s' } as React.CSSProperties} />
+        <div className="galaxy-planet galaxy-planet--buddhism" style={{ width: 7, height: 7, '--orbit-radius': '165px', '--orbit-duration': '28s', animationDelay: '-3s' } as React.CSSProperties} />
 
         <div className="relative z-10">
           {/* Sigil — neon glow */}
@@ -219,8 +219,7 @@ export default function Home() {
       </section>
 
       {/* ═══ COMPARE CTA — Futuristic ═══ */}
-      <section className="relative overflow-hidden rounded-3xl p-12 text-center sm:p-20"
-        style={{ background: 'linear-gradient(135deg, var(--color-bg-surface) 0%, var(--color-bg-elevated) 100%)', boxShadow: '0 0 80px rgba(255, 209, 102, 0.04), 0 4px 24px var(--color-shadow-md), 0 24px 80px var(--color-shadow-lg)' }}>
+      <section className="compare-cta-section relative overflow-hidden rounded-3xl p-12 text-center sm:p-20">
         <div className="compare-cta-bg" />
         <div className="absolute left-1/2 top-0 h-px w-64 -translate-x-1/2 bg-gradient-to-r from-transparent via-accent/40 to-transparent" />
         <div className="absolute left-1/2 bottom-0 h-px w-48 -translate-x-1/2 bg-gradient-to-r from-transparent via-accent/20 to-transparent" />

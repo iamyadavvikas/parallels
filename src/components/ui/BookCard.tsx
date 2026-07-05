@@ -104,7 +104,7 @@ export default function BookCard({ book }: { book: Book }) {
 
             {/* Religion label */}
             <div className="absolute top-6 left-0 right-0 text-center">
-              <span className="inline-block px-3 py-1 rounded-full text-[9px] font-mono tracking-[0.3em] uppercase text-white/70 bg-white/[0.15] backdrop-blur-sm border border-white/[0.15]">
+              <span className="inline-block px-3 py-1 rounded-full text-[9px] font-mono tracking-[0.3em] uppercase text-text-secondary bg-white/[0.15] backdrop-blur-sm border border-white/[0.15]">
                 {book.religion}
               </span>
             </div>
@@ -121,15 +121,15 @@ export default function BookCard({ book }: { book: Book }) {
 
             {/* Title + stats at bottom of cover */}
             <div className="absolute bottom-0 left-0 right-0 p-5 pb-4 text-center">
-              <h3 className="text-lg font-bold text-white font-display tracking-tight mb-1.5 leading-tight drop-shadow-[0_2px_8px_rgba(0,0,0,0.3)]">
+              <h3 className="text-lg font-bold text-text-primary font-display tracking-tight mb-1.5 leading-tight drop-shadow-[0_2px_8px_rgba(0,0,0,0.3)]">
                 {book.title}
               </h3>
-              <p className="text-[10px] text-white/40 font-mono tracking-wider mb-2">
+              <p className="text-[10px] text-text-muted font-mono tracking-wider mb-2">
               </p>
               <div className="flex items-center justify-center gap-2">
-                <span className="h-1 w-8 rounded-full" style={{ background: `var(--tradition-${tradition})`, opacity: 0.8 }} />
-                <span className="text-[10px] italic text-white/70 font-serif">{theme}</span>
-                <span className="h-1 w-8 rounded-full" style={{ background: `var(--tradition-${tradition})`, opacity: 0.8 }} />
+                <span className={`h-1 w-8 rounded-full tradition-dot tradition-dot--${tradition}`} style={{ opacity: 0.8 }} />
+                <span className="text-[10px] italic text-text-secondary font-serif">{theme}</span>
+                <span className={`h-1 w-8 rounded-full tradition-dot tradition-dot--${tradition}`} style={{ opacity: 0.8 }} />
               </div>
             </div>
           </div>

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 import "./globals.css";
 import ThemeProvider from "@/components/layout/ThemeProvider";
+import UserProvider from "@/components/auth/UserProvider";
 import Navbar from "@/components/layout/Navbar";
 import AmbientOrb from "@/components/layout/AmbientOrb";
 import CommandPalette from "@/components/ui/CommandPalette";
@@ -99,6 +100,7 @@ export default function RootLayout({
       </head>
       <body className="min-h-full flex flex-col">
         <ThemeProvider>
+          <UserProvider>
           <a href="#main-content" className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[10000] focus:rounded-lg focus:bg-accent focus:px-4 focus:py-2 focus:text-sm focus:font-semibold focus:text-void focus:shadow-lg">
             Skip to content
           </a>
@@ -118,6 +120,7 @@ export default function RootLayout({
               Parallels — Exploring wisdom across traditions
             </p>
           </footer>
+        </UserProvider>
         </ThemeProvider>
       </body>
     </html>

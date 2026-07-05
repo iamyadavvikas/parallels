@@ -1520,7 +1520,7 @@ mark::after {
 }
 
 /* Focus ring — subtle neon glow */
-.light :focus-visible {
+:focus-visible {
   outline: 2px solid var(--color-accent-glow, var(--color-accent));
   outline-offset: 2px;
   border-radius: 4px;
@@ -1933,4 +1933,91 @@ mark::after {
 }
 .search-border-pulse {
   animation: search-border-pulse 3s ease-in-out infinite;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   UTILITY CLASSES — replaces inline background styles
+   ═══════════════════════════════════════════════════════════════ */
+
+.compare-cta-section {
+  background: linear-gradient(135deg, var(--color-bg-surface) 0%, var(--color-bg-elevated) 100%);
+  box-shadow: 0 0 80px rgba(255, 209, 102, 0.04), 0 4px 24px var(--color-shadow-md), 0 24px 80px var(--color-shadow-lg);
+}
+
+.light .compare-cta-section {
+  box-shadow: 0 0 60px rgba(255, 209, 102, 0.06), 0 4px 16px rgba(26, 21, 40, 0.04), 0 24px 64px rgba(26, 21, 40, 0.03);
+}
+
+.galaxy-planet {
+  will-change: transform;
+}
+
+.galaxy-planet--hinduism {
+  background: var(--tradition-hinduism);
+  box-shadow: 0 0 12px var(--tradition-hinduism);
+}
+
+.galaxy-planet--christianity {
+  background: var(--tradition-christianity);
+  box-shadow: 0 0 10px var(--tradition-christianity);
+}
+
+.galaxy-planet--islam {
+  background: var(--tradition-islam);
+  box-shadow: 0 0 14px var(--tradition-islam);
+}
+
+.galaxy-planet--judaism {
+  background: var(--tradition-judaism);
+  box-shadow: 0 0 10px var(--tradition-judaism);
+}
+
+.galaxy-planet--sikhism {
+  background: var(--tradition-sikhism);
+  box-shadow: 0 0 10px var(--tradition-sikhism);
+}
+
+.galaxy-planet--buddhism {
+  background: var(--tradition-buddhism);
+  box-shadow: 0 0 12px var(--tradition-buddhism);
+}
+
+.light .galaxy-planet--hinduism { opacity: 0.85; }
+.light .galaxy-planet--christianity { opacity: 0.85; }
+.light .galaxy-planet--islam { opacity: 0.85; }
+.light .galaxy-planet--judaism { opacity: 0.85; }
+.light .galaxy-planet--sikhism { opacity: 0.85; }
+.light .galaxy-planet--buddhism { opacity: 0.85; }
+
+.tradition-dot {
+  display: inline-block;
+  border-radius: 9999px;
+}
+
+.tradition-dot--hinduism { background: var(--tradition-hinduism); }
+.tradition-dot--christianity { background: var(--tradition-christianity); }
+.tradition-dot--islam { background: var(--tradition-islam); }
+.tradition-dot--judaism { background: var(--tradition-judaism); }
+.tradition-dot--sikhism { background: var(--tradition-sikhism); }
+.tradition-dot--buddhism { background: var(--tradition-buddhism); }
+
+.tradition-glow-bg {
+  border-radius: 0.5rem;
+}
+
+.tradition-glow-bg--hinduism { background: var(--tradition-hinduism-glow); }
+.tradition-glow-bg--christianity { background: var(--tradition-christianity-glow); }
+.tradition-glow-bg--islam { background: var(--tradition-islam-glow); }
+.tradition-glow-bg--judaism { background: var(--tradition-judaism-glow); }
+.tradition-glow-bg--sikhism { background: var(--tradition-sikhism-glow); }
+.tradition-glow-bg--buddhism { background: var(--tradition-buddhism-glow); }
+
+/* Focus styles for buttons and interactive elements */
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--color-accent-glow, var(--color-accent));
+  outline-offset: 2px;
 }

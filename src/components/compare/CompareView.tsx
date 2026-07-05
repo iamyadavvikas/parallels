@@ -11,6 +11,8 @@ import CustomDropdown from "./CustomDropdown";
 import MagneticButton from "@/components/ui/MagneticButton";
 import AIExplainButton from "@/components/ui/AIExplainButton";
 import ScienceInsight from "@/components/ui/ScienceInsight";
+import { useUser } from "@/components/auth/UserProvider";
+import { saveComparison } from "@/lib/actions/comparisons";
 
 interface CompareViewProps {
   initialTopic?: string;
@@ -49,7 +51,11 @@ export default function CompareView({ initialTopic, initialQuestion }: CompareVi
   const [fusionError, setFusionError] = useState("");
   const [viewMode, setViewMode] = useState<"grid" | "timeline">("grid");
   const [expandedBook, setExpandedBook] = useState<string | null>(null);
+  const [saving, setSaving] = useState(false);
+  const [saved, setSaved] = useState(false);
+  const [copied, setCopied] = useState(false);
   const svgRef = useRef<SVGSVGElement>(null);
+  const { user } = useUser();
 
   const topicOptions = topics.map((t) => ({
     value: t.id,
@@ -198,6 +204,37 @@ export default function CompareView({ initialTopic, initialQuestion }: CompareVi
     setFusing(false);
     setShowResults(true);
   }, [passages, selectedTopic, selectedQuestion, topics, questions]);
+
+  const handleSave = useCallback(async () => {
+    if (!user || saved) return;
+    setSaving(true);
+    try {
+      const result = await saveComparison({
+        questionId: selectedQuestion || undefined,
+        questionText: selectedQuestion
+          ? questions.find((q) => q.id === selectedQuestion)?.question || ""
+          : selectedTopic
+            ? topics.find((t) => t.id === selectedTopic)?.name || ""
+            : "",
+        topicId: selectedTopic || undefined,
+        topicName: selectedTopic ? topics.find((t) => t.id === selectedTopic)?.name : undefined,
+        selectedBooks: selectedBooks.map((b) => b.id),
+        synthesis: fusionResult || undefined,
+        passages: passages.map((p) => ({
+          bookTitle: p.bookTitle,
+          religion: p.religion,
+          chapterTitle: p.chapterTitle,
+          verseNumber: p.verseNumber,
+          text: p.text,
+          reference: p.reference,
+        })),
+      });
+      if (result.success) setSaved(true);
+    } catch {
+      // Silently fail
+    }
+    setSaving(false);
+  }, [user, saved, selectedQuestion, selectedTopic, selectedBooks, fusionResult, passages]);
 
   // Auto-select all books on mount when coming from deep-link
   useEffect(() => {
@@ -471,9 +508,62 @@ export default function CompareView({ initialTopic, initialQuestion }: CompareVi
       {/* AI Synthesis panel */}
       {!fusing && showResults && fusionResult && (
         <div className="relative rounded-2xl border border-accent/20 bg-accent/5 backdrop-blur-sm p-6">
-          <div className="mb-3 flex items-center gap-2">
-            <span className="text-accent">✦</span>
-            <h3 className="text-sm font-mono tracking-[0.2em] uppercase text-accent">AI Synthesis</h3>
+          <div className="mb-3 flex items-center justify-between">
+            <div className="flex items-center gap-2">
+              <span className="text-accent">✦</span>
+              <h3 className="text-sm font-mono tracking-[0.2em] uppercase text-accent">AI Synthesis</h3>
+            </div>
+            {user && (
+              <div className="flex items-center gap-2">
+                <button
+                  onClick={async () => {
+                    const params = new URLSearchParams();
+                    if (selectedQuestion) params.set("q", selectedQuestion);
+                    else if (selectedTopic) params.set("topic", selectedTopic);
+                    if (selectedBooks.length > 0) params.set("books", selectedBooks.map((b) => b.slug).join(","));
+                    const url = `${window.location.origin}/compare?${params.toString()}`;
+                    await navigator.clipboard.writeText(url);
+                    setCopied(true);
+                    setTimeout(() => setCopied(false), 2000);
+                  }}
+                  className="flex items-center gap-1.5 rounded-lg border border-white/10 bg-bg-tertiary/60 px-3 py-1.5 text-xs font-medium text-text-muted transition-all hover:bg-bg-tertiary hover:text-text-primary"
+                >
+                  {copied ? (
+                    <>
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M20 6L9 17l-5-5" /></svg>
+                      Copied!
+                    </>
+                  ) : (
+                    <>
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+                      Share
+                    </>
+                  )}
+                </button>
+                <button
+                  onClick={handleSave}
+                  disabled={saving || saved}
+                  className="flex items-center gap-1.5 rounded-lg border border-accent/20 bg-accent/10 px-3 py-1.5 text-xs font-medium text-accent transition-all hover:bg-accent/20 disabled:opacity-50 disabled:cursor-not-allowed"
+                >
+                  {saved ? (
+                    <>
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M20 6L9 17l-5-5" /></svg>
+                      Saved
+                    </>
+                  ) : saving ? (
+                    <>
+                      <div className="h-3 w-3 animate-spin rounded-full border-2 border-accent border-t-transparent" />
+                      Saving...
+                    </>
+                  ) : (
+                    <>
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" /></svg>
+                      Save
+                    </>
+                  )}
+                </button>
+              </div>
+            )}
           </div>
           <div className="prose prose-invert prose-sm max-w-none text-text-secondary [&_strong]:text-accent [&_h3]:text-text-primary [&_h3]:text-sm [&_h3]:font-mono [&_h3]:tracking-wider [&_h3]:mt-4 [&_h3]:mb-2 [&_ul]:list-disc [&_ul]:pl-4">
             {fusionResult.split("\n").map((line, i) => {
@@ -656,8 +746,7 @@ export default function CompareView({ initialTopic, initialQuestion }: CompareVi
               <div key={`${p.bookId}-${p.verseId}-${i}`} className="relative mb-8 last:mb-0">
                 {/* Timeline dot */}
                 <div
-                  className="absolute -left-5 top-2 h-3 w-3 rounded-full border-2 border-bg-secondary"
-                  style={{ background: religionOrbColors[p.religion] }}
+                  className={`absolute -left-5 top-2 h-3 w-3 rounded-full border-2 border-bg-secondary tradition-dot--${p.religion.toLowerCase()}`}
                 />
 
                 <div className="rounded-xl border border-border bg-bg-secondary/80 p-5 transition-all duration-300 hover:border-border/80">

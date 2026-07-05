@@ -158,7 +158,7 @@ export default function Perspectives({
                 onClick={() => setExpandedReligion(isExpanded ? null : religion)}
               >
                 {/* SVG tradition icon */}
-                <div className="flex h-7 w-7 items-center justify-center rounded-lg" style={{ background: `var(--tradition-${tradition}-glow)` }}>
+                <div className={`flex h-7 w-7 items-center justify-center rounded-lg tradition-glow-bg tradition-glow-bg--${tradition}`}>
                   <svg
                     width="14" height="14" viewBox="0 0 24 24"
                     fill="none" stroke={`var(--tradition-${tradition})`}

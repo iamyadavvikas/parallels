@@ -2,6 +2,8 @@
 
 import { useState, useRef, useEffect, useCallback } from "react";
 import { useNoteStore } from "@/store/noteStore";
+import { useUser } from "@/components/auth/UserProvider";
+import { saveNote, deleteNote as deleteServerNote } from "@/lib/actions/notes";
 import { FileText, X } from "lucide-react";
 import type { Note } from "@/lib/types";
 
@@ -27,6 +29,7 @@ export default function NoteButton({
   const addNote = useNoteStore((s) => s.addNote);
   const updateNote = useNoteStore((s) => s.updateNote);
   const deleteNote = useNoteStore((s) => s.deleteNote);
+  const { user } = useUser();
   const [text, setText] = useState(note?.text || "");
   const dialogRef = useRef<HTMLDivElement>(null);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
@@ -83,6 +86,17 @@ export default function NoteButton({
     if (!text.trim()) return;
     if (note) {
       updateNote(note.id, text);
+      if (user) {
+        saveNote({
+          verseId,
+          bookId: bookSlug,
+          bookTitle,
+          religion,
+          chapterId: `ch-${chapterNum}`,
+          verseNumber: verseNum,
+          text,
+        }).catch(() => {});
+      }
     } else {
       const newNote: Note = {
         id: crypto.randomUUID(),
@@ -97,12 +111,28 @@ export default function NoteButton({
         updatedAt: new Date().toISOString(),
       };
       addNote(newNote);
+      if (user) {
+        saveNote({
+          verseId,
+          bookId: bookSlug,
+          bookTitle,
+          religion,
+          chapterId: `ch-${chapterNum}`,
+          verseNumber: verseNum,
+          text,
+        }).catch(() => {});
+      }
     }
     setOpen(false);
   }
 
   function handleDelete() {
-    if (note) deleteNote(note.id);
+    if (note) {
+      deleteNote(note.id);
+      if (user) {
+        deleteServerNote(verseId).catch(() => {});
+      }
+    }
     setText("");
     setOpen(false);
   }
