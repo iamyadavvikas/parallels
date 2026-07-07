@@ -138,7 +138,7 @@ export default function ScienceInsight({
                 Science & Research
               </span>
               {isCurated && (
-                <span className="rounded-full bg-emerald-500/10 px-2 py-0.5 text-[9px] font-mono text-emerald-400/70 uppercase tracking-wider">
+                <span className="rounded-full bg-emerald-500/10 px-2 py-0.5 text-[10px] font-mono text-emerald-400/70 uppercase tracking-wider">
                   Curated
                 </span>
               )}

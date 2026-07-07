@@ -55,7 +55,7 @@ export default function Home() {
           </div>
 
           {/* Headline — larger, tighter */}
-          <h1 className="hero-headline-delay mb-6 text-5xl font-extrabold tracking-tighter text-text-primary sm:text-7xl font-display leading-[1.05]">
+          <h1 className="hero-headline-delay mb-6 text-5xl font-extrabold tracking-tighter text-text-primary sm:text-7xl font-display leading-[1.05] text-pretty">
             See How the World
             <br />
             <span className="gradient-text-wide">Compares</span>
@@ -131,7 +131,7 @@ export default function Home() {
               <span className="mb-2 inline-block text-xs font-mono tracking-[0.25em] uppercase text-accent">
                 Featured Topic
               </span>
-              <h2 className="text-3xl font-bold text-text-primary font-display tracking-tight sm:text-4xl">
+              <h2 className="text-3xl font-bold text-text-primary font-display tracking-tight sm:text-4xl text-pretty">
                 {featureTopic.name}
               </h2>
               <p className="mt-2 text-sm text-text-muted font-body max-w-lg">
@@ -191,7 +191,7 @@ export default function Home() {
             <span className="mb-2 inline-block text-xs font-mono tracking-[0.25em] uppercase text-accent">
               Sacred Library
             </span>
-            <h2 className="text-3xl font-bold text-text-primary font-display tracking-tight sm:text-4xl">
+            <h2 className="text-3xl font-bold text-text-primary font-display tracking-tight sm:text-4xl text-pretty">
               Six Traditions
             </h2>
             <p className="mt-2 text-sm text-text-muted font-body">
@@ -223,7 +223,7 @@ export default function Home() {
 
         <div className="relative z-10">
           <div className="ornate-divider mx-auto mb-8 max-w-xs"><span>✦</span></div>
-          <h2 className="mb-5 text-4xl font-bold text-text-primary font-display tracking-tight sm:text-5xl">
+          <h2 className="mb-5 text-4xl font-bold text-text-primary font-display tracking-tight sm:text-5xl text-pretty">
             Compare Across Traditions
           </h2>
           <p className="mx-auto mb-12 max-w-xl text-lg text-text-secondary font-body leading-relaxed">

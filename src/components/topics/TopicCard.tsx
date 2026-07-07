@@ -40,7 +40,7 @@ export default function TopicCard({ topic }: { topic: Topic }) {
               />
             ))}
             {religions.length > 4 && (
-              <span className="flex h-3 w-3 items-center justify-center rounded-full bg-bg-tertiary text-[8px] text-text-muted ring-2 ring-[#0a0a12]">
+              <span className="flex h-3 w-3 items-center justify-center rounded-full bg-bg-tertiary text-[10px] text-text-muted ring-2 ring-[#0a0a12]">
                 +
               </span>
             )}

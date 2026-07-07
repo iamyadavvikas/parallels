@@ -40,7 +40,7 @@ export default function Badges() {
             >
               {badge.icon}
             </span>
-            <span className="text-[8px] font-mono tracking-wider text-text-muted text-center leading-tight">
+            <span className="text-[10px] font-mono tracking-wider text-text-muted text-center leading-tight">
               {badge.name}
             </span>
 

@@ -10,7 +10,7 @@ export default function SupportPage() {
         <div className="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-accent/10">
           <Heart className="h-7 w-7 text-accent" />
         </div>
-        <h1 className="mb-4 text-4xl font-bold text-text-primary font-display tracking-tight">
+        <h1 className="mb-4 text-4xl font-bold text-text-primary font-display tracking-tight text-pretty">
           Support Parallels
         </h1>
         <p className="mb-12 text-lg text-text-muted font-body leading-relaxed">

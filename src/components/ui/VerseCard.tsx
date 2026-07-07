@@ -60,7 +60,7 @@ export default function VerseCard({
             </div>
           )}
           {displayText && (
-            <p className="leading-relaxed text-text-primary font-serif leading-[1.9]">
+            <p className="text-text-primary font-serif leading-[1.9]">
               {displayText}
             </p>
           )}

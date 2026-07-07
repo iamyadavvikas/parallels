@@ -37,7 +37,7 @@ export default async function SearchPage({
     <div className="search-page space-y-8 page-enter">
       {/* Header */}
       <header className="text-center py-2">
-        <h1 className="mb-3 text-4xl font-bold tracking-tight text-text-primary sm:text-5xl font-serif">
+        <h1 className="mb-3 text-4xl font-bold tracking-tight text-text-primary sm:text-5xl font-display">
           {query ? (
             <><span className="text-accent mr-1">✦</span> Search Results</>
           ) : (
@@ -175,7 +175,7 @@ export default async function SearchPage({
                           <circle cx="18" cy="18" r="14" fill="none" stroke="currentColor" strokeWidth="1.5"
                             strokeDasharray={`${scorePercent * 0.88} 88`} className="text-accent" style={{ filter: "drop-shadow(0 0 4px rgba(255,209,102,0.4))" }} />
                         </svg>
-                        <span className="absolute inset-0 flex items-center justify-center text-[8px] text-text-muted">{scorePercent}</span>
+                        <span className="absolute inset-0 flex items-center justify-center text-[10px] text-text-muted">{scorePercent}</span>
                       </div>
                     </div>
                   </div>

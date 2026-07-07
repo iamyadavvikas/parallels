@@ -67,7 +67,7 @@ export default async function BookPage({ params }: { params: Promise<{ slug: str
             <span className="text-sm text-text-muted font-body">·</span>
             <span className="text-sm text-text-muted font-body">{book.originalLanguage}</span>
           </div>
-          <h1 className="text-4xl font-extrabold tracking-tight text-text-primary sm:text-5xl font-display">
+          <h1 className="text-4xl font-extrabold tracking-tight text-text-primary sm:text-5xl font-display text-pretty">
             {book.title}
           </h1>
           {book.subtitle && (

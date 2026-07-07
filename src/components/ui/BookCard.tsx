@@ -103,7 +103,7 @@ export default function BookCard({ book }: { book: Book }) {
 
             {/* Religion label */}
             <div className="absolute top-6 left-0 right-0 text-center">
-              <span className="inline-block px-3 py-1 rounded-full text-[9px] font-mono tracking-[0.3em] uppercase text-text-secondary bg-white/[0.15] backdrop-blur-sm border border-white/[0.15]">
+              <span className="inline-block px-3 py-1 rounded-full text-xs font-mono tracking-[0.3em] uppercase text-text-secondary bg-white/[0.15] backdrop-blur-sm border border-white/[0.15]">
                 {book.religion}
               </span>
             </div>

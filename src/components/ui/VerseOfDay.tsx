@@ -92,7 +92,7 @@ export default function VerseOfDay() {
                 {v.reference}
               </span>
             </div>
-            <p className="text-sm leading-relaxed text-text-primary font-serif line-clamp-4">
+            <p className="text-base leading-relaxed text-text-primary font-serif line-clamp-4">
               &ldquo;{v.text}&rdquo;
             </p>
             <p className="mt-2 text-[10px] text-accent/60 opacity-0 group-hover:opacity-100 transition-opacity">

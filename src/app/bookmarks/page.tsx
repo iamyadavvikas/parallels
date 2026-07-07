@@ -90,7 +90,7 @@ export default function BookmarksPage() {
   return (
     <div className="mx-auto max-w-3xl page-enter">
       <div className="mb-8">
-        <h1 className="text-3xl font-extrabold tracking-tight text-text-primary font-display">
+        <h1 className="text-4xl font-extrabold tracking-tight text-text-primary sm:text-5xl font-display text-pretty">
           Your Library
         </h1>
         <p className="mt-2 text-text-muted font-body">

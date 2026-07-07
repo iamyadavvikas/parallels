@@ -384,7 +384,7 @@ export default function UIReviewAgent() {
                         {f.selector && (
                           <button
                             onClick={() => highlightElement(f.selector!)}
-                            className={`shrink-0 rounded border px-1.5 py-0.5 text-[9px] font-mono transition-colors ${
+                            className={`shrink-0 rounded border px-1.5 py-0.5 text-[10px] font-mono transition-colors ${
                               highlightedId === f.selector
                                 ? "border-accent bg-accent/10 text-accent"
                                 : "border-border text-text-muted hover:text-accent hover:border-accent/30"
@@ -431,7 +431,7 @@ export default function UIReviewAgent() {
                         {f.selector && (
                           <button
                             onClick={() => highlightElement(f.selector!)}
-                            className={`shrink-0 rounded border px-1.5 py-0.5 text-[9px] font-mono transition-colors ${
+                            className={`shrink-0 rounded border px-1.5 py-0.5 text-[10px] font-mono transition-colors ${
                               highlightedId === f.selector
                                 ? "border-accent bg-accent/10 text-accent"
                                 : "border-border text-text-muted hover:text-accent hover:border-accent/30"
@@ -451,7 +451,7 @@ export default function UIReviewAgent() {
           {/* Footer */}
           <div className="border-t border-border px-4 py-2 text-center">
             <p className="text-[10px] text-text-muted/40 font-mono">
-              Press <kbd className="rounded border border-border px-1 py-0.5 text-[9px]">Ctrl+Shift+R</kbd> to toggle
+              Press <kbd className="rounded border border-border px-1 py-0.5 text-[10px]">Ctrl+Shift+R</kbd> to toggle
             </p>
           </div>
         </div>

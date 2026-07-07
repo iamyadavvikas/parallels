@@ -6,7 +6,7 @@ export default function TopicsPage() {
     <div className="space-y-10 page-enter">
       <header className="relative text-center py-4">
         <div className="mb-4 text-3xl text-accent">✦</div>
-        <h1 className="text-4xl font-extrabold tracking-tight text-text-primary sm:text-5xl font-display">
+        <h1 className="text-4xl font-extrabold tracking-tight text-text-primary sm:text-5xl font-display text-pretty">
           Topics
         </h1>
         <p className="mt-3 max-w-2xl mx-auto text-lg text-text-secondary font-body">

@@ -20,7 +20,7 @@ export default async function TopicPage({ params }: { params: Promise<{ id: stri
             <ReligionBadge key={r} religion={r} />
           ))}
         </div>
-        <h1 className="text-4xl font-extrabold tracking-tight text-text-primary sm:text-5xl font-display">{topic.name}</h1>
+        <h1 className="text-4xl font-extrabold tracking-tight text-text-primary sm:text-5xl font-display text-pretty">{topic.name}</h1>
         <p className="mt-3 max-w-3xl mx-auto text-lg text-text-secondary font-body">{topic.description}</p>
         <div className="mt-4 flex flex-wrap items-center justify-center gap-3">
           <p className="text-sm text-text-muted font-mono tracking-wide">
@@ -53,7 +53,7 @@ export default async function TopicPage({ params }: { params: Promise<{ id: stri
                   <span className="text-sm text-text-muted font-body">·</span>
                   <span className="text-sm text-text-muted font-mono">{passage.reference}</span>
                 </div>
-                <p className="text-base leading-relaxed text-text-primary font-serif leading-[1.9]">
+                <p className="text-base leading-[1.9] text-text-primary font-serif">
                   &ldquo;{passage.text}&rdquo;
                 </p>
                 <div className="mt-4 flex items-center justify-between text-xs text-text-muted font-body">
